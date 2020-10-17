@@ -56,46 +56,37 @@ enum
 const struct LightingColour gLightingColours[] =
 {
     {
-        .paletteNum = 0,
-        .colourNum = 1,
-        .lightColour = RGB2(30, 30, 5),
-    },
-    {
-        .paletteNum = 0,
-        .colourNum = 2,
-        .lightColour = RGB2(26, 25, 4),
-    },
-    {
-        .paletteNum = 0,
-        .colourNum = 3,
-        .lightColour = RGB2(22, 21, 3),
-    },
-    {
-        .paletteNum = 1,
-        .colourNum = 1,
-        .lightColour = RGB2(30, 30, 5),
-    },
-    {
-        .paletteNum = 1,
-        .colourNum = 2,
-        .lightColour = RGB2(26, 25, 4),
-    },
-    {
         .paletteNum = 6,
-        .colourNum = 1,
+        .colourNum = 10,
         .lightColour = RGB2(30, 30, 5),
     },
     {
         .paletteNum = 6,
-        .colourNum = 2,
+        .colourNum = 9,
         .lightColour = RGB2(26, 25, 4),
     },
     {
-        .paletteNum = 6,
-        .colourNum = 3,
-        .lightColour = RGB2(22, 21, 3),
+        .paletteNum = 8,
+        .colourNum = 10,
+        .lightColour = RGB2(30, 30, 5),
+    },
+    {
+        .paletteNum = 8,
+        .colourNum = 9,
+        .lightColour = RGB2(26, 25, 4),
+    },
+       {
+        .paletteNum = 9,
+        .colourNum = 10,
+        .lightColour = RGB2(30, 30, 5),
+    },
+    {
+        .paletteNum = 9,
+        .colourNum = 9,
+        .lightColour = RGB2(26, 25, 4),
     },
 };
+
 
 /* Maptypes that are not affected by DNS */
 const u8 gDnsMapExceptions[] =
