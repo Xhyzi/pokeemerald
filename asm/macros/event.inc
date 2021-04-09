@@ -1627,6 +1627,22 @@
 	.2byte \quantity
 	.endm
 
+	@ Enables disguise system and sets the object event id that should be loaded as player's avatar.
+	@ Optional parameters are set to 0 by default and are used to determine wether or not the player can do cercaint actions while in disguise
+	.macro setdisguise id:req, canrun=0, canridebike=0, cansurf=0, canfish=0, canirrigate=0
+	.byte 0xe3
+	.2byte \id
+	.byte \canrun
+	.byte \canridebike
+	.byte \cansurf
+	.byte \canfish
+	.byte \canirrigate
+	.endm
+
+	@ Disables disguise system, returning the avatar and the action restrictions to normal
+	.macro cleardisguise
+	.byte 0xe4
+	.endm
 
 @ Supplementary
 

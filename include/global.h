@@ -208,6 +208,17 @@ struct BerryPickingResults
     u8 field_F;
 };
 
+struct PlayerDisguise 
+{
+    u8 enabled:1;
+    u8 canRun:1;
+    u8 canRideBike:1;
+    u8 canSurf:1;
+    u8 canFish:1;
+    u8 canIrrigate:1;
+    u16 npcId;
+};
+
 // two arrays for lvl50 and open level
 struct PyramidBag
 {
@@ -492,6 +503,7 @@ struct SaveBlock2
     /*0x57C*/ struct RankingHall2P hallRecords2P[2][3]; // From record mixing.
     /*0x624*/ u16 contestLinkResults[CONTEST_CATEGORIES_COUNT][CONTESTANT_COUNT];
     /*0x64C*/ struct BattleFrontier frontier;
+    /*0x64F*/ struct PlayerDisguise playerDisguise;
 }; // sizeof=0xF2C
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;

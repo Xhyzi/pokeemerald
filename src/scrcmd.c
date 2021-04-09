@@ -2308,3 +2308,29 @@ bool8 ScrCmd_warpsootopolislegend(struct ScriptContext *ctx)
     ResetInitialPlayerAvatarState();
     return TRUE;
 }
+
+bool8 SrcCmd_setdisguise(struct ScriptContext *ctx)
+{
+    u16 id = ScriptReadHalfword(ctx);
+    bool8 canRun = ScriptReadByte(ctx);
+    bool8 canRideBike = ScriptReadByte(ctx);
+    bool8 canSurf = ScriptReadByte(ctx); 
+    bool8 canFish = ScriptReadByte(ctx);
+    bool8 canIrrigate = ScriptReadByte(ctx);
+
+    gSaveBlock2Ptr->playerDisguise.enabled = TRUE;
+    gSaveBlock2Ptr->playerDisguise.npcId = id;
+    gSaveBlock2Ptr->playerDisguise.canRun = canRun;
+    gSaveBlock2Ptr->playerDisguise.canRideBike = canRideBike;
+    gSaveBlock2Ptr->playerDisguise.canSurf = canSurf;
+    gSaveBlock2Ptr->playerDisguise.canFish = canFish;
+    gSaveBlock2Ptr->playerDisguise.canIrrigate = canIrrigate;
+
+    return FALSE;
+}
+
+bool8 SrcCmd_cleardisguise(struct ScriptContext* ctx)
+{
+    gSaveBlock2Ptr->playerDisguise.enabled = FALSE;
+    return FALSE;
+}
