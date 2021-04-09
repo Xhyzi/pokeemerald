@@ -131,14 +131,16 @@ enum {
 #define TAG_MON4 3
 #define TAG_MON5 4
 
-#define GFXTAG_VINE1 5
-#define GFXTAG_VINE2 6
-#define GFXTAG_VINE3 7
-#define GFXTAG_VINE4 8
-#define GFXTAG_STAR  10
+#define GFXTAG_VINE1     5
+#define GFXTAG_VINE2     6
+#define GFXTAG_VINE3     7
+#define GFXTAG_VINE4     8
+#define GFXTAG_COUNTDOWN 9
+#define GFXTAG_STAR      10
 
-#define PALTAG_1 5
-#define PALTAG_2 6
+#define PALTAG_1         5
+#define PALTAG_2         6
+#define PALTAG_COUNTDOWN 7
 
 #define TAG_DIGITS 800
 
@@ -2646,13 +2648,13 @@ static const struct OamData sOamData_Star =
     .affineParam = 0
 };
 
-static const union AnimCmd sSpriteAnim_82FBFE0[] =
+static const union AnimCmd sAnim_Star_Still[] =
 {
     ANIMCMD_FRAME(0, 0),
     ANIMCMD_END
 };
 
-static const union AnimCmd sSpriteAnim_82FBFE8[] =
+static const union AnimCmd sAnim_Star_Spinning[] =
 {
     ANIMCMD_FRAME(0, 4),
     ANIMCMD_FRAME(4, 4),
@@ -2665,8 +2667,8 @@ static const union AnimCmd sSpriteAnim_82FBFE8[] =
 
 static const union AnimCmd *const sAnims_Star[] =
 {
-    sSpriteAnim_82FBFE0,
-    sSpriteAnim_82FBFE8
+    sAnim_Star_Still,
+    sAnim_Star_Spinning
 };
 
 static const struct SpriteTemplate sSpriteTemplate_Star =
@@ -2713,7 +2715,7 @@ static void CreateJumpMonSprite(struct PokemonJumpGfx *jumpGfx, struct PokemonJu
 
     spriteTemplate = sSpriteTemplate_JumpMon;
     buffer = Alloc(0x2000);
-    unusedBuffer = Alloc(0x800);
+    unusedBuffer = Alloc(MON_PIC_SIZE);
     if (multiplayerId == GetPokeJumpMultiplayerId())
         subpriority = 3;
     else
@@ -2729,7 +2731,7 @@ static void CreateJumpMonSprite(struct PokemonJumpGfx *jumpGfx, struct PokemonJu
 
         spriteSheet.data = buffer;
         spriteSheet.tag = multiplayerId;
-        spriteSheet.size = 0x800;
+        spriteSheet.size = MON_PIC_SIZE;
         LoadSpriteSheet(&spriteSheet);
 
         spritePalette.data = GetMonSpritePalFromSpeciesAndPersonality(monInfo->species, monInfo->otId, monInfo->personality);
@@ -3007,7 +3009,7 @@ static void UpdateVineAnim(struct PokemonJumpGfx *jumpGfx, int vineState)
 
 static void StartPokeJumpCountdown(struct PokemonJumpGfx *jumpGfx)
 {
-    StartMinigameCountdown(9, 7, 120, 80, 0);
+    StartMinigameCountdown(GFXTAG_COUNTDOWN, PALTAG_COUNTDOWN, 120, 80, 0);
     Gfx_ResetMonSpriteSubpriorities(jumpGfx);
 }
 
