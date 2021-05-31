@@ -12,6 +12,7 @@
 #include "text.h"
 #include "menu.h"
 #include "international_string_util.h"
+#include "party_level_cap.h"
 #include "script.h"
 #include "strings.h"
 #include "task.h"
@@ -252,7 +253,8 @@ static u16 TakeSelectedPokemonFromDaycare(struct DaycareMon *daycareMon)
     species = GetBoxMonData(&daycareMon->mon, MON_DATA_SPECIES);
     BoxMonToMon(&daycareMon->mon, &pokemon);
 
-    if (GetMonData(&pokemon, MON_DATA_LEVEL) != MAX_LEVEL)
+    if (GetMonData(&pokemon, MON_DATA_LEVEL) != MAX_LEVEL 
+    && GetMonData(&pokemon, MON_DATA_LEVEL) < GetCurrentPartyLevelCap())
     {
         experience = GetMonData(&pokemon, MON_DATA_EXP) + daycareMon->steps;
         SetMonData(&pokemon, MON_DATA_EXP, &experience);

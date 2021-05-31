@@ -16,6 +16,7 @@
 #include "main.h"
 #include "m4a.h"
 #include "palette.h"
+#include "party_level_cap.h"
 #include "party_menu.h"
 #include "pokeball.h"
 #include "pokemon.h"
@@ -2728,7 +2729,8 @@ static void PlayerHandleExpUpdate(void)
 {
     u8 monId = gBattleBufferA[gActiveBattler][1];
 
-    if (GetMonData(&gPlayerParty[monId], MON_DATA_LEVEL) >= MAX_LEVEL)
+    if (GetMonData(&gPlayerParty[monId], MON_DATA_LEVEL) >= MAX_LEVEL ||
+        GetMonData(&gPlayerParty[monId], MON_DATA_LEVEL) >= GetCurrentPartyLevelCap())
     {
         PlayerBufferExecCompleted();
     }
