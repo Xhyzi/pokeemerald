@@ -2308,3 +2308,18 @@ bool8 ScrCmd_warpsootopolislegend(struct ScriptContext *ctx)
     ResetInitialPlayerAvatarState();
     return TRUE;
 }
+
+bool8 SrcCmd_setbacksprite(struct ScriptContext *ctx)
+{
+    u8 backId = ScriptReadByte(ctx);
+
+    gSaveBlock2Ptr->playerBacksprite.id = backId;
+    gSaveBlock2Ptr->playerBacksprite.enabled = TRUE;
+    return TRUE;
+}
+
+bool8 SrcCmd_resetbacksprite(struct ScriptContext *ctx)
+{
+    gSaveBlock2Ptr->playerBacksprite.enabled = FALSE;
+    return TRUE;
+}

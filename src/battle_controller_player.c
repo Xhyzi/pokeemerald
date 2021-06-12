@@ -2292,7 +2292,7 @@ static void PlayerHandleDrawTrainerPic(void)
     }
     else
     {
-        trainerPicId = gSaveBlock2Ptr->playerGender;
+        trainerPicId = gSaveBlock2Ptr->playerBacksprite.enabled ? gSaveBlock2Ptr->playerBacksprite.id : gSaveBlock2Ptr->playerGender;
     }
 
     if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
@@ -2374,7 +2374,7 @@ static void PlayerHandleTrainerSlide(void)
     }
     else
     {
-        trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_BRENDAN;
+        trainerPicId = gSaveBlock2Ptr->playerBacksprite.enabled ? gSaveBlock2Ptr->playerBacksprite.id : gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_BRENDAN;
     }
 
     DecompressTrainerBackPic(trainerPicId, gActiveBattler);

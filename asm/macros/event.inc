@@ -1628,6 +1628,14 @@
 	.2byte \quantity
 	.endm
 
+	.macro setbacksprite id:req
+	.byte 0xe3
+	.byte \id
+	.endm
+
+	.macro resetbacksprite
+	.byte 0xe4
+	.endm
 
 @ Supplementary
 
