@@ -32,6 +32,8 @@
 #include "constants/maps.h"
 #include "pokedex.h"
 #include "save.h"
+#include "strings.h"
+#include "string_util.h"
 #include "link_rfu.h"
 #include "main.h"
 #include "contest.h"
@@ -151,6 +153,7 @@ void NewGameInitData(void)
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_CORRUPT)
         RtcReset();
 
+    StringCopy(gSaveBlock2Ptr->playerName, gText_PlayerName);
     gDifferentSaveFile = TRUE;
     gSaveBlock2Ptr->encryptionKey = 0;
     ZeroPlayerPartyMons();
