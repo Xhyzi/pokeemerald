@@ -74,5 +74,7 @@ ItemUseFunc ItemId_GetFieldFunc(u16 itemId);
 u8 ItemId_GetBattleUsage(u16 itemId);
 ItemUseFunc ItemId_GetBattleFunc(u16 itemId);
 u8 ItemId_GetSecondaryId(u16 itemId);
+bool8 IsItemHowdioRock(u16 itemId);
+s8 GetHowdioRockId(u16 itemId);
 
 #endif // GUARD_ITEM_H

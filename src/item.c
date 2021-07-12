@@ -947,3 +947,18 @@ u8 ItemId_GetSecondaryId(u16 itemId)
 {
     return gItems[SanitizeItemId(itemId)].secondaryId;
 }
+
+bool8 IsItemHowdioRock(u16 itemId)
+{
+    if (itemId >= ROCK_ITEM_BEGIN && itemId <= ROCK_ITEM_END)
+        return TRUE;
+    return FALSE;
+}
+
+s8 GetHowdioRockId(u16 itemId)
+{
+    if (IsItemHowdioRock(itemId))
+        return itemId - ROCK_ITEM_BEGIN;
+    else
+        return -1;
+}

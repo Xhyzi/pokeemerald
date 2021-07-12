@@ -4537,4 +4537,65 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
+
+    [ITEM_KIMBERLITA] = 
+    {
+        .name = _("Kimberlita"),
+        .itemId = ITEM_KIMBERLITA,
+        .price = 1400,
+        .description = sRoquitaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_DIORITA] = 
+    {
+        .name = _("Diorita"),
+        .itemId = ITEM_DIORITA,
+        .price = 1400,
+        .description = sRoquitaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_BASALTO] = 
+    {
+        .name = _("Basalto"),
+        .itemId = ITEM_BASALTO,
+        .price = 1400,
+        .description = sRoquitaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_ROCA] = 
+    {
+        .name = _("Roca"),
+        .itemId = ITEM_ROCA,
+        .price = 1400,
+        .description = sRoquitaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_OBSIDIANA] = 
+    {
+        .name = _("Obsidiana"),
+        .itemId = ITEM_OBSIDIANA,
+        .price = 1400,
+        .description = sRoquitaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_TOPACO] = 
+    {
+        .name = _("Topaco"),
+        .itemId = ITEM_TOPACO,
+        .price = 1400,
+        .description = sRoquitaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
 };

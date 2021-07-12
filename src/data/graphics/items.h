@@ -736,3 +736,21 @@ const u32 gItemIconPalette_MagmaEmblem[] = INCBIN_U32("graphics/items/icon_palet
 
 const u32 gItemIcon_OldSeaMap[] = INCBIN_U32("graphics/items/icons/old_sea_map.4bpp.lz");
 const u32 gItemIconPalette_OldSeaMap[] = INCBIN_U32("graphics/items/icon_palettes/old_sea_map.gbapal.lz");
+
+const u32 gItemIcon_Basalto[] = INCBIN_U32("graphics/items/icons/icon_basalto.4bpp.lz");
+const u32 gItemIconPalette_Basalto[] = INCBIN_U32("graphics/items/icons/icon_basalto.gbapal.lz");
+
+const u32 gItemIcon_Diorita[] = INCBIN_U32("graphics/items/icons/icon_diorita.4bpp.lz");
+const u32 gItemIconPalette_Diorita[] = INCBIN_U32("graphics/items/icons/icon_diorita.gbapal.lz");
+
+const u32 gItemIcon_Kimberlita[] = INCBIN_U32("graphics/items/icons/icon_kimberlita.4bpp.lz");
+const u32 gItemIconPalette_Kimberlita[] = INCBIN_U32("graphics/items/icons/icon_kimberlita.gbapal.lz");
+
+const u32 gItemIcon_Obsidiana[] = INCBIN_U32("graphics/items/icons/icon_obsidiana.4bpp.lz");
+const u32 gItemIconPalette_Obsidiana[] = INCBIN_U32("graphics/items/icons/icon_obsidiana.gbapal.lz");
+
+const u32 gItemIcon_Roca[] = INCBIN_U32("graphics/items/icons/icon_roca.4bpp.lz");
+const u32 gItemIconPalette_Roca[] = INCBIN_U32("graphics/items/icons/icon_roca.gbapal.lz");
+
+const u32 gItemIcon_Topaco[] = INCBIN_U32("graphics/items/icons/icon_topaco.4bpp.lz");
+const u32 gItemIconPalette_Topaco[] = INCBIN_U32("graphics/items/icons/icon_topaco.gbapal.lz");

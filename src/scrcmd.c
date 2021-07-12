@@ -34,6 +34,7 @@
 #include "random.h"
 #include "overworld.h"
 #include "rotating_tile_puzzle.h"
+#include "rock_tooltip.h"
 #include "rtc.h"
 #include "script.h"
 #include "script_menu.h"
@@ -490,6 +491,9 @@ bool8 ScrCmd_additem(struct ScriptContext *ctx)
     u32 quantity = VarGet(ScriptReadHalfword(ctx));
 
     gSpecialVar_Result = AddBagItem(itemId, (u8)quantity);
+
+    if (IsItemHowdioRock(itemId))
+        CreateRockTooltip(GetHowdioRockId(itemId));
     return FALSE;
 }
 

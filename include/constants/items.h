@@ -474,8 +474,19 @@
 #define ITEM_MAGMA_EMBLEM 375
 #define ITEM_OLD_SEA_MAP 376
 
-#define ITEMS_COUNT 377
+//Howdio, el rocoso
+#define ITEM_KIMBERLITA 377
+#define ITEM_DIORITA    378
+#define ITEM_BASALTO    379
+#define ITEM_ROCA       380
+#define ITEM_OBSIDIANA  381
+#define ITEM_TOPACO     382
+
+#define ITEMS_COUNT 383
 #define ITEM_FIELD_ARROW ITEMS_COUNT
+
+#define ROCK_ITEM_BEGIN ITEM_KIMBERLITA
+#define ROCK_ITEM_END   ITEM_TOPACO  
 
 // Range of berries given out by various NPCS
 #define FIRST_BERRY_MASTER_BERRY      ITEM_POMEG_BERRY

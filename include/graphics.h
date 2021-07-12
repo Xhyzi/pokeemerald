@@ -5061,4 +5061,17 @@ extern const u8 gMailTilemap_Retro[];
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
+extern const u32 gItemIcon_Basalto[];
+extern const u32 gItemIconPalette_Basalto[];
+extern const u32 gItemIcon_Diorita[];
+extern const u32 gItemIconPalette_Diorita[];
+extern const u32 gItemIcon_Kimberlita[];
+extern const u32 gItemIconPalette_Kimberlita[];
+extern const u32 gItemIcon_Obsidiana[];
+extern const u32 gItemIconPalette_Obsidiana[];
+extern const u32 gItemIcon_Roca[];
+extern const u32 gItemIconPalette_Roca[];
+extern const u32 gItemIcon_Topaco[];
+extern const u32 gItemIconPalette_Topaco[];
+
 #endif //GUARD_GRAPHICS_H
