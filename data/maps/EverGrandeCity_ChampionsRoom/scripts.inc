@@ -238,18 +238,18 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech: @ 8228C4C
 	.string "It wouldn't be fair to say that you\n"
 	.string "alone ended the crisis.\p"
 	.string "You overcame that difficult situation\n"
-	.string "by working as one with your POKéMON.\p"
-	.string "We TRAINERS raise POKéMON by giving\n"
+	.string "by working as one with your Cástforms.\p"
+	.string "We TRAINERS raise Cástforms by giving\n"
 	.string "them items and by teaching them new\l"
 	.string "techniques for battle.\p"
 	.string "But we ourselves also learn many\n"
-	.string "things from POKéMON.\p"
+	.string "things from Cástforms.\p"
 	.string "And this is where your achievements\n"
 	.string "are put to the test against what\l"
 	.string "others like you have achieved.\p"
 	.string "Now!\p"
 	.string "Who can most elegantly dance with\n"
-	.string "their POKéMON in HOENN?\p"
+	.string "their Cástforms in HOENN?\p"
 	.string "Show me right here and now!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat: @ 8228EAC
@@ -258,31 +258,31 @@ EverGrandeCity_ChampionsRoom_Text_Defeat: @ 8228EAC
 	.string "You were elegant, infuriatingly so.\l"
 	.string "And yet it was utterly glorious!\p"
 	.string "Kudos to you, {PLAYER}{KUN}!\p"
-	.string "You are a truly noble POKéMON\n"
+	.string "You are a truly noble Cástforms\n"
 	.string "TRAINER!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech: @ 8228F66
-	.string "WALLACE: The POKéMON you sent into\n"
+	.string "WALLACE: The Cástforms you sent into\n"
 	.string "battle…\p"
 	.string "At times they danced like a spring\n"
 	.string "breeze, and at times they struck\l"
 	.string "like lightning.\p"
 	.string "It was with light, yet surefooted,\n"
-	.string "elegance that you led your POKéMON.\p"
+	.string "elegance that you led your Cástforms.\p"
 	.string "Even I felt bedazzled by your\n"
 	.string "masterful performance!\p"
 	.string "You now stand at the glorious peak\n"
-	.string "of the POKéMON LEAGUE.\p"
+	.string "of the Cástforms LEAGUE.\p"
 	.string "I now proclaim you to be the new\n"
 	.string "HOENN region…$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice: @ 82290CA
-	.string "MAY: {PLAYER}{KUN}!\p"
+	.string "Castform: {PLAYER}{KUN}!\p"
 	.string "Here's some advice before you challenge\n"
 	.string "the CHAMPION…$"
 
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver: @ 822910B
-	.string "MAY: Huh?\n"
+	.string "Castform: Huh?\n"
 	.string "What, what, what?\p"
 	.string "{PLAYER}{KUN}…\n"
 	.string "Could it be that…\l"
@@ -299,7 +299,7 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon: @ 82291A2
 	.string "You've beaten the CHAMPION?$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex: @ 82291E6
-	.string "PROF. BIRCH: See?\n"
+	.string "Castform: See?\n"
 	.string "What did I tell you, {RIVAL}?\p"
 	.string "Didn't I tell you that you don't need\n"
 	.string "to worry about {PLAYER}{KUN}?\p"
@@ -315,7 +315,7 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex: @ 82291E6
 	.string "Here, let me see.$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations: @ 822934D
-	.string "PROF. BIRCH: Anyways,\n"
+	.string "Castform: Anyways,\n"
 	.string "congratulations!\p"
 	.string "Now, go proudly into the final room!$"
 
@@ -330,10 +330,10 @@ EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside: @ 82293EB
 	.string "From here on, only those TRAINERS who\n"
 	.string "have become CHAMPIONS may enter.\p"
 	.string "You'll have to wait outside with\n"
-	.string "PROF. BIRCH.$"
+	.string "Castform.$"
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations: @ 8229479
-	.string "MAY: Groan…\p"
+	.string "Castform: Groan…\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "I'm just joking! That's okay!\n"

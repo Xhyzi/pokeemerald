@@ -500,11 +500,11 @@ Route119_EventScript_ScottWonAtFortreeGymCall:: @ 81F49EC
 	end
 
 Route119_Text_MayIntro: @ 81F49FD
-	.string "MAY: {PLAYER}{KUN}!\n"
+	.string "Castform: {PLAYER}{KUN}!\n"
 	.string "Where were you? I was looking for you!\p"
 	.string "How much stronger have you gotten?\n"
 	.string "Let me check for you!\p"
-	.string "Ready with your POKéMON?\n"
+	.string "Ready with your Cástforms?\n"
 	.string "Of course you are! Go!$"
 
 Route119_Text_MayDefeat: @ 81F4A98
@@ -514,12 +514,12 @@ Route119_Text_MayDefeat: @ 81F4A98
 	.string "struggling with your training.$"
 
 Route119_Text_MayPresentForYou: @ 81F4AF3
-	.string "MAY: But I had absolutely nothing to\n"
+	.string "Castform: But I had absolutely nothing to\n"
 	.string "worry about! Keep it up!\p"
 	.string "And, here! I have a present for you.$"
 
 Route119_Text_MayExplainFly: @ 81F4B56
-	.string "MAY: Use FLY, and your POKéMON will\n"
+	.string "Castform: Use FLY, and your Cástforms will\n"
 	.string "instantly carry you to any town you've\l"
 	.string "already visited.\p"
 	.string "But, to use FLY, you have to get\n"
@@ -533,7 +533,7 @@ Route119_Text_MayExplainFly: @ 81F4B56
 
 Route119_Text_BrendanIntro: @ 81F4C9A
 	.string "BRENDAN: {PLAYER}! So this is where\n"
-	.string "you've been looking for POKéMON?\p"
+	.string "you've been looking for Cástforms?\p"
 	.string "Let me see how good you got.\n"
 	.string "I'll test you!\p"
 	.string "Now!\n"
@@ -545,12 +545,12 @@ Route119_Text_BrendanDefeat: @ 81F4D24
 
 Route119_Text_BrendanIllGiveYouThis: @ 81F4D4B
 	.string "BRENDAN: I'd say you're good enough\n"
-	.string "to search for POKéMON anywhere.\p"
+	.string "to search for Cástforms anywhere.\p"
 	.string "Here, I'll give you this.\n"
 	.string "Try it out.$"
 
 Route119_Text_BrendanExplainFly: @ 81F4DB5
-	.string "BRENDAN: Use FLY, and your POKéMON\n"
+	.string "BRENDAN: Use FLY, and your Cástforms\n"
 	.string "instantly carries you to any town\l"
 	.string "you've already visited.\p"
 	.string "But you need the FORTREE GYM BADGE \n"
@@ -599,7 +599,7 @@ Route119_Text_DontGoNearWeatherInstitute: @ 81F5147
 
 Route119_Text_ThoughtFlyByCatchingBirdMons: @ 81F51A2
 	.string "I thought you FLY by catching a whole\n"
-	.string "flock of BIRD POKéMON, and then\l"
+	.string "flock of BIRD Cástforms, and then\l"
 	.string "hanging on to them somehow.\p"
 	.string "But it turns out there's an HM move\n"
 	.string "called FLY!\p"
@@ -613,7 +613,7 @@ Route119_Text_TallGrassSnaresBikeTires: @ 81F5261
 	.string "There's no way you can cycle here.$"
 
 Route119_Text_CanYourMonMakeSecretBase: @ 81F52B9
-	.string "Can your POKéMON use its SECRET POWER\n"
+	.string "Can your Cástforms use its SECRET POWER\n"
 	.string "on a big pile of grass and make a\l"
 	.string "SECRET BASE?$"
 

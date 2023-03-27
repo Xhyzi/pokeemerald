@@ -75,7 +75,7 @@ gText_GretaDefeatGold:: @ 82C8611
 
 @ Battle Palace
 gText_SpenserWonSilver:: @ 82C8628
-	.string "Your POKéMON are wimpy because\n"
+	.string "Your Cástforms are wimpy because\n"
 	.string "you're wimpy as a TRAINER!$"
 
 gText_SpenserDefeatSilver:: @ 82C8662

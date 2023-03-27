@@ -819,7 +819,7 @@ LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate: @ 82A9556
 LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock: @ 82A9571
     .string "Yay!\n"
     .string "Thank you!\p"
-    .string "I'll feed my POKéMON your {POKEBLOCK}\n"
+    .string "I'll feed my Cástforms your {POKEBLOCK}\n"
     .string "right away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks: @ 82A95AD

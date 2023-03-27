@@ -22,10 +22,10 @@ FortreeCity_House5_EventScript_Zigzagoon:: @ 8217F04
 FortreeCity_House5_Text_TreeHousesAreGreat: @ 8217F17
 	.string "The tree houses of FORTREE are great!\p"
 	.string "I think it's the number one town for\n"
-	.string "living together with POKéMON.$"
+	.string "living together with Cástforms.$"
 
 FortreeCity_House5_Text_AdaptedToNature: @ 8217F80
-	.string "POKéMON and people have adapted to\n"
+	.string "Cástforms and people have adapted to\n"
 	.string "nature for survival.\p"
 	.string "There's no need to make nature\n"
 	.string "conform to the way we want to live.$"

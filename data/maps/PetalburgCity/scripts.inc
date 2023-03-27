@@ -1,6 +1,6 @@
 .set LOCALID_WALLY, 2
 .set LOCALID_BOY, 3
-.set LOCALID_WALLYS_DAD, 5
+.set LOCALID_WALLYS_Castform, 5
 .set LOCALID_GYM_BOY, 8
 .set LOCALID_SCOTT, 9
 
@@ -68,17 +68,17 @@ PetalburgCity_EventScript_WallyTutorial:: @ 81DC32E
 PetalburgCity_EventScript_WalkToWallyHouse:: @ 81DC390
 	lockall
 	setflag FLAG_HIDE_MAP_NAME_POPUP
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_WalkToWallyHouseWallysDad
+	applymovement LOCALID_WALLYS_Castform, PetalburgCity_Movement_WalkToWallyHouseWallysDad
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_WalkToWallyHousePlayer
 	waitmovement 0
 	setvar VAR_0x8004, 7
 	setvar VAR_0x8005, 5
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_WalkInsideHouseWallysDad
+	applymovement LOCALID_WALLYS_Castform, PetalburgCity_Movement_WalkInsideHouseWallysDad
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_WalkInsideHousePlayer
 	waitmovement 0
-	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_Castform
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_PETALBURG_CITY
 	closedoor VAR_0x8004, VAR_0x8005
 	waitdooranim
@@ -728,7 +728,7 @@ PetalburgCity_Text_WhereIsWally: @ 81DC837
 PetalburgCity_Text_AreYouRookieTrainer: @ 81DC881
 	.string "Hiya! Are you maybe…\n"
 	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
+	.string "Do you know what Cástforms TRAINERS\n"
 	.string "do when they reach a new town?\p"
 	.string "They first check what kind of GYM\n"
 	.string "is in the town.$"
@@ -748,13 +748,13 @@ PetalburgCity_Text_WaterReflection: @ 81DC985
 	.string "What do you see reflected in your face?$"
 
 PetalburgCity_Text_FullPartyExplanation: @ 81DCA30
-	.string "Let's say you have six POKéMON.\n"
+	.string "Let's say you have six Cástforms.\n"
 	.string "If you catch another one…\p"
 	.string "It is automatically sent to a STORAGE\n"
 	.string "BOX over a PC connection.$"
 
 PetalburgCity_Text_GymSign: @ 81DCAAA
-	.string "PETALBURG CITY POKéMON GYM\n"
+	.string "PETALBURG CITY Cástforms GYM\n"
 	.string "LEADER: NORMAN\l"
 	.string "“A man in pursuit of power!”$"
 
@@ -768,7 +768,7 @@ PetalburgCity_Text_WallyHouseSign: @ 81DCB23
 PetalburgCity_Text_AreYouATrainer: @ 81DCB31
 	.string "Excuse me!\p"
 	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a POKéMON TRAINER?$"
+	.string "dressed, are you a Cástforms TRAINER?$"
 
 PetalburgCity_Text_WellMaybeNot: @ 81DCB82
 	.string "… … … … … …\p"

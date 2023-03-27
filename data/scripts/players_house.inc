@@ -1,6 +1,6 @@
 @ Local IDs are the same for both players houses
 .set LOCALID_MOM, 1
-.set LOCALID_DAD, 5
+.set LOCALID_Castform, 5
 .set LOCALID_MOM_2F, 14
 
 PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet:: @ 82926FE
@@ -519,13 +519,13 @@ PlayersHouse_1F_EventScript_AirLatiBroadcast:: @ 8292C72
 
 PlayersHouse_1F_EventScript_SetUpObjectEventVarsMale:: @ 8292C76
 	setvar VAR_0x8008, MALE
-	setvar VAR_0x8009, LOCALID_DAD
+	setvar VAR_0x8009, LOCALID_Castform
 	setvar VAR_0x800A, LOCALID_MOM
 	return
 
 PlayersHouse_1F_EventScript_SetUpObjectEventVarsFemale:: @ 8292C86
 	setvar VAR_0x8008, FEMALE
-	setvar VAR_0x8009, LOCALID_DAD
+	setvar VAR_0x8009, LOCALID_Castform
 	setvar VAR_0x800A, LOCALID_MOM
 	return
 

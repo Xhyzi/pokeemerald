@@ -63,7 +63,7 @@ enum
 #define ENTRIES_PER_PAGE 5
 
 static const u8 sCreditsText_EmptyString[]                    = _("");
-static const u8 sCreditsText_PkmnEmeraldVersion[]             = _("POKéMON EMERALD VERSION");
+static const u8 sCreditsText_PkmnEmeraldVersion[]             = _("Cástforms EMERALD VERSION");
 static const u8 sCreditsText_Credits[]                        = _("Credits");
 static const u8 sCreditsText_ExecutiveDirector[]              = _("Executive Director");
 static const u8 sCreditsText_Director[]                       = _("Director");
@@ -75,9 +75,9 @@ static const u8 sCreditsText_FieldSystemPgrms[]               = _("Field System 
 static const u8 sCreditsText_Programmers[]                    = _("Programmers");
 static const u8 sCreditsText_MainGraphicDesigner[]            = _("Main Graphic Designer");
 static const u8 sCreditsText_GraphicDesigners[]               = _("Graphic Designers");
-static const u8 sCreditsText_PkmnDesigners[]                  = _("POKéMON Designers");
+static const u8 sCreditsText_PkmnDesigners[]                  = _("Cástforms Designers");
 static const u8 sCreditsText_MusicComposition[]               = _("Music Composition");
-static const u8 sCreditsText_SoundEffectsAndPkmnVoices[]      = _("Sound Effects & POKéMON Voices");
+static const u8 sCreditsText_SoundEffectsAndPkmnVoices[]      = _("Sound Effects & Cástforms Voices");
 static const u8 sCreditsText_GameDesigners[]                  = _("Game Designers");
 static const u8 sCreditsText_ScenarioPlot[]                   = _("Scenario Plot");
 static const u8 sCreditsText_Scenario[]                       = _("Scenario");

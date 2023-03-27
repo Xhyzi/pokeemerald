@@ -124,7 +124,7 @@ Text_WantToSmash: @ 829083A
 	.string "Would you like to use ROCK SMASH?$"
 
 Text_CantSmash: @ 829087F
-	.string "It's a rugged rock, but a POKéMON\n"
+	.string "It's a rugged rock, but a Cástforms\n"
 	.string "may be able to smash it.$"
 
 EventScript_StrengthBoulder:: @ 82908BA
@@ -173,7 +173,7 @@ EventScript_CancelStrength:: @ 8290929
 	end
 
 Text_WantToStrength: @ 829092C
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a Cástforms\n"
 	.string "may be able to push it aside.\p"
 	.string "Would you like to use STRENGTH?$"
 
@@ -183,7 +183,7 @@ Text_MonUsedStrength: @ 829098C
 	.string "possible to move boulders around!$"
 
 Text_CantStrength: @ 82909D6
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a Cástforms\n"
 	.string "may be able to push it aside.$"
 
 Text_StrengthActivated: @ 8290A16
@@ -277,7 +277,7 @@ EventScript_EndSurface:: @ 8290BA8
 	end
 
 Text_CantDive: @ 8290BAA
-	.string "The sea is deep here. A POKéMON\n"
+	.string "The sea is deep here. A Cástforms\n"
 	.string "may be able to go underwater.$"
 
 Text_WantToDive: @ 8290BE8
@@ -289,7 +289,7 @@ Text_MonUsedDive: @ 8290C1A
 
 Text_CantSurface: @ 8290C28
 	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "A Cástforms may be able to surface.$"
 
 Text_WantToSurface: @ 8290C6E
 	.string "Light is filtering down from above.\n"

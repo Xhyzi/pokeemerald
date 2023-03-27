@@ -64,7 +64,7 @@ AbandonedShip_Rooms2_1F_Text_DanPostBattle: @ 823820F
 	.string "I wonder if someone got them already?$"
 
 AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons: @ 8238257
-	.string "DAN: You don't even have two POKéMON.\n"
+	.string "DAN: You don't even have two Cástforms.\n"
 	.string "You can't expect to beat us like that.$"
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro: @ 82382A4
@@ -81,7 +81,7 @@ AbandonedShip_Rooms2_1F_Text_KiraPostBattle: @ 823830A
 	.string "when we find the treasures!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons: @ 823836F
-	.string "KIRA: Oh, you don't have two POKéMON?\n"
+	.string "KIRA: Oh, you don't have two Cástforms?\n"
 	.string "We'll have to battle some other time!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRegister: @ 82383BB
@@ -91,7 +91,7 @@ AbandonedShip_Rooms2_1F_Text_KiraRegister: @ 82383BB
 AbandonedShip_Rooms2_1F_Text_DanRematchIntro: @ 82383FF
 	.string "DAN: We've been searching for\n"
 	.string "treasures all this time.\p"
-	.string "Our POKéMON have grown stronger, too.\n"
+	.string "Our Cástforms have grown stronger, too.\n"
 	.string "Let us show you, okay?$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchDefeat: @ 8238473
@@ -99,12 +99,12 @@ AbandonedShip_Rooms2_1F_Text_DanRematchDefeat: @ 8238473
 
 AbandonedShip_Rooms2_1F_Text_DanPostRematch: @ 8238491
 	.string "DAN: We can't find any treasures,\n"
-	.string "we lose at POKéMON…\p"
+	.string "we lose at Cástforms…\p"
 	.string "I want to go home… But if I say that,\n"
 	.string "she gets all angry with me…$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons: @ 8238509
-	.string "DAN: You don't even have two POKéMON.\n"
+	.string "DAN: You don't even have two Cástforms.\n"
 	.string "You can't expect to beat us like that.$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchIntro: @ 8238556
@@ -119,11 +119,11 @@ AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat: @ 82385F2
 
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch: @ 823860B
 	.string "KIRA: We're not leaving until we raise\n"
-	.string "our POKéMON some more and we find\l"
+	.string "our Cástforms some more and we find\l"
 	.string "the treasures here!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons: @ 8238668
-	.string "KIRA: Oh, you don't have two POKéMON?\n"
+	.string "KIRA: Oh, you don't have two Cástforms?\n"
 	.string "We'll have to battle some other time!$"
 
 AbandonedShip_Rooms2_1F_Text_JaniIntro: @ 82386B4

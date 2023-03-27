@@ -85,7 +85,7 @@ Route105_EventScript_AndresRematch:: @ 81EE31F
 Route104_Text_DadPokenavCall: @ 81EE336
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "DAD: Oh, {PLAYER}?\p"
+	.string "Castform: Oh, {PLAYER}?\p"
 	.string "… … … … … …\n"
 	.string "Where are you now?\l"
 	.string "It sounds windy wherever you are.\p"
@@ -99,5 +99,5 @@ Route104_Text_DadPokenavCall: @ 81EE336
 	.string "… … … … … Click!$"
 
 Route104_Text_RegisteredDadInPokenav: @ 81EE463
-	.string "Registered DAD NORMAN\n"
+	.string "Registered Castform NORMAN\n"
 	.string "in the POKéNAV.$"

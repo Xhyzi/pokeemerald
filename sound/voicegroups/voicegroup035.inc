@@ -37,7 +37,7 @@ voicegroup035:: @ 867D918
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867DAB0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867DABC
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867DAC8
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867DAD4
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867Castform4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867DAE0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867DAEC
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867DAF8

@@ -2705,18 +2705,18 @@ void SpriteCB_FaintOpponentMon(struct Sprite *sprite)
 
         yOffset = gMonFrontPicCoords[unownSpecies].y_offset;
     }
-    else if (species == SPECIES_CASTFORM)
+    else // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
     {
         yOffset = gCastformFrontSpriteCoords[gBattleMonForms[battler]].y_offset;
     }
-    else if (species > NUM_SPECIES)
+    /*else if (species > NUM_SPECIES)
     {
         yOffset = gMonFrontPicCoords[SPECIES_NONE].y_offset;
     }
     else
     {
         yOffset = gMonFrontPicCoords[species].y_offset;
-    }
+    }*/
 
     sprite->data[3] = 8 - yOffset / 8;
     sprite->data[4] = 1;

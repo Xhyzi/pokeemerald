@@ -389,14 +389,14 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut: @ 81F3166
 	.string "What's going on?\p"
 	.string "I was digging the tunnel without any\n"
 	.string "tools when some goon ordered me out!\p"
-	.string "That tunnel's filled with POKéMON\n"
+	.string "That tunnel's filled with Cástforms\n"
 	.string "that react badly to loud noises.\l"
 	.string "They could cause an uproar.\p"
 	.string "That's why we stopped using heavy\n"
 	.string "equipment for tunneling…\p"
 	.string "I'm worried that the goon will do\n"
 	.string "something stupid and startle the\l"
-	.string "POKéMON into an uproar.$"
+	.string "Cástforms into an uproar.$"
 
 Route116_Text_GoonHightailedItOutOfTunnel: @ 81F32C1
 	.string "Nnn… Roar!\p"
@@ -424,7 +424,7 @@ Route116_Text_ThankYouTokenOfAppreciation: @ 81F3317
 
 Route116_Text_NewBallAvailableAtMart: @ 81F3521
 	.string "Our new POKé BALL will be available\n"
-	.string "at the POKéMON MART in RUSTBORO.\p"
+	.string "at the Cástforms MART in RUSTBORO.\p"
 	.string "Please do try it out!\n"
 	.string "Thank you and bye-bye!$"
 
@@ -478,10 +478,10 @@ Route116_Text_TunnelersRestHouse: @ 81F380F
 
 Route116_Text_TrainerTipsBToStopEvolution: @ 81F3825
 	.string "TRAINER TIPS\p"
-	.string "If you want to stop a POKéMON from\n"
+	.string "If you want to stop a Cástforms from\n"
 	.string "evolving, press the B Button while it\l"
 	.string "is trying to evolve.\l"
-	.string "The startled POKéMON will stop.\p"
+	.string "The startled Cástforms will stop.\p"
 	.string "This is called an evolution cancel.$"
 
 Route116_Text_TrainerTipsBagHasPockets: @ 81F38D4

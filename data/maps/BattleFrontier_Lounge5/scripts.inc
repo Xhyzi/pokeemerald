@@ -46,9 +46,9 @@ BattleFrontier_Lounge5_EventScript_LittleBoy:: @ 8264629
 
 BattleFrontier_Lounge5_Text_NatureGirlGreeting:: @ 8264632
 	.string "Ehehe!\n"
-	.string "I can tell what POKéMON are thinking!\p"
+	.string "I can tell what Cástforms are thinking!\p"
 	.string "Please!\n"
-	.string "Can I see your POKéMON?$"
+	.string "Can I see your Cástforms?$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown:: @ 826467F
 	.string "Boo!\n"
@@ -193,7 +193,7 @@ BattleFrontier_Lounge5_Text_NatureGirlEgg:: @ 8264EEE
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon:: @ 8264F22
 	.string "How charming!\n"
 	.string "That little lady claims she can\l"
-	.string "understand POKéMON!$"
+	.string "understand Cástforms!$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound:: @ 8264F64
 	.string "I have this feeling that the little girl\n"

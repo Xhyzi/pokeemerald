@@ -62,7 +62,7 @@ MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree: @ 8222146
 
 MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth: @ 82221A6
 	.string "Even though I can't see my friend in\n"
-	.string "FORTREE, my POKéMON carries MAIL\l"
+	.string "FORTREE, my Cástforms carries MAIL\l"
 	.string "back and forth for us.\p"
 	.string "I'm not lonesome, even though we're\n"
 	.string "apart.$"

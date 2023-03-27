@@ -205,18 +205,18 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
                 coordSpecies = letter + SPECIES_UNOWN_B - 1;
             ret = gMonBackPicCoords[coordSpecies].y_offset;
         }
-        else if (species == SPECIES_CASTFORM)
+        else // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
         {
             ret = sCastformBackSpriteYCoords[gBattleMonForms[battlerId]];
         }
-        else if (species > NUM_SPECIES)
+        /*else if (species > NUM_SPECIES)
         {
             ret = gMonBackPicCoords[0].y_offset;
         }
         else
         {
             ret = gMonBackPicCoords[species].y_offset;
-        }
+        }*/
     }
     else
     {
@@ -234,18 +234,18 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
                 coordSpecies = letter + SPECIES_UNOWN_B - 1;
             ret = gMonFrontPicCoords[coordSpecies].y_offset;
         }
-        else if (species == SPECIES_CASTFORM)
+        else // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
         {
             ret = gCastformFrontSpriteCoords[gBattleMonForms[battlerId]].y_offset;
         }
-        else if (species > NUM_SPECIES)
+        /*else if (species > NUM_SPECIES)
         {
             ret = gMonFrontPicCoords[0].y_offset;
         }
         else
         {
             ret = gMonFrontPicCoords[species].y_offset;
-        }
+        }*/
     }
     return ret;
 }
@@ -257,12 +257,12 @@ u8 GetBattlerElevation(u8 battlerId, u16 species)
     {
         if (!IsContest())
         {
-            if (species == SPECIES_CASTFORM)
+            // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
                 ret = sCastformElevations[gBattleMonForms[battlerId]];
-            else if (species > NUM_SPECIES)
+            /*else if (species > NUM_SPECIES)
                 ret = gEnemyMonElevation[0];
             else
-                ret = gEnemyMonElevation[species];
+                ret = gEnemyMonElevation[species];*/
         }
     }
     return ret;
@@ -1861,10 +1861,10 @@ static u16 GetBattlerYDeltaFromSpriteId(u8 spriteId)
                     else
                         species = spriteInfo[battlerId].transformSpecies;
 
-                    if (species == SPECIES_CASTFORM)
+                    // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
                         return sCastformBackSpriteYCoords[gBattleMonForms[battlerId]];
-                    else
-                        return gMonBackPicCoords[species].y_offset;
+                    /*else
+                        return gMonBackPicCoords[species].y_offset;*/
                 }
                 else
                 {
@@ -1874,10 +1874,10 @@ static u16 GetBattlerYDeltaFromSpriteId(u8 spriteId)
                     else
                         species = spriteInfo[battlerId].transformSpecies;
 
-                    if (species == SPECIES_CASTFORM)
+                    // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
                         return sCastformElevations[gBattleMonForms[battlerId]];
-                    else
-                        return gMonFrontPicCoords[species].y_offset;
+                    /*else
+                        return gMonFrontPicCoords[species].y_offset;*/
                 }
             }
         }
@@ -2120,18 +2120,18 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
                 unownSpecies = letter + SPECIES_UNOWN_B - 1;
             coords = &gMonBackPicCoords[unownSpecies];
         }
-        else if (species == SPECIES_CASTFORM)
+        else // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
         {
             coords = &gCastformFrontSpriteCoords[gBattleMonForms[battlerId]];
         }
-        else if (species <= SPECIES_EGG)
+        /*else if (species <= SPECIES_EGG)
         {
             coords = &gMonBackPicCoords[species];
         }
         else
         {
             coords = &gMonBackPicCoords[0];
-        }
+        }*/
     }
     else
     {
@@ -2190,18 +2190,18 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
                     unownSpecies = letter + SPECIES_UNOWN_B - 1;
                 coords = &gMonFrontPicCoords[unownSpecies];
             }
-            else if (species == SPECIES_CASTFORM)
+            else // if (species == SPECIES_CASTFORM) -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
             {
                 coords = &gCastformFrontSpriteCoords[gBattleMonForms[battlerId]];
             }
-            else if (species > NUM_SPECIES)
+            /*else if (species > NUM_SPECIES)
             {
                 coords = &gMonFrontPicCoords[0];
             }
             else
             {
                 coords = &gMonFrontPicCoords[species];
-            }
+            }*/
         }
     }
 

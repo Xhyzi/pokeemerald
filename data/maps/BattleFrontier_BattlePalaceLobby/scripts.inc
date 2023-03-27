@@ -410,13 +410,13 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge: @ 824DE17
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
 	.string "TRAINERS are permitted only to switch\n"
-	.string "their POKéMON in and out.\p"
+	.string "their Cástforms in and out.\p"
 	.string "TRAINERS are otherwise forbidden to\n"
-	.string "command their POKéMON.\p"
-	.string "The POKéMON are to behave according\n"
+	.string "command their Cástforms.\p"
+	.string "The Cástforms are to behave according\n"
 	.string "to their nature and battle on their own.\p"
 	.string "You must put your trust in your\n"
-	.string "POKéMON and watch over them.\p"
+	.string "Cástforms and watch over them.\p"
 	.string "If you achieve the honor of beating\n"
 	.string "seven TRAINERS in succession,\l"
 	.string "we will present you with Battle Points.\p"
@@ -427,7 +427,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge: @ 824DE17
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified: @ 824E0D8
 	.string "When you have fortified your heart\n"
-	.string "and POKéMON, you must return.$"
+	.string "and Cástforms, you must return.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge: @ 824E119
 	.string "There are two BATTLE HALLS,\n"
@@ -436,11 +436,11 @@ BattleFrontier_BattlePalaceLobby_Text_WhichChallenge: @ 824E119
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50: @ 824E173
 	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
+	.string "You do not have the three Cástforms\n"
 	.string "required for the challenge.\p"
 	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "These POKéMON must all be of\n"
+	.string "different kinds of Cástforms.\p"
+	.string "These Cástforms must all be of\n"
 	.string "Level 50 or lower.\p"
 	.string "They also must not be holding\n"
 	.string "the same kinds of items.\p"
@@ -450,10 +450,10 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50: @ 824E173
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen: @ 824E29E
 	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
+	.string "You do not have the three Cástforms\n"
 	.string "required for the challenge.\p"
 	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
+	.string "different kinds of Cástforms.\p"
 	.string "They also must not be holding\n"
 	.string "the same kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
@@ -462,7 +462,7 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen: @ 824E29E
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons: @ 824E399
 	.string "Good. Now, you must select your\n"
-	.string "three POKéMON.$"
+	.string "three Cástforms.$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2: @ 824E3C8
 	.string "I must save before I show you to\n"
@@ -474,14 +474,14 @@ BattleFrontier_BattlePalaceLobby_Text_FollowMe: @ 824E408
 
 BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded: @ 824E41E
 	.string "I feel privileged for having seen\n"
-	.string "your POKéMON's exploits.\p"
+	.string "your Cástforms's exploits.\p"
 	.string "The results will be recorded.\n"
 	.string "I must ask you to briefly wait.$"
 
 BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak: @ 824E497
 	.string "To achieve a 7-win streak…\p"
 	.string "The bonds that bind your heart with\n"
-	.string "your POKéMON seem firm and true.$"
+	.string "your Cástforms seem firm and true.$"
 
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded: @ 824E4F7
 	.string "Your feat will be recorded.\n"
@@ -519,7 +519,7 @@ BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize: @ 824E6C9
 
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink: @ 824E6E3
 	.string "For a hardy fellow like me,\n"
-	.string "hardy POKéMON are the best.\p"
+	.string "hardy Cástforms are the best.\p"
 	.string "Offense is the best defense!\n"
 	.string "A relentless attack is the ultimate!\p"
 	.string "But that's not what I wanted to chat\n"
@@ -527,7 +527,7 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink: @ 824E6E3
 	.string "Every so often a really cute lady\n"
 	.string "swings by here.\p"
 	.string "She says that she can tell what\n"
-	.string "POKéMON are thinking.\p"
+	.string "Cástforms are thinking.\p"
 	.string "I don't know about that part,\n"
 	.string "but she is really cute.\p"
 	.string "Huh?\n"
@@ -535,19 +535,19 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink: @ 824E6E3
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere: @ 824E851
 	.string "Hmm…\p"
-	.string "It appears that the nature of POKéMON\n"
+	.string "It appears that the nature of Cástforms\n"
 	.string "and the moves that they have been\l"
 	.string "taught are the keys to battle here.\p"
 	.string "To be more precise, it's how well\n"
 	.string "the moves match the nature of\l"
-	.string "the POKéMON.\p"
-	.string "If your POKéMON is in trouble and\n"
+	.string "the Cástforms.\p"
+	.string "If your Cástforms is in trouble and\n"
 	.string "unable to live up to its potential,\l"
 	.string "you may need to examine how well\l"
 	.string "its moves match its nature.$"
 
 BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms: @ 824E992
-	.string "My POKéMON is usually very docile.\p"
+	.string "My Cástforms is usually very docile.\p"
 	.string "But when it's in a BATTLE HALL,\n"
 	.string "it sometimes seems to become\l"
 	.string "transformed into something wicked!\p"
@@ -555,7 +555,7 @@ BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms: @ 824E992
 	.string "It's shocking, even.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway: @ 824EA4B
-	.string "I wonder what sort of nature a POKéMON\n"
+	.string "I wonder what sort of nature a Cástforms\n"
 	.string "would have if it favored enfeebling its\l"
 	.string "opponents and chipping away slowly.\p"
 	.string "I'd be surprised if it was a LAX nature.\p"
@@ -580,13 +580,13 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge: @ 824EBC2
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
 	.string "TRAINERS are permitted only to switch\n"
-	.string "their POKéMON in and out.\p"
+	.string "their Cástforms in and out.\p"
 	.string "TRAINERS are otherwise forbidden to\n"
-	.string "command their POKéMON.\p"
-	.string "The POKéMON are to behave according\n"
+	.string "command their Cástforms.\p"
+	.string "The Cástforms are to behave according\n"
 	.string "to their nature and battle on their own.\p"
 	.string "You must put your trust in your\n"
-	.string "POKéMON and watch over them.\p"
+	.string "Cástforms and watch over them.\p"
 	.string "If you achieve the honor of beating\n"
 	.string "seven TRAINERS in succession,\l"
 	.string "we will present you with Battle Points.\p"
@@ -601,7 +601,7 @@ BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers: @ 824EE81
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints: @ 824EEB9
 	.string "In honor of the bond you share with\n"
-	.string "your POKéMON, we present you with\l"
+	.string "your Cástforms, we present you with\l"
 	.string "these Battle Point(s).$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch: @ 824EF16
@@ -616,20 +616,20 @@ BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading: @ 824EF88
 	.string "Which heading do you want to read?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics: @ 824EFAB
-	.string "Here, POKéMON are required to think\n"
+	.string "Here, Cástforms are required to think\n"
 	.string "and battle by themselves.\p"
-	.string "Unlike in the wild, POKéMON that live\n"
+	.string "Unlike in the wild, Cástforms that live\n"
 	.string "with people behave differently\l"
 	.string "depending on their nature.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature: @ 824F049
-	.string "Depending on its nature, a POKéMON\n"
+	.string "Depending on its nature, a Cástforms\n"
 	.string "may prefer to attack no matter what.\p"
-	.string "Another POKéMON may prefer to protect\n"
+	.string "Another Cástforms may prefer to protect\n"
 	.string "itself from any harm.\p"
 	.string "Yet another may enjoy vexing or\n"
 	.string "confounding its foes.\p"
-	.string "Due to its nature, a POKéMON\n"
+	.string "Due to its nature, a Cástforms\n"
 	.string "will have favorite moves that it is good\l"
 	.string "at using.\p"
 	.string "It may also dislike certain moves that\n"
@@ -645,23 +645,23 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves: @ 824F190
 	.string "moves that may enfeeble the foes with\l"
 	.string "stat problems including poison and \l"
 	.string "paralysis.\p"
-	.string "POKéMON will consider using moves in\n"
+	.string "Cástforms will consider using moves in\n"
 	.string "these three categories.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered: @ 824F2E8
 	.string "When not under command by its TRAINER,\n"
-	.string "a POKéMON may be unable to effectively\l"
+	.string "a Cástforms may be unable to effectively\l"
 	.string "use certain moves.\p"
-	.string "A POKéMON is not good at using any\n"
+	.string "A Cástforms is not good at using any\n"
 	.string "move that it dislikes.\p"
-	.string "If a POKéMON only knows moves that\n"
+	.string "If a Cástforms only knows moves that\n"
 	.string "do not match its nature, it will often\l"
 	.string "be unable to live up to its potential.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger: @ 824F3F4
-	.string "Depending on its nature, a POKéMON may\n"
+	.string "Depending on its nature, a Cástforms may\n"
 	.string "start using moves that don't match its\l"
 	.string "nature when it is in trouble.\p"
-	.string "If a POKéMON begins behaving oddly\n"
+	.string "If a Cástforms begins behaving oddly\n"
 	.string "in a pinch, watch it carefully.$"
 

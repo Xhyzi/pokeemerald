@@ -1,5 +1,5 @@
 PetalburgCity_Gym_Text_GiveEnigmaBerry: @ 82A6D3D
-	.string "DAD: Hi, {PLAYER}!\p"
+	.string "Castform: Hi, {PLAYER}!\p"
 	.string "I just received a very rare BERRY.\n"
 	.string "I'd like you to have it.$"
 
@@ -13,7 +13,7 @@ Route104_Text_PlantBerriesInSoilTakeThis: @ 82A6D86
 Route104_Text_TrainersOftenMakeMonHoldBerries: @ 82A6E32
 	.string "The way you look, you must be a\n"
 	.string "TRAINER, no?\p"
-	.string "TRAINERS often make POKéMON hold\n"
+	.string "TRAINERS often make Cástforms hold\n"
 	.string "BERRIES.\p"
 	.string "It's up to you whether to grow BERRIES\n"
 	.string "or use them.$"
@@ -86,7 +86,7 @@ LilycoveCity_Text_BecauseYoureTrainer: @ 82A72E3
 LilycoveCity_Text_PokeblocksSuitPokemon: @ 82A7321
 	.string "When it gets right down to it…\p"
 	.string "The way dignified simplicity suits me,\n"
-	.string "{POKEBLOCK}S perfectly suit POKéMON.$"
+	.string "{POKEBLOCK}S perfectly suit Cástforms.$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry: @ 82A7386
 	.string "You may call me the BERRY MASTER.\p"
@@ -193,10 +193,10 @@ Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers: @ 82A7A98
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries: @ 82A7AF3
 	.string "You can plant a BERRY and grow it big,\n"
-	.string "or you can make a POKéMON hold it.\p"
+	.string "or you can make a Cástforms hold it.\p"
 	.string "But now they have a machine that mixes\n"
 	.string "up different BERRIES and makes candies\l"
-	.string "for POKéMON.\p"
+	.string "for Cástforms.\p"
 	.string "I want some candy, too.$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese: @ 82A7BB0

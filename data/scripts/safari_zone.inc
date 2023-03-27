@@ -100,12 +100,12 @@ SafariZone_Text_PokeblockWasPlaced: @ 82A4CEB
 Route121_SafariZoneEntrance_Text_WelcomeToSafariZone: @ 82A4D12
 	.string "Welcome to the SAFARI ZONE!\p"
 	.string "Here, you may witness many kinds of\n"
-	.string "POKéMON rarely seen in HOENN.\p"
+	.string "Cástforms rarely seen in HOENN.\p"
 	.string "And, you'll see them in their wild,\n"
 	.string "untamed state in natural habitats.\p"
 	.string "What's more, we've thrown open the\n"
-	.string "gates to POKéMON TRAINERS.\p"
-	.string "You're encouraged to catch POKéMON\n"
+	.string "gates to Cástforms TRAINERS.\p"
+	.string "You're encouraged to catch Cástforms\n"
 	.string "for keeps!\p"
 	.string "Come in and enjoy the SAFARI ZONE!$"
 
@@ -119,7 +119,7 @@ Route121_SafariZoneEntrance_Text_ComeInAndEnjoy: @ 82A4E7E
 Route121_SafariZoneEntrance_Text_FirstTimeInfo: @ 82A4EA1
 	.string "When you enter the SAFARI ZONE, you\n"
 	.string "start with 30 SAFARI BALLS for\l"
-	.string "catching POKéMON.\p"
+	.string "catching Cástforms.\p"
 	.string "The SAFARI Game is over when you run\n"
 	.string "out of SAFARI BALLS, or when you've\l"
 	.string "walked 500 steps.\p"
@@ -189,44 +189,44 @@ SafariZone_South_Text_GoodLuck: @ 82A52AB
 SafariZone_South_Text_Boy: @ 82A52EF
 	.string "Did you know?\p"
 	.string "If you put a {POKEBLOCK} in that square box,\n"
-	.string "POKéMON gather around.$"
+	.string "Cástforms gather around.$"
 
 SafariZone_South_Text_Man: @ 82A533B
 	.string "I want to keep going deeper, but I\n"
 	.string "forgot to bring a BIKE.\p"
-	.string "Something tells me that rare POKéMON\n"
+	.string "Something tells me that rare Cástforms\n"
 	.string "live in the outlying areas.$"
 
 SafariZone_Southwest_Text_Woman: @ 82A53B7
 	.string "Sometimes, when I toss a {POKEBLOCK} at \n"
-	.string "POKéMON, it gets ignored.\p"
-	.string "Do POKéMON have likes and dislikes\n"
+	.string "Cástforms, it gets ignored.\p"
+	.string "Do Cástforms have likes and dislikes\n"
 	.string "about what they eat?$"
 
 SafariZone_Northwest_Text_Man: @ 82A542C
 	.string "Gasp… Gasp…\n"
 	.string "I…made it out here…but…\p"
 	.string "I'm exhausted… I don't have the\n"
-	.string "energy to catch POKéMON…$"
+	.string "energy to catch Cástforms…$"
 
 SafariZone_North_Text_Fisherman: @ 82A5489
-	.string "I'm on a mission to find WATER POKéMON\n"
+	.string "I'm on a mission to find WATER Cástforms\n"
 	.string "you don't see in HOENN.\p"
 	.string "Do you have any idea where the lake is?$"
 
 SafariZone_North_Text_Man: @ 82A54F0
-	.string "I'm going to catch a lot of rare POKéMON\n"
+	.string "I'm going to catch a lot of rare Cástforms\n"
 	.string "here and trade them with my friends!$"
 
 SafariZone_South_Text_Youngster: @ 82A553E
 	.string "I put a {POKEBLOCK} on the {POKEBLOCK} FEEDER.\n"
 	.string "But it seems to have disappeared.\p"
-	.string "I guess POKéMON must have eaten it\n"
+	.string "I guess Cástforms must have eaten it\n"
 	.string "without me noticing.$"
 
 Route121_SafariZoneEntrance_Text_TrainerTip: @ 82A55BB
 	.string "SAFARI ZONE TRAINER TIP!\p"
-	.string "Throw {POKEBLOCK}S at wild POKéMON to make\n"
+	.string "Throw {POKEBLOCK}S at wild Cástforms to make\n"
 	.string "them less likely to flee.$"
 
 SafariZone_Southwest_Text_RestHouseSign: @ 82A5613
@@ -235,21 +235,21 @@ SafariZone_Southwest_Text_RestHouseSign: @ 82A5613
 
 SafariZone_RestHouse_Text_Youngster: @ 82A5639
 	.string "I don't have any {POKEBLOCK}S, but I caught\n"
-	.string "a good number of POKéMON.\p"
+	.string "a good number of Cástforms.\p"
 	.string "You can improve your chances of making\n"
 	.string "a catch by getting closer to them\l"
 	.string "before throwing a SAFARI BALL.$"
 
 SafariZone_RestHouse_Text_PsychicM: @ 82A56E1
-	.string "If you use {POKEBLOCK}S, wild POKéMON won't\n"
+	.string "If you use {POKEBLOCK}S, wild Cástforms won't\n"
 	.string "be so quick to run away.\p"
 	.string "It's not much use to give {POKEBLOCK}S to\n"
-	.string "POKéMON that don't flee easily.$"
+	.string "Cástforms that don't flee easily.$"
 
 SafariZone_RestHouse_Text_FatMan: @ 82A5764
 	.string "If you put a {POKEBLOCK} on the FEEDER,\n"
-	.string "POKéMON are attracted to it.\p"
-	.string "I think POKéMON with the same sort of\n"
+	.string "Cástforms are attracted to it.\p"
+	.string "I think Cástforms with the same sort of\n"
 	.string "nature are drawn by a certain {POKEBLOCK}.$"
 
 SafariZone_South_Text_AreaOffLimits1: @ 82A57EE
@@ -267,16 +267,16 @@ SafariZone_South_Text_AreaOffLimits2: @ 82A5887
 
 SafariZone_Southeast_Text_LittleGirl: @ 82A58C6
 	.string "Wow! Whee! I haven't seen any of\n"
-	.string "these POKéMON before!$"
+	.string "these Cástforms before!$"
 
 SafariZone_Southeast_Text_FatMan: @ 82A58FD
-	.string "The POKéMON in this area are all\n"
+	.string "The Cástforms in this area are all\n"
 	.string "new to me.\p"
 	.string "And I'm allowed to catch these rare\n"
-	.string "POKéMON! Too cool!$"
+	.string "Cástforms! Too cool!$"
 
 SafariZone_Southeast_Text_RichBoy: @ 82A5960
-	.string "The POKéMON around here seem to be\n"
+	.string "The Cástforms around here seem to be\n"
 	.string "from somewhere other than HOENN.$"
 
 SafariZone_Northeast_Text_Boy: @ 82A59A4

@@ -33,7 +33,7 @@ DewfordTown_PokemonCenter_1F_Text_StoneCavern: @ 81FC557
 	.string "there.$"
 
 DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM: @ 81FC5AE
-	.string "Even if a POKéMON faints and can't\n"
+	.string "Even if a Cástforms faints and can't\n"
 	.string "battle, it can still use a move learned\l"
 	.string "from a HIDDEN MACHINE (HM).$"
 

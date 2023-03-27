@@ -1606,8 +1606,11 @@ static void Task_NewGameBirchSpeech_StartNamingScreen(u8 taskId)
     }
 }
 
+static void NewGameBirchSpeech_FixPlayerName();
+
 static void Task_NewGameBirchSpeech_SoItsPlayerName(u8 taskId)
 {
+    NewGameBirchSpeech_FixPlayerName();
     NewGameBirchSpeech_ClearWindow(0);
     StringExpandPlaceholders(gStringVar4, gText_Birch_SoItsPlayer);
     AddTextPrinterForMessage(1);
@@ -2112,6 +2115,19 @@ static void NewGameBirchSpeech_SetDefaultPlayerName(u8 nameId)
         name = gMalePresetNames[nameId];
     else
         name = gFemalePresetNames[nameId];
+    for (i = 0; i < PLAYER_NAME_LENGTH; i++)
+        gSaveBlock2Ptr->playerName[i] = name[i];
+    gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;
+}
+
+static void NewGameBirchSpeech_FixPlayerName() {
+    const u8* name;
+    u8 i;
+
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        name = gMalePresetNames[0];
+    else
+        name = gFemalePresetNames[0];
     for (i = 0; i < PLAYER_NAME_LENGTH; i++)
         gSaveBlock2Ptr->playerName[i] = name[i];
     gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;

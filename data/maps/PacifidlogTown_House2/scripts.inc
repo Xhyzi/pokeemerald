@@ -97,19 +97,19 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill:: @ 82038AC
 
 PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation: @ 82038C7
 	.string "Er-hem!\p"
-	.string "I am the POKéMON FAN CLUB's most\n"
+	.string "I am the Cástforms FAN CLUB's most\n"
 	.string "important person, the CHAIRMAN's\l"
 	.string "younger brother.\p"
 	.string "I'm here enjoying my vacation with\n"
-	.string "POKéMON, yes, indeed.$"
+	.string "Cástforms, yes, indeed.$"
 
 PacifidlogTown_House2_Text_AhYourPokemon: @ 820395B
 	.string "Ah!\n"
-	.string "Your POKéMON…$"
+	.string "Your Cástforms…$"
 
 PacifidlogTown_House2_Text_AdoringPokemonTakeThis: @ 820396D
 	.string "It clearly likes you very much.\p"
-	.string "A POKéMON that adoring and adorable\n"
+	.string "A Cástforms that adoring and adorable\n"
 	.string "deserves a TM like this, no?$"
 
 PacifidlogTown_House2_Text_PutInSomeMoreEffort: @ 82039CE
@@ -120,11 +120,11 @@ PacifidlogTown_House2_Text_PutInSomeMoreEffort: @ 82039CE
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis: @ 8203A2F
 	.string "It has a vicious look to it.\p"
-	.string "A frightening POKéMON like that\n"
+	.string "A frightening Cástforms like that\n"
 	.string "deserves a TM like this.$"
 
 PacifidlogTown_House2_Text_ExplainReturnFrustration: @ 8203A85
-	.string "If a POKéMON likes you a lot, RETURN's\n"
+	.string "If a Cástforms likes you a lot, RETURN's\n"
 	.string "power is enhanced.\p"
 	.string "If it doesn't like you, FRUSTRATION's\n"
 	.string "power goes up.$"
@@ -134,7 +134,7 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays: @ 8203AF4
 	.string "I should be getting a good TM or two.\p"
 	.string "You should come see me then.\n"
 	.string "I'll give you a TM that's suitable for\l"
-	.string "your POKéMON.$"
+	.string "your Cástforms.$"
 
 PacifidlogTown_House2_Text_Rurii: @ 8203B8D
 	.string "AZURILL: Rurii.$"

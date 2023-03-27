@@ -293,17 +293,17 @@ LavaridgeTown_EventScript_HerbShopSign:: @ 81EA7B7
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis: @ 81EA7C0
-	.string "MAY: {PLAYER}{KUN}! Long time no see!\p"
+	.string "Castform: {PLAYER}{KUN}! Long time no see!\p"
 	.string "Oh? While I visited the hot springs,\n"
 	.string "you got the LAVARIDGE GYM BADGE.\p"
 	.string "You must have collected\n"
-	.string "good POKéMON…\l"
+	.string "good Cástforms…\l"
 	.string "No, I believe you raised some.\p"
 	.string "I guess it would be okay for you to\n"
 	.string "have this.$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad: @ 81EA897
-	.string "MAY: With those GO-GOGGLES, you'll\n"
+	.string "Castform: With those GO-GOGGLES, you'll\n"
 	.string "have no trouble getting through the\l"
 	.string "desert near ROUTE 111.\p"
 	.string "But, wow, {PLAYER}{KUN}…\n"
@@ -326,7 +326,7 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad: @ 81EAA2E
 	.string "BRENDAN: Keep those with you if you're\n"
 	.string "planning on going into that desert near\l"
 	.string "ROUTE 111.\p"
-	.string "There should be some POKéMON that\n"
+	.string "There should be some Cástforms that\n"
 	.string "are exclusively desert-dwellers.\l"
 	.string "You might look around for those.\p"
 	.string "As for me…\n"
@@ -342,10 +342,10 @@ LavaridgeTown_Text_HaveEggWillYouTakeIt: @ 81EAB80
 	.string "hot sand by the hot springs.\l"
 	.string "But that doesn't seem to be enough…\p"
 	.string "I've heard it would be best if it were\n"
-	.string "kept together with POKéMON and\l"
+	.string "kept together with Cástforms and\l"
 	.string "carried about.\p"
 	.string "You are a TRAINER, yes?\n"
-	.string "And your POKéMON radiate vitality.\p"
+	.string "And your Cástforms radiate vitality.\p"
 	.string "So, what say you?\n"
 	.string "Will you take this EGG to hatch?$"
 
@@ -357,7 +357,7 @@ LavaridgeTown_Text_ReceivedTheEgg: @ 81EACF4
 	.string "{PLAYER} received the EGG.$"
 
 LavaridgeTown_Text_NoRoomForThisEgg: @ 81EAD09
-	.string "Oh? You've too many POKéMON.\n"
+	.string "Oh? You've too many Cástforms.\n"
 	.string "There's no room for this EGG…$"
 
 LavaridgeTown_Text_AsYouWishThen: @ 81EAD44
@@ -367,7 +367,7 @@ LavaridgeTown_Text_AsYouWishThen: @ 81EAD44
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare: @ 81EAD9E
 	.string "Every so often, an EGG will be found at\n"
-	.string "the POKéMON DAY CARE.\p"
+	.string "the Cástforms DAY CARE.\p"
 	.string "Or at least that's how the rumor goes.$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry: @ 81EAE03
@@ -384,7 +384,7 @@ LavaridgeTown_Text_PokemonNippedBackside: @ 81EAEE1
 	.string "Sigh…\p"
 	.string "So warm and heavenly…\p"
 	.string "Eh? Gyaah! Ouch!\p"
-	.string "A POKéMON nipped my backside!$"
+	.string "A Cástforms nipped my backside!$"
 
 LavaridgeTown_Text_OhYouLikeHotSprings: @ 81EAF4E
 	.string "Oh, you like hot springs, do you?\p"
@@ -397,7 +397,7 @@ LavaridgeTown_Text_BatheInHotSpringsEveryDay: @ 81EAF9B
 	.string "GYM LEADER like FLANNERY.$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings: @ 81EB003
-	.string "If people put POKéMON in hot springs,\n"
+	.string "If people put Cástforms in hot springs,\n"
 	.string "it might be seriously strange.\p"
 	.string "Why, it might be an electric bath, or\n"
 	.string "a bubble bath, or even a lava bath…$"
@@ -411,15 +411,15 @@ LavaridgeTown_Text_HotSpringsClaims: @ 81EB092
 
 LavaridgeTown_Text_TownSign: @ 81EB12B
 	.string "LAVARIDGE TOWN\p"
-	.string "“POKéMON CENTER HOT SPRINGS\n"
+	.string "“Cástforms CENTER HOT SPRINGS\n"
 	.string "An excellent place for relaxing!”$"
 
 LavaridgeTown_Text_GymSign: @ 81EB178
-	.string "LAVARIDGE TOWN POKéMON GYM\n"
+	.string "LAVARIDGE TOWN Cástforms GYM\n"
 	.string "LEADER: FLANNERY\l"
 	.string "“One with a fiery passion that burns!”$"
 
 LavaridgeTown_Text_HerbShopSign: @ 81EB1CB
-	.string "POKéMON HERB SHOP\n"
+	.string "Cástforms HERB SHOP\n"
 	.string "“Bitter taste--better cure!”$"
 

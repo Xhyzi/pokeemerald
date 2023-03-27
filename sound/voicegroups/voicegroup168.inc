@@ -77,7 +77,7 @@ voicegroup168:: @ 86AD738
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86ADAB0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86ADABC
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86ADAC8
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86ADAD4
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86ACastform4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86ADAE0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86ADAEC
 	voice_square_1_alt 60, 0, 0, 1, 0, 1, 4, 2  @ 86ADAF8

@@ -276,26 +276,26 @@ Route101_Text_DontLeaveMe: @ 81EBEDF
 	.string "Don't leave me like this!$"
 
 Route101_Text_YouSavedMe: @ 81EBF12
-	.string "PROF. BIRCH: Whew…\p"
+	.string "Castform: Whew…\p"
 	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
+	.string "Cástforms when I was jumped.\p"
 	.string "You saved me.\n"
 	.string "Thanks a lot!\p"
 	.string "Oh?\p"
 	.string "Hi, you're {PLAYER}{KUN}!\p"
 	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "by my Cástforms LAB later, okay?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter: @ 81EBFDD
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
+	.string "If Cástforms get tired, take them to\n"
+	.string "a Cástforms CENTER.\p"
+	.string "There's a Cástforms CENTER in OLDALE\n"
 	.string "TOWN right close by.$"
 
 Route101_Text_WildPokemonInTallGrass: @ 81EC04A
-	.string "Wild POKéMON will jump out at you in\n"
+	.string "Wild Cástforms will jump out at you in\n"
 	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
+	.string "If you want to catch Cástforms, you have\n"
 	.string "to go into the tall grass and search.$"
 
 Route101_Text_RouteSign: @ 81EC0C8

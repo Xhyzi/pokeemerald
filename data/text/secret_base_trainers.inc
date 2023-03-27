@@ -87,7 +87,7 @@ SecretBase_Text_Trainer1PreChampion: @ 8274D69
     .string "I finally got to use it!$"
 
 SecretBase_Text_Trainer6Intro: @ 8274DD2
-    .string "Welcome to my POKéMON LAB.\p"
+    .string "Welcome to my Cástforms LAB.\p"
     .string "I carry out research on battling in\n"
     .string "secrecy.\p"
     .string "Would you like to see how strong I am?$"
@@ -108,7 +108,7 @@ SecretBase_Text_Trainer6PostBattle: @ 8274EB3
     .string "Please come back again tomorrow.$"
 
 SecretBase_Text_Trainer6PreChampion: @ 8274EF1
-    .string "Welcome to my POKéMON LAB.\p"
+    .string "Welcome to my Cástforms LAB.\p"
     .string "I carry out research on battling in\n"
     .string "secrecy.$"
 
@@ -144,10 +144,10 @@ SecretBase_Text_Trainer2PreChampion: @ 82750A4
 SecretBase_Text_Trainer7Intro: @ 8275114
     .string "I simply adore shopping for decorations\n"
     .string "and furniture.\p"
-    .string "I also love raising POKéMON just\n"
+    .string "I also love raising Cástforms just\n"
     .string "as much.\p"
     .string "If you would be so kind, will you battle\n"
-    .string "with my POKéMON?$"
+    .string "with my Cástforms?$"
 
 SecretBase_Text_Trainer7AcceptBattle: @ 82751AF
     .string "Thank you.\n"
@@ -167,7 +167,7 @@ SecretBase_Text_Trainer7PostBattle: @ 82751EC
 SecretBase_Text_Trainer7PreChampion: @ 8275226
     .string "I simply adore shopping for decorations\n"
     .string "and furniture.\p"
-    .string "I also love raising POKéMON just\n"
+    .string "I also love raising Cástforms just\n"
     .string "as much.$"
 
 SecretBase_Text_Trainer3Intro: @ 8275287
@@ -227,7 +227,7 @@ SecretBase_Text_Trainer8PreChampion: @ 8275546
 SecretBase_Text_Trainer4Intro: @ 82755D2
     .string "I found a spot I liked, and I did it up\n"
     .string "with my favorite decorations.\p"
-    .string "I raise my favorite POKéMON and grow\n"
+    .string "I raise my favorite Cástforms and grow\n"
     .string "stronger with it.\p"
     .string "That's what I do.\n"
     .string "Want to battle with me?$"
@@ -249,7 +249,7 @@ SecretBase_Text_Trainer4PostBattle: @ 82756EF
 SecretBase_Text_Trainer4PreChampion: @ 827571E
     .string "I found a spot I liked, and I did it up\n"
     .string "with my favorite decorations.\p"
-    .string "I raise my favorite POKéMON and grow\n"
+    .string "I raise my favorite Cástforms and grow\n"
     .string "stronger with it.\p"
     .string "Every day is a great day.$"
 

@@ -1,4 +1,4 @@
-.set LOCALID_WALLYS_DAD, 1
+.set LOCALID_WALLYS_Castform, 1
 
 PetalburgCity_WallysHouse_MapScripts:: @ 8204229
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_WallysHouse_OnFrame
@@ -11,7 +11,7 @@ PetalburgCity_WallysHouse_OnWarp: @ 8204234
 
 PetalburgCity_WallysHouse_EventScript_PlayerWallysDadFaceEachOther:: @ 820423E
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_EAST
-	turnobject LOCALID_WALLYS_DAD, DIR_WEST
+	turnobject LOCALID_WALLYS_Castform, DIR_WEST
 	end
 
 PetalburgCity_WallysHouse_OnFrame: @ 8204247
@@ -93,7 +93,7 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs: @ 820446E
 	.string "since he went to VERDANTURF TOWN.\p"
 	.string "We owe it all to you!\p"
 	.string "When WALLY left town, you helped\n"
-	.string "him catch a POKéMON, right?\p"
+	.string "him catch a Cástforms, right?\p"
 	.string "I think that made WALLY really\n"
 	.string "happy.\p"
 	.string "Actually, not just WALLY.\n"
@@ -104,7 +104,7 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs: @ 820446E
 	.string "I'd really like you to have this.$"
 
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces: @ 820461A
-	.string "If your POKéMON can SURF, you'll be\n"
+	.string "If your Cástforms can SURF, you'll be\n"
 	.string "able to go to all sorts of places.$"
 
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon: @ 8204661
@@ -121,7 +121,7 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity: @ 8204698
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy: @ 8204732
 	.string "WALLY was really happy when he told\n"
-	.string "us that he caught a POKéMON.\p"
+	.string "us that he caught a Cástforms.\p"
 	.string "It's been ages since I've seen him\n"
 	.string "smile like that.$"
 

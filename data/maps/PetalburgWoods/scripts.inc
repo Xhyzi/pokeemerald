@@ -327,9 +327,9 @@ PetalburgWoods_Text_NotAOneToBeFound: @ 822E332
 	.string "Not a one to be found…$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish: @ 822E34F
-	.string "Hello, have you seen any POKéMON\n"
+	.string "Hello, have you seen any Cástforms\n"
 	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.$"
+	.string "I really love that Cástforms.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou: @ 822E3AA
 	.string "I was going to ambush you, but you\n"
@@ -343,7 +343,7 @@ PetalburgWoods_Text_HandOverThosePapers: @ 822E428
 
 PetalburgWoods_Text_YouHaveToHelpMe: @ 822E457
 	.string "Aiyeeeh!\p"
-	.string "You're a POKéMON TRAINER, aren't you?\n"
+	.string "You're a Cástforms TRAINER, aren't you?\n"
 	.string "You've got to help me, please!$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua: @ 822E4A5
@@ -361,7 +361,7 @@ PetalburgWoods_Text_YouveGotSomeNerve: @ 822E563
 	.string "meddling with TEAM AQUA!\l"
 	.string "Come on and battle me again!\p"
 	.string "I wish I could say that, but I'm out of\n"
-	.string "POKéMON…\p"
+	.string "Cástforms…\p"
 	.string "And, hey, we of TEAM AQUA are also\n"
 	.string "after something in RUSTBORO.\p"
 	.string "I'll let you go today!$"
@@ -388,41 +388,41 @@ PetalburgWoods_Text_YoureLoadedWithItems: @ 822E741
 	.string "I can't give you this GREAT BALL.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam: @ 822E77D
-	.string "I caught a whole bunch of POKéMON!\p"
+	.string "I caught a whole bunch of Cástforms!\p"
 	.string "Go, go, go!\n"
-	.string "My BUG POKéMON team!$"
+	.string "My BUG Cástforms team!$"
 
 PetalburgWoods_Text_ICouldntWin: @ 822E7C1
-	.string "I have all these POKéMON,\n"
+	.string "I have all these Cástforms,\n"
 	.string "but I couldn't win…$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls: @ 822E7EF
-	.string "I caught a bunch of POKéMON.\n"
+	.string "I caught a bunch of Cástforms.\n"
 	.string "Now I'm out of POKé BALLS.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon: @ 822E827
-	.string "If you take BUG POKéMON to school,\n"
+	.string "If you take BUG Cástforms to school,\n"
 	.string "you get to be instantly popular!$"
 
 PetalburgWoods_Text_CantBePopularIfILose: @ 822E86B
 	.string "I can't be popular if I lose.$"
 
 PetalburgWoods_Text_PeopleRespectYou: @ 822E889
-	.string "If you have a big BUG POKéMON,\n"
+	.string "If you have a big BUG Cástforms,\n"
 	.string "people respect you for it.$"
 
 PetalburgWoods_Text_IWantRematch1: @ 822E8C3
 	.string "I want a rematch when my BUG\n"
-	.string "POKéMON grow up!\p"
+	.string "Cástforms grow up!\p"
 	.string "I'm registering you in my POKéNAV!$"
 
 PetalburgWoods_Text_IWantRematch2: @ 822E914
 	.string "I want a rematch when my BUG \n"
-	.string "POKéMON grow up!\p"
+	.string "Cástforms grow up!\p"
 	.string "I'm registering you in my POKéNAV!$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown: @ 822E966
-	.string "My BUG POKéMON have grown.\n"
+	.string "My BUG Cástforms have grown.\n"
 	.string "I'll be popular again.$"
 
 PetalburgWoods_Text_CantBePopularIfLose: @ 822E998
@@ -430,13 +430,13 @@ PetalburgWoods_Text_CantBePopularIfLose: @ 822E998
 
 PetalburgWoods_Text_IveBeenTrainingHard: @ 822E9B6
 	.string "You get to be popular if you have\n"
-	.string "strong POKéMON, right?\l"
+	.string "strong Cástforms, right?\l"
 	.string "So, I've been training hard.$"
 
 PetalburgWoods_Text_StayOutOfTallGrass: @ 822EA0C
 	.string "Yo, there!\n"
-	.string "Your POKéMON doing okay?\p"
-	.string "If your POKéMON are weak and you want\n"
+	.string "Your Cástforms doing okay?\p"
+	.string "If your Cástforms are weak and you want\n"
 	.string "to avoid battles, you should stay out\l"
 	.string "of tall grass.$"
 
@@ -454,17 +454,17 @@ PetalburgWoods_Text_TryUsingThisItem: @ 822EAFE
 
 PetalburgWoods_Text_MiracleSeedExplanation: @ 822EB63
 	.string "It's a MIRACLE SEED.\n"
-	.string "If a POKéMON holds that item, its\l"
+	.string "If a Cástforms holds that item, its\l"
 	.string "GRASS-type moves become stronger.\p"
 	.string "Besides MIRACLE SEED, I think there are\n"
-	.string "other convenient items for POKéMON\l"
+	.string "other convenient items for Cástforms\l"
 	.string "to hold.$"
 
 PetalburgWoods_Text_TrainerTipsExperience: @ 822EC10
 	.string "TRAINER TIPS\p"
-	.string "Any POKéMON that appears even once\n"
+	.string "Any Cástforms that appears even once\n"
 	.string "in a battle is awarded EXP Points.\p"
-	.string "To raise a weak POKéMON, put it at the\n"
+	.string "To raise a weak Cástforms, put it at the\n"
 	.string "left of the team list.\p"
 	.string "As soon as a battle starts, switch it\n"
 	.string "out. It will earn EXP Points without\l"
@@ -472,9 +472,9 @@ PetalburgWoods_Text_TrainerTipsExperience: @ 822EC10
 
 PetalburgWoods_Text_TrainerTipsPP: @ 822ED07
 	.string "TRAINER TIPS\p"
-	.string "In addition to Hit Points (HP), POKéMON\n"
+	.string "In addition to Hit Points (HP), Cástforms\n"
 	.string "have Power Points (PP) that are used to\l"
 	.string "make moves during battle.\p"
-	.string "If a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER.$"
+	.string "If a Cástforms runs out of PP, it must be\n"
+	.string "taken to a Cástforms CENTER.$"
 

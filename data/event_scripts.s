@@ -839,11 +839,11 @@ Common_EventScript_PlayerHandedOverTheItem:: @ 82723E4
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign:: @ 8272B6A
 	.string "“Selected items for your convenience!”\n"
-	.string "POKéMON MART$"
+	.string "Cástforms MART$"
 
 gText_PokemonCenterSign:: @ 8272B9E
 	.string "“Rejuvenate your tired partners!”\n"
-	.string "POKéMON CENTER$"
+	.string "Cástforms CENTER$"
 
 gText_MomOrDadMightLikeThisProgram:: @ 8272BCF
 	.string "{STR_VAR_1} might like this program.\n"
@@ -863,12 +863,12 @@ gText_SelectWithoutRegisteredItem:: @ 8272C98
 	.string "registered to SELECT for easy use.$"
 
 gText_PokemonTrainerSchoolEmail:: @ 8272CD5
-	.string "There's an e-mail from POKéMON TRAINER\n"
+	.string "There's an e-mail from Cástforms TRAINER\n"
 	.string "SCHOOL.\p"
 	.string "… … … … … …\p"
-	.string "A POKéMON may learn up to four moves.\p"
+	.string "A Cástforms may learn up to four moves.\p"
 	.string "A TRAINER's expertise is tested on the\n"
-	.string "move sets chosen for POKéMON.\p"
+	.string "move sets chosen for Cástforms.\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC:: @ 8272D87
@@ -883,7 +883,7 @@ gText_UnusedNicknameReceivedPokemon:: @ 8272DB3
 
 gText_PlayerWhitedOut:: @ 8272DE3
 	.string "{PLAYER} is out of usable\n"
-	.string "POKéMON!\p{PLAYER} whited out!$"
+	.string "Cástforms!\p{PLAYER} whited out!$"
 
 gText_RegisteredTrainerinPokeNav:: @ 8272E0F
 	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
@@ -899,12 +899,12 @@ gText_ComeBackWithSecretPower:: @ 8272E30
 	.string "you good stuff in secrecy.$"
 
 gText_PokerusExplanation:: @ 8272F07
-	.string "Your POKéMON may be infected with\n"
+	.string "Your Cástforms may be infected with\n"
 	.string "POKéRUS.\p"
 	.string "Little is known about the POKéRUS\n"
 	.string "except that they are microscopic life-\l"
-	.string "forms that attach to POKéMON.\p"
-	.string "While infected, POKéMON are said to\n"
+	.string "forms that attach to Cástforms.\p"
+	.string "While infected, Cástforms are said to\n"
 	.string "grow exceptionally well.$"
 
 	.include "data/text/surf.inc"
@@ -918,7 +918,7 @@ gText_BigHoleInTheWall:: @ 827304E
 
 gText_SorryWirelessClubAdjustments:: @ 827306F
 	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
+	.string "The Cástforms WIRELESS CLUB is\l"
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments:: @ 82730BC

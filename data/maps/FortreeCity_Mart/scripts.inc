@@ -52,6 +52,6 @@ FortreeCity_Mart_Text_StockUpOnItems: @ 8217715
 	.string "Better to be safe than sorry!$"
 
 FortreeCity_Mart_Text_RareCandyMakesMonGrow: @ 821778E
-	.string "A RARE CANDY makes a POKéMON grow\n"
+	.string "A RARE CANDY makes a Cástforms grow\n"
 	.string "immediately by one level.$"
 

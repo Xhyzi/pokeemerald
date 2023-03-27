@@ -77,9 +77,9 @@ LilycoveCity_CoveLilyMotel_1F_Movement_OwnerReturn: @ 8218260
 
 LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot: @ 8218264
 	.string "Hm, so they doubled the guests by\n"
-	.string "using POKéMON as attractions?\p"
+	.string "using Cástforms as attractions?\p"
 	.string "Hm, well, maybe I should make a cute\n"
-	.string "POKéMON our inn's mascot.\p"
+	.string "Cástforms our inn's mascot.\p"
 	.string "I wonder if that will attract more\n"
 	.string "guests to stay with us?$"
 
@@ -94,10 +94,10 @@ LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV: @ 821839B
 	.string "I can't see the TV!$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem: @ 82183C3
-	.string "Amazing! You're telling me a POKéMON\n"
+	.string "Amazing! You're telling me a Cástforms\n"
 	.string "found someone's lost item?\p"
 	.string "That's something. If we had some smart\n"
-	.string "POKéMON like that…\p"
+	.string "Cástforms like that…\p"
 	.string "We could recover anything that our\n"
 	.string "guests mislaid…$"
 
@@ -112,10 +112,10 @@ LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted: @ 8218470
 	.string "GAME something…$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar: @ 8218544
-	.string "Amazing! A house-sitting POKéMON\n"
+	.string "Amazing! A house-sitting Cástforms\n"
 	.string "caught a burglar?\p"
 	.string "That's something. If we had a tough\n"
-	.string "POKéMON as a security guard…\p"
+	.string "Cástforms as a security guard…\p"
 	.string "We would be able to provide our guests\n"
 	.string "with greater safety.$"
 

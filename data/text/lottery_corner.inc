@@ -1,11 +1,11 @@
 LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket: @ 82A6390
-	.string "This is the POKéMON LOTTERY CORNER.\p"
+	.string "This is the Cástforms LOTTERY CORNER.\p"
 	.string "All shoppers at our DEPARTMENT STORE\n"
-	.string "get to draw a POKéMON LOTO TICKET.\p"
+	.string "get to draw a Cástforms LOTO TICKET.\p"
 	.string "If the LOTO TICKET's number matches\n"
-	.string "the ID number of any of your POKéMON,\l"
+	.string "the ID number of any of your Cástforms,\l"
 	.string "you will receive a fabulous gift.\p"
-	.string "Would you like to draw a POKéMON\n"
+	.string "Would you like to draw a Cástforms\n"
 	.string "LOTO TICKET?$"
 
 LilycoveCity_DepartmentStore_1F_Text_ComeBackTomorrow: @ 82A6496
@@ -22,7 +22,7 @@ LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait: @ 82A650B
 	.string "The LOTO TICKET number is {STR_VAR_1}.\p"
 	.string "I need to run a check on this number\n"
 	.string "to see if it matches any of your\l"
-	.string "POKéMON's ID numbers. Please wait.$"
+	.string "Cástforms's ID numbers. Please wait.$"
 
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon: @ 82A6592
 	.string "Congratulations!\p"

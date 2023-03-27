@@ -1476,7 +1476,7 @@ SootopolisCity_Movement_DestroyTask:: @ 81E656D
 	step_end
 
 SootopolisCity_Text_GymSign: @ 81E656F
-	.string "SOOTOPOLIS CITY POKéMON GYM\n"
+	.string "SOOTOPOLIS CITY Cástforms GYM\n"
 	.string "LEADER: JUAN\p"
 	.string "“The GYM LEADER with the beauty\n"
 	.string "of pure water!”$"
@@ -1496,17 +1496,17 @@ SootopolisCity_Text_PhysicallyFitLivingHere: @ 81E6618
 	.string "getting physically fit.$"
 
 SootopolisCity_Text_GiantPokemonSuddenlyAppeared: @ 81E6692
-	.string "These giant POKéMON suddenly appeared\n"
+	.string "These giant Cástforms suddenly appeared\n"
 	.string "in the middle of the city!\p"
 	.string "And, I've never seen them before!\p"
 	.string "Why are they smashing into each\n"
 	.string "other like that?\p"
 	.string "Why can't they be friends, those\n"
-	.string "POKéMON?$"
+	.string "Cástforms?$"
 
 SootopolisCity_Text_WhatIsThatGreenPokemon: @ 81E6750
 	.string "What? What? What?\n"
-	.string "What is that green POKéMON?!$"
+	.string "What is that green Cástforms?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo: @ 81E677F
 	.string "GROUDON and KYOGRE…\n"
@@ -1516,14 +1516,14 @@ SootopolisCity_Text_WhereDidLegendariesGo: @ 81E677F
 
 SootopolisCity_Text_TwoPokemonArentAngry: @ 81E67DC
 	.string "I just get this sense somehow that\n"
-	.string "the two POKéMON aren't angry.\p"
+	.string "the two Cástforms aren't angry.\p"
 	.string "I think… They probably can't control\n"
 	.string "their own power…$"
 
 SootopolisCity_Text_FlyingMonStoppedRampage: @ 81E6853
-	.string "That flying POKéMON came down from\n"
+	.string "That flying Cástforms came down from\n"
 	.string "the sky and stopped the rampaging\l"
-	.string "POKéMON…$"
+	.string "Cástforms…$"
 
 SootopolisCity_Text_WonderWhatWorldIsLike: @ 81E68A1
 	.string "I… I've never been out of this city.\p"
@@ -1539,13 +1539,13 @@ SootopolisCity_Text_ThatWasWicked: @ 81E6920
 	.string "That was wicked!$"
 
 SootopolisCity_Text_GoRedAndBlueMon: @ 81E6936
-	.string "Go for it, red POKéMON!\n"
-	.string "Don't back off, blue POKéMON!$"
+	.string "Go for it, red Cástforms!\n"
+	.string "Don't back off, blue Cástforms!$"
 
 SootopolisCity_Text_DoYouKnowMonNames: @ 81E696C
 	.string "… … … … … …\p"
 	.string "Hi, do you know the names of those\n"
-	.string "POKéMON fighting over there?$"
+	.string "Cástforms fighting over there?$"
 
 SootopolisCity_Text_GreenOneSettlesThings: @ 81E69B8
 	.string "I was wondering which one would win,\n"
@@ -1556,7 +1556,7 @@ SootopolisCity_Text_GreenOneSettlesThings: @ 81E69B8
 SootopolisCity_Text_SeeingLegendWithOwnEyes: @ 81E6A50
 	.string "There's an ancient legend that claims\n"
 	.string "the land and sea were shaped by\l"
-	.string "a colossal battle between POKéMON.\p"
+	.string "a colossal battle between Cástforms.\p"
 	.string "Well, I'm seeing that happen with\n"
 	.string "my very own eyes!\p"
 	.string "Whoa! I never expected to be\n"
@@ -1565,19 +1565,19 @@ SootopolisCity_Text_SeeingLegendWithOwnEyes: @ 81E6A50
 SootopolisCity_Text_SawLegendWithOwnEyes: @ 81E6B2A
 	.string "There's an ancient legend that claims\n"
 	.string "the land and sea were shaped by\l"
-	.string "a colossal battle between POKéMON.\p"
+	.string "a colossal battle between Cástforms.\p"
 	.string "Well, I saw that happen with\n"
 	.string "my very own eyes!\p"
 	.string "Whoa! I never expected to be\n"
 	.string "witness to something this huge!$"
 
 SootopolisCity_Text_BigPokemonFighting: @ 81E6BFF
-	.string "A big POKéMON is fighting with\n"
-	.string "another big POKéMON!\p"
+	.string "A big Cástforms is fighting with\n"
+	.string "another big Cástforms!\p"
 	.string "Please, someone make them stop!$"
 
 SootopolisCity_Text_PrettyMonCameFromSky: @ 81E6C53
-	.string "A pretty POKéMON came down from\n"
+	.string "A pretty Cástforms came down from\n"
 	.string "the sky…$"
 
 SootopolisCity_Text_SootopolisWillBeWrecked: @ 81E6C7C
@@ -1600,7 +1600,7 @@ SootopolisCity_Text_CityRegainedCalm: @ 81E6D57
 SootopolisCity_Text_CaveOfOriginPleaseLeave: @ 81E6D77
 	.string "Who might you be?\p"
 	.string "This is the CAVE OF ORIGIN.\p"
-	.string "The spirits of POKéMON, becalmed at\n"
+	.string "The spirits of Cástforms, becalmed at\n"
 	.string "MT. PYRE, are said to be revived here.\p"
 	.string "Please leave.$"
 
@@ -1608,7 +1608,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave: @ 81E6DFE
 	.string "A person with a strong will and\n"
 	.string "superior talent…\p"
 	.string "A TRAINER who has knowledge and\n"
-	.string "experience of many kinds of POKéMON…\p"
+	.string "experience of many kinds of Cástforms…\p"
 	.string "If such a person were to appear, I was\n"
 	.string "instructed by WALLACE to lead that\l"
 	.string "TRAINER to this CAVE.$"
@@ -1616,8 +1616,8 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave: @ 81E6DFE
 SootopolisCity_Text_AwakenedPokemonClash: @ 81E6ED4
 	.string "Oh, my…\p"
 	.string "The clash between the two awakened\n"
-	.string "POKéMON was quelled by the awakening\l"
-	.string "of a third POKéMON…$"
+	.string "Cástforms was quelled by the awakening\l"
+	.string "of a third Cástforms…$"
 
 SootopolisCity_Text_CaveOfOriginSleepsToo: @ 81E6F38
 	.string "This is the CAVE OF ORIGIN…\p"
@@ -1634,12 +1634,12 @@ SootopolisCity_Text_SootopolisSkyBeautiful: @ 81E6F90
 	.string "SOOTOPOLIS the most beautiful.$"
 
 SootopolisCity_Text_GiganticPokemonFight: @ 81E7078
-	.string "When two POKéMON that gigantic\n"
+	.string "When two Cástforms that gigantic\n"
 	.string "are fighting that savagely, there's\l"
 	.string "not much that we can do.$"
 
 SootopolisCity_Text_FearedWorstWhenPokemonFlewDown: @ 81E70D4
-	.string "When that third POKéMON flew down,\n"
+	.string "When that third Cástforms flew down,\n"
 	.string "I feared the worst.$"
 
 SootopolisCity_Text_NightSkyFavoriteScenery: @ 81E710B
@@ -1658,12 +1658,12 @@ SootopolisCity_Text_WeatherWentWild: @ 81E71A1
 	.string "The weather just went completely\n"
 	.string "wild!\p"
 	.string "Is all of this because of those\n"
-	.string "POKéMON?$"
+	.string "Cástforms?$"
 
 SootopolisCity_Text_YouBroughtFlyingMon: @ 81E728C
 	.string "Oh?\p"
 	.string "It was you who brought that flying\n"
-	.string "POKéMON here?\p"
+	.string "Cástforms here?\p"
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop: @ 81E72DB
@@ -1674,10 +1674,10 @@ SootopolisCity_Text_GroudonPleaseStop: @ 81E72DB
 	.string "SOOTOPOLIS, will be utterly ruined!$"
 
 SootopolisCity_Text_AfterAllOurScheming: @ 81E737E
-	.string "MAXIE: So the super-ancient POKéMON\n"
+	.string "MAXIE: So the super-ancient Cástforms\n"
 	.string "weren't only GROUDON and KYOGRE…\p"
 	.string "After all our fruitless scheming and\n"
-	.string "frantic efforts, that one POKéMON's\l"
+	.string "frantic efforts, that one Cástforms's\l"
 	.string "simple action puts everything right\l"
 	.string "again as if nothing had happened…\p"
 	.string "Fu…\n"
@@ -1701,12 +1701,12 @@ SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
 	.string "Hahaha…\p"
 	.string "Maybe what we were trying to do was\n"
 	.string "something small, even meaningless,\l"
-	.string "to POKéMON…$"
+	.string "to Cástforms…$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
-	.string "STEVEN: Those POKéMON fighting…\n"
+	.string "STEVEN: Those Cástforms fighting…\n"
 	.string "GROUDON… And KYOGRE…\p"
-	.string "The two super-ancient POKéMON\n"
+	.string "The two super-ancient Cástforms\n"
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
 	.string "with their uncontrollable energy…\p"
@@ -1721,9 +1721,9 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
 SootopolisCity_Text_DoesThisMakeYourFearPokemon: @ 81E7737
 	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
 	.string "Does seeing GROUDON and KYOGRE make\n"
-	.string "you think POKéMON are to be feared?\p"
+	.string "you think Cástforms are to be feared?\p"
 	.string "But that's not true.\n"
-	.string "POKéMON are really more…\p"
+	.string "Cástforms are really more…\p"
 	.string "…Why am I asking you this?\n"
 	.string "You already know.$"
 
@@ -1746,7 +1746,7 @@ SootopolisCity_Text_NeverBeenToSkyPillar: @ 81E789A
 SootopolisCity_Text_SoThatsRayquaza: @ 81E78E5
 	.string "STEVEN: So that's RAYQUAZA…\p"
 	.string "It's incredible how the two rampaging\n"
-	.string "POKéMON would flee from it in fear…$"
+	.string "Cástforms would flee from it in fear…$"
 
 SootopolisCity_Text_MaxieArchieLeft: @ 81E794B
 	.string "STEVEN: It looks like both MAXIE and\n"
@@ -1781,7 +1781,7 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis: @ 81E7ACF
 SootopolisCity_Text_ExplainWaterfallGoToGym: @ 81E7B86
 	.string "That HIDDEN MACHINE contains\n"
 	.string "WATERFALL.\p"
-	.string "If you have the RAIN BADGE, a POKéMON\n"
+	.string "If you have the RAIN BADGE, a Cástforms\n"
 	.string "that has learned that HM move can\l"
 	.string "force its way up waterfalls.\p"
 	.string "And where does one get the RAIN BADGE?\n"

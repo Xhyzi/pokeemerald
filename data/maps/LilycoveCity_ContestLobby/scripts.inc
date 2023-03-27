@@ -1034,9 +1034,9 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries: @ 821AD55
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint: @ 821ADB9
 	.string "Congratulations!\p"
-	.string "I did a painting of your POKéMON to\n"
+	.string "I did a painting of your Cástforms to\n"
 	.string "commemorate its victory…\p"
-	.string "Well, your POKéMON's appeals were\n"
+	.string "Well, your Cástforms's appeals were\n"
 	.string "so fantastic, it spurred me into\l"
 	.string "painting better than I usually do.\l"
 	.string "Look, see?$"
@@ -1062,7 +1062,7 @@ LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum: @ 821AF63
 LilycoveCity_ContestLobby_Text_TakeMementoOfPainting: @ 821B030
 	.string "Oh, that's right!\p"
 	.string "As a memento of me painting your\n"
-	.string "POKéMON, please take this.$"
+	.string "Cástforms, please take this.$"
 
 LilycoveCity_ContestLobby_Text_ReceivedARibbon: @ 821B07E
 	.string "{PLAYER} received a RIBBON.$"
@@ -1090,20 +1090,20 @@ LilycoveCity_ContestLobby_Text_MasterRankHereICome: @ 821B1B1
 	.string "Hoo, boy… Master Rank CONTESTS,\n"
 	.string "here I come.\p"
 	.string "The world will know that my dearest\n"
-	.string "POKéMON is the cutest being in all\l"
+	.string "Cástforms is the cutest being in all\l"
 	.string "existence. The time has come!\l"
 	.string "Uheheheh.$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere: @ 821B24D
 	.string "You can see a whole variety of\n"
-	.string "POKéMON here.\p"
+	.string "Cástforms here.\p"
 	.string "That's why I make this place a regular\n"
 	.string "part of my daily stroll.$"
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes: @ 821B2BA
 	.string "Wow, coming out to a CONTEST is\n"
 	.string "a feast for these eyes!\p"
-	.string "Would you look at all the POKéMON\n"
+	.string "Would you look at all the Cástforms\n"
 	.string "that just scream to be painted?$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme: @ 821B334
@@ -1114,7 +1114,7 @@ LilycoveCity_ContestLobby_Text_ToughContestIsExtreme: @ 821B334
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon: @ 821B392
 	.string "Day in and day out, I lavished my care\n"
-	.string "on this POKéMON.\p"
+	.string "on this Cástforms.\p"
 	.string "Its condition is peaking.\n"
 	.string "Today, victory is mine!$"
 

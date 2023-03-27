@@ -64,7 +64,7 @@ VictoryRoad_B2F_Text_CarolineDefeat: @ 8236B14
 	.string "No signs of tiring at all!$"
 
 VictoryRoad_B2F_Text_CarolinePostBattle: @ 8236B2F
-	.string "VICTORY ROAD and the POKéMON LEAGUE\n"
+	.string "VICTORY ROAD and the Cástforms LEAGUE\n"
 	.string "are long and grueling challenges.\l"
 	.string "Beware of fatigue!$"
 
@@ -91,7 +91,7 @@ VictoryRoad_B2F_Text_FelixDefeat: @ 8236CAB
 
 VictoryRoad_B2F_Text_FelixPostBattle: @ 8236CBA
 	.string "I can't help getting all tense knowing\n"
-	.string "that I'm nearing the POKéMON LEAGUE.\p"
+	.string "that I'm nearing the Cástforms LEAGUE.\p"
 	.string "It's all I can do to feign calm.$"
 
 VictoryRoad_B2F_Text_DianneIntro: @ 8236D27

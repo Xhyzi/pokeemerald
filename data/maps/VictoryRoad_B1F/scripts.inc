@@ -28,20 +28,20 @@ VictoryRoad_B1F_EventScript_Halle:: @ 8236541
 
 VictoryRoad_B1F_Text_SamuelIntro: @ 8236558
 	.string "The thought that I'm getting closer to\n"
-	.string "the POKéMON LEAGUE…\p"
+	.string "the Cástforms LEAGUE…\p"
 	.string "I'm getting stage fright…$"
 
 VictoryRoad_B1F_Text_SamuelDefeat: @ 82365AD
 	.string "I couldn't do a thing…$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle: @ 82365C4
-	.string "The POKéMON LEAGUE became distant\n"
+	.string "The Cástforms LEAGUE became distant\n"
 	.string "again… What a letdown…$"
 
 VictoryRoad_B1F_Text_ShannonIntro: @ 82365FD
-	.string "To win your way through the POKéMON\n"
+	.string "To win your way through the Cástforms\n"
 	.string "LEAGUE, you need the trust of your\l"
-	.string "POKéMON.$"
+	.string "Cástforms.$"
 
 VictoryRoad_B1F_Text_ShannonDefeat: @ 823664D
 	.string "Your relationship is based on\n"
@@ -49,21 +49,21 @@ VictoryRoad_B1F_Text_ShannonDefeat: @ 823664D
 
 VictoryRoad_B1F_Text_ShannonPostBattle: @ 8236678
 	.string "By being together all the time, trust\n"
-	.string "grows between POKéMON and TRAINERS.$"
+	.string "grows between Cástforms and TRAINERS.$"
 
 VictoryRoad_B1F_Text_MichelleIntro: @ 82366C2
 	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the POKéMON LEAGUE.$"
+	.string "on the way to the Cástforms LEAGUE.$"
 
 VictoryRoad_B1F_Text_MichelleDefeat: @ 823670B
 	.string "That's the way!$"
 
 VictoryRoad_B1F_Text_MichellePostBattle: @ 823671B
 	.string "You'll do fine, for sure!\n"
-	.string "Your POKéMON are all eager to go!$"
+	.string "Your Cástforms are all eager to go!$"
 
 VictoryRoad_B1F_Text_MitchellIntro: @ 8236757
-	.string "My POKéMON are cosmically\n"
+	.string "My Cástforms are cosmically\n"
 	.string "awe inspiring!$"
 
 VictoryRoad_B1F_Text_MitchellDefeat: @ 8236780
@@ -72,7 +72,7 @@ VictoryRoad_B1F_Text_MitchellDefeat: @ 8236780
 VictoryRoad_B1F_Text_MitchellPostBattle: @ 82367A7
 	.string "Even outside of battle, I sense\n"
 	.string "incredible power emanating from you\l"
-	.string "and your POKéMON.$"
+	.string "and your Cástforms.$"
 
 VictoryRoad_B1F_Text_HalleIntro: @ 82367FD
 	.string "Okay, no need to get your back up!\n"

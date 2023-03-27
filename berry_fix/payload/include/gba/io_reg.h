@@ -99,9 +99,9 @@
 #define REG_OFFSET_DMA0SAD     0xb0
 #define REG_OFFSET_DMA0SAD_L   0xb0
 #define REG_OFFSET_DMA0SAD_H   0xb2
-#define REG_OFFSET_DMA0DAD     0xb4
-#define REG_OFFSET_DMA0DAD_L   0xb4
-#define REG_OFFSET_DMA0DAD_H   0xb6
+#define REG_OFFSET_DMA0Castform     0xb4
+#define REG_OFFSET_DMA0Castform_L   0xb4
+#define REG_OFFSET_DMA0Castform_H   0xb6
 #define REG_OFFSET_DMA0CNT     0xb8
 #define REG_OFFSET_DMA0CNT_L   0xb8
 #define REG_OFFSET_DMA0CNT_H   0xba
@@ -109,9 +109,9 @@
 #define REG_OFFSET_DMA1SAD     0xbc
 #define REG_OFFSET_DMA1SAD_L   0xbc
 #define REG_OFFSET_DMA1SAD_H   0xbe
-#define REG_OFFSET_DMA1DAD     0xc0
-#define REG_OFFSET_DMA1DAD_L   0xc0
-#define REG_OFFSET_DMA1DAD_H   0xc2
+#define REG_OFFSET_DMA1Castform     0xc0
+#define REG_OFFSET_DMA1Castform_L   0xc0
+#define REG_OFFSET_DMA1Castform_H   0xc2
 #define REG_OFFSET_DMA1CNT     0xc4
 #define REG_OFFSET_DMA1CNT_L   0xc4
 #define REG_OFFSET_DMA1CNT_H   0xc6
@@ -119,9 +119,9 @@
 #define REG_OFFSET_DMA2SAD     0xc8
 #define REG_OFFSET_DMA2SAD_L   0xc8
 #define REG_OFFSET_DMA2SAD_H   0xca
-#define REG_OFFSET_DMA2DAD     0xcc
-#define REG_OFFSET_DMA2DAD_L   0xcc
-#define REG_OFFSET_DMA2DAD_H   0xce
+#define REG_OFFSET_DMA2Castform     0xcc
+#define REG_OFFSET_DMA2Castform_L   0xcc
+#define REG_OFFSET_DMA2Castform_H   0xce
 #define REG_OFFSET_DMA2CNT     0xd0
 #define REG_OFFSET_DMA2CNT_L   0xd0
 #define REG_OFFSET_DMA2CNT_H   0xd2
@@ -129,9 +129,9 @@
 #define REG_OFFSET_DMA3SAD     0xd4
 #define REG_OFFSET_DMA3SAD_L   0xd4
 #define REG_OFFSET_DMA3SAD_H   0xd6
-#define REG_OFFSET_DMA3DAD     0xd8
-#define REG_OFFSET_DMA3DAD_L   0xd8
-#define REG_OFFSET_DMA3DAD_H   0xda
+#define REG_OFFSET_DMA3Castform     0xd8
+#define REG_OFFSET_DMA3Castform_L   0xd8
+#define REG_OFFSET_DMA3Castform_H   0xda
 #define REG_OFFSET_DMA3CNT     0xdc
 #define REG_OFFSET_DMA3CNT_L   0xdc
 #define REG_OFFSET_DMA3CNT_H   0xde
@@ -276,25 +276,25 @@
 
 #define REG_ADDR_DMA0        (REG_BASE + REG_OFFSET_DMA0)
 #define REG_ADDR_DMA0SAD     (REG_BASE + REG_OFFSET_DMA0SAD)
-#define REG_ADDR_DMA0DAD     (REG_BASE + REG_OFFSET_DMA0DAD)
+#define REG_ADDR_DMA0Castform     (REG_BASE + REG_OFFSET_DMA0Castform)
 #define REG_ADDR_DMA0CNT     (REG_BASE + REG_OFFSET_DMA0CNT)
 #define REG_ADDR_DMA0CNT_L   (REG_BASE + REG_OFFSET_DMA0CNT_L)
 #define REG_ADDR_DMA0CNT_H   (REG_BASE + REG_OFFSET_DMA0CNT_H)
 #define REG_ADDR_DMA1        (REG_BASE + REG_OFFSET_DMA1)
 #define REG_ADDR_DMA1SAD     (REG_BASE + REG_OFFSET_DMA1SAD)
-#define REG_ADDR_DMA1DAD     (REG_BASE + REG_OFFSET_DMA1DAD)
+#define REG_ADDR_DMA1Castform     (REG_BASE + REG_OFFSET_DMA1Castform)
 #define REG_ADDR_DMA1CNT     (REG_BASE + REG_OFFSET_DMA1CNT)
 #define REG_ADDR_DMA1CNT_L   (REG_BASE + REG_OFFSET_DMA1CNT_L)
 #define REG_ADDR_DMA1CNT_H   (REG_BASE + REG_OFFSET_DMA1CNT_H)
 #define REG_ADDR_DMA2        (REG_BASE + REG_OFFSET_DMA2)
 #define REG_ADDR_DMA2SAD     (REG_BASE + REG_OFFSET_DMA2SAD)
-#define REG_ADDR_DMA2DAD     (REG_BASE + REG_OFFSET_DMA2DAD)
+#define REG_ADDR_DMA2Castform     (REG_BASE + REG_OFFSET_DMA2Castform)
 #define REG_ADDR_DMA2CNT     (REG_BASE + REG_OFFSET_DMA2CNT)
 #define REG_ADDR_DMA2CNT_L   (REG_BASE + REG_OFFSET_DMA2CNT_L)
 #define REG_ADDR_DMA2CNT_H   (REG_BASE + REG_OFFSET_DMA2CNT_H)
 #define REG_ADDR_DMA3        (REG_BASE + REG_OFFSET_DMA3)
 #define REG_ADDR_DMA3SAD     (REG_BASE + REG_OFFSET_DMA3SAD)
-#define REG_ADDR_DMA3DAD     (REG_BASE + REG_OFFSET_DMA3DAD)
+#define REG_ADDR_DMA3Castform     (REG_BASE + REG_OFFSET_DMA3Castform)
 #define REG_ADDR_DMA3CNT     (REG_BASE + REG_OFFSET_DMA3CNT)
 #define REG_ADDR_DMA3CNT_L   (REG_BASE + REG_OFFSET_DMA3CNT_L)
 #define REG_ADDR_DMA3CNT_H   (REG_BASE + REG_OFFSET_DMA3CNT_H)
@@ -438,25 +438,25 @@
 #define REG_FIFO_B      (*(vu32 *)REG_ADDR_FIFO_B)
 
 #define REG_DMA0SAD     (*(vu32 *)REG_ADDR_DMA0SAD)
-#define REG_DMA0DAD     (*(vu32 *)REG_ADDR_DMA0DAD)
+#define REG_DMA0Castform     (*(vu32 *)REG_ADDR_DMA0Castform)
 #define REG_DMA0CNT     (*(vu32 *)REG_ADDR_DMA0CNT)
 #define REG_DMA0CNT_L   (*(vu16 *)REG_ADDR_DMA0CNT_L)
 #define REG_DMA0CNT_H   (*(vu16 *)REG_ADDR_DMA0CNT_H)
 
 #define REG_DMA1SAD     (*(vu32 *)REG_ADDR_DMA1SAD)
-#define REG_DMA1DAD     (*(vu32 *)REG_ADDR_DMA1DAD)
+#define REG_DMA1Castform     (*(vu32 *)REG_ADDR_DMA1Castform)
 #define REG_DMA1CNT     (*(vu32 *)REG_ADDR_DMA1CNT)
 #define REG_DMA1CNT_L   (*(vu16 *)REG_ADDR_DMA1CNT_L)
 #define REG_DMA1CNT_H   (*(vu16 *)REG_ADDR_DMA1CNT_H)
 
 #define REG_DMA2SAD     (*(vu32 *)REG_ADDR_DMA2SAD)
-#define REG_DMA2DAD     (*(vu32 *)REG_ADDR_DMA2DAD)
+#define REG_DMA2Castform     (*(vu32 *)REG_ADDR_DMA2Castform)
 #define REG_DMA2CNT     (*(vu32 *)REG_ADDR_DMA2CNT)
 #define REG_DMA2CNT_L   (*(vu16 *)REG_ADDR_DMA2CNT_L)
 #define REG_DMA2CNT_H   (*(vu16 *)REG_ADDR_DMA2CNT_H)
 
 #define REG_DMA3SAD     (*(vu32 *)REG_ADDR_DMA3SAD)
-#define REG_DMA3DAD     (*(vu32 *)REG_ADDR_DMA3DAD)
+#define REG_DMA3Castform     (*(vu32 *)REG_ADDR_DMA3Castform)
 #define REG_DMA3CNT     (*(vu32 *)REG_ADDR_DMA3CNT)
 #define REG_DMA3CNT_L   (*(vu16 *)REG_ADDR_DMA3CNT_L)
 #define REG_DMA3CNT_H   (*(vu16 *)REG_ADDR_DMA3CNT_H)

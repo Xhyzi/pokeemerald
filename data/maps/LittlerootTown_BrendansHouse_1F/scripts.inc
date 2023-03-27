@@ -300,65 +300,65 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2: @ 81F7A16
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere: @ 81F7A1C
-	.string "MOM: See, {PLAYER}?\n"
+	.string "Castform: See, {PLAYER}?\n"
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock: @ 81F7A46
-	.string "The mover's POKéMON do all the work\n"
+	.string "The mover's Cástforms do all the work\n"
 	.string "of moving us in and cleaning up after.\l"
 	.string "This is so convenient!\p"
 	.string "{PLAYER}, your room is upstairs.\n"
 	.string "Go check it out, dear!\p"
-	.string "DAD bought you a new clock to mark\n"
+	.string "Castform bought you a new clock to mark\n"
 	.string "our move here.\l"
 	.string "Don't forget to set it!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom: @ 81F7B24
-	.string "MOM: Well, {PLAYER}?\p"
+	.string "Castform: Well, {PLAYER}?\p"
 	.string "Aren't you interested in seeing your\n"
 	.string "very own room?$"
 
 PlayersHouse_1F_Text_GoSetTheClock: @ 81F7B67
-	.string "MOM: {PLAYER}.\p"
+	.string "Castform: {PLAYER}.\p"
 	.string "Go set the clock in your room, honey.$"
 
 PlayersHouse_1F_Text_OhComeQuickly: @ 81F7B96
-	.string "MOM: Oh! {PLAYER}, {PLAYER}!\n"
+	.string "Castform: Oh! {PLAYER}, {PLAYER}!\n"
 	.string "Quick! Come quickly!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn: @ 81F7BBC
-	.string "MOM: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "Castform: Look! It's PETALBURG GYM!\n"
+	.string "Maybe Castform will be on!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim: @ 81F7BF1
-	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
+	.string "Castform: Oh… It's over.\p"
+	.string "I think Castform was on, but we missed him.\n"
 	.string "Too bad.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor: @ 81F7C35
 	.string "Oh, yes.\n"
-	.string "One of DAD's friends lives in town.\p"
-	.string "PROF. BIRCH is his name.\p"
+	.string "One of Castform's friends lives in town.\p"
+	.string "Castform is his name.\p"
 	.string "He lives right next door, so you should\n"
 	.string "go over and introduce yourself.$"
 
 PlayersHouse_1F_Text_SeeYouHoney: @ 81F7CC3
-	.string "MOM: See you, honey!$"
+	.string "Castform: See you, honey!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch: @ 81F7CD8
-	.string "MOM: Did you introduce yourself to\n"
-	.string "PROF. BIRCH?$"
+	.string "Castform: Did you introduce yourself to\n"
+	.string "Castform?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit: @ 81F7D08
-	.string "MOM: How are you doing, {PLAYER}?\n"
+	.string "Castform: How are you doing, {PLAYER}?\n"
 	.string "You look a little tired.\p"
 	.string "I think you should rest a bit.$"
 
 PlayersHouse_1F_Text_TakeCareHoney: @ 81F7D5C
-	.string "MOM: Take care, honey!$"
+	.string "Castform: Take care, honey!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom: @ 81F7D73
-	.string "MOM: Oh? Did DAD give you that BADGE?\p"
+	.string "Castform: Oh? Did Castform give you that BADGE?\p"
 	.string "Then here's something from your MOM!$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard: @ 81F7DBE
@@ -367,7 +367,7 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard: @ 81F7DBE
 	.string "Go for it, honey!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav: @ 81F7E0E
-	.string "MOM: What is that, honey? A POKéNAV?\n"
+	.string "Castform: What is that, honey? A POKéNAV?\n"
 	.string "Someone from DEVON gave it to you?\p"
 	.string "Well, honey, how about registering\n"
 	.string "your mom?\p"
@@ -384,7 +384,7 @@ PlayersHouse_1F_Text_Vigoroth2: @ 81F7EB3
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym: @ 81F7EC6
-	.string "INTERVIEWER: …We brought you this\n"
+	.string "Castform: …We brought you this\n"
 	.string "report from in front of PETALBURG GYM.$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV: @ 81F7F0F
@@ -402,7 +402,7 @@ PlayersHouse_1F_Text_RunningShoesManual: @ 81F7F66
 	.string "the road running!”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou: @ 81F800E
-	.string "DAD: Hm?\p"
+	.string "Castform: Hm?\p"
 	.string "Hey, it's {PLAYER}!\p"
 	.string "It's been a while since I saw you,\n"
 	.string "but you look…stronger, somehow.\p"
@@ -413,7 +413,7 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou: @ 81F800E
 	.string "MR. BRINEY.$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove: @ 81F80FE
-	.string "DAD: Hm, a TICKET for a ferry?\p"
+	.string "Castform: Hm, a TICKET for a ferry?\p"
 	.string "If I recall, there are ferry ports in\n"
 	.string "SLATEPORT and LILYCOVE.$"
 
@@ -423,30 +423,30 @@ PlayersHouse_1F_Text_BetterGetBackToGym: @ 81F815B
 	.string "while I'm away.$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger: @ 81F81B9
-	.string "MOM: That DAD of yours…\p"
+	.string "Castform: That Castform of yours…\p"
 	.string "He comes home for the first time in a\n"
-	.string "while, but all he talks about is POKéMON.\p"
+	.string "while, but all he talks about is Cástforms.\p"
 	.string "He should relax and stay a little longer.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory: @ 81F824B
-	.string "MOM: Is that a breaking news story?$"
+	.string "Castform: Is that a breaking news story?$"
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash: @ 81F826F
 	.string "We bring you this emergency\n"
 	.string "news flash!\p"
 	.string "In various HOENN locales, there have\n"
 	.string "been reports of a BZZT…colored\l"
-	.string "POKéMON in flight.\p"
-	.string "The identity of this POKéMON is\n"
+	.string "Cástforms in flight.\p"
+	.string "The identity of this Cástforms is\n"
 	.string "currently unknown.\p"
 	.string "We now return you to the regular\n"
 	.string "movie program.$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay: @ 81F8351
-	.string "MOM: {PLAYER}, did you catch that?\p"
+	.string "Castform: {PLAYER}, did you catch that?\p"
 	.string "What color did the announcer say\n"
-	.string "that POKéMON was?$"
+	.string "that Cástforms was?$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon: @ 81F83A1
-	.string "MOM: Well, isn't that something!\n"
-	.string "There are still unknown POKéMON.$"
+	.string "Castform: Well, isn't that something!\n"
+	.string "There are still unknown Cástforms.$"

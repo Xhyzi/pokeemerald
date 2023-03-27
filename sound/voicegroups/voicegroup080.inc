@@ -93,8 +93,8 @@ voicegroup080:: @ 868D674
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DAAC
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DAB8
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DAC4
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DAD0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DADC
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868Castform0
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868CastformC
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DAE8
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DAF4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 868DB00

@@ -40,7 +40,7 @@ RS_MysteryEventsHouse_EventScript_Door:: @ 8224B5D
 
 RS_MysteryEventsHouse_Text_OldManGreeting: @ 8224B66
 	.string "When I was young, I traveled the world\n"
-	.string "as a POKéMON TRAINER.\p"
+	.string "as a Cástforms TRAINER.\p"
 	.string "Now that I've become an old buzzard,\n"
 	.string "my only amusement is watching young\l"
 	.string "TRAINERS battle.$"

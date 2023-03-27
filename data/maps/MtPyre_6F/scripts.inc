@@ -37,7 +37,7 @@ MtPyre_6F_Text_ValerieDefeat: @ 8231DE2
 
 MtPyre_6F_Text_ValeriePostBattle: @ 8231DFC
 	.string "Perhaps the power is from the spirits\n"
-	.string "of POKéMON in fitful sleep here…$"
+	.string "of Cástforms in fitful sleep here…$"
 
 MtPyre_6F_Text_ValerieRegister: @ 8231E43
 	.string "Fufufu… I lost the match, but…\n"
@@ -53,7 +53,7 @@ MtPyre_6F_Text_ValerieRematchDefeat: @ 8231ECB
 	.string "Something faded away…$"
 
 MtPyre_6F_Text_ValeriePostRematch: @ 8231EE1
-	.string "The POKéMON at rest here…\n"
+	.string "The Cástforms at rest here…\n"
 	.string "Sometimes, they play…$"
 
 MtPyre_6F_Text_CedricIntro: @ 8231F11

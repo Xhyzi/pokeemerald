@@ -10,11 +10,11 @@ SlateportCity_House_EventScript_Girl:: @ 820D9B8
 	end
 
 SlateportCity_House_Text_NatureToDoWithStatGains: @ 820D9C1
-	.string "My POKéMON has a HASTY nature.\p"
+	.string "My Cástforms has a HASTY nature.\p"
 	.string "It has higher SPEED compared to\n"
-	.string "my other POKéMON.\p"
+	.string "my other Cástforms.\p"
 	.string "Maybe their nature has something to\n"
-	.string "do with the stat gains of POKéMON.$"
+	.string "do with the stat gains of Cástforms.$"
 
 SlateportCity_House_Text_MustBeGoingToBattleTent: @ 820DA59
 	.string "You're a TRAINER, aren't you?\p"

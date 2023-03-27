@@ -74,7 +74,7 @@ RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish: @ 8214F8F
 	.string "in PETALBURG WOODS.$"
 
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead: @ 8214FF1
-	.string "My POKéMON evolved.\n"
+	.string "My Cástforms evolved.\n"
 	.string "It has a lot of HP now.\p"
 	.string "I should buy SUPER POTIONS for it\n"
 	.string "instead of ordinary POTIONS.$"

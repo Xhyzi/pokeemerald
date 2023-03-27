@@ -6787,10 +6787,12 @@ const u8 *GetTrainerNameFromId(u16 trainerId)
 
 bool8 HasTwoFramesAnimation(u16 species)
 {
-    return (species != SPECIES_CASTFORM
+    // -> IT'S ALWAYS CASTFORM YOU DUMB SHIT
+    return FALSE;
+            /*(species != SPECIES_CASTFORM
             && species != SPECIES_DEOXYS
             && species != SPECIES_SPINDA
-            && species != SPECIES_UNOWN);
+            && species != SPECIES_UNOWN);*/
 }
 
 static bool8 ShouldSkipFriendshipChange(void)

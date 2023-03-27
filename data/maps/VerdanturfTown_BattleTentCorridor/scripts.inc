@@ -51,19 +51,19 @@ VerdanturfTown_ContestHall_Text_WhichContestYouEntering: @ 82020E7
 	.string "CONTEST, I don't think they judge you\l"
 	.string "only on cuteness in the first round.\p"
 	.string "You need to work out ways for raising\n"
-	.string "POKéMON better.$"
+	.string "Cástforms better.$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_RaisedMonToBeCute: @ 82021C4
-	.string "I raised my POKéMON to be cute.\p"
-	.string "I found out you can put POKéMON in\n"
+	.string "I raised my Cástforms to be cute.\p"
+	.string "I found out you can put Cástforms in\n"
 	.string "a CONTEST for cuteness!\p"
-	.string "I'm so glad I raised my POKéMON with\n"
+	.string "I'm so glad I raised my Cástforms with\n"
 	.string "loving care…$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_MyMonRules: @ 8202251
-	.string "My POKéMON rules!\p"
+	.string "My Cástforms rules!\p"
 	.string "It's cool, tough yet beautiful, cute,\n"
 	.string "and smart. It's complete!\p"
 	.string "I may as well go for wins in every\n"
@@ -71,6 +71,6 @@ VerdanturfTown_ContestHall_Text_MyMonRules: @ 8202251
 
 @ Unused
 VerdanturfTown_ContestHall_Text_NormalRankStage: @ 82022D6
-	.string "POKéMON CONTESTS\n"
+	.string "Cástforms CONTESTS\n"
 	.string "NORMAL RANK STAGE!$"
 

@@ -371,15 +371,15 @@ MossdeepCity_Gym_Text_GymGuideAdvice: @ 8220CD5
 	.string "Yo, how's it going, CHAMPION-bound\n"
 	.string "{PLAYER}?\p"
 	.string "The GYM LEADERS here use\n"
-	.string "PSYCHIC-type POKéMON.\p"
+	.string "PSYCHIC-type Cástforms.\p"
 	.string "If you go up against them with\n"
-	.string "FIGHTING- or POISON-type POKéMON,\l"
+	.string "FIGHTING- or POISON-type Cástforms,\l"
 	.string "they'll inflict horrible damage!\p"
 	.string "Plus, they'll come at you with\n"
 	.string "outstanding combination attacks.\p"
 	.string "If you want to win, you'll need to show\n"
 	.string "them how tight you are with your\l"
-	.string "POKéMON. Go for it!$"
+	.string "Cástforms. Go for it!$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory: @ 8220E2A
 	.string "Wow, you're astounding!\n"
@@ -417,7 +417,7 @@ MossdeepCity_Gym_Text_BlakeIntro: @ 8220FB0
 	.string "Sometimes, I'm out of sync…$"
 
 MossdeepCity_Gym_Text_BlakeDefeat: @ 8221024
-	.string "My POKéMON battling skills are out\n"
+	.string "My Cástforms battling skills are out\n"
 	.string "of sync, too!$"
 
 MossdeepCity_Gym_Text_BlakePostBattle: @ 8221055
@@ -538,7 +538,7 @@ MossdeepCity_Gym_Text_MaceyPostBattle: @ 8221680
 
 MossdeepCity_Gym_Text_NicholasIntro: @ 82216EE
 	.string "Wroooar! Have a taste of my super\n"
-	.string "POKéMON hard-battling power!$"
+	.string "Cástforms hard-battling power!$"
 
 MossdeepCity_Gym_Text_NicholasDefeat: @ 822172D
 	.string "Oh!\n"
@@ -546,7 +546,7 @@ MossdeepCity_Gym_Text_NicholasDefeat: @ 822172D
 
 MossdeepCity_Gym_Text_NicholasPostBattle: @ 822173A
 	.string "All right! I think I'll develop a special\n"
-	.string "invincible POKéMON power next.$"
+	.string "invincible Cástforms power next.$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
 	.string "TATE: Hehehe… Were you surprised?\p"
@@ -574,7 +574,7 @@ MossdeepCity_Gym_Text_ReceivedMindBadge: @ 822196A
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis: @ 8221999
 	.string "TATE: The MIND BADGE enhances the\n"
-	.string "SP. ATK and SP. DEF of POKéMON.\p"
+	.string "SP. ATK and SP. DEF of Cástforms.\p"
 	.string "LIZA: It also lets you use the HM move\n"
 	.string "DIVE outside of battle.\p"
 	.string "TATE: You should also take this, too.$"
@@ -585,7 +585,7 @@ MossdeepCity_Gym_Text_ExplainCalmMind: @ 8221A40
 	.string "TATE: It raises SP. ATK and…\n"
 	.string "LIZA: It raises SP. DEF!\p"
 	.string "TATE: It's a move that's perfect…\n"
-	.string "LIZA: For PSYCHIC POKéMON!\p"
+	.string "LIZA: For PSYCHIC Cástforms!\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza: @ 8221AEA
@@ -594,7 +594,7 @@ MossdeepCity_Gym_Text_RegisteredTateAndLiza: @ 8221AEA
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle: @ 8221B1D
 	.string "TATE: Looks like the bond between you\n"
-	.string "and your POKéMON is far stronger than\l"
+	.string "and your Cástforms is far stronger than\l"
 	.string "the bond that we share as twins.\p"
 	.string "LIZA: You will become even stronger!\n"
 	.string "We've battled you, so we know.$"
@@ -603,22 +603,22 @@ MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons: @ 8221BCE
 	.string "TATE: Hehehe… Were you surprised?\p"
 	.string "LIZA: That there are two GYM LEADERS?\p"
 	.string "TATE: Oops, you have only one…\n"
-	.string "LIZA: POKéMON that can battle.\p"
+	.string "LIZA: Cástforms that can battle.\p"
 	.string "TATE: We can't battle that way!\p"
 	.string "LIZA: If you want to challenge us,\n"
-	.string "bring some more POKéMON.$"
+	.string "bring some more Cástforms.$"
 
 MossdeepCity_Gym_Text_GymStatue: @ 8221CB0
-	.string "MOSSDEEP CITY POKéMON GYM$"
+	.string "MOSSDEEP CITY Cástforms GYM$"
 
 MossdeepCity_Gym_Text_GymStatueCertified: @ 8221CCA
-	.string "MOSSDEEP CITY POKéMON GYM\p"
+	.string "MOSSDEEP CITY Cástforms GYM\p"
 	.string "LIZA AND TATE'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B
-	.string "TATE: POKéMON…\n"
-	.string "LIZA: POKéMON…\p"
+	.string "TATE: Cástforms…\n"
+	.string "LIZA: Cástforms…\p"
 	.string "TATE: By changing the party's mix…\n"
 	.string "LIZA: The battle style changes.\p"
 	.string "TATE: But me…\n"
@@ -629,7 +629,7 @@ MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B
 	.string "LIZA: We'll show you again and again!$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat: @ 8221E05
-	.string "TATE: You and your POKéMON…\n"
+	.string "TATE: You and your Cástforms…\n"
 	.string "LIZA: It's as if you were siblings!$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch: @ 8221E45
@@ -645,7 +645,7 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons: @ 8221EB8
 	.string "LIZA: To give us a rematch.\p"
 	.string "TATE: But…\n"
 	.string "LIZA: For our match…\p"
-	.string "TATE: You brought just one POKéMON!\n"
-	.string "LIZA: You brought just one POKéMON!\p"
+	.string "TATE: You brought just one Cástforms!\n"
+	.string "LIZA: You brought just one Cástforms!\p"
 	.string "TATE: We need you to bring at least…\n"
-	.string "LIZA: Two POKéMON when you come back.$"
+	.string "LIZA: Two Cástforms when you come back.$"

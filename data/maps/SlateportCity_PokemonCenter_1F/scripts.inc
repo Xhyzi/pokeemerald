@@ -10,7 +10,7 @@ SlateportCity_PokemonCenter_1F_OnTransition: @ 820DACA
 	call Common_EventScript_UpdateBrineyLocation
 	end
 
-SlateportCity_PokemonCenter_1F_EventScript_Nurse:: @ 820DAD3
+SlateportCity_PokemonCenter_1F_EventScript_Nurse:: @ 820Castform3
 	setvar VAR_0x800B, LOCALID_NURSE
 	call Common_EventScript_PkmnCenterNurse
 	waitmessage
@@ -29,14 +29,14 @@ SlateportCity_PokemonCenter_1F_EventScript_Woman:: @ 820DAEA
 SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon: @ 820DAF3
 	.string "Want a tip for battling?\p"
 	.string "I'd say it's raising different kinds\n"
-	.string "of POKéMON in a balanced manner.\p"
+	.string "of Cástforms in a balanced manner.\p"
 	.string "It's no good to make just one\n"
-	.string "POKéMON strong.\p"
+	.string "Cástforms strong.\p"
 	.string "If it has a type disadvantage,\n"
 	.string "it might not stand a chance.$"
 
 SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend: @ 820DBBC
-	.string "I trade POKéMON with my friends.\p"
-	.string "If a traded POKéMON is holding an\n"
+	.string "I trade Cástforms with my friends.\p"
+	.string "If a traded Cástforms is holding an\n"
 	.string "item, it makes me twice as happy!$"
 

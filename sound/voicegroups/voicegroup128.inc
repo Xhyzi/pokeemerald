@@ -83,7 +83,7 @@ voicegroup128:: @ 869D6F4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869DAB4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869DAC0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869DACC
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869DAD8
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869Castform8
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869DAE4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869DAF0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 869DAFC

@@ -353,9 +353,9 @@ void SoundInit(struct SoundInfo *soundInfo)
     REG_SOUNDBIAS_H = (REG_SOUNDBIAS_H & 0x3F) | 0x40;
 
     REG_DMA1SAD = (s32)soundInfo->pcmBuffer;
-    REG_DMA1DAD = (s32)&REG_FIFO_A;
+    REG_DMA1Castform = (s32)&REG_FIFO_A;
     REG_DMA2SAD = (s32)soundInfo->pcmBuffer + PCM_DMA_BUF_SIZE;
-    REG_DMA2DAD = (s32)&REG_FIFO_B;
+    REG_DMA2Castform = (s32)&REG_FIFO_B;
 
     SOUND_INFO_PTR = soundInfo;
     CpuFill32(0, soundInfo, sizeof(struct SoundInfo));
