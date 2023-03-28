@@ -43,7 +43,7 @@ Route110_TrickHousePuzzle8_Text_VincentDefeat: @ 826E8F6
 	.string "That must mean you're tough, too…$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle: @ 826E918
-	.string "You've beaten the Cástforms LEAGUE\n"
+	.string "You've beaten the Castforms LEAGUE\n"
 	.string "CHAMPION? That's too much!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro: @ 826E954

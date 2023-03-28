@@ -80,7 +80,7 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit: @ 8229AD3
 	step_end
 
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad: @ 8229ADA
-	.string "The Cástforms LEAGUE is only a short\n"
+	.string "The Castforms LEAGUE is only a short\n"
 	.string "distance after the VICTORY ROAD.\p"
 	.string "If you've come this far, what choice\n"
 	.string "do you have but to keep going?$"
@@ -89,16 +89,16 @@ EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon: @ 8229B62
 	.string "The long and harrowing VICTORY ROAD…\p"
 	.string "It's like reliving the path one has\n"
 	.string "traveled in life…\p"
-	.string "Believe in your Cástforms and give it\n"
+	.string "Believe in your Castforms and give it\n"
 	.string "your very best!$"
 
 EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou: @ 8229BF1
 	.string "SCOTT: {PLAYER}{KUN}, you've clawed your\n"
-	.string "way up to face the Cástforms LEAGUE!\p"
+	.string "way up to face the Castforms LEAGUE!\p"
 	.string "I'm happy for you!\n"
 	.string "You made my cheering worthwhile!\p"
 	.string "{PLAYER}{KUN}, if you were to become\n"
-	.string "the Cástforms LEAGUE CHAMPION…\p"
+	.string "the Castforms LEAGUE CHAMPION…\p"
 	.string "I'll get in touch with you then.\p"
 	.string "Okay, {PLAYER}{KUN}.\n"
 	.string "Go for greatness!$"

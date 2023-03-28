@@ -54,7 +54,7 @@ InsideOfTruck_EventScript_MovingBox:: @ 823BF6C
 	end
 
 InsideOfTruck_Text_BoxPrintedWithMonLogo: @ 823BF75
-	.string "The box is printed with a Cástforms logo.\p"
-	.string "It's a Cástforms brand moving and\n"
+	.string "The box is printed with a Castforms logo.\p"
+	.string "It's a Castforms brand moving and\n"
 	.string "delivery service.$"
 

@@ -285,7 +285,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead: @ 825B1FB
 	.string "your heart and your body, understand?\p"
 	.string "I'll take you on under the same\n"
 	.string "conditions as you.\p"
-	.string "I'll be using rental Cástforms, too!$"
+	.string "I'll be using rental Castforms, too!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn: @ 825B3F1
 	.string "Shake out every last bit of your\n"

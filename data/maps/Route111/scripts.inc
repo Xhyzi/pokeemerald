@@ -598,7 +598,7 @@ Route111_Text_BattleOurFamily: @ 81F1475
 	.string "Hello! I take it you're a traveler.\p"
 	.string "How's this? What do you say to taking\n"
 	.string "on our family of four in a series of\l"
-	.string "Cástforms battles?$"
+	.string "Castforms battles?$"
 
 Route111_Text_IsThatSo: @ 81F14F5
 	.string "Is that so?\n"
@@ -656,10 +656,10 @@ Route111_Text_VickyPostBattle: @ 81F1788
 	.string "visit with us awhile.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks: @ 81F17BA
-	.string "If you don't raise your Cástforms some\n"
+	.string "If you don't raise your Castforms some\n"
 	.string "more, it could be tough to keep winning\l"
 	.string "up through the ranks.\p"
-	.string "I've heard the Cástforms LEAGUE's\n"
+	.string "I've heard the Castforms LEAGUE's\n"
 	.string "ELITE FOUR are far stronger than\l"
 	.string "any GYM LEADER.$"
 
@@ -690,7 +690,7 @@ Route111_Text_OldLadysRestStopSign: @ 81F194D
 
 Route111_Text_TrainerTipsSpAtkSpDef: @ 81F1987
 	.string "TRAINER TIPS\p"
-	.string "One of the indicators of a Cástforms's\n"
+	.string "One of the indicators of a Castforms's\n"
 	.string "powerfulness is SP. ATK. It stands for\l"
 	.string "“SPECIAL ATTACK.”\p"
 	.string "Likewise, SP. DEF stands for “SPECIAL\n"

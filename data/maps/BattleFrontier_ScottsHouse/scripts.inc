@@ -298,7 +298,7 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier: @ 8263FFE
 	.string "I think I remember you working on\n"
 	.string "a POKéDEX as well.\p"
 	.string "Well, guess what?\p"
-	.string "You may run into wild Cástforms in\n"
+	.string "You may run into wild Castforms in\n"
 	.string "the BATTLE FRONTIER somewhere…\l"
 	.string "Fufufu!$"
 

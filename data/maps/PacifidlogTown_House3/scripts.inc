@@ -87,6 +87,6 @@ PacifidlogTown_House3_Text_ReallyWantedToGetBagon: @ 8203E7F
 PacifidlogTown_House3_Text_IsThatAPokedex: @ 8203EF1
 	.string "Is that a POKéDEX?\p"
 	.string "Did you get to meet a lot of different\n"
-	.string "Cástforms?\p"
+	.string "Castforms?\p"
 	.string "I wish I was like you.$"
 

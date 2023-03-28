@@ -53,7 +53,7 @@ MtPyre_2F_Text_TumbledFromFloorAbove: @ 82311E6
 	.string "the floor above.$"
 
 MtPyre_2F_Text_MarkIntro: @ 8231258
-	.string "Hey! Are you searching for Cástforms?\n"
+	.string "Hey! Are you searching for Castforms?\n"
 	.string "You came along after me! You're rude!$"
 
 MtPyre_2F_Text_MarkDefeat: @ 82312A2
@@ -62,7 +62,7 @@ MtPyre_2F_Text_MarkDefeat: @ 82312A2
 
 MtPyre_2F_Text_MarkPostBattle: @ 82312CB
 	.string "People don't come here often, so\n"
-	.string "I thought there'd be rare Cástforms.$"
+	.string "I thought there'd be rare Castforms.$"
 
 MtPyre_2F_Text_LukeIntro: @ 823130F
 	.string "LUKE: We're here on a dare.\p"
@@ -81,7 +81,7 @@ MtPyre_2F_Text_LukePostBattle: @ 82313B1
 
 MtPyre_2F_Text_LukeNotEnoughMons: @ 8231414
 	.string "LUKE: If you want to take me on,\n"
-	.string "bring some more Cástforms.\p"
+	.string "bring some more Castforms.\p"
 	.string "If you don't, I won't be able to show\n"
 	.string "off to my girl how cool I am!$"
 
@@ -102,9 +102,9 @@ MtPyre_2F_Text_DezPostBattle: @ 823154D
 
 MtPyre_2F_Text_DezNotEnoughMons: @ 8231582
 	.string "DEZ: If you want to challenge us, you\n"
-	.string "should bring at least two Cástforms.\p"
+	.string "should bring at least two Castforms.\p"
 	.string "My boyfriend's strong.\n"
-	.string "Just one Cástforms won't do at all.$"
+	.string "Just one Castforms won't do at all.$"
 
 MtPyre_2F_Text_LeahIntro: @ 8231604
 	.string "You are an unfamiliar sight…\n"

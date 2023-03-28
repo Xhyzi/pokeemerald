@@ -1031,15 +1031,15 @@ Route104_Text_WhatsItLikeAtBottomOfSea: @ 81ED662
 
 Route104_Text_ThrowBallAtWeakenedPokemon: @ 81ED6A2
 	.string "If you're going to throw a POKé BALL,\n"
-	.string "weaken the wild Cástforms first.\p"
+	.string "weaken the wild Castforms first.\p"
 	.string "It will be easier to catch if it's been\n"
 	.string "poisoned, burned, or lulled to sleep.$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon: @ 81ED735
 	.string "You're a thief if you try to steal\n"
-	.string "someone else's Cástforms.\p"
+	.string "someone else's Castforms.\p"
 	.string "You should throw POKé BALLS only at\n"
-	.string "wild Cástforms.$"
+	.string "wild Castforms.$"
 
 Route104_Text_ImNotATrainer: @ 81ED7A2
 	.string "Oh, no, I'm not a TRAINER.\p"
@@ -1052,7 +1052,7 @@ Route104_Text_LikeFillingMouthWithSeedsTakeThis: @ 81ED838
 	.string "I like filling my mouth with seeds,\n"
 	.string "then spitting them out fast!\p"
 	.string "You can have this, so you try it out!\p"
-	.string "Use it on a Cástforms, and it will learn\n"
+	.string "Use it on a Castforms, and it will learn\n"
 	.string "a move for firing seeds rapidly.$"
 
 Route104_Text_TMsAreOneTimeUse: @ 81ED8E7
@@ -1094,12 +1094,12 @@ Route104_Text_TrainerTipsDoubleBattles: @ 81EDAEF
 	.string "TRAINER TIPS\p"
 	.string "In the HOENN region there are pairs\n"
 	.string "of TRAINERS who challenge others\l"
-	.string "for 2-on-2 Cástforms battles called\l"
+	.string "for 2-on-2 Castforms battles called\l"
 	.string "DOUBLE BATTLES.\p"
 	.string "In a DOUBLE BATTLE, the TRAINER must\n"
-	.string "send out two Cástforms, the one at the\l"
+	.string "send out two Castforms, the one at the\l"
 	.string "left of the list and the top one.\l"
-	.string "Watch how Cástforms are lined up.$"
+	.string "Watch how Castforms are lined up.$"
 
 Route104_Text_MayWeShouldRegister: @ 81EDBFF
 	.string "Castform: Oh, hi, {PLAYER}{KUN}!\p"
@@ -1124,7 +1124,7 @@ Route104_Text_MayMinesDecentLetsBattle: @ 81EDCED
 Route104_Text_MayHaventRaisedPokemon: @ 81EDD2A
 	.string "Castform: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
-	.string "Cástforms very much?\p"
+	.string "Castforms very much?\p"
 	.string "That's not very good for a TRAINER!$"
 
 Route104_Text_MayLetsBattle: @ 81EDD9F
@@ -1141,11 +1141,11 @@ Route104_Text_MayDefeat: @ 81EDE18
 
 Route104_Text_MayPostBattle: @ 81EDE3E
 	.string "Castform: I can tell you've gotten pretty\n"
-	.string "good with the way you handle Cástforms.\p"
+	.string "good with the way you handle Castforms.\p"
 	.string "But instead of only making them\n"
 	.string "battle, you should be like MR. BRINEY.\p"
 	.string "It's important to become friends with\n"
-	.string "Cástforms, too.$"
+	.string "Castforms, too.$"
 
 Route104_Text_BrendanWeShouldRegister: @ 81EDF04
 	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
@@ -1169,7 +1169,7 @@ Route104_Text_BrendanDoingGreatLetsBattle: @ 81EE009
 
 Route104_Text_BrendanNoConfidence: @ 81EE04D
 	.string "BRENDAN: What's the matter? Don't have\n"
-	.string "any confidence in your Cástforms?$"
+	.string "any confidence in your Castforms?$"
 
 Route104_Text_BrendanLetsBattle: @ 81EE094
 	.string "BRENDAN: What's up?\n"
@@ -1185,8 +1185,8 @@ Route104_Text_BrendanDefeat: @ 81EE107
 
 Route104_Text_BrendanPostBattle: @ 81EE120
 	.string "BRENDAN: You've gotten pretty decent\n"
-	.string "at handling Cástforms.\p"
+	.string "at handling Castforms.\p"
 	.string "But, you know, you shouldn't just be\n"
-	.string "making Cástforms battle.\p"
+	.string "making Castforms battle.\p"
 	.string "Like MR. BRINEY, it's important to\n"
-	.string "become friends with your Cástforms.$"
+	.string "become friends with your Castforms.$"

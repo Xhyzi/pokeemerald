@@ -3,25 +3,25 @@ MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce: @ 82C6E05
 	.string "once. Is that okay?$"
 
 MoveTutor_Text_SwaggerTeach: @ 82C6E37
-	.string "Heh! My Cástforms totally rules!\n"
-	.string "It's cooler than any Cástforms!\p"
+	.string "Heh! My Castforms totally rules!\n"
+	.string "It's cooler than any Castforms!\p"
 	.string "I was lipping off with a swagger in\n"
 	.string "my step like that when the CHAIRMAN\l"
 	.string "chewed me out.\p"
 	.string "That took the swagger out of my step.\p"
 	.string "If you'd like, I'll teach the move\n"
-	.string "SWAGGER to a Cástforms of yours.$"
+	.string "SWAGGER to a Castforms of yours.$"
 
 MoveTutor_Text_SwaggerDeclined: @ 82C6F33
 	.string "What, no? Can't you get into\n"
 	.string "the spirit of things?$"
 
 MoveTutor_Text_SwaggerWhichMon: @ 82C6F66
-	.string "All right, which Cástforms wants to\n"
+	.string "All right, which Castforms wants to\n"
 	.string "learn how to SWAGGER?$"
 
 MoveTutor_Text_SwaggerTaught: @ 82C6F9E
-	.string "I'll just praise my Cástforms from now\n"
+	.string "I'll just praise my Castforms from now\n"
 	.string "on without the swagger.$"
 
 MoveTutor_Text_RolloutTeach: @ 82C6FDB
@@ -30,7 +30,7 @@ MoveTutor_Text_RolloutTeach: @ 82C6FDB
 	.string "without changing direction?\p"
 	.string "I might even be able to roll\n"
 	.string "that way.\p"
-	.string "Do you think your Cástforms will\n"
+	.string "Do you think your Castforms will\n"
 	.string "want to roll, too?\p"
 	.string "I can teach one the move ROLLOUT\n"
 	.string "if you'd like.$"
@@ -41,7 +41,7 @@ MoveTutor_Text_RolloutDeclined: @ 82C70C4
 
 MoveTutor_Text_RolloutWhichMon: @ 82C70F3
 	.string "Ehehe, sure thing! It'd be great if\n"
-	.string "the Cástforms looked like me.$"
+	.string "the Castforms looked like me.$"
 
 MoveTutor_Text_RolloutTaught: @ 82C7133
 	.string "Rolling around in the grass makes me\n"
@@ -53,14 +53,14 @@ MoveTutor_Text_FuryCutterTeach: @ 82C7174
 	.string "It's a BUG-type move, and it is\n"
 	.string "wickedly cool.\p"
 	.string "It's called FURY CUTTER.\n"
-	.string "Want me to teach it to a Cástforms?$"
+	.string "Want me to teach it to a Castforms?$"
 
 MoveTutor_Text_FuryCutterDeclined: @ 82C7221
 	.string "We're not on the same wavelength.$"
 
 MoveTutor_Text_FuryCutterWhichMon: @ 82C7243
 	.string "Yay!\n"
-	.string "Show me which Cástforms I should teach.$"
+	.string "Show me which Castforms I should teach.$"
 
 MoveTutor_Text_FuryCutterTaught: @ 82C726E
 	.string "I get a thrill watching to see if\n"
@@ -77,11 +77,11 @@ MoveTutor_MimicTeach: @ 82C72B6
 
 MoveTutor_MimicDeclined: @ 82C737F
 	.string "Oh, boo! I wanted to teach MIMIC\n"
-	.string "to your Cástforms!$"
+	.string "to your Castforms!$"
 
 MoveTutor_Text_MimicWhichMon: @ 82C73B1
 	.string "Fwofwo! And so I shall!\n"
-	.string "Let me see the Cástforms\l"
+	.string "Let me see the Castforms\l"
 	.string "you wish me to teach.$"
 
 MoveTutor_Text_MimicTaught: @ 82C73F6
@@ -95,9 +95,9 @@ MoveTutor_Text_MetronomeTeach: @ 82C7449
 	.string "Wouldn't it be nice if there were\n"
 	.string "a spell that made money appear when\l"
 	.string "you waggle a finger?\p"
-	.string "If you want, I can teach your Cástforms\n"
+	.string "If you want, I can teach your Castforms\n"
 	.string "the move METRONOME.\p"
-	.string "Money won't appear, but your Cástforms\n"
+	.string "Money won't appear, but your Castforms\n"
 	.string "will waggle a finger. Yes?$"
 
 MoveTutor_Text_MetronomeDeclined: @ 82C7556
@@ -106,10 +106,10 @@ MoveTutor_Text_MetronomeDeclined: @ 82C7556
 
 MoveTutor_Text_MetronomeWhichMon: @ 82C7582
 	.string "Okay! I'll teach it!\n"
-	.string "Which Cástforms should I teach?$"
+	.string "Which Castforms should I teach?$"
 
 MoveTutor_Text_MetronomeTaught: @ 82C75B5
-	.string "When a Cástforms waggles its finger\n"
+	.string "When a Castforms waggles its finger\n"
 	.string "like a METRONOME, all sorts of nice\l"
 	.string "things happen.\p"
 	.string "Wouldn't it be nice if we could\n"
@@ -120,7 +120,7 @@ MoveTutor_Text_SleepTalkTeach: @ 82C7637
 	.string "POWER to stay awake.\p"
 	.string "She should just take a nap like I do,\n"
 	.string "and SLEEP TALK.\p"
-	.string "I can teach your Cástforms how to\n"
+	.string "I can teach your Castforms how to\n"
 	.string "SLEEP TALK instead. Interested?$"
 
 MoveTutor_Text_SleepTalkDeclined: @ 82C76E2
@@ -129,7 +129,7 @@ MoveTutor_Text_SleepTalkDeclined: @ 82C76E2
 
 MoveTutor_Text_SleepTalkWhichMon: @ 82C7721
 	.string "Ah, an appreciative child!\n"
-	.string "Which Cástforms should I teach?$"
+	.string "Which Castforms should I teach?$"
 
 MoveTutor_Text_SleepTalkTaught: @ 82C775A
 	.string "I've never once gotten my wife's\n"
@@ -146,16 +146,16 @@ MoveTutor_Text_SubstituteTeach: @ 82C77C6
 	.string "Of course it's not possible.\n"
 	.string "Giggle…\p"
 	.string "I know! Would you be interested in\n"
-	.string "having a Cástforms learn SUBSTITUTE?$"
+	.string "having a Castforms learn SUBSTITUTE?$"
 
 MoveTutor_Text_SubstituteDeclined: @ 82C78D1
 	.string "Oh, no?\p"
-	.string "A Cástforms can make a copy of\n"
+	.string "A Castforms can make a copy of\n"
 	.string "itself using it, you know.$"
 
 MoveTutor_Text_SubstituteWhichMon: @ 82C7911
 	.string "Giggle…\n"
-	.string "Which Cástforms do you want me to\l"
+	.string "Which Castforms do you want me to\l"
 	.string "teach SUBSTITUTE?$"
 
 MoveTutor_Text_SubstituteTaught: @ 82C794B
@@ -174,7 +174,7 @@ MoveTutor_Text_DynamicPunchTeach: @ 82C79A6
 	.string "What, don't look at me that way!\n"
 	.string "I'm only hitting the ground!\p"
 	.string "Or do you want me to teach your\n"
-	.string "Cástforms DYNAMICPUNCH?$"
+	.string "Castforms DYNAMICPUNCH?$"
 
 MoveTutor_Text_DynamicPunchDeclined: @ 82C7AD4
 	.string "Darn! You're even making fun of me?\n"
@@ -182,7 +182,7 @@ MoveTutor_Text_DynamicPunchDeclined: @ 82C7AD4
 
 MoveTutor_Text_DynamicPunchWhichMon: @ 82C7B0D
 	.string "What? You do? You're a good person!\n"
-	.string "Which Cástforms should I teach?$"
+	.string "Which Castforms should I teach?$"
 
 MoveTutor_Text_DynamicPunchTaught: @ 82C7B4F
 	.string "I want you to win at the MOSSDEEP GYM\n"
@@ -196,7 +196,7 @@ MoveTutor_Text_DoubleEdgeTeach: @ 82C7B8E
 	.string "rivals for his attention.\p"
 	.string "He's got appeal with a DOUBLE-EDGE.\n"
 	.string "I couldn't even catch his eye.\p"
-	.string "Please, let me teach your Cástforms\n"
+	.string "Please, let me teach your Castforms\n"
 	.string "the move DOUBLE-EDGE!$"
 
 MoveTutor_Text_DoubleEdgeDeclined: @ 82C7C7E
@@ -204,7 +204,7 @@ MoveTutor_Text_DoubleEdgeDeclined: @ 82C7C7E
 	.string "Even you rejected me…$"
 
 MoveTutor_Text_DoubleEdgeWhichMon: @ 82C7C98
-	.string "Okay, which Cástforms should I teach\n"
+	.string "Okay, which Castforms should I teach\n"
 	.string "DOUBLE-EDGE?$"
 
 MoveTutor_Text_DoubleEdgeTaught: @ 82C7CC8
@@ -219,7 +219,7 @@ MoveTutor_Text_ExplosionTeach: @ 82C7CFA
 	.string "Seriously, I'm going to cause\n"
 	.string "a huge EXPLOSION of popularity!\p"
 	.string "If you overheard that, I'll happily\n"
-	.string "teach EXPLOSION to your Cástforms!$"
+	.string "teach EXPLOSION to your Castforms!$"
 
 MoveTutor_Text_ExplosionDeclined: @ 82C7E04
 	.string "Gaah! You're turning me down because\n"
@@ -227,10 +227,10 @@ MoveTutor_Text_ExplosionDeclined: @ 82C7E04
 
 MoveTutor_Text_ExplosionWhichMon: @ 82C7E40
 	.string "Fine! An EXPLOSION it is!\n"
-	.string "Which Cástforms wants to blow up?$"
+	.string "Which Castforms wants to blow up?$"
 
 MoveTutor_Text_ExplosionTaught: @ 82C7E7A
-	.string "For a long time, I've taught Cástforms\n"
+	.string "For a long time, I've taught Castforms\n"
 	.string "how to use EXPLOSION, but I've yet\l"
 	.string "to ignite my own EXPLOSION…\p"
 	.string "Maybe it's because deep down,\n"

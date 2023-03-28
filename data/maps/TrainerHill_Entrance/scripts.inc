@@ -378,8 +378,8 @@ TrainerHill_Entrance_Text_ExplainTrainerHill: @ 82687C3
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon: @ 826890D
 	.string "Oh, I'm sorry, but you appear to have\n"
-	.string "only one Cástforms with you.\p"
-	.string "You will need at least two Cástforms\n"
+	.string "only one Castforms with you.\p"
+	.string "You will need at least two Castforms\n"
 	.string "to enter this event.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo: @ 8268986
@@ -437,7 +437,7 @@ TrainerHill_Entrance_Text_ChallengeTime: @ 8268D47
 
 TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead: @ 8268D5A
 	.string "Who knows what sort of TRAINERS\n"
-	.string "and Cástforms combos are ahead?\p"
+	.string "and Castforms combos are ahead?\p"
 	.string "All I know is that I'll knock aside\n"
 	.string "anyone that stands in my way!$"
 

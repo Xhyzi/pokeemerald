@@ -215,7 +215,7 @@ MagmaHideout_4F_Text_MaxieOhItWasYou: @ 823AB33
 
 MagmaHideout_4F_Text_MaxieDefeat: @ 823ABB5
 	.string "What makes you so adept at handling\n"
-	.string "Cástforms?$"
+	.string "Castforms?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2
 	.string "MAXIE: There has to be some reason\n"

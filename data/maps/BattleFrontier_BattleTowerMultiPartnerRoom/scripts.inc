@@ -500,7 +500,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Intro:: @ 8244BD2
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1:: @ 8244C18
 	.string "Listen, listen! You have to hear about\n"
-	.string "the Cástforms {STR_VAR_3} recommended.\l"
+	.string "the Castforms {STR_VAR_3} recommended.\l"
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon2Ask:: @ 8244C6E
@@ -612,7 +612,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask:: @ 82451BD
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept:: @ 824522F
 	.string "Yippee!\n"
-	.string "I'll give you a Cástforms as my thanks!\p"
+	.string "I'll give you a Castforms as my thanks!\p"
 	.string "Just joking! But I will really go do\n"
 	.string "the registration, okay?$"
 
@@ -623,7 +623,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject:: @ 824529A
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro:: @ 82452EF
 	.string "Hey, there, I'm rockin' and a-rollin'!\n"
-	.string "Cástforms, I be controllin'!\p"
+	.string "Castforms, I be controllin'!\p"
 	.string "I'm {STR_VAR_3} the rappin' SAILOR.\n"
 	.string "Don't be mistakin' me for no wailer!\p"
 	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
@@ -679,7 +679,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Reject:: @ 8245656
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro:: @ 824568A
 	.string "Cough!\p"
 	.string "Oh, sorry, I have a cold.\n"
-	.string "My Cástforms are fine, though.\p"
+	.string "My Castforms are fine, though.\p"
 	.string "My name's {STR_VAR_3}, {STR_VAR_1}'s\n"
 	.string "no. {STR_VAR_2} apprentice. Cough!$"
 
@@ -794,7 +794,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept:: @ 8245CE6
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject:: @ 8245D07
 	.string "Aww! If you'd form a tag team with\n"
-	.string "my Cástforms, we'd be unstoppable!$"
+	.string "my Castforms, we'd be unstoppable!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro:: @ 8245D4B
 	.string "Yahoo!\n"
@@ -922,7 +922,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherAccept:: @ 82462AA
 	.string "at the counter.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject:: @ 82462E4
-	.string "Aww, my Cástforms are awesome.\n"
+	.string "Aww, my Castforms are awesome.\n"
 	.string "I hope you won't regret this!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro:: @ 824631F
@@ -1034,7 +1034,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject:: @ 82467E6
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro:: @ 82467FF
 	.string "How do you do? I'm {STR_VAR_1},\n"
-	.string "and I'm a Cástforms BREEDER!$"
+	.string "and I'm a Castforms BREEDER!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1:: @ 8246831
 	.string "I'm raising a couple good ones!\n"
@@ -1158,7 +1158,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMAccept:: @ 8246D9E
 	.string "Let's be excellent together!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject:: @ 8246DD3
-	.string "My Cástforms are tough for sure…\n"
+	.string "My Castforms are tough for sure…\n"
 	.string "It's too bad you don't want to team up.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro:: @ 8246E1A
@@ -1179,7 +1179,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept:: @ 8246EB6
 	.string "I'll do that registration stuff now!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject:: @ 8246EEE
-	.string "My Cástforms rock hard!\n"
+	.string "My Castforms rock hard!\n"
 	.string "You'll be sorry, I tell you!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanIntro:: @ 8246F21
@@ -1222,7 +1222,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMAccept:: @ 82470FD
 	.string "I'll look after the registration!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject:: @ 824712A
-	.string "My Cástforms are top grade…\n"
+	.string "My Castforms are top grade…\n"
 	.string "It's too bad you can't appreciate that.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro:: @ 824716C
@@ -1230,7 +1230,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro:: @ 824716C
 	.string "I am {STR_VAR_1}, and an EXPERT am I!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1:: @ 824718D
-	.string "The Cástforms that I've toughened up are\n"
+	.string "The Castforms that I've toughened up are\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon2Ask:: @ 82471C7
@@ -1251,7 +1251,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro:: @ 8247268
 	.string "I'm {STR_VAR_1}, and I'm an EXPERT.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1:: @ 8247291
-	.string "I've raised my Cástforms thoroughly.\n"
+	.string "I've raised my Castforms thoroughly.\n"
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask:: @ 82472C7
@@ -1291,7 +1291,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperIntro:: @ 8247470
 	.string "I'm BIRD KEEPER {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon1:: @ 8247484
-	.string "What Cástforms do I have?\n"
+	.string "What Castforms do I have?\n"
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon2Ask:: @ 82474AF
@@ -1304,14 +1304,14 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperAccept:: @ 82474EC
 	.string "I'll look after the registration!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject:: @ 824751D
-	.string "My Cástforms and I are strong.\n"
+	.string "My Castforms and I are strong.\n"
 	.string "What a letdown.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro:: @ 824754A
 	.string "I'm NINJA BOY {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1:: @ 824755C
-	.string "My Cástforms team consists of one\n"
+	.string "My Castforms team consists of one\n"
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon2Ask:: @ 824758B
@@ -1324,7 +1324,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyAccept:: @ 82475BC
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject:: @ 82475D5
 	.string "You'll regret not having my tough\n"
-	.string "Cástforms on your side!$"
+	.string "Castforms on your side!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro:: @ 824760D
 	.string "Hello!\n"
@@ -1346,7 +1346,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept:: @ 824769B
 	.string "Let's not disappoint each other!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject:: @ 82476ED
-	.string "My Cástforms are tremendously strong.\n"
+	.string "My Castforms are tremendously strong.\n"
 	.string "How disappointing…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro:: @ 8247724
@@ -1354,7 +1354,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro:: @ 8247724
 	.string "I'm {STR_VAR_1}, and I'm a BUG MANIAC!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1:: @ 8247749
-	.string "I have found my Cástforms, yes.\n"
+	.string "I have found my Castforms, yes.\n"
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask:: @ 824777A
@@ -1369,7 +1369,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept:: @ 82477CE
 	.string "I won't be long with the registration!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject:: @ 8247807
-	.string "With the Cástforms I found, we wouldn't\n"
+	.string "With the Castforms I found, we wouldn't\n"
 	.string "have lost…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro:: @ 8247838
@@ -1413,11 +1413,11 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept:: @ 82479CE
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject:: @ 8247A18
 	.string "Well, that's upsetting.\n"
-	.string "You don't appreciate my Cástforms.$"
+	.string "You don't appreciate my Castforms.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro:: @ 8247A51
 	.string "Howdy, I'm {STR_VAR_1}.\n"
-	.string "I'm a Cástforms RANGER.$"
+	.string "I'm a Castforms RANGER.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1:: @ 8247A76
 	.string "Keeping me company are one\n"
@@ -1433,12 +1433,12 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept:: @ 8247AE3
 	.string "I'll deal with the registration now.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject:: @ 8247B16
-	.string "Next time, choose my Cástforms,\n"
+	.string "Next time, choose my Castforms,\n"
 	.string "will you?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro:: @ 8247B3E
 	.string "My name's {STR_VAR_1}.\n"
-	.string "I'm a Cástforms RANGER!$"
+	.string "I'm a Castforms RANGER!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1:: @ 8247B62
 	.string "Let me tell you about my team. I have\n"
@@ -1454,7 +1454,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFAccept:: @ 8247BE7
 	.string "I'll get the registration done quick!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject:: @ 8247C23
-	.string "I hope you'll choose my Cástforms\n"
+	.string "I hope you'll choose my Castforms\n"
 	.string "next time.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyIntro:: @ 8247C4E
@@ -1484,7 +1484,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro:: @ 8247D97
 	.string "I'm {STR_VAR_1}, the RUIN MANIAC!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1:: @ 8247DC7
-	.string "The Cástforms that I have with me are\n"
+	.string "The Castforms that I have with me are\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask:: @ 8247DFE
@@ -1498,13 +1498,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept:: @ 8247E3E
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject:: @ 8247E7E
 	.string "Hmm…\n"
-	.string "I think my Cástforms are tough…$"
+	.string "I think my Castforms are tough…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro:: @ 8247EA1
 	.string "I'm COOLTRAINER {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1:: @ 8247EB5
-	.string "The Cástforms I have right now are one\n"
+	.string "The Castforms I have right now are one\n"
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask:: @ 8247EE9
@@ -1560,7 +1560,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept:: @ 8248128
 	.string "I'll register the both of us!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject:: @ 8248151
-	.string "My Cástforms are brutal!\n"
+	.string "My Castforms are brutal!\n"
 	.string "It's not my fault if you regret this!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro:: @ 824818E
@@ -1609,7 +1609,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro:: @ 8248369
 	.string "I'm {STR_VAR_1}, and I'm a PICNICKER!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1:: @ 824838D
-	.string "The Cástforms I've been taking are\n"
+	.string "The Castforms I've been taking are\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask:: @ 82483C1
@@ -1674,7 +1674,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1:: @ 8248661
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask:: @ 8248671
 	.string "and one {STR_VAR_1}-using\n"
-	.string "{STR_VAR_2} are my Cástforms pair.\p"
+	.string "{STR_VAR_2} are my Castforms pair.\p"
 	.string "May I please be your partner on\n"
 	.string "a tag team?$"
 
@@ -1688,10 +1688,10 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject:: @ 82486FF
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro:: @ 8248725
 	.string "Hiya! The name's {STR_VAR_1}!\n"
-	.string "I'm a Cástforms BREEDER!$"
+	.string "I'm a Castforms BREEDER!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1:: @ 8248751
-	.string "The Cástforms I've raised are one\n"
+	.string "The Castforms I've raised are one\n"
 	.string "{STR_VAR_1}-using {STR_VAR_2} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon2Ask:: @ 8248781
@@ -1712,7 +1712,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFIntro:: @ 8248829
 	.string "that I am a POKéFAN.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon1:: @ 824885B
-	.string "The darling Cástforms I've raised are\n"
+	.string "The darling Castforms I've raised are\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon2Ask:: @ 8248892
@@ -1725,7 +1725,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept:: @ 82488D8
 	.string "I'll be on my way to register!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject:: @ 8248908
-	.string "My darling Cástforms are the best,\n"
+	.string "My darling Castforms are the best,\n"
 	.string "I'll have you know. How annoying!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFIntro:: @ 824894B
@@ -1752,7 +1752,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro:: @ 824
 	.string "I'm {STR_VAR_1}, and I'm a TRIATHLETE.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1:: @ 8248A40
-	.string "I got a couple decent Cástforms.\n"
+	.string "I got a couple decent Castforms.\n"
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask:: @ 8248A72

@@ -11,12 +11,12 @@ VerdanturfTown_House_EventScript_Woman2:: @ 8203368
 
 VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague: @ 8203371
 	.string "Far away, deep in EVER GRANDE CITY,\n"
-	.string "is the Cástforms LEAGUE.\p"
+	.string "is the Castforms LEAGUE.\p"
 	.string "The TRAINERS who gather there are\n"
 	.string "all frighteningly well skilled.$"
 
 VerdanturfTown_House_Text_DefeatEliteFourInARow: @ 82033EE
-	.string "In the Cástforms LEAGUE, I think the\n"
+	.string "In the Castforms LEAGUE, I think the\n"
 	.string "rules say that you have to battle the\l"
 	.string "ELITE FOUR all in a row.\p"
 	.string "If you lose to any of them, you have\n"

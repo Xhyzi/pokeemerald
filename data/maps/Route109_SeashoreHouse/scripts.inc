@@ -104,7 +104,7 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro: @ 8269555
 	.string "I'm the owner of the SEASHORE HOUSE.\n"
 	.string "But you can call me MR. SEA!\p"
 	.string "What I love above all is to see hot\n"
-	.string "Cástforms battles.\p"
+	.string "Castforms battles.\p"
 	.string "Let me see that your heart burns hot!\p"
 	.string "If you can defeat all the TRAINERS\n"
 	.string "here, I'll reward your efforts.$"
@@ -128,7 +128,7 @@ Route109_SeashoreHouse_Text_BagFull: @ 826973A
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop: @ 826977E
 	.string "Want to buy some SODA POP?\n"
-	.string "Cástforms love it!\p"
+	.string "Castforms love it!\p"
 	.string "Just ¥300 a bottle!\n"
 	.string "Buy some!$"
 
@@ -158,7 +158,7 @@ Route109_SeashoreHouse_Text_DwaynePostBattle: @ 826989D
 Route109_SeashoreHouse_Text_JohannaIntro: @ 82698E3
 	.string "Boring battles aren't worth the effort.\p"
 	.string "Fiery hot battles are what toughen up\n"
-	.string "TRAINERS and Cástforms!$"
+	.string "TRAINERS and Castforms!$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated: @ 8269947
 	.string "That's hot!$"
@@ -169,13 +169,13 @@ Route109_SeashoreHouse_Text_JohannaPostBattle: @ 8269953
 
 Route109_SeashoreHouse_Text_SimonIntro: @ 8269986
 	.string "I'm going to show you how great\n"
-	.string "my Cástforms are, but don't cry!$"
+	.string "my Castforms are, but don't cry!$"
 
 Route109_SeashoreHouse_Text_SimonDefeated: @ 82699C5
 	.string "…I lost, but I won't cry…$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle: @ 82699DF
-	.string "If one of my Cástforms knew the move\n"
+	.string "If one of my Castforms knew the move\n"
 	.string "for carrying me across water on its\l"
 	.string "back, I could get rid of this inner tube.$"
 

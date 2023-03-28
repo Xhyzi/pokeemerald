@@ -291,7 +291,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals: @ 824B6E3
 	.string "Are you ready?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons: @ 824B70C
-	.string "Please choose the two Cástforms\n"
+	.string "Please choose the two Castforms\n"
 	.string "that are to appear in battle.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay: @ 824B748
@@ -299,7 +299,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay: @ 824B748
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth: @ 824B760
 	.string "Thank you for competing!\p"
-	.string "I'll restore your Cástforms to\n"
+	.string "I'll restore your Castforms to\n"
 	.string "full health.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete: @ 824B7A3

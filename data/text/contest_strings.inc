@@ -25,67 +25,67 @@ gText_UserLessLikelyStartled:: @ 827CCAE
 	.string "After this move, the user is\nless likely to be startled.$"
 
 gText_SlightlyStartleFrontMon:: @ 827CCE7
-	.string "Slightly startles the\nCástforms in front.$"
+	.string "Slightly startles the\nCastforms in front.$"
 
 gText_SlightlyStartleAppealed:: @ 827CD0F
 	.string "Slightly startles those\nthat have made appeals.$"
 
 gText_StartleAppealedBeforeUser:: @ 827CD3F
-	.string "Startles the Cástforms that\nappealed before the user.$"
+	.string "Startles the Castforms that\nappealed before the user.$"
 
 gText_StartleAllAppealed:: @ 827CD73
-	.string "Startles all Cástforms that\nhave done their appeals.$"
+	.string "Startles all Castforms that\nhave done their appeals.$"
 
 gText_BadlyStartleFrontMon:: @ 827CDA6
-	.string "Badly startles the\nCástforms in front.$"
+	.string "Badly startles the\nCastforms in front.$"
 
 gText_BadlyStartleAppealed:: @ 827CDCB
 	.string "Badly startles those that\nhave made appeals.$"
 
 gText_StartleAppealedBeforeUser2:: @ 827CDF8
-	.string "Startles the Cástforms that\nappealed before the user.$"
+	.string "Startles the Castforms that\nappealed before the user.$"
 
 gText_StartleAllAppealed2:: @ 827CE2C
-	.string "Startles all Cástforms that\nhave done their appeals.$"
+	.string "Startles all Castforms that\nhave done their appeals.$"
 
 gText_ShiftJudgesAttentionFromOthers:: @ 827CE5F
 	.string "Shifts the JUDGE's\nattention from others.$"
 
 gText_StartleMonHasJudgesAttention:: @ 827CE89
-	.string "Startles the Cástforms that\nhas the JUDGE's attention.$"
+	.string "Startles the Castforms that\nhas the JUDGE's attention.$"
 
 gText_JamOthersMissesTurn:: @ 827CEBE
 	.string "Jams the others, and misses\none turn of appeals.$"
 
 gText_StartleMonsMadeSameTypeAppeal:: @ 827CEEF
-	.string "Startles Cástforms that\nmade a same-type appeal.$"
+	.string "Startles Castforms that\nmade a same-type appeal.$"
 
 gText_BadlyStartleCoolAppeals:: @ 827CF1E
-	.string "Badly startles Cástforms\nthat made COOL appeals.$"
+	.string "Badly startles Castforms\nthat made COOL appeals.$"
 
 gText_BadlyStartleBeautyAppeals:: @ 827CF4D
-	.string "Badly startles Cástforms\nthat made BEAUTY appeals.$"
+	.string "Badly startles Castforms\nthat made BEAUTY appeals.$"
 
 gText_BadlyStartleCuteAppeals:: @ 827CF7E
-	.string "Badly startles Cástforms\nthat made CUTE appeals.$"
+	.string "Badly startles Castforms\nthat made CUTE appeals.$"
 
 gText_BadlyStartleSmartAppeals:: @ 827CFAD
-	.string "Badly startles Cástforms\nthat made SMART appeals.$"
+	.string "Badly startles Castforms\nthat made SMART appeals.$"
 
 gText_BadlyStartleToughAppeals:: @ 827CFDD
-	.string "Badly startles Cástforms\nthat made TOUGH appeals.$"
+	.string "Badly startles Castforms\nthat made TOUGH appeals.$"
 
 gText_MakeMonAfterUserNervous:: @ 827D00D
-	.string "Makes one Cástforms after\nthe user nervous.$"
+	.string "Makes one Castforms after\nthe user nervous.$"
 
 gText_MakeAllMonsAfterUserNervous:: @ 827D037
-	.string "Makes all Cástforms after\nthe user nervous.$"
+	.string "Makes all Castforms after\nthe user nervous.$"
 
 gText_WorsenConditionOfThoseMadeAppeals:: @ 827D061
 	.string "Worsens the condition of\nthose that made appeals.$"
 
 gText_BadlyStartleMonsGoodCondition:: @ 827D093
-	.string "Badly startles Cástforms in\ngood condition.$"
+	.string "Badly startles Castforms in\ngood condition.$"
 
 gText_AppealGreatIfPerformedFirst:: @ 827D0BD
 	.string "The appeal works great if\nperformed first.$"
@@ -136,7 +136,7 @@ gText_AppealExcitesAudienceInAnyContest:: @ 827D39A
 	.string "An appeal that excites the\naudience in any CONTEST.$"
 
 gText_BadlyStartlesMonsGoodAppeals:: @ 827D3CE
-	.string "Badly startles all Cástforms\nthat made good appeals.$"
+	.string "Badly startles all Castforms\nthat made good appeals.$"
 
 gText_AppealBestMoreCrowdExcited:: @ 827D401
 	.string "The appeal works best the\nmore the crowd is excited.$"
@@ -230,7 +230,7 @@ gText_ButAppealWasJammed:: @ 827D5C1
 
 gText_FollowedAnotherMonsLead:: @ 827D5DC
 	.string "It followed another\n"
-	.string "Cástforms's lead.$"
+	.string "Castforms's lead.$"
 
 gText_ButItMessedUp:: @ 827D600
 	.string "But it messed up.$"
@@ -257,7 +257,7 @@ gText_WorkedFrighteninglyWell:: @ 827D69C
 
 gText_WorkedHardAsStandoutMon:: @ 827D6BA
 	.string "It worked as hard as the\n"
-	.string "standout Cástforms.$"
+	.string "standout Castforms.$"
 
 gText_JudgedLookedOnExpectantly:: @ 827D6E5
 	.string "The JUDGE looked on\n"
@@ -396,7 +396,7 @@ gText_EveryonesAppealsMadeSame:: @ 827DB4E
 
 gText_BecameMoreConsciousOfOtherMons:: @ 827DB75
 	.string "It became more conscious\n"
-	.string "of the other Cástforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "of the other Castforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantMakeAnAppealAfterThis:: @ 827DBB0
 	.string "{STR_VAR_1} can't make an\n"
@@ -408,19 +408,19 @@ gText_SettledDownJustLittleBit:: @ 827DBE0
 
 gText_BecameObliviousToOtherMons:: @ 827DC0F
 	.string "It became oblivious to\n"
-	.string "the other Cástforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "the other Castforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameLessAwareOfOtherMons:: @ 827DC45
 	.string "It became less aware of\n"
-	.string "the other Cástforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "the other Castforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoppedCaringAboutOtherMons:: @ 827DC7C
 	.string "It stopped caring about\n"
-	.string "other Cástforms much.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "other Castforms much.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToStartleOtherMons:: @ 827DCB4
 	.string "It tried to startle the\n"
-	.string "other Cástforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "other Castforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToDazzleOthers:: @ 827DCE7
 	.string "It tried to dazzle the\n"
@@ -432,7 +432,7 @@ gText_JudgeLookedAwayFromMon:: @ 827DD12
 
 gText_TriedToUnnerveNextMon:: @ 827DD3D
 	.string "It tried to unnerve the\n"
-	.string "next Cástforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "next Castforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonBecameNervous:: @ 827DD6F
 	.string "{STR_VAR_1} became\n"
@@ -440,10 +440,10 @@ gText_MonBecameNervous:: @ 827DD6F
 
 gText_AppealTriedToUnnerveWaitingMons:: @ 827DD8E
 	.string "The appeal tried to\n"
-	.string "unnerve waiting Cástforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "unnerve waiting Castforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TauntedMonsDoingWell:: @ 827DDC7
-	.string "It taunted Cástforms\n"
+	.string "It taunted Castforms\n"
 	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonRegainedItsForm:: @ 827DDF2
@@ -451,7 +451,7 @@ gText_MonRegainedItsForm:: @ 827DDF2
 	.string "form.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToJamMonDoingWell:: @ 827DE14
-	.string "It tried to jam Cástforms\n"
+	.string "It tried to jam Castforms\n"
 	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StandoutMonHustledEvenMore:: @ 827DE44
@@ -464,7 +464,7 @@ gText_LargelyUnnoticedMonWorkedHard:: @ 827DE73
 
 gText_WorkedAsMuchAsMonBefore:: @ 827DEA5
 	.string "It worked as much as\n"
-	.string "Cástforms before it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Castforms before it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell:: @ 827DED9
 	.string "{STR_VAR_1}'s appeal did\n"
@@ -472,7 +472,7 @@ gText_MonsAppealDidNotGoWell:: @ 827DED9
 
 gText_WorkedAsMuchAsPrecedingMon:: @ 827DF02
 	.string "It worked as much as the\n"
-	.string "preceding Cástforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "preceding Castforms.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell2:: @ 827DF3A
 	.string "{STR_VAR_1}'s appeal did\n"
@@ -520,7 +520,7 @@ gText_MonsAppealWentExcellently2:: @ 827E0DD
 
 gText_SameTypeAsOneBeforeGood:: @ 827E107
 	.string "It's the same type as the\n"
-	.string "Cástforms before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Castforms before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_NotSameTypeAsOneBeforeGood:: @ 827E143
 	.string "It's not the same type as\n"
@@ -528,11 +528,11 @@ gText_NotSameTypeAsOneBeforeGood:: @ 827E143
 
 gText_StoodOutMuchMoreThanMonBefore:: @ 827E17F
 	.string "It stood out much more\n"
-	.string "than the Cástforms before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "than the Castforms before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_DidntDoAsWellAsMonBefore:: @ 827E1BB
 	.string "It didn't do as well as the\n"
-	.string "Cástforms before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Castforms before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsConditionRoseAboveUsual:: @ 827E1F3
 	.string "{STR_VAR_1}'s condition\n"
@@ -588,7 +588,7 @@ gText_MonBecameALittleDistracted:: @ 827E448
 
 gText_TriedToStartleOtherPokemon:: @ 827E473
 	.string "It tried to startle the\n"
-	.string "other Cástforms.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "other Castforms.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonLookedDownOutOfDistraction:: @ 827E4A6
 	.string "{STR_VAR_1} looked down\n"

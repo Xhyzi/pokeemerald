@@ -19,7 +19,7 @@ Route119_House_Text_RumorAboutCaveOfOrigin: @ 8270982
 	.string "I heard about a cave called the CAVE\n"
 	.string "OF ORIGIN.\p"
 	.string "People rumor that the spirits of\n"
-	.string "Cástforms are revived there. Could\l"
+	.string "Castforms are revived there. Could\l"
 	.string "something like that really happen?$"
 
 Route119_House_Text_Wingull: @ 8270A17

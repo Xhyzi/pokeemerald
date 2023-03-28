@@ -22,7 +22,7 @@ DewfordTown_House1_EventScript_Zigzagoon:: @ 81FC3E0
 DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland: @ 81FC3F3
 	.string "There's a lot to be said for living on\n"
 	.string "a small island like this in harmony with\l"
-	.string "Cástforms and the family.$"
+	.string "Castforms and the family.$"
 
 DewfordTown_House1_Text_LifeGoesSlowlyOnIsland: @ 81FC45B
 	.string "I left the major port of SLATEPORT\n"

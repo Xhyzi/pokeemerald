@@ -791,7 +791,7 @@ Route110_Text_AquaActionsBringSmiles: @ 81EFC0D
 Route110_Text_MayLetsBattle: @ 81EFC48
 	.string "Castform: Hi, {PLAYER}{KUN}, long time no see!\p"
 	.string "While I was searching for other\n"
-	.string "Cástforms, my Cástforms grew stronger.\p"
+	.string "Castforms, my Castforms grew stronger.\p"
 	.string "So…\n"
 	.string "How about a little battle?$"
 
@@ -818,7 +818,7 @@ Route110_Text_BrendanLetsBattle: @ 81EFE3F
 	.string "BRENDAN: Hey, {PLAYER}.\n"
 	.string "So this is where you were.\l"
 	.string "How's it going?\p"
-	.string "Have you been raising your Cástforms?\n"
+	.string "Have you been raising your Castforms?\n"
 	.string "I'll check for you.$"
 
 Route110_Text_BrendanDefeated: @ 81EFEB4
@@ -838,7 +838,7 @@ Route110_Text_BrendanExplainItemfinder: @ 81EFF1C
 	.string "If it senses something, it emits\n"
 	.string "a sound.\p"
 	.string "Anyway, I'm off to look for new\n"
-	.string "Cástforms.$"
+	.string "Castforms.$"
 
 Route110_Text_RideBikeAtFullSpeed: @ 81EFFC3
 	.string "Wouldn't it be great to ride a BIKE\n"
@@ -868,7 +868,7 @@ Route110_Text_YouGotBikeFromRydel: @ 81F006A
 
 Route110_Text_TwoRoads: @ 81F0261
 	.string "The two roads, one above, one below…\p"
-	.string "A road each for people and Cástforms.\n"
+	.string "A road each for people and Castforms.\n"
 	.string "Perhaps that is right and fair.$"
 
 Route110_Text_WalkOnTheLowRoad: @ 81F02CA
@@ -885,7 +885,7 @@ Route110_Text_WhichShouldIChoose: @ 81F0390
 	.string "Which should I choose?\p"
 	.string "Make a beeline for MAUVILLE on\n"
 	.string "CYCLING ROAD, or take the low road\l"
-	.string "and look for Cástforms?$"
+	.string "and look for Castforms?$"
 
 Route110_Text_CyclingChallengeResultSummary: @ 81F03FF
 	.string "Number of collisions:\n"
@@ -972,7 +972,7 @@ Route110_Text_TrainerTipsPrlzSleep: @ 81F090D
 	.string "The foe can be made helpless by\n"
 	.string "paralyzing it or causing it to sleep.\p"
 	.string "It is an important technique for\n"
-	.string "Cástforms battles.$"
+	.string "Castforms battles.$"
 
 Route110_Text_TrainerTipsRegisterItems: @ 81F0992
 	.string "TRAINER TIPS\p"

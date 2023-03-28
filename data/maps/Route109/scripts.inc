@@ -526,7 +526,7 @@ Route109_Text_LittleKidsDartAround: @ 81EEF08
 	.string "Little kids can dart around so quickly…\p"
 	.string "You don't dare take your eyes off them\n"
 	.string "for an instant. It's very taxing.\p"
-	.string "Mine are with my Cástforms, so they\n"
+	.string "Mine are with my Castforms, so they\n"
 	.string "should be okay, but…$"
 
 Route109_Text_SandCastleTakingLongTime: @ 81EEFB0
@@ -562,7 +562,7 @@ Route109_Text_SeashoreHouseSign: @ 81EF185
 
 Route109_Text_TrainerTipsSign: @ 81EF1D5
 	.string "TRAINER TIPS\p"
-	.string "Cástforms at the same level may not\n"
+	.string "Castforms at the same level may not\n"
 	.string "always have identical stats.\p"
-	.string "Cástforms raised by TRAINERS are said\n"
-	.string "to grow stronger than wild Cástforms.$"
+	.string "Castforms raised by TRAINERS are said\n"
+	.string "to grow stronger than wild Castforms.$"

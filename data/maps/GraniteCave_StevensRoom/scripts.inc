@@ -103,10 +103,10 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis: @ 822DDBD
 	.string "STEEL WING.$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister: @ 822DE6B
-	.string "STEVEN: Your Cástforms appear quite\n"
+	.string "STEVEN: Your Castforms appear quite\n"
 	.string "capable.\p"
 	.string "If you keep training, you could even\n"
-	.string "become the CHAMPION of the Cástforms\l"
+	.string "become the CHAMPION of the Castforms\l"
 	.string "LEAGUE one day. That's what I think.\p"
 	.string "I know, since we've gotten to know each\n"
 	.string "other, let's register one another in\l"

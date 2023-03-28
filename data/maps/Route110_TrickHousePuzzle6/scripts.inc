@@ -63,7 +63,7 @@ Route110_TrickHousePuzzle6_Text_SophiaPostBattle: @ 826DEF3
 	.string "repeating!$"
 
 Route110_TrickHousePuzzle6_Text_BennyIntro: @ 826DF55
-	.string "Maybe I could get my BIRD Cástforms\n"
+	.string "Maybe I could get my BIRD Castforms\n"
 	.string "to fly over the wall…$"
 
 Route110_TrickHousePuzzle6_Text_BennyDefeat: @ 826DF8D

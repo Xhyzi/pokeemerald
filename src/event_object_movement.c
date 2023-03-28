@@ -474,9 +474,9 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
-    {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
-    {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
-    {gObjectEventPal_Npc3,                  OBJ_EVENT_PAL_TAG_NPC_3},
+    {gObjectEventPal_Castform,          OBJ_EVENT_PAL_TAG_NPC_1},
+    {gObjectEventPal_CastformSun,           OBJ_EVENT_PAL_TAG_NPC_2},
+    {gObjectEventPal_CastformRain,              OBJ_EVENT_PAL_TAG_NPC_3},
     {gObjectEventPal_Npc4,                  OBJ_EVENT_PAL_TAG_NPC_4},
     {gObjectEventPal_Npc1Reflection,        OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION},
     {gObjectEventPal_Npc2Reflection,        OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION},
@@ -8678,7 +8678,25 @@ void SetObjectEventSpriteGraphics(u8 objectEventId, u8 graphicsId)
 
         sprite->oam = *graphicsInfo->oam;
         sprite->oam.tileNum = tileNum;
-        sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+        
+        // CASTFORM FIX -> DUNNO WHY IT IS NOT WORKING BUT IDC -> THIS SHALL BE DONE NO MATTER WHAT
+        switch(graphicsId) 
+        {
+            case OBJ_EVENT_GFX_AQUA_MEMBER_M:
+            case OBJ_EVENT_GFX_AQUA_MEMBER_F:
+            case OBJ_EVENT_GFX_ARCHIE:
+                sprite->oam.paletteNum = 2;
+                break;
+            case OBJ_EVENT_GFX_MAGMA_MEMBER_M:
+            case OBJ_EVENT_GFX_MAGMA_MEMBER_F:
+            case OBJ_EVENT_GFX_MAXIE:
+                sprite->oam.paletteNum = 3;
+                break;
+            default:
+                sprite->oam.paletteNum = 0;//graphicsInfo->paletteSlot;
+                break;
+        }
+
         sprite->images = graphicsInfo->images;
 
         if (graphicsInfo->subspriteTables == NULL)

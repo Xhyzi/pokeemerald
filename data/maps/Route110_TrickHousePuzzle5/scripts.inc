@@ -990,17 +990,17 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro: @ 826D6CE
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1: @ 826D757
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these Cástforms is not found\n"
+	.string "One of these Castforms is not found\n"
 	.string "on ROUTE 110. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2: @ 826D7AA
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these Cástforms is not of the\n"
+	.string "One of these Castforms is not of the\n"
 	.string "WATER type. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3: @ 826D7FC
 	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these Cástforms does not use\n"
+	.string "One of these Castforms does not use\n"
 	.string "LEECH LIFE. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough: @ 826D84D
@@ -1026,17 +1026,17 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Intro: @ 826D8EA
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1: @ 826D940
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these Cástforms did WALLY\n"
+	.string "Which of these Castforms did WALLY\n"
 	.string "borrow from your father?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2: @ 826D98C
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these Cástforms was chasing\n"
+	.string "Which of these Castforms was chasing\n"
 	.string "Castform?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3: @ 826D9CE
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these Cástforms did TEAM AQUA\n"
+	.string "Which of these Castforms did TEAM AQUA\n"
 	.string "use in PETALBURG FOREST?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro: @ 826DA1E
@@ -1087,8 +1087,8 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Intro: @ 826DC78
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1: @ 826DCCB
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In SLATEPORT's Cástforms FAN CLUB,\n"
-	.string "how many Cástforms were there?$"
+	.string "In SLATEPORT's Castforms FAN CLUB,\n"
+	.string "how many Castforms were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2: @ 826DD1B
 	.string "MECHADOLL 5 QUIZ.\p"

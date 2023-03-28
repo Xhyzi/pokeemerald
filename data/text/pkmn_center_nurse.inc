@@ -1,17 +1,17 @@
 gText_WouldYouLikeToRestYourPkmn:: @ 82726EB
     .string "Hello, and welcome to\n"
-    .string "the Cástforms CENTER.\p"
-    .string "We restore your tired Cástforms\n"
+    .string "the Castforms CENTER.\p"
+    .string "We restore your tired Castforms\n"
     .string "to full health.\p"
-    .string "Would you like to rest your Cástforms?$"
+    .string "Would you like to rest your Castforms?$"
 
 gText_IllTakeYourPkmn:: @ 8272768
-    .string "Okay, I'll take your Cástforms\n"
+    .string "Okay, I'll take your Castforms\n"
     .string "for a few seconds.$"
 
 gText_RestoredPkmnToFullHealth:: @ 8272798
     .string "Thank you for waiting.\p"
-    .string "We've restored your Cástforms\n"
+    .string "We've restored your Castforms\n"
     .string "to full health.$"
 
 gText_WeHopeToSeeYouAgain:: @ 82727DB
@@ -19,8 +19,8 @@ gText_WeHopeToSeeYouAgain:: @ 82727DB
 
 gText_WelcomeCutShort:: @ 82727F5
     .string "Hello, and welcome to\n"
-    .string "the Cástforms CENTER.\p"
-    .string "We restore your tired Cástforms\n"
+    .string "the Castforms CENTER.\p"
+    .string "We restore your tired Castforms\n"
     .string "to full health.\p"
     .string "Would you like to…$"
 
@@ -34,14 +34,14 @@ gText_NoticesGoldCard:: @ 8272860
     .string "you're the first TRAINER I've ever\l"
     .string "seen with a GOLD CARD!\p"
     .string "Okay, {PLAYER}, please allow me\n"
-    .string "the honor of resting your Cástforms!$"
+    .string "the honor of resting your Castforms!$"
 
 gText_YouWantTheUsual:: @ 8272982
     .string "I'm delighted to see you, {PLAYER}!\n"
     .string "You want the usual, am I right?$"
 
 gText_IllTakeYourPkmn2:: @ 82729C0
-    .string "Okay, I'll take your Cástforms\n"
+    .string "Okay, I'll take your Castforms\n"
     .string "for a few seconds.$"
 
 gText_ThankYouForWaiting:: @ 82729F0

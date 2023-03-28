@@ -389,30 +389,30 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory:: @ 828EC81
 	.string "never refuse a chance to battle!$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle:: @ 828ED04
-	.string "The Cástforms-Catching TRAINER$"
+	.string "The Castforms-Catching TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction:: @ 828ED21
-	.string "Caught Cástforms$"
+	.string "Caught Castforms$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory:: @ 828ED30
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
 	.string "This TRAINER caught\n"
-	.string "{STR_VAR_1} Cástforms!\p"
+	.string "{STR_VAR_1} Castforms!\p"
 	.string "{STR_VAR_3} is a legendary catcher of\n"
-	.string "wild Cástforms!$"
+	.string "wild Castforms!$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtTitle:: @ 828EDA1
 	.string "The Fishing TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtAction:: @ 828EDB5
-	.string "Caught Cástforms with a ROD$"
+	.string "Caught Castforms with a ROD$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory:: @ 828EDCF
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
 	.string "This TRAINER caught\n"
-	.string "{STR_VAR_1} Cástforms while fishing!\p"
+	.string "{STR_VAR_1} Castforms while fishing!\p"
 	.string "{STR_VAR_3} is a legendary fishing\n"
 	.string "expert!$"
 
@@ -425,7 +425,7 @@ MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction:: @ 828EE5D
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory:: @ 828EE6A
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER hatched {STR_VAR_1} Cástforms\n"
+	.string "This TRAINER hatched {STR_VAR_1} Castforms\n"
 	.string "from EGGS!\p"
 	.string "{STR_VAR_3} is a legendary warmer\n"
 	.string "of EGGS!$"
@@ -434,40 +434,40 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedTitle:: @ 828EEDD
 	.string "The Evolver TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction:: @ 828EEF1
-	.string "Evolved Cástforms$"
+	.string "Evolved Castforms$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory:: @ 828EF01
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {STR_VAR_1} Cástforms\n"
+	.string "This TRAINER made {STR_VAR_1} Castforms\n"
 	.string "evolve!\p"
 	.string "{STR_VAR_3} is the ultimate evolver\n"
-	.string "of Cástforms!$"
+	.string "of Castforms!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterTitle:: @ 828EF73
-	.string "The Cástforms CENTER-Loving TRAINER$"
+	.string "The Castforms CENTER-Loving TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction:: @ 828EF95
-	.string "Used Cástforms CENTERS$"
+	.string "Used Castforms CENTERS$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory:: @ 828EFAA
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed Cástforms\n"
-	.string "{STR_VAR_1} times at Cástforms CENTERS!\p"
+	.string "This TRAINER healed Castforms\n"
+	.string "{STR_VAR_1} times at Castforms CENTERS!\p"
 	.string "There could be no greater lover of\n"
-	.string "Cástforms CENTERS than {STR_VAR_3}!$"
+	.string "Castforms CENTERS than {STR_VAR_3}!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeTitle:: @ 828F045
 	.string "The Homebody TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction:: @ 828F05A
-	.string "Rested Cástforms at home$"
+	.string "Rested Castforms at home$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory:: @ 828F071
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed Cástforms\n"
+	.string "This TRAINER healed Castforms\n"
 	.string "{STR_VAR_1} times at home!\p"
 	.string "There could be no more of a homebody\n"
 	.string "than {STR_VAR_3}!$"
@@ -624,7 +624,7 @@ MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory:: @ 828F822
 	.string "This TRAINER entered CONTESTS\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must love showing off\n"
-	.string "Cástforms to others!$"
+	.string "Castforms to others!$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle:: @ 828F89C
 	.string "The CONTEST Master$"
@@ -694,7 +694,7 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory:: @ 828FB47
 	.string "This TRAINER checked a POKéDEX\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must love inspecting\n"
-	.string "Cástforms in a POKéDEX!$"
+	.string "Castforms in a POKéDEX!$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle:: @ 828FBC4
 	.string "The RIBBON Collector$"
@@ -752,32 +752,32 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory:: @ 828FDCE
 	.string "who's conscious of the time.$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle:: @ 828FE57
-	.string "The Cástforms LOTTERY Wizard$"
+	.string "The Castforms LOTTERY Wizard$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction:: @ 828FE72
-	.string "Won Cástforms LOTTERIES$"
+	.string "Won Castforms LOTTERIES$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory:: @ 828FE88
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won Cástforms LOTTERIES\n"
+	.string "This TRAINER won Castforms LOTTERIES\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must have many friends\n"
-	.string "to trade Cástforms with!$"
+	.string "to trade Castforms with!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle:: @ 828FF0C
 	.string "The DAY CARE-Using Trainer$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction:: @ 828FF27
-	.string "Left Cástforms at the DAY CARE$"
+	.string "Left Castforms at the DAY CARE$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory:: @ 828FF44
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER left Cástforms with the\n"
+	.string "This TRAINER left Castforms with the\n"
 	.string "DAY CARE {STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be a real go-getter\n"
-	.string "who raises Cástforms aggressively!$"
+	.string "who raises Castforms aggressively!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle:: @ 828FFDD
 	.string "The CABLE CAR-Loving TRAINER$"

@@ -75,10 +75,10 @@ SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname: @ 8209B8E
 	.string "Hi, hi! I'm the NAME RATER!\n"
 	.string "I'm the fortune-teller of names!\p"
 	.string "I shall be pleased to rate your\n"
-	.string "Cástforms's nickname.$"
+	.string "Castforms's nickname.$"
 
 SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname: @ 8209BFF
-	.string "Which Cástforms's nickname should\n"
+	.string "Which Castforms's nickname should\n"
 	.string "I critique?$"
 
 SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne: @ 8209C2B
@@ -92,7 +92,7 @@ SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe: @ 8209CA4
 	.string "nickname be?$"
 
 SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName: @ 8209CD4
-	.string "Done! From now on, this Cástforms\n"
+	.string "Done! From now on, this Castforms\n"
 	.string "shall be known as {STR_VAR_1}!\p"
 	.string "It is a better name than before!\n"
 	.string "How fortunate for you!$"
@@ -102,7 +102,7 @@ SlateportCity_NameRatersHouse_Text_DoVisitAgain: @ 8209D42
 	.string "Do come visit again.$"
 
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior: @ 8209D5E
-	.string "Done! From now on, this Cástforms\n"
+	.string "Done! From now on, this Castforms\n"
 	.string "shall be known as {STR_VAR_1}!\p"
 	.string "It looks no different from before,\n"
 	.string "and yet, this is vastly superior!\p"

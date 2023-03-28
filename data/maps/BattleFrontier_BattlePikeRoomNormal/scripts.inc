@@ -665,7 +665,7 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown: @ 825D9B3
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth: @ 825D9B6
 	.string "Welcome…\n"
 	.string "You must be commended for your luck…\p"
-	.string "Your Cástforms shall be restored\n"
+	.string "Your Castforms shall be restored\n"
 	.string "to full health…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge: @ 825DA13
@@ -675,7 +675,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge: @ 825DA13
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon: @ 825DA51
 	.string "Ah, you're a lucky one.\n"
 	.string "I'm in somewhat-good spirits now.\p"
-	.string "I will restore one of your Cástforms\n"
+	.string "I will restore one of your Castforms\n"
 	.string "to full health.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell: @ 825DABE
@@ -688,7 +688,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell: @ 825DABE
 BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons: @ 825DAE1
 	.string "Excuse me…\p"
 	.string "Would you care for a battle?\n"
-	.string "I'll restore your Cástforms if you win.$"
+	.string "I'll restore your Castforms if you win.$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe: @ 825DB2F
@@ -704,7 +704,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou: @ 825DB49
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised: @ 825DB67
 	.string "Magnificent…\p"
 	.string "As promised, I shall restore your\n"
-	.string "Cástforms to full health.$"
+	.string "Castforms to full health.$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2: @ 825DBAE
@@ -756,11 +756,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops: @ 825DD06
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled: @ 825DD3F
 	.string "It attacks without warning if it is\n"
 	.string "startled by another person…\p"
-	.string "Are you and your Cástforms all right?$"
+	.string "Are you and your Castforms all right?$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine: @ 825DDA3
 	.string "I do apologize for what happened…\n"
-	.string "I do hope your Cástforms are fine.$"
+	.string "I do hope your Castforms are fine.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence: @ 825DDE6
 	.string "… … … … … …\n"
@@ -773,7 +773,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer: @ 825DDFE
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth: @ 825DE3F
 	.string "How wonderful…\p"
-	.string "To honor your victory, your Cástforms\n"
+	.string "To honor your victory, your Castforms\n"
 	.string "shall be restored to full health…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2: @ 825DE94
@@ -836,17 +836,17 @@ BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal: @ 825E15D
 	.string "Giggle…\n"
 	.string "You seem to be bereft of luck…\p"
 	.string "If only you hadn't chosen this room,\n"
-	.string "your Cástforms could have been healed…$"
+	.string "your Castforms could have been healed…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne: @ 825E1DD
 	.string "I welcome you…\p"
 	.string "Since you have chosen this room, I will\n"
-	.string "restore one Cástforms to full health…$"
+	.string "restore one Castforms to full health…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo: @ 825E238
 	.string "I welcome you…\p"
 	.string "Since you have chosen this room, I will\n"
-	.string "restore two Cástforms to full health…$"
+	.string "restore two Castforms to full health…$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons: @ 825E293
@@ -854,7 +854,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons: @ 825E293
 	.string "Giggle…\n"
 	.string "You should thank your lucky stars…\p"
 	.string "Since you have chosen this room,\n"
-	.string "all your Cástforms will be restored…$"
+	.string "all your Castforms will be restored…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster: @ 825E311
 	.string "I shall go fetch our master…$"
@@ -862,6 +862,6 @@ BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster: @ 825E311
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons: @ 825E32E
 	.string "Ah, you're a lucky one!\n"
 	.string "I'm in good spirits now.\p"
-	.string "I will restore two of your Cástforms\n"
+	.string "I will restore two of your Castforms\n"
 	.string "to full health!$"
 

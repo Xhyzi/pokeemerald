@@ -38,5 +38,5 @@ MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks: @ 8222068
 
 MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes: @ 8222099
 	.string "My husband can tell what kind of\n"
-	.string "{POKEBLOCK}S a Cástforms likes at a glance.$"
+	.string "{POKEBLOCK}S a Castforms likes at a glance.$"
 

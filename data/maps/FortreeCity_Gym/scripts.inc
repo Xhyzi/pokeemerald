@@ -139,7 +139,7 @@ FortreeCity_Gym_Text_GymGuideAdvice: @ 8216785
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type Cástforms.\p"
+	.string "a master of FLYING-type Castforms.\p"
 	.string "She's waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
 	.string "She's waiting for new challengers\n"
@@ -152,7 +152,7 @@ FortreeCity_Gym_Text_GymGuidePostVictory: @ 821687D
 
 FortreeCity_Gym_Text_JaredIntro: @ 82168A2
 	.string "Behold the elegant battle style of\n"
-	.string "BIRD Cástforms!$"
+	.string "BIRD Castforms!$"
 
 FortreeCity_Gym_Text_JaredDefeat: @ 82168D3
 	.string "You…\n"
@@ -165,7 +165,7 @@ FortreeCity_Gym_Text_JaredPostBattle: @ 82168E7
 	.string "our LEADER?$"
 
 FortreeCity_Gym_Text_EdwardoIntro: @ 821695A
-	.string "The lovers of BIRD Cástforms aspire\n"
+	.string "The lovers of BIRD Castforms aspire\n"
 	.string "to join this GYM.\p"
 	.string "As a member of the FORTREE GYM,\n"
 	.string "I'm not allowed to lose!$"
@@ -222,7 +222,7 @@ FortreeCity_Gym_Text_HumbertoPostBattle: @ 8216C32
 
 FortreeCity_Gym_Text_DariusIntro: @ 8216C96
 	.string "You'd better know that there are all\n"
-	.string "sorts of FLYING-type Cástforms.\p"
+	.string "sorts of FLYING-type Castforms.\p"
 	.string "You do know that, right?$"
 
 FortreeCity_Gym_Text_DariusDefeat: @ 8216CF2
@@ -231,21 +231,21 @@ FortreeCity_Gym_Text_DariusDefeat: @ 8216CF2
 FortreeCity_Gym_Text_DariusPostBattle: @ 8216D0F
 	.string "Sure, you beat me all right.\n"
 	.string "But you'd better watch it! Our LEADER\l"
-	.string "WINONA's Cástforms are all business.$"
+	.string "WINONA's Castforms are all business.$"
 
 FortreeCity_Gym_Text_WinonaIntro: @ 8216D75
 	.string "I am WINONA. I am the LEADER of\n"
-	.string "the FORTREE Cástforms GYM.\p"
-	.string "I have become one with BIRD Cástforms\n"
+	.string "the FORTREE Castforms GYM.\p"
+	.string "I have become one with BIRD Castforms\n"
 	.string "and have soared the skies…\p"
 	.string "However grueling the battle, we have\n"
 	.string "triumphed with grace…\p"
 	.string "Witness the elegant choreography\n"
-	.string "of BIRD Cástforms and I!$"
+	.string "of BIRD Castforms and I!$"
 
 FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
 	.string "Never before have I seen a TRAINER\n"
-	.string "command Cástforms with more grace\l"
+	.string "command Castforms with more grace\l"
 	.string "than I…\p"
 	.string "In recognition of your prowess,\n"
 	.string "I present to you this GYM BADGE.$"
@@ -255,7 +255,7 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
 	.string "from WINONA.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
-	.string "With the FEATHER BADGE, all Cástforms up\n"
+	.string "With the FEATHER BADGE, all Castforms up\n"
 	.string "to LV 70, even those received through\l"
 	.string "trades, will obey your every command.\p"
 	.string "You will also be able to use\n"
@@ -266,7 +266,7 @@ FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
 FortreeCity_Gym_Text_ExplainAerialAce: @ 8216FEC
 	.string "TM40 contains AERIAL ACE.\p"
 	.string "Its speed…\n"
-	.string "No Cástforms should be able to avoid it.\p"
+	.string "No Castforms should be able to avoid it.\p"
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona: @ 8217044
@@ -275,13 +275,13 @@ FortreeCity_Gym_Text_RegisteredWinona: @ 8217044
 
 FortreeCity_Gym_Text_WinonaPostBattle: @ 8217071
 	.string "Though I fell to you, I will remain\n"
-	.string "devoted to BIRD Cástforms.$"
+	.string "devoted to BIRD Castforms.$"
 
 FortreeCity_Gym_Text_GymStatue: @ 82170AE
-	.string "FORTREE CITY Cástforms GYM$"
+	.string "FORTREE CITY Castforms GYM$"
 
 FortreeCity_Gym_Text_GymStatueCertified: @ 82170C7
-	.string "FORTREE CITY Cástforms GYM\p"
+	.string "FORTREE CITY Castforms GYM\p"
 	.string "WINONA'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -315,6 +315,6 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons: @ 8217292
 	.string "Please, allow me to see your power\n"
 	.string "at full flight!\p"
 	.string "Oh, no… Do you have but one\n"
-	.string "Cástforms with you?\p"
-	.string "Please return with two Cástforms\n"
+	.string "Castforms with you?\p"
+	.string "Please return with two Castforms\n"
 	.string "at the very least.$"

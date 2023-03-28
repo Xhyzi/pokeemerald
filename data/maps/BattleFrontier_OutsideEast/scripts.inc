@@ -244,7 +244,7 @@ BattleFrontier_OutsideEast_Text_BattleTowerSign: @ 8242E11
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign: @ 8242E58
 	.string "This is the BATTLE PALACE!\n"
-	.string "Keep your eyes on Cástforms battles!$"
+	.string "Keep your eyes on Castforms battles!$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign: @ 8242E96
 	.string "This is the BATTLE ARENA!\n"
@@ -270,7 +270,7 @@ BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial: @ 8242F8C
 
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier: @ 8242FDC
 	.string "My grand ambition is to conquer both\n"
-	.string "the BATTLE FRONTIER and the Cástforms\l"
+	.string "the BATTLE FRONTIER and the Castforms\l"
 	.string "LEAGUE.\p"
 	.string "And if my dream comes true…\p"
 	.string "I… I'm going to ask MIMI next door\n"
@@ -335,7 +335,7 @@ BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles: @ 82434A0
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon: @ 8243504
 	.string "I'm better than my daddy\n"
-	.string "at Cástforms.$"
+	.string "at Castforms.$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy: @ 8243529
 	.string "Go on, my baby sweetie!\n"
@@ -355,7 +355,7 @@ BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena: @ 8243598
 BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere: @ 8243668
 	.string "I sometimes see this really important-\n"
 	.string "looking old man going in there.\p"
-	.string "He has these really awesome Cástforms.\n"
+	.string "He has these really awesome Castforms.\n"
 	.string "He seems really nice, though.$"
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid: @ 82436F2
@@ -437,7 +437,7 @@ BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere: @ 8243CA3
 BattleFrontier_OutsideEast_Text_StickyMonWithLongTail: @ 8243D0B
 	.string "I…\n"
 	.string "I saw it!\p"
-	.string "There was a sticky sort of a Cástforms\n"
+	.string "There was a sticky sort of a Castforms\n"
 	.string "with a long tail up ahead!\p"
 	.string "It was hiding under a boulder, and\n"
 	.string "it kept staring at me!$"

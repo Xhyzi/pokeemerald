@@ -58,7 +58,7 @@ SootopolisCity_Mart_EventScript_GentlemanNoLegendaries:: @ 822680C
 SootopolisCity_Mart_Text_PPUpIsGreat: @ 8226816
 	.string "PP UP is great!\p"
 	.string "It raises the POWER POINTS, the PP,\n"
-	.string "of a Cástforms move.$"
+	.string "of a Castforms move.$"
 
 SootopolisCity_Mart_Text_TooScaryOutside: @ 822685D
 	.string "What…\n"

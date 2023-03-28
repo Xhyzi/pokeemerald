@@ -38,9 +38,9 @@ SeafloorCavern_Room3_Text_ShellyPostBattle: @ 8234A8A
 
 SeafloorCavern_Room3_Text_Grunt5Intro: @ 8234B3A
 	.string "For our dream to become real, we need\n"
-	.string "the power of Cástforms.\p"
+	.string "the power of Castforms.\p"
 	.string "But meddlers like you use the power of\n"
-	.string "Cástforms to mess with us even at\l"
+	.string "Castforms to mess with us even at\l"
 	.string "a place like this!\p"
 	.string "Life just doesn't work the way we\n"
 	.string "need it to!$"

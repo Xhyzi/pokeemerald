@@ -233,7 +233,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall: @ 8219A0D
 	.string "famous works!\p"
 	.string "This exhibit hall, I wish to fill it with…\p"
 	.string "Modern and vibrant artworks of\n"
-	.string "Cástforms seemingly ready to spring\l"
+	.string "Castforms seemingly ready to spring\l"
 	.string "forth into glorious life!$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit: @ 8219BC4
@@ -241,7 +241,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit: @ 8219BC4
 	.string "to monopolize the conversation.\p"
 	.string "Now, as you are young, and yet\n"
 	.string "obviously well traveled…\p"
-	.string "You must encounter lively Cástforms\n"
+	.string "You must encounter lively Castforms\n"
 	.string "and works of art depicting them.\p"
 	.string "If you were to come across such\n"
 	.string "a painting, may we ask you to obtain\l"
@@ -251,12 +251,12 @@ LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit: @ 8219BC4
 LilycoveCity_LilycoveMuseum_2F_Text_WishToFillExhibit: @ 8219CF3
 	.string "I wish to fill this exhibit hall with\n"
 	.string "modern and vibrant paintings of\l"
-	.string "Cástforms.$"
+	.string "Castforms.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThanksAddedNewPainting: @ 8219D42
 	.string "Thanks to you, we've added a new\n"
 	.string "painting to our collection!\p"
-	.string "I've heard it depicts your Cástforms.\n"
+	.string "I've heard it depicts your Castforms.\n"
 	.string "Truly magnificent!\p"
 	.string "Thank you so very, very much!$"
 
@@ -309,23 +309,23 @@ LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame: @ 821A06D
 	.string "green-colored adornments.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon: @ 821A0A1
-	.string "It's a painting of Cástforms.$"
+	.string "It's a painting of Castforms.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe: @ 821A0BD
 	.string "I've been away awhile, so the new\n"
 	.string "paintings up here surprised me.\p"
-	.string "I wish someone would paint my Cástforms\n"
+	.string "I wish someone would paint my Castforms\n"
 	.string "this pretty.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing: @ 821A132
 	.string "Well… So this is where they show\n"
-	.string "the topical Cástforms paintings.\p"
+	.string "the topical Castforms paintings.\p"
 	.string "I see, these new paintings are indeed\n"
 	.string "rather amusing.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon: @ 821A1A8
 	.string "Wow, is that right?\n"
-	.string "These paintings are of your Cástforms.\p"
+	.string "These paintings are of your Castforms.\p"
 	.string "Isn't that just the ultimate joy for\n"
 	.string "a TRAINER?$"
 

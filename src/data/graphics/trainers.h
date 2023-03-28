@@ -1,3 +1,12 @@
+const u32 gTrainerFrontPic_CastformTrainer[] = INCBIN_U32("graphics/trainers/front_pics/castform_front_pic.4bpp.lz");
+const u32 gTrainerPalette_CastformTrainer[] = INCBIN_U32("graphics/trainers/front_pics/castform_front_pic.gbapal.lz");
+
+const u32 gTrainerFrontPic_CastformTrainerRain[] = INCBIN_U32("graphics/trainers/front_pics/castform_rain_front_pic.4bpp.lz");
+const u32 gTrainerPalette_CastformTrainerRain[] = INCBIN_U32("graphics/trainers/front_pics/castform_rain_front_pic.gbapal.lz");
+
+const u32 gTrainerFrontPic_CastformTrainerSun[] = INCBIN_U32("graphics/trainers/front_pics/castform_sun_front_pic.4bpp.lz");
+const u32 gTrainerPalette_CastformTrainerSun[] = INCBIN_U32("graphics/trainers/front_pics/castform_sun_front_pic.gbapal.lz");
+
 const u32 gTrainerFrontPic_Hiker[] = INCBIN_U32("graphics/trainers/front_pics/hiker_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Hiker[] = INCBIN_U32("graphics/trainers/palettes/hiker.gbapal.lz");
 
@@ -286,5 +295,5 @@ const u8 gTrainerBackPic_RubySapphireMay[] = INCBIN_U8("graphics/trainers/back_p
 const u8 gTrainerBackPic_Wally[] = INCBIN_U8("graphics/trainers/back_pics/wally_back_pic.4bpp");
 const u8 gTrainerBackPic_Steven[] = INCBIN_U8("graphics/trainers/back_pics/steven_back_pic.4bpp");
 
-const u32 gTrainerBackPicPalette_Red[] = INCBIN_U32("graphics/trainers/palettes/red_back_pic.gbapal.lz");
-const u32 gTrainerBackPicPalette_Leaf[] = INCBIN_U32("graphics/trainers/palettes/leaf_back_pic.gbapal.lz");
+const u32 gTrainerBackPicPalette_Red[] = INCBIN_U32("graphics/trainers/back_pics/brendan_back_pic.gbapal.lz");
+const u32 gTrainerBackPicPalette_Leaf[] = INCBIN_U32("graphics/trainers/back_pics/steven_back_pic.gbapal.lz");

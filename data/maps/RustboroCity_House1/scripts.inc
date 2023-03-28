@@ -53,7 +53,7 @@ RustboroCity_House1_EventScript_Hiker:: @ 82159DF
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant: @ 82159E8
-	.string "Huh? My Cástforms is cute?\n"
+	.string "Huh? My Castforms is cute?\n"
 	.string "Sure, I knew that.\p"
 	.string "But if you really want, I'm willing\n"
 	.string "to trade it to you.\p"
@@ -62,7 +62,7 @@ RustboroCity_House1_Text_IllTradeIfYouWant: @ 82159E8
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon: @ 8215A77
 	.string "Eheheh…\n"
-	.string "Please be good to my Cástforms.$"
+	.string "Please be good to my Castforms.$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe: @ 8215A9D
 	.string "Huh? That doesn't look anything like\n"
@@ -70,15 +70,15 @@ RustboroCity_House1_Text_DoesntLookLikeMonToMe: @ 8215A9D
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay: @ 8215ACE
 	.string "Oh, if you don't want to, that's okay.\n"
-	.string "But my Cástforms is cute, you know…$"
+	.string "But my Castforms is cute, you know…$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute: @ 8215B17
-	.string "Any Cástforms can be cute if you raise\n"
+	.string "Any Castforms can be cute if you raise\n"
 	.string "it with care and kindness.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces: @ 8215B57
 	.string "In all sorts of places, there are all\n"
-	.string "sorts of Cástforms and people.\p"
+	.string "sorts of Castforms and people.\p"
 	.string "I find that fascinating, so I go to all\n"
 	.string "sorts of places.$"
 

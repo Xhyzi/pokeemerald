@@ -181,7 +181,7 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight: @ 8227B43
 
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles: @ 8227B46
 	.string "When I was young, I traveled the world\n"
-	.string "as a Cástforms TRAINER.\p"
+	.string "as a Castforms TRAINER.\p"
 	.string "Now that I've become an old buzzard,\n"
 	.string "my only amusement is watching young\l"
 	.string "TRAINERS battle.$"

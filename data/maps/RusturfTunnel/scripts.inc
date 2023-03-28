@@ -444,7 +444,7 @@ RusturfTunnel_Text_Peeko: @ 822D1F7
 
 RusturfTunnel_Text_GruntIntro: @ 822D20A
 	.string "Grah, keelhaul it all!\p"
-	.string "That hostage Cástforms turned out to\n"
+	.string "That hostage Castforms turned out to\n"
 	.string "be worthless!\p"
 	.string "And to think I made a getaway…\n"
 	.string "In this tunnel to nowhere!\p"
@@ -509,7 +509,7 @@ RusturfTunnel_Text_YouShatteredBoulderTakeHM: @ 822D65C
 
 RusturfTunnel_Text_ExplainStrength: @ 822D6D2
 	.string "That HM contains STRENGTH.\p"
-	.string "If a muscular Cástforms were to learn\n"
+	.string "If a muscular Castforms were to learn\n"
 	.string "that, it would be able to move even\l"
 	.string "large boulders.$"
 
@@ -530,15 +530,15 @@ RusturfTunnel_Text_BoyfriendOnOtherSideOfRock: @ 822D7A3
 RusturfTunnel_Text_MikeIntro: @ 822D84D
 	.string "What do you call a wild man up in the\n"
 	.string "mountains? A mountain man, right?\p"
-	.string "So why don't they call a Cástforms in\n"
-	.string "the mountains a mountain Cástforms?$"
+	.string "So why don't they call a Castforms in\n"
+	.string "the mountains a mountain Castforms?$"
 
 RusturfTunnel_Text_MikeDefeat: @ 822D8DB
-	.string "My Cástforms…\n"
+	.string "My Castforms…\n"
 	.string "Ran out of power…$"
 
 RusturfTunnel_Text_MikePostBattle: @ 822D8F9
 	.string "They halted development here to\n"
-	.string "protect Cástforms, right?\l"
+	.string "protect Castforms, right?\l"
 	.string "There's a feel-good story!$"
 

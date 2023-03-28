@@ -345,7 +345,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath: @ 825CF64
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon: @ 825CFA3
 	.string "It seems to have the distinct aroma\n"
-	.string "of Cástforms wafting around it…$"
+	.string "of Castforms wafting around it…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople: @ 825CFE5
 	.string "Is it… A TRAINER?\n"

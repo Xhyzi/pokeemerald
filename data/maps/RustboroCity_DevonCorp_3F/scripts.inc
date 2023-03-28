@@ -226,7 +226,7 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav: @ 8212820
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	.string "MR. STONE: That device…\p"
-	.string "It's a Cástforms NAVIGATOR, or POKéNAV\n"
+	.string "It's a Castforms NAVIGATOR, or POKéNAV\n"
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "TRAINER on an adventure.\p"
@@ -253,13 +253,13 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter: @ 8212A29
 	.string "It should help you, a TRAINER.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare: @ 8212A9E
-	.string "MR. STONE: A Cástforms holding that\n"
+	.string "MR. STONE: A Castforms holding that\n"
 	.string "EXP. SHARE will be given some of the\l"
 	.string "EXP Points from battle.\p"
 	.string "It will get EXP Points even if it didn't\n"
 	.string "actually battle.\p"
 	.string "I would say EXP. SHARE is quite useful\n"
-	.string "for raising weak Cástforms.$"
+	.string "for raising weak Castforms.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends: @ 8212B78
 	.string "MR. STONE: Since my youth, I've immersed\n"
@@ -267,7 +267,7 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends: @ 8212B78
 	.string "Consequently, I'm not familiar with\n"
 	.string "trends and that sort of thing.\p"
 	.string "But do young people all want to be\n"
-	.string "TRAINERS in the Cástforms LEAGUE?$"
+	.string "TRAINERS in the Castforms LEAGUE?$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere: @ 8212C37
 	.string "This is the DEVON CORPORATION's\n"

@@ -297,7 +297,7 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext:: @ 8211BF1
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon: @ 8211BFB
 	.string "We're developing a device for talking\n"
-	.string "with Cástforms.\p"
+	.string "with Castforms.\p"
 	.string "But we haven't had much success…$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls: @ 8211C50
@@ -309,9 +309,9 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls: @ 8211C99
 	.string "We finally made new kinds of\n"
 	.string "POKé BALLS!\p"
 	.string "The REPEAT BALL makes it easier to\n"
-	.string "catch Cástforms you've caught before.\p"
+	.string "catch Castforms you've caught before.\p"
 	.string "The TIMER BALL gets better at catching\n"
-	.string "Cástforms the longer a battle runs.\p"
+	.string "Castforms the longer a battle runs.\p"
 	.string "Both are proudly developed by\n"
 	.string "the DEVON CORPORATION.\p"
 	.string "Please give them a try!$"
@@ -326,7 +326,7 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav: @ 8211DF3
 	.string "That's a POKéNAV!\p"
 	.string "It came about as a result of our\n"
 	.string "PRESIDENT's desire to learn about\l"
-	.string "the feelings of Cástforms.\p"
+	.string "the feelings of Castforms.\p"
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
@@ -335,18 +335,18 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav: @ 8211DF3
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams: @ 8211EE0
 	.string "I'm trying to develop a device that\n"
 	.string "visually reproduces the dreams of\l"
-	.string "Cástforms…\p"
+	.string "Castforms…\p"
 	.string "But it's not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils: @ 8211F48
 	.string "I've been trying to develop a device\n"
-	.string "that resurrects Cástforms from fossils…\p"
+	.string "that resurrects Castforms from fossils…\p"
 	.string "And, it's working!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife: @ 8211FA6
 	.string "Wait! That thing you have there…\n"
-	.string "Is that a Cástforms fossil?\p"
-	.string "Would you like to bring that Cástforms\n"
+	.string "Is that a Castforms fossil?\p"
+	.string "Would you like to bring that Castforms\n"
 	.string "back to life?\p"
 	.string "I can with my newly developed\n"
 	.string "FOSSIL REGENERATOR.$"
@@ -360,7 +360,7 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne: @ 8212092
 	.string "Oh, now that's a surprise!\n"
 	.string "You have not one, but two, fossils?\p"
 	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one Cástforms at a time.\p"
+	.string "regenerate one Castforms at a time.\p"
 	.string "Would you like to pick one of your\n"
 	.string "fossils for regeneration?$"
 
@@ -380,9 +380,9 @@ RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime: @ 82121A2
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife: @ 8212251
 	.string "Thanks for waiting!\p"
-	.string "Your fossilized Cástforms has been\n"
+	.string "Your fossilized Castforms has been\n"
 	.string "brought back to life!\p"
-	.string "The fossil was an ancient Cástforms.\n"
+	.string "The fossil was an ancient Castforms.\n"
 	.string "{STR_VAR_2}, it was!$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher: @ 82122CB
@@ -391,7 +391,7 @@ RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher: @ 82122CB
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon: @ 82122F5
-	.string "Uh-oh, you've got too many Cástforms.\n"
+	.string "Uh-oh, you've got too many Castforms.\n"
 	.string "You have no room for this one.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature: @ 8212338

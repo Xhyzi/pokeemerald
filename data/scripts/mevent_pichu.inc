@@ -67,12 +67,12 @@ SurfPichu_Slot5: @ 8674DD8
 sText_MysteryGiftEgg:
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
-	.string "From the Cástforms CENTER we\n"
-	.string "have a gift--a Cástforms EGG!\p"
+	.string "From the Castforms CENTER we\n"
+	.string "have a gift--a Castforms EGG!\p"
 	.string "Please raise it with love and\n"
 	.string "kindness.$"
 
 sText_FullParty:
 	.string "Oh, your party appears to be full.\p"
 	.string "Please come see me after storing\n"
-	.string "a Cástforms on a PC.$"
+	.string "a Castforms on a PC.$"

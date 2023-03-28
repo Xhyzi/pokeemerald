@@ -4,7 +4,7 @@ static const u8 sDummyDesc[] = _(
 // Pokeballs
 static const u8 sMasterBallDesc[] = _(
     "The best BALL that\n"
-    "catches a Cástforms\n"
+    "catches a Castforms\n"
     "without fail.");
 
 static const u8 sUltraBallDesc[] = _(
@@ -20,7 +20,7 @@ static const u8 sGreatBallDesc[] = _(
 static const u8 sPokeBallDesc[] = _(
     "A tool used for\n"
     "catching wild\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sSafariBallDesc[] = _(
     "A special BALL that\n"
@@ -30,21 +30,21 @@ static const u8 sSafariBallDesc[] = _(
 static const u8 sNetBallDesc[] = _(
     "A BALL that works\n"
     "well on WATER- and\n"
-    "BUG-type Cástforms.");
+    "BUG-type Castforms.");
 
 static const u8 sDiveBallDesc[] = _(
     "A BALL that works\n"
-    "better on Cástforms\n"
+    "better on Castforms\n"
     "on the ocean floor.");
 
 static const u8 sNestBallDesc[] = _(
     "A BALL that works\n"
     "better on weaker\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sRepeatBallDesc[] = _(
     "A BALL that works\n"
-    "better on Cástforms\n"
+    "better on Castforms\n"
     "caught before.");
 
 static const u8 sTimerBallDesc[] = _(
@@ -54,7 +54,7 @@ static const u8 sTimerBallDesc[] = _(
 
 static const u8 sLuxuryBallDesc[] = _(
     "A cozy BALL that\n"
-    "makes Cástforms\n"
+    "makes Castforms\n"
     "more friendly.");
 
 static const u8 sPremierBallDesc[] = _(
@@ -65,61 +65,61 @@ static const u8 sPremierBallDesc[] = _(
 // Medicine
 static const u8 sPotionDesc[] = _(
     "Restores the HP of\n"
-    "a Cástforms by\n"
+    "a Castforms by\n"
     "20 points.");
 
 static const u8 sAntidoteDesc[] = _(
     "Heals a poisoned\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sBurnHealDesc[] = _(
-    "Heals Cástforms\n"
+    "Heals Castforms\n"
     "of a burn.");
 
 static const u8 sIceHealDesc[] = _(
     "Defrosts a frozen\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sAwakeningDesc[] = _(
     "Awakens a sleeping\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sParalyzeHealDesc[] = _(
     "Heals a paralyzed\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sFullRestoreDesc[] = _(
     "Fully restores the\n"
     "HP and status of a\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sMaxPotionDesc[] = _(
     "Fully restores the\n"
-    "HP of a Cástforms.");
+    "HP of a Castforms.");
 
 static const u8 sHyperPotionDesc[] = _(
     "Restores the HP of\n"
-    "a Cástforms by\n"
+    "a Castforms by\n"
     "200 points.");
 
 static const u8 sSuperPotionDesc[] = _(
     "Restores the HP of\n"
-    "a Cástforms by\n"
+    "a Castforms by\n"
     "50 points.");
 
 static const u8 sFullHealDesc[] = _(
     "Heals all the\n"
     "status problems of\n"
-    "one Cástforms.");
+    "one Castforms.");
 
 static const u8 sReviveDesc[] = _(
     "Revives a fainted\n"
-    "Cástforms with half\n"
+    "Castforms with half\n"
     "its HP.");
 
 static const u8 sMaxReviveDesc[] = _(
     "Revives a fainted\n"
-    "Cástforms with all\n"
+    "Castforms with all\n"
     "its HP.");
 
 static const u8 sFreshWaterDesc[] = _(
@@ -160,7 +160,7 @@ static const u8 sHealPowderDesc[] = _(
 static const u8 sRevivalHerbDesc[] = _(
     "A very bitter herb\n"
     "that revives a\n"
-    "fainted Cástforms.");
+    "fainted Castforms.");
 
 static const u8 sEtherDesc[] = _(
     "Restores the PP\n"
@@ -178,7 +178,7 @@ static const u8 sElixirDesc[] = _(
 
 static const u8 sMaxElixirDesc[] = _(
     "Fully restores the\n"
-    "PP of a Cástforms's\n"
+    "PP of a Castforms's\n"
     "moves.");
 
 static const u8 sLavaCookieDesc[] = _(
@@ -189,26 +189,26 @@ static const u8 sLavaCookieDesc[] = _(
 static const u8 sBlueFluteDesc[] = _(
     "A glass flute that\n"
     "awakens sleeping\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sYellowFluteDesc[] = _(
     "A glass flute that\n"
-    "snaps Cástforms\n"
+    "snaps Castforms\n"
     "out of confusion.");
 
 static const u8 sRedFluteDesc[] = _(
     "A glass flute that\n"
-    "snaps Cástforms\n"
+    "snaps Castforms\n"
     "out of attraction.");
 
 static const u8 sBlackFluteDesc[] = _(
     "A glass flute that\n"
     "keeps away wild\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sWhiteFluteDesc[] = _(
     "A glass flute that\n"
-    "lures wild Cástforms.");
+    "lures wild Castforms.");
 
 static const u8 sBerryJuiceDesc[] = _(
     "A 100% pure juice\n"
@@ -218,7 +218,7 @@ static const u8 sBerryJuiceDesc[] = _(
 static const u8 sSacredAshDesc[] = _(
     "Fully revives and\n"
     "restores all\n"
-    "fainted Cástforms.");
+    "fainted Castforms.");
 
 // Collectibles
 static const u8 sShoalSaltDesc[] = _(
@@ -254,31 +254,31 @@ static const u8 sGreenShardDesc[] = _(
 // Vitamins
 static const u8 sHPUpDesc[] = _(
     "Raises the base HP\n"
-    "of one Cástforms.");
+    "of one Castforms.");
 
 static const u8 sProteinDesc[] = _(
     "Raises the base\n"
     "ATTACK stat of one\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sIronDesc[] = _(
     "Raises the base\n"
     "DEFENSE stat of\n"
-    "one Cástforms.");
+    "one Castforms.");
 
 static const u8 sCarbosDesc[] = _(
     "Raises the base\n"
     "SPEED stat of one\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sCalciumDesc[] = _(
     "Raises the base\n"
     "SP. ATK stat of one\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sRareCandyDesc[] = _(
     "Raises the level\n"
-    "of a Cástforms by\n"
+    "of a Castforms by\n"
     "one.");
 
 static const u8 sPPUpDesc[] = _(
@@ -289,7 +289,7 @@ static const u8 sPPUpDesc[] = _(
 static const u8 sZincDesc[] = _(
     "Raises the base\n"
     "SP. DEF stat of one\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sPPMaxDesc[] = _(
     "Raises the PP of a\n"
@@ -335,22 +335,22 @@ static const u8 sXSpecialDesc[] = _(
 static const u8 sPokeDollDesc[] = _(
     "Use to flee from\n"
     "any battle with\n"
-    "a wild Cástforms.");
+    "a wild Castforms.");
 
 static const u8 sFluffyTailDesc[] = _(
     "Use to flee from\n"
     "any battle with\n"
-    "a wild Cástforms.");
+    "a wild Castforms.");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
     "Repels weak wild\n"
-    "Cástforms for 200\n"
+    "Castforms for 200\n"
     "steps.");
 
 static const u8 sMaxRepelDesc[] = _(
     "Repels weak wild\n"
-    "Cástforms for 250\n"
+    "Castforms for 250\n"
     "steps.");
 
 static const u8 sEscapeRopeDesc[] = _(
@@ -360,38 +360,38 @@ static const u8 sEscapeRopeDesc[] = _(
 
 static const u8 sRepelDesc[] = _(
     "Repels weak wild\n"
-    "Cástforms for 100\n"
+    "Castforms for 100\n"
     "steps.");
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(
     "Makes certain\n"
-    "species of Cástforms\n"
+    "species of Castforms\n"
     "evolve.");
 
 static const u8 sMoonStoneDesc[] = _(
     "Makes certain\n"
-    "species of Cástforms\n"
+    "species of Castforms\n"
     "evolve.");
 
 static const u8 sFireStoneDesc[] = _(
     "Makes certain\n"
-    "species of Cástforms\n"
+    "species of Castforms\n"
     "evolve.");
 
 static const u8 sThunderStoneDesc[] = _(
     "Makes certain\n"
-    "species of Cástforms\n"
+    "species of Castforms\n"
     "evolve.");
 
 static const u8 sWaterStoneDesc[] = _(
     "Makes certain\n"
-    "species of Cástforms\n"
+    "species of Castforms\n"
     "evolve.");
 
 static const u8 sLeafStoneDesc[] = _(
     "Makes certain\n"
-    "species of Cástforms\n"
+    "species of Castforms\n"
     "evolve.");
 
 // Valuable items
@@ -439,62 +439,62 @@ static const u8 sHeartScaleDesc[] = _(
 static const u8 sOrangeMailDesc[] = _(
     "A ZIGZAGOON-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sHarborMailDesc[] = _(
     "A WINGULL-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sGlitterMailDesc[] = _(
     "A PIKACHU-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sMechMailDesc[] = _(
     "A MAGNEMITE-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sWoodMailDesc[] = _(
     "A SLAKOTH-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sWaveMailDesc[] = _(
     "A WAILMER-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sBeadMailDesc[] = _(
     "MAIL featuring a\n"
     "sketch of the\n"
-    "holding Cástforms.");
+    "holding Castforms.");
 
 static const u8 sShadowMailDesc[] = _(
     "A DUSKULL-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sTropicMailDesc[] = _(
     "A BELLOSSOM-print\n"
     "MAIL to be held by\n"
-    "a Cástforms.");
+    "a Castforms.");
 
 static const u8 sDreamMailDesc[] = _(
     "MAIL featuring a\n"
     "sketch of the\n"
-    "holding Cástforms.");
+    "holding Castforms.");
 
 static const u8 sFabMailDesc[] = _(
     "A gorgeous-print\n"
     "MAIL to be held\n"
-    "by a Cástforms.");
+    "by a Castforms.");
 
 static const u8 sRetroMailDesc[] = _(
     "MAIL featuring the\n"
     "drawings of three\n"
-    "Cástforms.");
+    "Castforms.");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
@@ -504,7 +504,7 @@ static const u8 sCheriBerryDesc[] = _(
 
 static const u8 sChestoBerryDesc[] = _(
     "A hold item that\n"
-    "awakens Cástforms\n"
+    "awakens Castforms\n"
     "in battle.");
 
 static const u8 sPechaBerryDesc[] = _(
@@ -519,7 +519,7 @@ static const u8 sRawstBerryDesc[] = _(
 
 static const u8 sAspearBerryDesc[] = _(
     "A hold item that\n"
-    "defrosts Cástforms\n"
+    "defrosts Castforms\n"
     "in battle.");
 
 static const u8 sLeppaBerryDesc[] = _(
@@ -598,32 +598,32 @@ static const u8 sPinapBerryDesc[] = _(
     "to grow PINAP.");
 
 static const u8 sPomegBerryDesc[] = _(
-    "Makes a Cástforms\n"
+    "Makes a Castforms\n"
     "friendly but lowers\n"
     "base HP.");
 
 static const u8 sKelpsyBerryDesc[] = _(
-    "Makes a Cástforms\n"
+    "Makes a Castforms\n"
     "friendly but lowers\n"
     "base ATTACK.");
 
 static const u8 sQualotBerryDesc[] = _(
-    "Makes a Cástforms\n"
+    "Makes a Castforms\n"
     "friendly but lowers\n"
     "base DEFENSE.");
 
 static const u8 sHondewBerryDesc[] = _(
-    "Makes a Cástforms\n"
+    "Makes a Castforms\n"
     "friendly but lowers\n"
     "base SP. ATK.");
 
 static const u8 sGrepaBerryDesc[] = _(
-    "Makes a Cástforms\n"
+    "Makes a Castforms\n"
     "friendly but lowers\n"
     "base SP. DEF.");
 
 static const u8 sTamatoBerryDesc[] = _(
-    "Makes a Cástforms\n"
+    "Makes a Castforms\n"
     "friendly but lowers\n"
     "base SPEED.");
 
@@ -745,7 +745,7 @@ static const u8 sSootheBellDesc[] = _(
 
 static const u8 sMentalHerbDesc[] = _(
     "A hold item that\n"
-    "snaps Cástforms out\n"
+    "snaps Castforms out\n"
     "of infatuation.");
 
 static const u8 sChoiceBandDesc[] = _(
@@ -771,7 +771,7 @@ static const u8 sAmuletCoinDesc[] = _(
 static const u8 sCleanseTagDesc[] = _(
     "A hold item that\n"
     "helps repel wild\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sSoulDewDesc[] = _(
     "Hold item: raises\n"
@@ -791,7 +791,7 @@ static const u8 sDeepSeaScaleDesc[] = _(
 static const u8 sSmokeBallDesc[] = _(
     "A hold item that\n"
     "assures fleeing\n"
-    "from wild Cástforms.");
+    "from wild Castforms.");
 
 static const u8 sEverstoneDesc[] = _(
     "A wondrous hold\n"
@@ -826,7 +826,7 @@ static const u8 sLeftoversDesc[] = _(
 static const u8 sDragonScaleDesc[] = _(
     "A strange scale\n"
     "held by DRAGON-\n"
-    "type Cástforms.");
+    "type Castforms.");
 
 static const u8 sLightBallDesc[] = _(
     "A hold item that\n"
@@ -990,17 +990,17 @@ static const u8 sItemfinderDesc[] = _(
 static const u8 sOldRodDesc[] = _(
     "Use by any body of\n"
     "water to fish for\n"
-    "wild Cástforms.");
+    "wild Castforms.");
 
 static const u8 sGoodRodDesc[] = _(
     "A decent fishing\n"
     "rod for catching\n"
-    "wild Cástforms.");
+    "wild Castforms.");
 
 static const u8 sSuperRodDesc[] = _(
     "The best fishing\n"
     "rod for catching\n"
-    "wild Cástforms.");
+    "wild Castforms.");
 
 static const u8 sSSTicketDesc[] = _(
     "The ticket required\n"
@@ -1010,7 +1010,7 @@ static const u8 sSSTicketDesc[] = _(
 static const u8 sContestPassDesc[] = _(
     "The pass required\n"
     "for entering\n"
-    "Cástforms CONTESTS.");
+    "Castforms CONTESTS.");
 
 static const u8 sWailmerPailDesc[] = _(
     "A tool used for\n"
@@ -1104,17 +1104,17 @@ static const u8 sStorageKeyDesc[] = _(
 static const u8 sRootFossilDesc[] = _(
     "A fossil of an\n"
     "ancient, seafloor-\n"
-    "dwelling Cástforms.");
+    "dwelling Castforms.");
 
 static const u8 sClawFossilDesc[] = _(
     "A fossil of an\n"
     "ancient, seafloor-\n"
-    "dwelling Cástforms.");
+    "dwelling Castforms.");
 
 static const u8 sDevonScopeDesc[] = _(
     "A device by DEVON\n"
     "that signals any\n"
-    "unseeable Cástforms.");
+    "unseeable Castforms.");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
@@ -1165,7 +1165,7 @@ static const u8 sTM09Desc[] = _(
 static const u8 sTM10Desc[] = _(
     "The attack power\n"
     "varies among\n"
-    "different Cástforms.");
+    "different Castforms.");
 
 static const u8 sTM11Desc[] = _(
     "Raises the power of\n"
@@ -1411,13 +1411,13 @@ static const u8 sHM08Desc[] = _(
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
     "A parcel for PROF.\n"
-    "OAK from a Cástforms\n"
+    "OAK from a Castforms\n"
     "MART's clerk.");
 
 static const u8 sPokeFluteDesc[] = _(
     "A sweet-sounding\n"
     "flute that awakens\n"
-    "Cástforms.");
+    "Castforms.");
 
 static const u8 sSecretKeyDesc[] = _(
     "The key to the\n"
@@ -1437,7 +1437,7 @@ static const u8 sGoldTeethDesc[] = _(
 static const u8 sOldAmberDesc[] = _(
     "A stone containing\n"
     "the genes of an\n"
-    "ancient Cástforms.");
+    "ancient Castforms.");
 
 static const u8 sCardKeyDesc[] = _(
     "A card-type door\n"
@@ -1452,17 +1452,17 @@ static const u8 sLiftKeyDesc[] = _(
 static const u8 sHelixFossilDesc[] = _(
     "A piece of an\n"
     "ancient marine\n"
-    "Cástforms's seashell.");
+    "Castforms's seashell.");
 
 static const u8 sDomeFossilDesc[] = _(
     "A piece of an\n"
     "ancient marine\n"
-    "Cástforms's shell.");
+    "Castforms's shell.");
 
 static const u8 sSilphScopeDesc[] = _(
     "SILPH CO's scope\n"
     "makes unseeable\n"
-    "Cástforms visible.");
+    "Castforms visible.");
 
 static const u8 sBicycleDesc[] = _(
     "A folding bicycle\n"

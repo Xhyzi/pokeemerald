@@ -5,23 +5,23 @@ gBirchDexRatingText_AreYouCurious:: @ 82A5C9C
 
 gBirchDexRatingText_Cancel: @ 82A5CEB
 	.string "Hm? Oh, you haven't caught enough\n"
-	.string "Cástforms to make it worthwhile.$"
+	.string "Castforms to make it worthwhile.$"
 
 gBirchDexRatingText_SoYouveSeenAndCaught:: @ 82A5D2C
 	.string "Hmhm…\p"
-	.string "So, you've seen {STR_VAR_1} Cástforms,\n"
-	.string "and you've caught {STR_VAR_2} Cástforms…$"
+	.string "So, you've seen {STR_VAR_1} Castforms,\n"
+	.string "and you've caught {STR_VAR_2} Castforms…$"
 
 gBirchDexRatingText_LessThan10:: @ 82A5D6C
 	.string "Go into grassy areas more and look\n"
-	.string "for Cástforms more carefully.$"
+	.string "for Castforms more carefully.$"
 
 gBirchDexRatingText_LessThan20:: @ 82A5DAB
 	.string "I guess you're getting the hang\n"
 	.string "of it. But, it gets harder from here.$"
 
 gBirchDexRatingText_LessThan30:: @ 82A5DF1
-	.string "Some Cástforms only appear in\n"
+	.string "Some Castforms only appear in\n"
 	.string "certain areas.\l"
 	.string "You must be persistent.$"
 
@@ -36,10 +36,10 @@ gBirchDexRatingText_LessThan50:: @ 82A5E83
 
 gBirchDexRatingText_LessThan60:: @ 82A5EB9
 	.string "Are you using any RODS?\n"
-	.string "There are many Cástforms in the sea.$"
+	.string "There are many Castforms in the sea.$"
 
 gBirchDexRatingText_LessThan70:: @ 82A5EF4
-	.string "Instead of just catching Cástforms,\n"
+	.string "Instead of just catching Castforms,\n"
 	.string "how about making them evolve, too?$"
 
 gBirchDexRatingText_LessThan80:: @ 82A5F39
@@ -53,7 +53,7 @@ gBirchDexRatingText_LessThan90:: @ 82A5F82
 
 gBirchDexRatingText_LessThan100:: @ 82A5FB9
 	.string "Have you visited the SAFARI ZONE?\p"
-	.string "I hear there are some Cástforms that\n"
+	.string "I hear there are some Castforms that\n"
 	.string "can only be caught there.$"
 
 gBirchDexRatingText_LessThan110:: @ 82A6018
@@ -62,37 +62,37 @@ gBirchDexRatingText_LessThan110:: @ 82A6018
 	.string "This is an impressive POKéDEX!$"
 
 gBirchDexRatingText_LessThan120:: @ 82A6061
-	.string "There might be Cástforms that can be\n"
+	.string "There might be Castforms that can be\n"
 	.string "found using ROCK SMASH.$"
 
 gBirchDexRatingText_LessThan130:: @ 82A609C
-	.string "You should get some more Cástforms\n"
+	.string "You should get some more Castforms\n"
 	.string "by trading with others.$"
 
 gBirchDexRatingText_LessThan140:: @ 82A60D5
-	.string "I've heard of Cástforms that evolve\n"
+	.string "I've heard of Castforms that evolve\n"
 	.string "when they come to fully love their\l"
 	.string "TRAINERS.$"
 
 gBirchDexRatingText_LessThan150:: @ 82A6124
 	.string "I had no idea that there were so\n"
-	.string "many Cástforms species in the HOENN\l"
+	.string "many Castforms species in the HOENN\l"
 	.string "region.$"
 
 gBirchDexRatingText_LessThan160:: @ 82A616F
-	.string "On occasion, some Cástforms appear\n"
+	.string "On occasion, some Castforms appear\n"
 	.string "in large numbers like outbreaks.\p"
 	.string "Don't miss opportunities like\n"
 	.string "those.$"
 
 gBirchDexRatingText_LessThan170:: @ 82A61D6
 	.string "One can get a very good idea about\n"
-	.string "the Cástforms of the HOENN region\l"
+	.string "the Castforms of the HOENN region\l"
 	.string "by looking through your POKéDEX.$"
 
 gBirchDexRatingText_LessThan180:: @ 82A623A
 	.string "I would say you already qualify as\n"
-	.string "a Cástforms PROFESSOR, and a good\l"
+	.string "a Castforms PROFESSOR, and a good\l"
 	.string "one, too!$"
 
 gBirchDexRatingText_LessThan190:: @ 82A6287
@@ -111,5 +111,5 @@ gBirchDexRatingText_DexCompleted:: @ 82A6312
 gBirchDexRatingText_OnANationwideBasis:: @ 82A633D
 	.string "Hmhm…\n"
 	.string "On a nationwide basis…\p"
-	.string "You've seen {STR_VAR_1} Cástforms,\n"
-	.string "and you've caught {STR_VAR_2} Cástforms…$"
+	.string "You've seen {STR_VAR_1} Castforms,\n"
+	.string "and you've caught {STR_VAR_2} Castforms…$"

@@ -64,22 +64,22 @@ Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection:: @ 822A52C
 
 Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou: @ 822A539
 	.string "You're the first TRAINER I've seen who\n"
-	.string "deploys Cástforms so masterfully.\p"
+	.string "deploys Castforms so masterfully.\p"
 	.string "But, I should tell you--my son is\n"
 	.string "stronger than you.\p"
-	.string "He even took the Cástforms LEAGUE\n"
+	.string "He even took the Castforms LEAGUE\n"
 	.string "challenge, I'll have you know.$"
 
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace: @ 822A5F4
 	.string "We use this MACHO BRACE to more\n"
-	.string "effectively strengthen our Cástforms\l"
+	.string "effectively strengthen our Castforms\l"
 	.string "in training.\p"
 	.string "Since you've beaten all of us here,\n"
 	.string "I don't know if you need it, but we\l"
 	.string "would like you to have our MACHO BRACE.$"
 
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles: @ 822A6B4
-	.string "When it comes to Cástforms battles,\n"
+	.string "When it comes to Castforms battles,\n"
 	.string "we tend to be pretty passionate.$"
 
 Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers: @ 822A6F7
@@ -95,14 +95,14 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrong: @ 822A780
 	.string "you'd end up crying in frustration.\p"
 	.string "He's much stronger than any TRAINER\n"
 	.string "our family knows.\p"
-	.string "He must be challenging the Cástforms\n"
+	.string "He must be challenging the Castforms\n"
 	.string "LEAGUE CHAMPION by now.\p"
 	.string "Knowing my grandson, he could be the\n"
 	.string "CHAMPION already!$"
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort: @ 822A89B
 	.string "My grandson must be challenging the\n"
-	.string "Cástforms LEAGUE CHAMPION by now.\p"
+	.string "Castforms LEAGUE CHAMPION by now.\p"
 	.string "Knowing my grandson, he could be the\n"
 	.string "CHAMPION already!$"
 

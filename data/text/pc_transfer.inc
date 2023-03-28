@@ -22,8 +22,8 @@ gText_PkmnTransferredLanettesPCBoxFull:: @ 82732D9
 	.string "BOX “{STR_VAR_1}.”$"
 
 gText_NoMoreRoomForPokemon:: @ 827331C
-	.string "There's no more room for Cástforms!\p"
-	.string "The Cástforms BOXES are full and\n"
+	.string "There's no more room for Castforms!\p"
+	.string "The Castforms BOXES are full and\n"
 	.string "can't accept any more!$"
 
 gText_NicknameThisPokemon:: @ 8273374

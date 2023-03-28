@@ -175,12 +175,12 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper: @ 8215792
 	.string "for you?\p"
 	.string "I know, I'll add some new wallpaper\n"
 	.string "patterns for the BOXES in the PC\l"
-	.string "Cástforms Storage System.\p"
+	.string "Castforms Storage System.\p"
 	.string "In the wallpaper pattern menu,\n"
 	.string "select “FRIENDS.”\p"
 	.string "That will give you access to the new\n"
 	.string "wallpaper patterns.$"
 
 RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll: @ 8215923
-	.string "It's a Cástforms plush DOLL!$"
+	.string "It's a Castforms plush DOLL!$"
 

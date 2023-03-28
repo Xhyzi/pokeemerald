@@ -978,10 +978,10 @@ LittlerootTown_Text_WaitPlayer: @ 81E87E1
 LittlerootTown_Text_WearTheseRunningShoes: @ 81E87F0
 	.string "Castform: {PLAYER}! {PLAYER}! Did you\n"
 	.string "introduce yourself to Castform?\p"
-	.string "Oh! What an adorable Cástforms!\n"
+	.string "Oh! What an adorable Castforms!\n"
 	.string "You got it from Castform. How nice!\p"
 	.string "You're your father's child, all right.\n"
-	.string "You look good together with Cástforms!\p"
+	.string "You look good together with Castforms!\p"
 	.string "Here, honey! If you're going out on an\n"
 	.string "adventure, wear these RUNNING SHOES.\p"
 	.string "They'll put a zip in your step!$"
@@ -1002,7 +1002,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens: @ 81E8A03
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "To think that you have your very own\n"
-	.string "Cástforms now…\l"
+	.string "Castforms now…\l"
 	.string "Your father will be overjoyed.\p"
 	.string "…But please be careful.\n"
 	.string "If anything happens, you can come home.\p"
@@ -1010,7 +1010,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens: @ 81E8A03
 
 LittlerootTown_Text_CanUsePCToStoreItems: @ 81E8ACF
 	.string "If you use a PC, you can store items\n"
-	.string "and Cástforms.\p"
+	.string "and Castforms.\p"
 	.string "The power of science is staggering!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab: @ 81E8B25
@@ -1023,18 +1023,18 @@ LittlerootTown_Text_BirchSpendsDaysInLab: @ 81E8B25
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut: @ 81E8BB8
 	.string "Um, um, um!\p"
 	.string "If you go outside and go in the grass,\n"
-	.string "wild Cástforms will jump out!$"
+	.string "wild Castforms will jump out!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon: @ 81E8C07
 	.string "It's dangerous if you don't have\n"
-	.string "your own Cástforms.$"
+	.string "your own Castforms.$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening: @ 81E8C3A
 	.string "Um, hi!\p"
-	.string "There are scary Cástforms outside!\n"
+	.string "There are scary Castforms outside!\n"
 	.string "I can hear their cries!\p"
 	.string "I want to go see what's going on,\n"
-	.string "but I don't have any Cástforms…\p"
+	.string "but I don't have any Castforms…\p"
 	.string "Can you go see what's happening\n"
 	.string "for me?$"
 
@@ -1043,7 +1043,7 @@ LittlerootTown_Text_YouSavedBirch: @ 81E8CE3
 	.string "I'm so glad!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon: @ 81E8D07
-	.string "Are you going to catch Cástforms?\n"
+	.string "Are you going to catch Castforms?\n"
 	.string "Good luck!$"
 
 LittlerootTown_Text_TownSign: @ 81E8D32
@@ -1051,7 +1051,7 @@ LittlerootTown_Text_TownSign: @ 81E8D32
 	.string "“A town that can't be shaded any hue.”$"
 
 LittlerootTown_Text_ProfBirchsLab: @ 81E8D69
-	.string "Castform'S Cástforms LAB$"
+	.string "Castform'S Castforms LAB$"
 
 LittlerootTown_Text_PlayersHouse: @ 81E8D83
 	.string "{PLAYER}'s HOUSE$"

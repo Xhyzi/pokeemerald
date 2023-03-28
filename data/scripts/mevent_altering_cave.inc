@@ -17,7 +17,7 @@ sText_MysteryGiftAlteringCave::
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
 	.string "There appears to be a rumor about\n"
-	.string "rare Cástforms sightings.\p"
+	.string "rare Castforms sightings.\p"
 	.string "The sightings reportedly came from\n"
 	.string "the ALTERING CAVE on ROUTE 103.\p"
 	.string "Perhaps it would be worthwhile for\n"

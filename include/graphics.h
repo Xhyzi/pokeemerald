@@ -5061,4 +5061,11 @@ extern const u8 gMailTilemap_Retro[];
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
+extern const u32 gTrainerFrontPic_CastformTrainer[];
+extern const u32 gTrainerPalette_CastformTrainer[];
+extern const u32 gTrainerFrontPic_CastformTrainerSun[];
+extern const u32 gTrainerPalette_CastformTrainerSun[];
+extern const u32 gTrainerFrontPic_CastformTrainerRain[];
+extern const u32 gTrainerPalette_CastformTrainerRain[];
+
 #endif //GUARD_GRAPHICS_H

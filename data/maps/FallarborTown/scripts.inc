@@ -76,7 +76,7 @@ FallarborTown_Text_HaveYouChallengedFlannery: @ 81EB3CA
 	.string "the LEADER of LAVARIDGE GYM?\p"
 	.string "The girl's grandfather was famous.\n"
 	.string "He was one of the ELITE FOUR in the\l"
-	.string "Cástforms LEAGUE at one point.\p"
+	.string "Castforms LEAGUE at one point.\p"
 	.string "It wouldn't surprise me to see FLANNERY\n"
 	.string "become a great TRAINER in her own\l"
 	.string "right.$"
@@ -91,5 +91,5 @@ FallarborTown_Text_TownSign: @ 81EB4FE
 
 FallarborTown_Text_MoveTutorSign: @ 81EB534
 	.string "MOVE TUTOR'S HOUSE\n"
-	.string "“New moves taught to Cástforms.”$"
+	.string "“New moves taught to Castforms.”$"
 

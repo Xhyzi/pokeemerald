@@ -114,7 +114,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord:: @ 822735B
 	end
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot: @ 8227369
-	.string "Do you know the Cástforms SEEDOT?\n"
+	.string "Do you know the Castforms SEEDOT?\n"
 	.string "It's hardly ever seen in SOOTOPOLIS.\p"
 	.string "Anyway, I love big SEEDOT.\n"
 	.string "The bigger the better.\p"
@@ -163,7 +163,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory: @ 8227617
 	.string "always wanted!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad: @ 8227676
-	.string "Do you know the Cástforms LOTAD?\n"
+	.string "Do you know the Castforms LOTAD?\n"
 	.string "It's rarely seen in SOOTOPOLIS.\p"
 	.string "I love, I mean love, big LOTAD!\p"
 	.string "My big brother says that SEEDOT is\n"

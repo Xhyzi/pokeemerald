@@ -383,7 +383,7 @@ MossdeepCity_Text_LifeNeedsSeaToLive: @ 81E5135
 
 MossdeepCity_Text_SurfExhilarating: @ 81E5213
 	.string "A voyage on a ship is fine.\p"
-	.string "But crossing the sea with Cástforms\n"
+	.string "But crossing the sea with Castforms\n"
 	.string "using SURF…\p"
 	.string "Now that's an exhilarating trip!\n"
 	.string "Wouldn't you agree, youngster?$"
@@ -402,13 +402,13 @@ MossdeepCity_Text_ItsAWhiteRock: @ 81E5396
 	.string "It's a white rock.$"
 
 MossdeepCity_Text_GymSign: @ 81E53A9
-	.string "MOSSDEEP CITY Cástforms GYM\n"
+	.string "MOSSDEEP CITY Castforms GYM\n"
 	.string "LEADERS: LIZA & TATE\p"
 	.string "“The mystic combination!”$"
 
 MossdeepCity_Text_CitySign: @ 81E53F2
 	.string "MOSSDEEP CITY\n"
-	.string "“Our slogan: Cherish Cástforms!”$"
+	.string "“Our slogan: Cherish Castforms!”$"
 
 MossdeepCity_Text_SpaceCenterSign: @ 81E541F
 	.string "MOSSDEEP SPACE CENTER\n"

@@ -377,12 +377,12 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge: @ 825624C
 	.string "In the BATTLE ARENA, we undertake\n"
 	.string "the Set KO Tourney.\p"
 	.string "All participants enter with a team of\n"
-	.string "three Cástforms.\p"
-	.string "The three Cástforms must be lined up in\n"
+	.string "three Castforms.\p"
+	.string "The three Castforms must be lined up in\n"
 	.string "the order in which they are to appear.\p"
-	.string "During battle, the Cástforms will appear\n"
+	.string "During battle, the Castforms will appear\n"
 	.string "one at a time in the preset order.\p"
-	.string "Once a Cástforms enters battle, it must\n"
+	.string "Once a Castforms enters battle, it must\n"
 	.string "remain out until the match is decided.\p"
 	.string "If a match remains undecided in\n"
 	.string "three turns, it goes to judging.\p"
@@ -405,14 +405,14 @@ BattleFrontier_BattleArenaLobby_Text_WhichLevelMode: @ 8256513
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons: @ 8256573
 	.string "Very well, now select your\n"
-	.string "three Cástforms, please.$"
+	.string "three Castforms, please.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen: @ 82565A5
 	.string "My dear challenger!\p"
-	.string "You do not have the three Cástforms\n"
+	.string "You do not have the three Castforms\n"
 	.string "required for entry.\p"
 	.string "To qualify, you must bring three\n"
-	.string "different kinds of Cástforms.\p"
+	.string "different kinds of Castforms.\p"
 	.string "They also must not hold the same\n"
 	.string "kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
@@ -421,11 +421,11 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen: @ 82565A5
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50: @ 82566A8
 	.string "My dear challenger!\p"
-	.string "You do not have the three Cástforms\n"
+	.string "You do not have the three Castforms\n"
 	.string "required for entry.\p"
 	.string "To qualify, you must bring three\n"
-	.string "different kinds of Cástforms.\p"
-	.string "The three different Cástforms\n"
+	.string "different kinds of Castforms.\p"
+	.string "The three different Castforms\n"
 	.string "must all be Level 50 or lower.\p"
 	.string "They also must not hold the same\n"
 	.string "kinds of items.\p"
@@ -499,20 +499,20 @@ BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack: @ 8256B5C
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked: @ 8256BCB
 	.string "I won in judging!\p"
 	.string "Landing hits consistently on\n"
-	.string "the opponent's Cástforms worked!$"
+	.string "the opponent's Castforms worked!$"
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw: @ 8256C19
 	.string "Our match was declared a draw.\p"
 	.string "When we ran out of time, both my\n"
-	.string "Cástforms and the opponent's had about\l"
+	.string "Castforms and the opponent's had about\l"
 	.string "the same amount of HP left.$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant: @ 8256C9A
 	.string "In the BATTLE ARENA, the order of\n"
-	.string "Cástforms is totally important.\p"
-	.string "For example, if your first Cástforms\n"
+	.string "Castforms is totally important.\p"
+	.string "For example, if your first Castforms\n"
 	.string "has certain type disadvantages,\l"
-	.string "try making your second Cástforms one\l"
+	.string "try making your second Castforms one\l"
 	.string "with moves that are super effective\l"
 	.string "against the first one.\p"
 	.string "I think that will be a good way of\n"
@@ -532,8 +532,8 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules: @ 8256E02
 	.string "If the outcome is not decided after\n"
 	.string "three turns, it goes to judging.\p"
 	.string "The REFEREE will choose the winner\n"
-	.string "based on how the Cástforms battled.\p"
-	.string "Also, a Cástforms cannot be switched out\n"
+	.string "based on how the Castforms battled.\p"
+	.string "Also, a Castforms cannot be switched out\n"
 	.string "until its battle's outcome is decided.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules: @ 8256F43
@@ -547,7 +547,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules: @ 8256F43
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules: @ 8256FF2
 	.string "The second judging factor is “Skill.”\n"
 	.string "This factor evaluates how effectively\l"
-	.string "Cástforms moves were used.\p"
+	.string "Castforms moves were used.\p"
 	.string "If a move worked successfully,\n"
 	.string "the Skill rating goes up.\p"
 	.string "If a move failed, the Skill rating\n"
@@ -559,7 +559,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules: @ 8256FF2
 	.string "The Skill rating will not go up for\n"
 	.string "moves such as PROTECT and DETECT.\p"
 	.string "If the opponent used PROTECT or\n"
-	.string "DETECT, and your Cástforms failed to\l"
+	.string "DETECT, and your Castforms failed to\l"
 	.string "hit with a move, its Skill rating will not\l"
 	.string "go down.$"
 
@@ -568,7 +568,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules: @ 8257202
 	.string "This factor is based on how much HP\l"
 	.string "remained at the end of a battle.\p"
 	.string "The rating takes into account how much\n"
-	.string "HP a Cástforms had at the start of\l"
+	.string "HP a Castforms had at the start of\l"
 	.string "battle, and what remained at the end.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon: @ 82572D9

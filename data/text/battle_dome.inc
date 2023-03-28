@@ -272,7 +272,7 @@ BattleDome_Text_NeglectsSpDef::
 	.string "Neglects SP. DEFENSE.$"
 
 BattleDome_Text_RaisesMonsWellBalanced::
-	.string "Raises Cástforms in a well-balanced way.$"
+	.string "Raises Castforms in a well-balanced way.$"
 
 BattleDome_Text_LetTheBattleBegin::
 	.string "Let the battle begin!$"

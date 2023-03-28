@@ -59,20 +59,20 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType:: @ 8207A6D
 	return
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem: @ 8207A76
-	.string "That PC-based Cástforms Storage\n"
+	.string "That PC-based Castforms Storage\n"
 	.string "System…\p"
 	.string "Whoever made it must be some kind\n"
 	.string "of a scientific wizard!$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP: @ 8207AD6
-	.string "When my Cástforms ate an\n"
+	.string "When my Castforms ate an\n"
 	.string "ORAN BERRY, it regained HP!$"
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon: @ 8207B09
-	.string "There are many types of Cástforms.\p"
+	.string "There are many types of Castforms.\p"
 	.string "All types have their strengths and\n"
 	.string "weaknesses against other types.\p"
-	.string "Depending on the types of Cástforms,\n"
+	.string "Depending on the types of Castforms,\n"
 	.string "a battle could be easy or hard.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType: @ 8207BB0
@@ -81,7 +81,7 @@ PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType: @ 8207BB0
 	.string "It's strong against the WATER and\n"
 	.string "GROUND types.\p"
 	.string "But, it's weak against FIRE-type\n"
-	.string "Cástforms.$"
+	.string "Castforms.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType: @ 8207C35
 	.string "For example, your TORCHIC\n"
@@ -89,12 +89,12 @@ PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType: @ 8207C35
 	.string "It's strong against the GRASS and\n"
 	.string "BUG types.\p"
 	.string "But, it's weak against WATER-type\n"
-	.string "Cástforms.$"
+	.string "Castforms.$"
 
 PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType: @ 8207CB7
 	.string "For example, your MUDKIP\n"
 	.string "is a WATER type.\p"
 	.string "It's strong against the FIRE type.\p"
 	.string "But, it's weak against GRASS-type\n"
-	.string "and ELECTRIC-type Cástforms.$"
+	.string "and ELECTRIC-type Castforms.$"
 

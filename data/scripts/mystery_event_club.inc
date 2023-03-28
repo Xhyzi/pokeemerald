@@ -99,7 +99,7 @@ MysteryEventClub_Text_CollectTrainerProfiles: @ 8291687
 	.string "Hello there, TRAINER!\n"
 	.string "You've got a wonderful smile, there.\p"
 	.string "I have a hobby--collecting the profiles\n"
-	.string "of Cástforms TRAINERS.$"
+	.string "of Castforms TRAINERS.$"
 
 MysteryEventClub_Text_MayISeeYourProfile: @ 82916FF
 	.string "So, how about it?\n"
@@ -116,7 +116,7 @@ MysteryEventClub_Text_EasyChatExplanation: @ 8291729
 	.string "There are a lot of text pieces that\n"
 	.string "you can use.\p"
 	.string "They are arranged in groups like\n"
-	.string "Cástforms, lifestyles, and hobbies so\l"
+	.string "Castforms, lifestyles, and hobbies so\l"
 	.string "it is easier to look them up.\p"
 	.string "So, first, choose the group of text\n"
 	.string "pieces to display a list of choices.\p"

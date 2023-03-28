@@ -92,7 +92,7 @@ FortreeCity_House1_Text_GoingToMakeVolbeatStrong: @ 82164DB
 	.string "I hope you do the same with PLUSLE!$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers: @ 821653B
-	.string "Trading Cástforms with others…\p"
+	.string "Trading Castforms with others…\p"
 	.string "It's as if you're trading your own\n"
 	.string "memories with other people.$"
 

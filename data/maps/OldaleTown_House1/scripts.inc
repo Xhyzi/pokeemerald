@@ -6,10 +6,10 @@ OldaleTown_House1_EventScript_Woman:: @ 81FBE86
 	end
 
 OldaleTown_House1_Text_LeftPokemonGoesOutFirst: @ 81FBE8F
-	.string "When a Cástforms battle starts, the one\n"
+	.string "When a Castforms battle starts, the one\n"
 	.string "at the left of the list goes out first.\p"
-	.string "So, when you get more Cástforms in your\n"
+	.string "So, when you get more Castforms in your\n"
 	.string "party, try switching around the order\l"
-	.string "of your Cástforms.\p"
+	.string "of your Castforms.\p"
 	.string "It could give you an advantage.$"
 

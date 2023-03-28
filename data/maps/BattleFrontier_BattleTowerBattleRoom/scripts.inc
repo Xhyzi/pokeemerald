@@ -454,7 +454,7 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge:: @ 824220E
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth: @ 8242217
-	.string "We will restore your Cástforms to\n"
+	.string "We will restore your Castforms to\n"
 	.string "full health.$"
 
 @ Unused
@@ -547,7 +547,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol: @ 824270E
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime: @ 8242744
 	.string "… … … … … …\p"
-	.string "You have confidence in your Cástforms\n"
+	.string "You have confidence in your Castforms\n"
 	.string "battling talent, don't you?\p"
 	.string "I urge you to keep battling and\n"
 	.string "keep on winning.\p"
@@ -577,7 +577,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine: @ 824293
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain: @ 824295D
 	.string "That was fun…\p"
-	.string "I have never had a Cástforms battle\n"
+	.string "I have never had a Castforms battle\n"
 	.string "so enjoyable before…\p"
 	.string "I wish I could battle with you again…$"
 

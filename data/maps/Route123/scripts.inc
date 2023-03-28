@@ -176,19 +176,19 @@ Route123_EventScript_RematchFernando:: @ 81F6407
 	end
 
 Route123_Text_LoveGrassMonsHaveAny: @ 81F641E
-	.string "I love GRASS-type Cástforms!\p"
-	.string "Do you have any GRASS-type Cástforms?$"
+	.string "I love GRASS-type Castforms!\p"
+	.string "Do you have any GRASS-type Castforms?$"
 
 Route123_Text_YouLikeGrassMonsTooHaveThis: @ 81F645D
 	.string "Oh?\p"
-	.string "You like GRASS-type Cástforms, too,\n"
+	.string "You like GRASS-type Castforms, too,\n"
 	.string "don't you?\p"
 	.string "I'm so happy, you can have this!\n"
 	.string "It's a token of our friendship.$"
 
 Route123_Text_CheckTreesWithMyGrassMon: @ 81F64CF
 	.string "I check trees with my GRASS-type\n"
-	.string "Cástforms. I'm like a tree doctor.$"
+	.string "Castforms. I'm like a tree doctor.$"
 
 Route123_Text_RouteSign: @ 81F6511
 	.string "{RIGHT_ARROW} ROUTE 123\n"

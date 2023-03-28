@@ -24,7 +24,7 @@ RustboroCity_CuttersHouse_EventScript_Lass:: @ 8215C0A
 RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse: @ 8215C13
 	.string "That determined expression…\n"
 	.string "That limber way you move…\l"
-	.string "And your well-trained Cástforms…\p"
+	.string "And your well-trained Castforms…\p"
 	.string "You're obviously a skilled TRAINER!\p"
 	.string "No, wait, don't say a word.\n"
 	.string "I can tell just by looking at you.\p"
@@ -37,8 +37,8 @@ RustboroCity_CuttersHouse_Text_ExplainCut: @ 8215D33
 	.string "That HIDDEN MACHINE, or HM for\n"
 	.string "short, is CUT.\p"
 	.string "An HM move is one that can be used\n"
-	.string "by Cástforms outside of battle.\p"
-	.string "Any Cástforms that's learned CUT can\n"
+	.string "by Castforms outside of battle.\p"
+	.string "Any Castforms that's learned CUT can\n"
 	.string "chop down thin trees if the TRAINER\l"
 	.string "has earned the STONE BADGE.\p"
 	.string "And, unlike a TM, an HM can be used\n"
@@ -47,6 +47,6 @@ RustboroCity_CuttersHouse_Text_ExplainCut: @ 8215D33
 RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees: @ 8215E39
 	.string "When they were expanding the city of\n"
 	.string "RUSTBORO, my dad helped out.\p"
-	.string "He made his Cástforms use CUT to clear\n"
+	.string "He made his Castforms use CUT to clear\n"
 	.string "the land of trees.$"
 

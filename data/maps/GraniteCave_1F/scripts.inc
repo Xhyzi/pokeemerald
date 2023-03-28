@@ -31,9 +31,9 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo: @ 822DA94
 
 GraniteCave_1F_Text_ExplainFlash: @ 822DBB7
 	.string "Teach that hidden move FLASH to\n"
-	.string "a Cástforms and use it.\p"
+	.string "a Castforms and use it.\p"
 	.string "It lights up even the inky darkness\n"
 	.string "of caves.\p"
 	.string "But, to use it, you need the GYM BADGE\n"
-	.string "from DEWFORD's Cástforms GYM.$"
+	.string "from DEWFORD's Castforms GYM.$"
 

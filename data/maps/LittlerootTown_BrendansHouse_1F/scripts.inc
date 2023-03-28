@@ -304,7 +304,7 @@ PlayersHouse_1F_Text_IsntItNiceInHere: @ 81F7A1C
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock: @ 81F7A46
-	.string "The mover's Cástforms do all the work\n"
+	.string "The mover's Castforms do all the work\n"
 	.string "of moving us in and cleaning up after.\l"
 	.string "This is so convenient!\p"
 	.string "{PLAYER}, your room is upstairs.\n"
@@ -425,7 +425,7 @@ PlayersHouse_1F_Text_BetterGetBackToGym: @ 81F815B
 PlayersHouse_1F_Text_DadShouldStayLonger: @ 81F81B9
 	.string "Castform: That Castform of yours…\p"
 	.string "He comes home for the first time in a\n"
-	.string "while, but all he talks about is Cástforms.\p"
+	.string "while, but all he talks about is Castforms.\p"
 	.string "He should relax and stay a little longer.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory: @ 81F824B
@@ -436,8 +436,8 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash: @ 81F826F
 	.string "news flash!\p"
 	.string "In various HOENN locales, there have\n"
 	.string "been reports of a BZZT…colored\l"
-	.string "Cástforms in flight.\p"
-	.string "The identity of this Cástforms is\n"
+	.string "Castforms in flight.\p"
+	.string "The identity of this Castforms is\n"
 	.string "currently unknown.\p"
 	.string "We now return you to the regular\n"
 	.string "movie program.$"
@@ -445,8 +445,8 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash: @ 81F826F
 PlayersHouse_1F_Text_WhatColorDidTheySay: @ 81F8351
 	.string "Castform: {PLAYER}, did you catch that?\p"
 	.string "What color did the announcer say\n"
-	.string "that Cástforms was?$"
+	.string "that Castforms was?$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon: @ 81F83A1
 	.string "Castform: Well, isn't that something!\n"
-	.string "There are still unknown Cástforms.$"
+	.string "There are still unknown Castforms.$"

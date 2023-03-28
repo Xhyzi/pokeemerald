@@ -27,7 +27,7 @@ MatchCall_WildBattleText3:: @ 82A9813
 MatchCall_WildBattleText4:: @ 82A98A8
 	.string "Hey, {PLAYER}{KUN}.\n"
 	.string "{STR_VAR_1} here.\p"
-	.string "You know the Cástforms {STR_VAR_2}?\n"
+	.string "You know the Castforms {STR_VAR_2}?\n"
 	.string "I came close to getting one.\p"
 	.string "It was just a while back.\n"
 	.string "I thought I had it but it escaped.\p"
@@ -38,7 +38,7 @@ MatchCall_WildBattleText4:: @ 82A98A8
 MatchCall_WildBattleText5:: @ 82A9977
 	.string "Hiya, {PLAYER}{KUN}!\n"
 	.string "It's {STR_VAR_1}.\l"
-	.string "Catching any Cástforms lately?\p"
+	.string "Catching any Castforms lately?\p"
 	.string "A little while ago I came close to\n"
 	.string "nabbing one, but it got loose.\p"
 	.string "Right, take care!$"
@@ -46,7 +46,7 @@ MatchCall_WildBattleText5:: @ 82A9977
 MatchCall_WildBattleText6:: @ 82A99FD
 	.string "Hey, {PLAYER}{KUN}.\n"
 	.string "{STR_VAR_1} here.\l"
-	.string "Caught any Cástforms lately?\p"
+	.string "Caught any Castforms lately?\p"
 	.string "I nearly nabbed one the other day.\n"
 	.string "But it evaded me somehow.\p"
 	.string "You take care.$"
@@ -63,7 +63,7 @@ MatchCall_WildBattleText8:: @ 82A9AE8
 	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
 	.string "This is {STR_VAR_1} speaking.\p"
 	.string "Have you had success catching\n"
-	.string "Cástforms lately?\p"
+	.string "Castforms lately?\p"
 	.string "I came very close a little while\n"
 	.string "ago, but my target got free.\p"
 	.string "I need to try harder!\n"
@@ -72,7 +72,7 @@ MatchCall_WildBattleText8:: @ 82A9AE8
 MatchCall_WildBattleText9:: @ 82A9BA7
 	.string "Oh, {PLAYER}{KUN}, hi there!\n"
 	.string "This is {STR_VAR_1}!\p"
-	.string "So? Are you getting more Cástforms\n"
+	.string "So? Are you getting more Castforms\n"
 	.string "together?\p"
 	.string "I'm having a rotten time of it!\n"
 	.string "They all get away from me!\p"
@@ -98,18 +98,18 @@ MatchCall_WildBattleText11:: @ 82A9CC8
 MatchCall_WildBattleText12:: @ 82A9D44
 	.string "Hello, {PLAYER}{KUN}.\n"
 	.string "It's me, {STR_VAR_1}.\l"
-	.string "Are you still catching Cástforms?\p"
+	.string "Are you still catching Castforms?\p"
 	.string "I've been trying to catch them\n"
 	.string "myself, but it's not so easy.\p"
-	.string "The way of Cástforms is deep!$"
+	.string "The way of Castforms is deep!$"
 
 MatchCall_WildBattleText13:: @ 82A9DD7
 	.string "Ah, hello, {PLAYER}{KUN}!\n"
 	.string "This is {STR_VAR_1}!\l"
-	.string "Have you been catching Cástforms?\p"
+	.string "Have you been catching Castforms?\p"
 	.string "I've been trying to catch them\n"
 	.string "myself, but with little success.\p"
-	.string "The way of Cástforms is deep!$"
+	.string "The way of Castforms is deep!$"
 
 MatchCall_WildBattleText14:: @ 82A9E70
 	.string "Oh, hi, {PLAYER}{KUN}, how do you do?\n"
@@ -124,7 +124,7 @@ MatchCall_WildBattleText15:: @ 82A9EFD
 	.string "Hey, {PLAYER}!\n"
 	.string "This is {STR_VAR_1}!\p"
 	.string "I've been thinking about trying\n"
-	.string "to catch me some Cástforms.\p"
+	.string "to catch me some Castforms.\p"
 	.string "But I can't seem to find any.\n"
 	.string "It's a real puzzler for me!\p"
 	.string "I'm at my wit's end!\n"
@@ -190,7 +190,7 @@ MatchCall_NegativeBattleText7:: @ 82AA2A1
 MatchCall_NegativeBattleText8:: @ 82AA31B
 	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
 	.string "This is {STR_VAR_1} speaking.\p"
-	.string "How are your Cástforms doing?\n"
+	.string "How are your Castforms doing?\n"
 	.string "I lost a match the other day.\p"
 	.string "I need to try harder!\n"
 	.string "See you again!$"
@@ -200,7 +200,7 @@ MatchCall_NegativeBattleText9:: @ 82AA3A8
 	.string "This is {STR_VAR_1}!\p"
 	.string "Listen, listen, you have to hear\n"
 	.string "this!\p"
-	.string "I had a Cástforms battle earlier,\n"
+	.string "I had a Castforms battle earlier,\n"
 	.string "but I lost at the last second.\p"
 	.string "Oh, it burns me up!$"
 
@@ -209,13 +209,13 @@ MatchCall_NegativeBattleText10:: @ 82AA442
 	.string "This is {STR_VAR_1}.\p"
 	.string "A little earlier, I was in a battle.\n"
 	.string "I lost, though.\p"
-	.string "I need to raise my Cástforms more.\n"
+	.string "I need to raise my Castforms more.\n"
 	.string "See you around.$"
 
 MatchCall_NegativeBattleText11:: @ 82AA4C5
 	.string "Ah, {PLAYER}{KUN}.\n"
 	.string "This is {STR_VAR_1}.\l"
-	.string "How are your Cástforms?\p"
+	.string "How are your Castforms?\p"
 	.string "I just lost yet another battle.\p"
 	.string "Well, see you!$"
 
@@ -314,7 +314,7 @@ MatchCall_PositiveBattleText8:: @ 82AAA40
 MatchCall_PositiveBattleText9:: @ 82AAAE4
 	.string "Oh, {PLAYER}{KUN}, hi there!\n"
 	.string "This is {STR_VAR_1}!\p"
-	.string "How are your Cástforms holding up?\n"
+	.string "How are your Castforms holding up?\n"
 	.string "Mine just won a battle!\p"
 	.string "My {STR_VAR_2} was spectacular,\n"
 	.string "I must say!\p"
@@ -325,7 +325,7 @@ MatchCall_PositiveBattleText10:: @ 82AAB8C
 	.string "Oh, {PLAYER}{KUN}, hello…\n"
 	.string "This is {STR_VAR_1}.\p"
 	.string "How has life been treating you?\p"
-	.string "My Cástforms appear to be charged\n"
+	.string "My Castforms appear to be charged\n"
 	.string "with energy.\p"
 	.string "I just won a battle with them.\n"
 	.string "See you around.$"
@@ -413,7 +413,7 @@ MatchCall_SameRouteBattleRequestText5:: @ 82AB076
 MatchCall_SameRouteBattleRequestText6:: @ 82AB11A
 	.string "Hey, {PLAYER}{KUN}.\n"
 	.string "{STR_VAR_1} here.\l"
-	.string "How are your Cástforms keeping?\p"
+	.string "How are your Castforms keeping?\p"
 	.string "Oh, is that right? You're around\n"
 	.string "{STR_VAR_2}?\p"
 	.string "Well, then, we'd better have\n"
@@ -428,7 +428,7 @@ MatchCall_SameRouteBattleRequestText7:: @ 82AB1B4
 	.string "{STR_VAR_2}?\p"
 	.string "Then, let's battle.\n"
 	.string "Right away, I mean.\p"
-	.string "I'll show you my Cástforms.\n"
+	.string "I'll show you my Castforms.\n"
 	.string "I'll wait for you.$"
 
 MatchCall_SameRouteBattleRequestText8:: @ 82AB23D
@@ -518,10 +518,10 @@ MatchCall_DifferentRouteBattleRequestText2:: @ 82AB6CD
 MatchCall_DifferentRouteBattleRequestText3:: @ 82AB73C
 	.string "Hey there, {PLAYER}!\n"
 	.string "It's me, {STR_VAR_1}.\p"
-	.string "My Cástforms have grown a lot\n"
+	.string "My Castforms have grown a lot\n"
 	.string "tougher since last time.\p"
 	.string "I want to see how strong they've\n"
-	.string "become with your Cástforms, {PLAYER}.\p"
+	.string "become with your Castforms, {PLAYER}.\p"
 	.string "So, let's have a battle!\p"
 	.string "I'll be waiting for you around\n"
 	.string "{STR_VAR_2}.$"
@@ -530,7 +530,7 @@ MatchCall_DifferentRouteBattleRequestText4:: @ 82AB808
 	.string "Hey, {PLAYER}{KUN}.\n"
 	.string "{STR_VAR_1} here.\l"
 	.string "How are things with you?\p"
-	.string "My Cástforms have grown pretty\n"
+	.string "My Castforms have grown pretty\n"
 	.string "tough lately.\p"
 	.string "Hey, how would you like to have\n"
 	.string "another battle with me?\p"
@@ -540,7 +540,7 @@ MatchCall_DifferentRouteBattleRequestText4:: @ 82AB808
 MatchCall_DifferentRouteBattleRequestText5:: @ 82AB8B7
 	.string "Hiya, {PLAYER}{KUN}!\n"
 	.string "It's {STR_VAR_1}.\p"
-	.string "My Cástforms are growing up in\n"
+	.string "My Castforms are growing up in\n"
 	.string "decent ways.\p"
 	.string "I'd really like to have another\n"
 	.string "battle with you.\p"
@@ -560,7 +560,7 @@ MatchCall_DifferentRouteBattleRequestText6:: @ 82AB95D
 MatchCall_DifferentRouteBattleRequestText7:: @ 82ABA03
 	.string "…Er, {PLAYER}{KUN}?\n"
 	.string "{STR_VAR_1} here…\l"
-	.string "So? Are your Cástforms growing?\p"
+	.string "So? Are your Castforms growing?\p"
 	.string "Mine sure got stronger.\n"
 	.string "I'd like to show you.\p"
 	.string "I'll be around {STR_VAR_2}.\n"
@@ -571,7 +571,7 @@ MatchCall_DifferentRouteBattleRequestText8:: @ 82ABA9F
 	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
 	.string "This is {STR_VAR_1} speaking.\p"
 	.string "I hope you're doing well.\n"
-	.string "My Cástforms are very frisky.\p"
+	.string "My Castforms are very frisky.\p"
 	.string "If you're ever in the area, please\n"
 	.string "give me a rematch.\p"
 	.string "I'll be around {STR_VAR_2}.\n"
@@ -580,8 +580,8 @@ MatchCall_DifferentRouteBattleRequestText8:: @ 82ABA9F
 MatchCall_DifferentRouteBattleRequestText9:: @ 82ABB62
 	.string "Oh, {PLAYER}{KUN}, hi there!\n"
 	.string "This is {STR_VAR_1}!\l"
-	.string "How are your Cástforms doing?\p"
-	.string "My Cástforms keep getting better.\n"
+	.string "How are your Castforms doing?\p"
+	.string "My Castforms keep getting better.\n"
 	.string "I'd like to show you, {PLAYER}{KUN}.\p"
 	.string "I'm around {STR_VAR_2} now,\n"
 	.string "so let's battle if you're close by.\p"
@@ -591,7 +591,7 @@ MatchCall_DifferentRouteBattleRequestText10:: @ 82ABC26
 	.string "Oh, {PLAYER}{KUN}, hello…\n"
 	.string "This is {STR_VAR_1}.\l"
 	.string "So, how are things with you?\p"
-	.string "My Cástforms have grown much\n"
+	.string "My Castforms have grown much\n"
 	.string "stronger than before.\p"
 	.string "I'd love another battle with you,\n"
 	.string "{PLAYER}{KUN}.\p"
@@ -602,16 +602,16 @@ MatchCall_DifferentRouteBattleRequestText11:: @ 82ABCE9
 	.string "Ah, {PLAYER}{KUN}.\n"
 	.string "This is {STR_VAR_1}.\l"
 	.string "Where might you be now?\p"
-	.string "My Cástforms are full of life.\n"
+	.string "My Castforms are full of life.\n"
 	.string "They appear to be looking forward\l"
-	.string "to seeing your Cástforms, {PLAYER}{KUN}.\p"
+	.string "to seeing your Castforms, {PLAYER}{KUN}.\p"
 	.string "I'm around {STR_VAR_2} now.\n"
 	.string "I hope you'll seek us out.$"
 
 MatchCall_DifferentRouteBattleRequestText12:: @ 82ABDA2
 	.string "Hello, {PLAYER}{KUN}.\n"
 	.string "It's me, {STR_VAR_1}.\p"
-	.string "I should tell you, my Cástforms have\n"
+	.string "I should tell you, my Castforms have\n"
 	.string "grown to be quite robust lately.\p"
 	.string "I would like to see them in a battle\n"
 	.string "with you, {PLAYER}{KUN}.\p"
@@ -621,8 +621,8 @@ MatchCall_DifferentRouteBattleRequestText12:: @ 82ABDA2
 MatchCall_DifferentRouteBattleRequestText13:: @ 82ABE5E
 	.string "Ah, hello, {PLAYER}{KUN}!\n"
 	.string "This is {STR_VAR_1}!\l"
-	.string "Are your Cástforms keeping well?\p"
-	.string "My Cástforms have been so healthy,\n"
+	.string "Are your Castforms keeping well?\p"
+	.string "My Castforms have been so healthy,\n"
 	.string "they don't look capable of losing!\p"
 	.string "I would surely love to have another\n"
 	.string "battle with you.\p"
@@ -633,7 +633,7 @@ MatchCall_DifferentRouteBattleRequestText14:: @ 82ABF36
 	.string "Oh, hi, {PLAYER}{KUN}.\n"
 	.string "This is {STR_VAR_1}.\l"
 	.string "Keeping well, I hope.\p"
-	.string "Oh, yes! My Cástforms are\n"
+	.string "Oh, yes! My Castforms are\n"
 	.string "much stronger than before.\p"
 	.string "Don't you think we ought to have\n"
 	.string "a battle, {PLAYER}{KUN}?\p"
@@ -656,7 +656,7 @@ MatchCall_PersonalizedText2:: @ 82AC0BD
 	.string "I was just telling a new TRAINER\n"
 	.string "about you.\p"
 	.string "I told her about a strong TRAINER\n"
-	.string "who raises Cástforms with care.\p"
+	.string "who raises Castforms with care.\p"
 	.string "I hope you'll become a TRAINER\n"
 	.string "that everyone will admire.\p"
 	.string "I hope we meet again!$"
@@ -691,7 +691,7 @@ MatchCall_PersonalizedText6:: @ 82AC3B6
 	.string "Munch-chew…\n"
 	.string "Oh, hi, it's {STR_VAR_1}.\l"
 	.string "I love eating on the beach.\p"
-	.string "My Cástforms and I have been doing\n"
+	.string "My Castforms and I have been doing\n"
 	.string "great. We're fully fueled!\l"
 	.string "I'm going for a swim. Bye!$"
 
@@ -714,7 +714,7 @@ MatchCall_PersonalizedText7:: @ 82AC446
 MatchCall_PersonalizedText8:: @ 82AC5C7
 	.string "Yahoo, it's {STR_VAR_1}!\n"
 	.string "How do you do?\p"
-	.string "I've been raising my Cástforms with\n"
+	.string "I've been raising my Castforms with\n"
 	.string "you as the target.\p"
 	.string "I don't intend to lose when we\n"
 	.string "battle again.\p"
@@ -725,7 +725,7 @@ MatchCall_PersonalizedText9:: @ 82AC682
 	.string "It's {STR_VAR_1}…\n"
 	.string "Right now, behind you…\l"
 	.string "Wasn't there something…?\p"
-	.string "The power of the Cástforms that\n"
+	.string "The power of the Castforms that\n"
 	.string "sleep here at MT. PYRE…\p"
 	.string "It's telling me about you…\p"
 	.string "You should walk away quickly and\n"
@@ -761,7 +761,7 @@ MatchCall_PersonalizedText12:: @ 82AC914
 	.string "Yes, correct, I am rich, yes.\p"
 	.string "I should tell you, my wealth has\n"
 	.string "grown since we last met.\p"
-	.string "What's more, my Cástforms have also\n"
+	.string "What's more, my Castforms have also\n"
 	.string "grown stronger.\p"
 	.string "I can't shake the feeling that\n"
 	.string "this world exists for me!\p"
@@ -808,11 +808,11 @@ MatchCall_PersonalizedText15:: @ 82ACC3F
 
 MatchCall_PersonalizedText16:: @ 82ACD2F
 	.string "It's {STR_VAR_1}! Listen, I've been\n"
-	.string "teaching karate to my Cástforms.\p"
+	.string "teaching karate to my Castforms.\p"
 	.string "But now they're better than me!\n"
 	.string "I've done nothing but lose to them!\p"
 	.string "But even though I may lose to\n"
-	.string "Cástforms, I won't lose to another\l"
+	.string "Castforms, I won't lose to another\l"
 	.string "TRAINER, no sir!\p"
 	.string "We have to battle again!\n"
 	.string "Ugwaah!$"
@@ -930,7 +930,7 @@ MatchCall_PersonalizedText27:: @ 82AD642
 	.string "Hi, it's ANNA! I'm with my junior\n"
 	.string "partner MEG again today.\p"
 	.string "I really love caring for MEG and\n"
-	.string "Cástforms. They're so cute!\p"
+	.string "Castforms. They're so cute!\p"
 	.string "I wish I could look after them\n"
 	.string "as if they were my siblings!\p"
 	.string "Oh, hi, MEG!\n"
@@ -945,10 +945,10 @@ MatchCall_PersonalizedText27:: @ 82AD642
 	.string "It's time for our snack!$"
 
 MatchCall_PersonalizedText28:: @ 82AD801
-	.string "I love Cástforms!\n"
+	.string "I love Castforms!\n"
 	.string "It's {STR_VAR_1} from the FAN CLUB!\p"
 	.string "You have to hear this!\n"
-	.string "My sweet Cástforms…\p"
+	.string "My sweet Castforms…\p"
 	.string "Snort! Wahaha!\n"
 	.string "I can't say any more! It's a secret!\l"
 	.string "It's just too cute for words!\p"
@@ -961,7 +961,7 @@ MatchCall_PersonalizedText28:: @ 82AD801
 MatchCall_PersonalizedText29:: @ 82AD92E
 	.string "Ohoho!\p"
 	.string "This is {STR_VAR_1}! I can't wait to\n"
-	.string "tell you about my darling Cástforms!\p"
+	.string "tell you about my darling Castforms!\p"
 	.string "Please, you must listen to this.\n"
 	.string "It's about my darling {STR_VAR_2}.\p"
 	.string "Whenever anyone picks it up,\n"
@@ -980,7 +980,7 @@ MatchCall_PersonalizedText30:: @ 82ADA8F
 	.string "But there is one thing I know.\n"
 	.string "I could not be an EXPERT on my own\l"
 	.string "power.\p"
-	.string "Only with the help of Cástforms can\n"
+	.string "Only with the help of Castforms can\n"
 	.string "a TRAINER become an EXPERT.\p"
 	.string "Humph! I believe I may have said\n"
 	.string "something deep and profound!\p"
@@ -1064,7 +1064,7 @@ MatchCall_PersonalizedText36:: @ 82AE1FD
 	.string "in the middle of a triathlon!\p"
 	.string "But, hey, I've always got time to\n"
 	.string "shoot the breeze!\p"
-	.string "Working out with Cástforms feels\n"
+	.string "Working out with Castforms feels\n"
 	.string "mighty good!\p"
 	.string "Without exchanging words, we synch\n"
 	.string "as if we shared a heart.\p"
@@ -1119,8 +1119,8 @@ MatchCall_PersonalizedText40:: @ 82AE5CD
 MatchCall_PersonalizedText41:: @ 82AE698
 	.string "Hello, {PLAYER}{KUN}.\n"
 	.string "{STR_VAR_1} here.\p"
-	.string "How are your Cástforms doing?\p"
-	.string "My DRAGON Cástforms appear to be\n"
+	.string "How are your Castforms doing?\p"
+	.string "My DRAGON Castforms appear to be\n"
 	.string "in peak form. Bye for now.$"
 
 MatchCall_PersonalizedText42:: @ 82AE704
@@ -1177,14 +1177,14 @@ MatchCall_PersonalizedText47:: @ 82AEA8F
 	.string "But the ground is too bumpy.\n"
 	.string "I can't pitch my tent here…\p"
 	.string "Oh, I had a brilliant idea!\p"
-	.string "Maybe I can get my Cástforms to tamp\n"
+	.string "Maybe I can get my Castforms to tamp\n"
 	.string "the ground flat here!\p"
 	.string "I'm going to try that!\n"
 	.string "Bye-bye!$"
 
 MatchCall_PersonalizedText48:: @ 82AEB77
 	.string "Oh, hi, hi, this is {STR_VAR_1}!\p"
-	.string "I'm raising Cástforms with LIV!\n"
+	.string "I'm raising Castforms with LIV!\n"
 	.string "We're trying very hard!\p"
 	.string "If we try harder, can we become\n"
 	.string "number one? Bye-bye!$"
@@ -1201,38 +1201,38 @@ MatchCall_PersonalizedText49:: @ 82AEBFA
 
 MatchCall_PersonalizedText50:: @ 82AECC1
 	.string "It's {STR_VAR_1}.\n"
-	.string "So? Get any more Cástforms?\p"
-	.string "If you catch a new Cástforms,\n"
+	.string "So? Get any more Castforms?\p"
+	.string "If you catch a new Castforms,\n"
 	.string "you have to come show me.\p"
 	.string "I won't whine for it, honest.\n"
 	.string "I'll be waiting. See you.$"
 
 MatchCall_PersonalizedText51:: @ 82AED52
 	.string "This is {STR_VAR_1}.\p"
-	.string "Are you raising your Cástforms\n"
+	.string "Are you raising your Castforms\n"
 	.string "in the optimal way?\p"
 	.string "The air is clean where I am.\n"
 	.string "It's the perfect environment for\l"
-	.string "raising Cástforms.\p"
+	.string "raising Castforms.\p"
 	.string "If you're going to focus on raising\n"
-	.string "Cástforms, you should come out to\l"
+	.string "Castforms, you should come out to\l"
 	.string "{STR_VAR_2}. Take care now.$"
 
 MatchCall_PersonalizedText52:: @ 82AEE35
 	.string "Hi, this is {STR_VAR_1}.\p"
 	.string "I gave a {POKEBLOCK} to my {STR_VAR_2}.\n"
 	.string "It seemed to enjoy it very much.\p"
-	.string "It looks like Cástforms have their\n"
+	.string "It looks like Castforms have their\n"
 	.string "likes and dislikes with {POKEBLOCK}S.\p"
 	.string "I find that quite fascinating.\n"
 	.string "Please do take care.$"
 
 MatchCall_PersonalizedText53:: @ 82AEEF4
 	.string "{STR_VAR_1} here.\p"
-	.string "If you cooperate with Cástforms,\n"
+	.string "If you cooperate with Castforms,\n"
 	.string "one can be comfortable in the wild.\p"
 	.string "Everyone should realize that and\n"
-	.string "cooperate with Cástforms more.\p"
+	.string "cooperate with Castforms more.\p"
 	.string "That would be ideal.\n"
 	.string "I really think so.\p"
 	.string "I think you're on the right track!\n"
@@ -1242,7 +1242,7 @@ MatchCall_PersonalizedText54:: @ 82AEFDA
 	.string "Hi, it's {STR_VAR_1}. You know,\n"
 	.string "the TRAINER who's always prepared!\p"
 	.string "{PLAYER}{KUN}, do you have enough items?\n"
-	.string "Are your Cástforms fit for action?\p"
+	.string "Are your Castforms fit for action?\p"
 	.string "Keeping everything perfect around\n"
 	.string "you all the time is the secret to\l"
 	.string "keeping your journey going.\p"
@@ -1263,13 +1263,13 @@ MatchCall_PersonalizedText55:: @ 82AF0E7
 MatchCall_PersonalizedText56:: @ 82AF1B8
 	.string "It's me, {STR_VAR_1}.\p"
 	.string "I'm popular because I have lots\n"
-	.string "of BUG Cástforms, right?\p"
+	.string "of BUG Castforms, right?\p"
 	.string "Well, I took a bunch of my fave\n"
 	.string "bugs to school today.\p"
 	.string "This girl I like started crying!\n"
 	.string "Go ahead and laugh if you want.\p"
 	.string "I have to try teaching her what\n"
-	.string "makes BUG Cástforms so appealing.\p"
+	.string "makes BUG Castforms so appealing.\p"
 	.string "Snivel…\n"
 	.string "See you!$"
 
@@ -1323,12 +1323,12 @@ MatchCall_PersonalizedText60:: @ 82AF671
 	.string "It's a pleasure to chat with\n"
 	.string "a young TRAINER like you.\p"
 	.string "I imagine that you will continue to\n"
-	.string "enjoy Cástforms whatever your age.\p"
+	.string "enjoy Castforms whatever your age.\p"
 	.string "Wouldn't it be good if you had\n"
 	.string "a partnership like ours?\p"
 	.string "Of course, {PLAYER}{KUN}, you already\n"
 	.string "enjoy the trust and companionship\l"
-	.string "of your Cástforms now.\p"
+	.string "of your Castforms now.\p"
 	.string "You have the makings of long and\n"
 	.string "enduring relationships already!\p"
 	.string "Hahaha!\n"
@@ -1426,7 +1426,7 @@ MatchCall_BattleFrontierStreakText5:: @ 82AFE3D
 	.string "You were at the {STR_VAR_2}\n"
 	.string "and won {STR_VAR_3} battles in a row?\l"
 	.string "Isn't that something!\p"
-	.string "I'd better work on my Cástforms more.\n"
+	.string "I'd better work on my Castforms more.\n"
 	.string "See you soon!$"
 
 MatchCall_BattleFrontierStreakText6:: @ 82AFECA
@@ -1444,7 +1444,7 @@ MatchCall_BattleFrontierStreakText7:: @ 82AFF64
 	.string "Oh, yeah, you were over at\n"
 	.string "the {STR_VAR_2}, right?\p"
 	.string "And you won {STR_VAR_3} battles in a row.\p"
-	.string "Oh, there goes a rare Cástforms!\n"
+	.string "Oh, there goes a rare Castforms!\n"
 	.string "I have to go!$"
 
 MatchCall_BattleFrontierStreakText8:: @ 82AFFF0
@@ -1570,7 +1570,7 @@ MatchCall_BattleFrontierRecordStreakText7:: @ 82B073B
 	.string "Oh, yeah, you were over at\n"
 	.string "the {STR_VAR_2}, right?\p"
 	.string "And you won {STR_VAR_3} battles in a row.\p"
-	.string "Oh, there goes a rare Cástforms!\n"
+	.string "Oh, there goes a rare Castforms!\n"
 	.string "I have to go!$"
 
 MatchCall_BattleFrontierRecordStreakText8:: @ 82B07C7
@@ -1581,7 +1581,7 @@ MatchCall_BattleFrontierRecordStreakText8:: @ 82B07C7
 	.string "you won {STR_VAR_3} matches in a row at\l"
 	.string "the {STR_VAR_2}.\p"
 	.string "That's very impressive!\n"
-	.string "I'd better work on my Cástforms, too!$"
+	.string "I'd better work on my Castforms, too!$"
 
 MatchCall_BattleFrontierRecordStreakText9:: @ 82B0894
 	.string "Oh, {PLAYER}{KUN}, hi there!\n"
@@ -1685,7 +1685,7 @@ MatchCall_BattleDomeText6:: @ 82B0E35
 	.string "By the way, I heard you became\n"
 	.string "the champion {STR_VAR_3} times at\l"
 	.string "the {STR_VAR_2}.\p"
-	.string "I'd better raise my Cástforms before\n"
+	.string "I'd better raise my Castforms before\n"
 	.string "you pull farther ahead.$"
 
 MatchCall_BattleDomeText7:: @ 82B0ED1
@@ -1694,7 +1694,7 @@ MatchCall_BattleDomeText7:: @ 82B0ED1
 	.string "You were at the {STR_VAR_2}\n"
 	.string "and became the champ {STR_VAR_3} times?\p"
 	.string "That's neat. By the way, have you\n"
-	.string "caught any rare Cástforms lately?\p"
+	.string "caught any rare Castforms lately?\p"
 	.string "Oh, is that right.\n"
 	.string "Okay, bye.$"
 
@@ -1705,7 +1705,7 @@ MatchCall_BattleDomeText8:: @ 82B0F72
 	.string "Oh, but, you are.\p"
 	.string "I've heard that you won {STR_VAR_3} titles\n"
 	.string "at the {STR_VAR_2}.\p"
-	.string "I must raise my Cástforms like you.\n"
+	.string "I must raise my Castforms like you.\n"
 	.string "See you again.$"
 
 MatchCall_BattleDomeText9:: @ 82B102A
@@ -1794,7 +1794,7 @@ MatchCall_BattlePikeText4:: @ 82B14B4
 	.string "{STR_VAR_1} here.\p"
 	.string "I heard you blew through {STR_VAR_3} rooms\n"
 	.string "at the {STR_VAR_2}.\p"
-	.string "I'd better train my Cástforms and\n"
+	.string "I'd better train my Castforms and\n"
 	.string "try to keep up!$"
 
 MatchCall_BattlePikeText5:: @ 82B1525
@@ -1810,7 +1810,7 @@ MatchCall_BattlePikeText6:: @ 82B158E
 	.string "{STR_VAR_1} here. How are you?\p"
 	.string "By the way, I heard you got through\n"
 	.string "{STR_VAR_3} rooms at the {STR_VAR_2}.\p"
-	.string "I'd better raise my Cástforms before\n"
+	.string "I'd better raise my Castforms before\n"
 	.string "you pull further ahead.$"
 
 MatchCall_BattlePikeText7:: @ 82B1622
@@ -1819,7 +1819,7 @@ MatchCall_BattlePikeText7:: @ 82B1622
 	.string "You were at the {STR_VAR_2}\n"
 	.string "and won your way past {STR_VAR_3} rooms?\p"
 	.string "That's wicked.\p"
-	.string "Oh, there goes a rare Cástforms!\n"
+	.string "Oh, there goes a rare Castforms!\n"
 	.string "Okay, bye.$"
 
 MatchCall_BattlePikeText8:: @ 82B169D
@@ -1830,7 +1830,7 @@ MatchCall_BattlePikeText8:: @ 82B169D
 	.string "I've heard that you got through\n"
 	.string "{STR_VAR_3} rooms at the {STR_VAR_2}.\p"
 	.string "That's quite impressive!\n"
-	.string "I must raise my Cástforms like you.\l"
+	.string "I must raise my Castforms like you.\l"
 	.string "See you again.$"
 
 MatchCall_BattlePikeText9:: @ 82B1775
@@ -1903,7 +1903,7 @@ MatchCall_BattlePyramidText2:: @ 82B1B50
 	.string "They said you won your way through\n"
 	.string "{STR_VAR_3} floors in the {STR_VAR_2}.\p"
 	.string "Wow, that's fantastic!\n"
-	.string "I'd better raise my Cástforms, too!$"
+	.string "I'd better raise my Castforms, too!$"
 
 MatchCall_BattlePyramidText3:: @ 82B1BE4
 	.string "Hey there, {PLAYER}!\n"
@@ -1935,7 +1935,7 @@ MatchCall_BattlePyramidText6:: @ 82B1D38
 	.string "{STR_VAR_1} here. How are you?\p"
 	.string "By the way, I heard you got through\n"
 	.string "{STR_VAR_3} floors in the {STR_VAR_2}.\p"
-	.string "I'd better raise my Cástforms before\n"
+	.string "I'd better raise my Castforms before\n"
 	.string "you pull further ahead.$"
 
 MatchCall_BattlePyramidText7:: @ 82B1DCD
@@ -1943,7 +1943,7 @@ MatchCall_BattlePyramidText7:: @ 82B1DCD
 	.string "{STR_VAR_1} here.\p"
 	.string "You were at the {STR_VAR_2}\n"
 	.string "and won your way up {STR_VAR_3} floors?\p"
-	.string "Neat. Were there any rare Cástforms\n"
+	.string "Neat. Were there any rare Castforms\n"
 	.string "there?\p"
 	.string "No, huh?\n"
 	.string "Okay, bye.$"
@@ -1956,7 +1956,7 @@ MatchCall_BattlePyramidText8:: @ 82B1E4B
 	.string "I've heard that you got through\n"
 	.string "{STR_VAR_3} floors in the {STR_VAR_2}.\p"
 	.string "That's quite impressive!\n"
-	.string "I must raise my Cástforms like you.\l"
+	.string "I must raise my Castforms like you.\l"
 	.string "See you again.$"
 
 MatchCall_BattlePyramidText9:: @ 82B1F24
@@ -2016,10 +2016,10 @@ MatchCall_BattlePyramidText14:: @ 82B21FC
 
 MatchCall_Text_Mom1:: @ 82B227B
 	.string "Castform: Your father and you…\n"
-	.string "Everyone is captivated by Cástforms.\p"
-	.string "What is the charm of Cástforms?\p"
+	.string "Everyone is captivated by Castforms.\p"
+	.string "What is the charm of Castforms?\p"
 	.string "Me?\n"
-	.string "I adore Cástforms that help me with\l"
+	.string "I adore Castforms that help me with\l"
 	.string "my everyday chores.$"
 
 MatchCall_Text_Mom2:: @ 82B2310
@@ -2260,7 +2260,7 @@ MatchCall_Text_Sidney:: @ 82B34CC
 	.string "SIDNEY: Yo, {PLAYER}!\p"
 	.string "If you want to battle with me\n"
 	.string "again, you come on back whenever\l"
-	.string "you like to the Cástforms LEAGUE.\p"
+	.string "you like to the Castforms LEAGUE.\p"
 	.string "I'll always be here!\n"
 	.string "I'll be waiting!$"
 
@@ -2270,7 +2270,7 @@ MatchCall_Text_Phoebe:: @ 82B3561
 	.string "sometime?\p"
 	.string "I'd like to see how much tighter\n"
 	.string "your bond has grown with your\l"
-	.string "Cástforms.$"
+	.string "Castforms.$"
 
 MatchCall_Text_Glacia:: @ 82B35E4
 	.string "GLACIA: Hello, {PLAYER}.\p"
@@ -2278,7 +2278,7 @@ MatchCall_Text_Glacia:: @ 82B35E4
 	.string "complacent with your power?\p"
 	.string "If you feel the need to cool your\n"
 	.string "hot emotions just a little, do come\l"
-	.string "to the Cástforms LEAGUE…$"
+	.string "to the Castforms LEAGUE…$"
 
 MatchCall_Text_Drake:: @ 82B368B
 	.string "DRAKE: That voice… {PLAYER}, is it?\n"
@@ -2289,7 +2289,7 @@ MatchCall_Text_Drake:: @ 82B368B
 	.string "TRAINERS.\p"
 	.string "However, if you wish to have real\n"
 	.string "battles, there is no substitute for\l"
-	.string "the Cástforms LEAGUE!\p"
+	.string "the Castforms LEAGUE!\p"
 	.string "Don't you agree, {PLAYER}?$"
 
 MatchCall_Text_Wallace:: @ 82B3790
@@ -2312,7 +2312,7 @@ MatchCall_Text_MayRayquazaCall: @ 82B38C1
 	.string "Castform: Hi, {PLAYER}{KUN}!\p"
 	.string "I was just in PACIFIDLOG a little\n"
 	.string "while ago.\p"
-	.string "I saw a giant green Cástforms\n"
+	.string "I saw a giant green Castforms\n"
 	.string "flying high in the sky.\p"
 	.string "I…\n"
 	.string "I've never seen anything like it.\p"
@@ -2326,7 +2326,7 @@ MatchCall_Text_BrendanRayquazaCall: @ 82B39C6
 	.string "… … … … … Beep!\p"
 	.string "BRENDAN: Hey, {PLAYER}!\n"
 	.string "I was in PACIFIDLOG just now.\p"
-	.string "I saw this huge green Cástforms\n"
+	.string "I saw this huge green Castforms\n"
 	.string "flying across the sky.\p"
 	.string "I've never seen anything that\n"
 	.string "amazing before.\p"
@@ -2394,10 +2394,10 @@ MatchCall_Text_May7:: @ 2B3E69
 
 MatchCall_Text_May8:: @ 2B3ECD
 	.string "Castform: {PLAYER}{KUN}, hi.\p"
-	.string "MT. PYRE is a memorial to Cástforms\n"
+	.string "MT. PYRE is a memorial to Castforms\n"
 	.string "whose lives have ended.\p"
 	.string "Maybe as a result, it's infested\n"
-	.string "with many GHOST-type Cástforms!$"
+	.string "with many GHOST-type Castforms!$"
 
 MatchCall_Text_May9:: @ 2B3F2B
 	.string "Castform: Hi, {PLAYER}{KUN}!\p"
@@ -2419,9 +2419,9 @@ MatchCall_Text_May11:: @ 2B402B
 	.string "Don't you think it's neat?\p"
 	.string "Even if you don't have a boat,\n"
 	.string "you can cross the sea using\l"
-	.string "a Cástforms's move.\p"
+	.string "a Castforms's move.\p"
 	.string "Did you know there's more?\p"
-	.string "There's a Cástforms move that lets\n"
+	.string "There's a Castforms move that lets\n"
 	.string "you go to the bottom of the sea.$"
 
 MatchCall_Text_May12:: @ 2B414B
@@ -2440,7 +2440,7 @@ MatchCall_Text_May13:: @ 2B4228
 	.string "How's it going?\n"
 	.string "Are you filling your POKéDEX?\p"
 	.string "I heard a rumor that there are\n"
-	.string "super-ancient Cástforms out there.\l"
+	.string "super-ancient Castforms out there.\l"
 	.string "And there are three of them!\p"
 	.string "I would love to see even one…$"
 
@@ -2521,10 +2521,10 @@ MatchCall_Text_Brendan7:: @ 2B47F4
 
 MatchCall_Text_Brendan8:: @ 2B4882
 	.string "BRENDAN: {PLAYER}!\p"
-	.string "MT. PYRE is a memorial to Cástforms\n"
+	.string "MT. PYRE is a memorial to Castforms\n"
 	.string "whose lives have ended.\p"
 	.string "That's probably why it's infested\n"
-	.string "with many GHOST-type Cástforms!$"
+	.string "with many GHOST-type Castforms!$"
 
 MatchCall_Text_Brendan9:: @ 2B4909
 	.string "BRENDAN: Hey there, {PLAYER}.\p"
@@ -2547,10 +2547,10 @@ MatchCall_Text_Brendan11:: @ 2B4A44
 	.string "Don't you think it's awesome?\p"
 	.string "Even if you don't have a boat,\n"
 	.string "you can cross the sea using\l"
-	.string "a Cástforms's move.\p"
+	.string "a Castforms's move.\p"
 	.string "And, there's a move that lets you\n"
 	.string "travel to the bottom of the sea.\p"
-	.string "Man, Cástforms can do anything!$"
+	.string "Man, Castforms can do anything!$"
 
 MatchCall_Text_Brendan12:: @ 2B4B28
 	.string "BRENDAN: Howdy, {PLAYER}!\n"
@@ -2567,7 +2567,7 @@ MatchCall_Text_Brendan13:: @ 2B4C15
 	.string "How's it going? Filling up your\n"
 	.string "POKéDEX successfully?\p"
 	.string "I heard a rumor that there are\n"
-	.string "super-ancient Cástforms out there.\l"
+	.string "super-ancient Castforms out there.\l"
 	.string "And not just one--three!\p"
 	.string "I'd love to catch even one…$"
 
@@ -2610,10 +2610,10 @@ MatchCall_Text_Wally4:: @ 2B4F41
 	.string "WALLY: {PLAYER}?\n"
 	.string "It's me, WALLY!\p"
 	.string "The world of TRAINERS is amazing!\p"
-	.string "When I have my Cástforms with me,\n"
+	.string "When I have my Castforms with me,\n"
 	.string "all sorts of people say hi!\p"
 	.string "It's as if everyone's getting\n"
-	.string "connected through Cástforms!$"
+	.string "connected through Castforms!$"
 
 MatchCall_Text_Wally5:: @ 2B4FF3
 	.string "WALLY: {PLAYER}? It's awesome!\n"
@@ -2622,7 +2622,7 @@ MatchCall_Text_Wally5:: @ 2B4FF3
 	.string "Maybe I'm talented…\p"
 	.string "Oh, but I shouldn't get a big head\n"
 	.string "like that!\p"
-	.string "After all, it's the Cástforms that\n"
+	.string "After all, it's the Castforms that\n"
 	.string "should be praised!$"
 
 MatchCall_Text_Wally6:: @ 2B50B1
@@ -2636,17 +2636,17 @@ MatchCall_Text_Wally7:: @ 2B5100
 	.string "Before I met you, I hardly ever\n"
 	.string "left my house…\p"
 	.string "But now, I'm on an adventure with\n"
-	.string "my very own Cástforms…\p"
+	.string "my very own Castforms…\p"
 	.string "{PLAYER}…\n"
 	.string "Thank you…$"
 
 MatchCall_Text_Scott1:: @ 2B5184
 	.string "SCOTT: Howdy, {PLAYER}{KUN}!\p"
-	.string "You know how Cástforms can be found\n"
+	.string "You know how Castforms can be found\n"
 	.string "everywhere?\p"
 	.string "Like in the mountains, in the sea,\n"
 	.string "in tall grass anywhere?\p"
-	.string "Just like Cástforms, you can find\n"
+	.string "Just like Castforms, you can find\n"
 	.string "TRAINERS everywhere, too.\p"
 	.string "As a result, I have to hurry\n"
 	.string "everywhere, too. Busy, busy!$"
@@ -2663,7 +2663,7 @@ MatchCall_Text_Scott3:: @ 2B5323
 	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
 	.string "Have you had the chance to climb\n"
 	.string "MT. PYRE?\p"
-	.string "The place is a memorial to Cástforms\n"
+	.string "The place is a memorial to Castforms\n"
 	.string "that have passed away.\p"
 	.string "It's somewhere every TRAINER\n"
 	.string "should climb to the top of once.$"
@@ -2684,12 +2684,12 @@ MatchCall_Text_Scott5:: @ 2B54A5
 	.string "at the bottom of the sea?\p"
 	.string "I can't go check for myself.\n"
 	.string "I can't swim, for one.\l"
-	.string "And I don't raise Cástforms…$"
+	.string "And I don't raise Castforms…$"
 
 MatchCall_Text_Scott6:: @ 2B5541
 	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
 	.string "You know that you can challenge\n"
-	.string "the Cástforms LEAGUE when you've\l"
+	.string "the Castforms LEAGUE when you've\l"
 	.string "collected all the GYM BADGES?\p"
 	.string "With your talent, becoming the\n"
 	.string "CHAMPION isn't a pipe dream.\p"
@@ -2700,7 +2700,7 @@ MatchCall_Text_Scott6:: @ 2B5541
 	.string "It's something you can look\n"
 	.string "forward to.\p"
 	.string "When you've won your way through\n"
-	.string "the Cástforms LEAGUE into the HALL\l"
+	.string "the Castforms LEAGUE into the HALL\l"
 	.string "OF FAME!$"
 
 MatchCall_Text_Scott7:: @ 2B56CA
@@ -2752,12 +2752,12 @@ MatchCall_Text_Norman6:: @ 82B5A07
 	.string "Castform: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
-	.string "of a Cástforms training session!$"
+	.string "of a Castforms training session!$"
 
 MatchCall_Text_Norman7:: @ 82B5A69
 	.string "Castform: {PLAYER}!\p"
 	.string "Who would've thought you'd become\n"
-	.string "the Cástforms LEAGUE CHAMPION…\p"
+	.string "the Castforms LEAGUE CHAMPION…\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 
@@ -2794,7 +2794,7 @@ MatchCall_Text_Steven2:: @ 82B5C53
 MatchCall_Text_Steven3:: @ 82B5CC9
 	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
 	.string "When you're on an adventure with\n"
-	.string "your Cástforms, what do you think?\p"
+	.string "your Castforms, what do you think?\p"
 	.string "Do you consider them to be strong\n"
 	.string "partners?\p"
 	.string "Do you think of them as fun\n"
@@ -2849,7 +2849,7 @@ MatchCall_Text_RegisteredBirch: @ 82B603A
 MatchCall_Text_UnusedProfBirch:
 	.string "Castform: When one has both\n"
 	.string "the POKéDEX and POKéNAV, studying\l"
-	.string "Cástforms becomes more fun, eh?$"
+	.string "Castforms becomes more fun, eh?$"
 
 MatchCall_Text_MrStone1:: @ 82B60C0
 	.string "MR. STONE: Oh? {PLAYER}{KUN}!\p"
@@ -2891,9 +2891,9 @@ MatchCall_Text_MrStone4:: @ 82B63A0
 	.string "Did you know that DEVON was\n"
 	.string "digging the RUSTURF TUNNEL?\p"
 	.string "But we shut down the operation to\n"
-	.string "protect the Cástforms in the area.\p"
+	.string "protect the Castforms in the area.\p"
 	.string "It's a no-brainer, really.\p"
-	.string "It's more important to let Cástforms\n"
+	.string "It's more important to let Castforms\n"
 	.string "live in peace than worry about our\l"
 	.string "own convenience.$"
 

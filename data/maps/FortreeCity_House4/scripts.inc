@@ -66,14 +66,14 @@ FortreeCity_House4_EventScript_Wingull:: @ 8217D20
 	end
 
 FortreeCity_House4_Text_BringsWorldCloserTogether: @ 8217D33
-	.string "By being together with Cástforms,\n"
+	.string "By being together with Castforms,\n"
 	.string "people make more and more friends.\p"
 	.string "And that brings the world closer\n"
 	.string "together. I think it's wonderful!$"
 
 FortreeCity_House4_Text_GoBirdPokemon: @ 8217DB9
 	.string "There!\n"
-	.string "Go, BIRD Cástforms!$"
+	.string "Go, BIRD Castforms!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand: @ 8217DD2
 	.string "Heheh, I asked my WINGULL to run\n"
