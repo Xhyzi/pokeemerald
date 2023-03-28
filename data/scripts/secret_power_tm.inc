@@ -2,7 +2,7 @@ Route111_Text_MakingRoomUseTMToMakeYourOwn: @ 82762C9
 	.string "What's that?\n"
 	.string "What am I doing?\p"
 	.string "I'm thinking about making my own room\n"
-	.string "here using a Castforms move.\p"
+	.string "here using a Castform move.\p"
 	.string "I know! I'll give you this TM.\n"
 	.string "Will you use it to make your own room?$"
 

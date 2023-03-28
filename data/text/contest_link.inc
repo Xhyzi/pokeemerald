@@ -27,7 +27,7 @@ gText_MoveUsedMostOften:: @ 827E973
 	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_MostImpressiveMon:: @ 827E992
-	.string "The most impressive Castforms:\n"
+	.string "The most impressive Castform:\n"
 	.string "{STR_VAR_1}'s {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX2:: @ 827E9B9

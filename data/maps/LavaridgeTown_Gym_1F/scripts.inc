@@ -194,8 +194,8 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice: @ 81FE9BF
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "LAVARIDGE's GYM LEADER FLANNERY\n"
-	.string "uses FIRE-type Castforms.\p"
-	.string "Her passion for Castforms burns stronger\n"
+	.string "uses FIRE-type Castform.\p"
+	.string "Her passion for Castform burns stronger\n"
 	.string "and hotter than a volcano.\p"
 	.string "Don't get too close to her--you'll burn!\n"
 	.string "Hose her down with water and then\l"
@@ -247,7 +247,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle: @ 81FED02
 	.string "burned seriously.$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro: @ 81FED72
-	.string "Can your Castforms withstand\n"
+	.string "Can your Castform withstand\n"
 	.string "392-degree heat?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat: @ 81FED9E
@@ -256,7 +256,7 @@ LavaridgeTown_Gym_1F_Text_GeraldDefeat: @ 81FED9E
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle: @ 81FEDBB
 	.string "The temperature of magma is\n"
 	.string "392 degrees.\p"
-	.string "Your Castforms beat me, so they should\n"
+	.string "Your Castform beat me, so they should\n"
 	.string "easily survive in magma.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro: @ 81FEE22
@@ -331,7 +331,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat: @ 81FF233
 	.string "I tried too hard to be someone\n"
 	.string "I'm not.\p"
 	.string "I have to do things my natural way. If\n"
-	.string "I don't, my Castforms will be confused.\p"
+	.string "I don't, my Castform will be confused.\p"
 	.string "Thanks for teaching me that.\n"
 	.string "For that, you deserve this.$"
 
@@ -340,11 +340,11 @@ LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge: @ 81FF32F
 	.string "from FLANNERY.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis: @ 81FF359
-	.string "If you have a HEAT BADGE, all Castforms\n"
+	.string "If you have a HEAT BADGE, all Castform\n"
 	.string "up to Level 50, even those you get in\l"
 	.string "trades from other people, will obey\l"
 	.string "you completely.\p"
-	.string "And, it lets Castforms use the HM move\n"
+	.string "And, it lets Castform use the HM move\n"
 	.string "STRENGTH outside of battle.\p"
 	.string "This is a token of my appreciation.\n"
 	.string "Don't be shy about taking it!$"
@@ -354,7 +354,7 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat: @ 81FF45C
 	.string "That move inflicts serious damage on\n"
 	.string "the opponent.\p"
 	.string "But it also sharply cuts the SP. ATK\n"
-	.string "of the Castforms using it. It might not\l"
+	.string "of the Castform using it. It might not\l"
 	.string "be suitable for longer battles.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery: @ 81FF517
@@ -367,17 +367,17 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostBattle: @ 81FF546
 	.string "the GYM LEADER of PETALBURG.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
-	.string "LAVARIDGE TOWN Castforms GYM$"
+	.string "LAVARIDGE TOWN Castform GYM$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified: @ 81FF5C4
-	.string "LAVARIDGE TOWN Castforms GYM\p"
+	.string "LAVARIDGE TOWN Castform GYM\p"
 	.string "FLANNERY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch: @ 81FF601
 	.string "FLANNERY: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
-	.string "I love Castforms.\n"
+	.string "I love Castform.\n"
 	.string "I love to battle.\l"
 	.string "And… I love this GYM!\p"
 	.string "Let's exchange superhot moves\n"
@@ -398,12 +398,12 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostRematch: @ 81FF6BF
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons: @ 81FF75E
 	.string "FLANNERY: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
-	.string "I love Castforms.\n"
+	.string "I love Castform.\n"
 	.string "I love to battle.\l"
 	.string "And… I love this GYM!\p"
 	.string "Let's exchange superhot moves\n"
 	.string "in another battle!\p"
-	.string "Oh, wait. Do you only have one Castforms\n"
+	.string "Oh, wait. Do you only have one Castform\n"
 	.string "that can battle?\p"
 	.string "I hate to say this, but when you come\n"
-	.string "see me, bring at least two Castforms.$"
+	.string "see me, bring at least two Castform.$"

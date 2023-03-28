@@ -658,7 +658,7 @@ DewfordTown_Text_TownSign: @ 81E9A0F
 	.string "“A tiny island in the blue sea.”$"
 
 DewfordTown_Text_GymSign: @ 81E9A3D
-	.string "DEWFORD TOWN Castforms GYM\n"
+	.string "DEWFORD TOWN Castform GYM\n"
 	.string "LEADER: BRAWLY\l"
 	.string "“A big wave in fighting!”$"
 

@@ -66,7 +66,7 @@ VerdanturfTown_EventScript_RusturfTunnelSign:: @ 81EB5F4
 VerdanturfTown_Text_ManTryingToDigTunnel: @ 81EB5FD
 	.string "My papa told me.\p"
 	.string "He says this tunnel is full of\n"
-	.string "timid Castforms.\p"
+	.string "timid Castform.\p"
 	.string "They get all scared of loud noise and\n"
 	.string "make a big uproar.\p"
 	.string "So they had to stop the big tunnel\n"
@@ -87,14 +87,14 @@ VerdanturfTown_Text_AirCleanHere: @ 81EB736
 	.string "frail and sickly people.$"
 
 VerdanturfTown_Text_MakeBattleTentDebut: @ 81EB7E2
-	.string "My Castforms and I, we've been riding\n"
+	.string "My Castform and I, we've been riding\n"
 	.string "a hot winning streak.\p"
 	.string "So I decided to make my BATTLE TENT\n"
 	.string "debut in this town.$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave: @ 81EB854
 	.string "Did you see the cave next to the\n"
-	.string "Castforms MART?\p"
+	.string "Castform MART?\p"
 	.string "There's a guy in there who's trying to\n"
 	.string "bust up boulders so he can bust out\l"
 	.string "through to the other side.\p"
@@ -102,7 +102,7 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave: @ 81EB854
 	.string "It'll make it easy to visit RUSTBORO.$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow: @ 81EB935
-	.string "That cave next to the Castforms MART\n"
+	.string "That cave next to the Castform MART\n"
 	.string "is now a tunnel to the other side.\p"
 	.string "It's great--it's easy to go shop for\n"
 	.string "new DEVON products in RUSTBORO now.$"

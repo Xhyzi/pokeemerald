@@ -220,14 +220,14 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist:: @ 827018B
 
 Route119_WeatherInstitute_2F_Text_Grunt2Intro: @ 827019C
 	.string "The INSTITUTE created a type of\n"
-	.string "Castforms that has something to do with\l"
+	.string "Castform that has something to do with\l"
 	.string "the weather. We're here to take them!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2Defeat: @ 8270208
 	.string "Our plan's being spoiled by a kid?$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle: @ 827022B
-	.string "If the Castforms they made here can\n"
+	.string "If the Castform they made here can\n"
 	.string "control the weather freely, then we of\l"
 	.string "TEAM AQUA definitely need it!$"
 
@@ -246,12 +246,12 @@ Route119_WeatherInstitute_2F_Text_Grunt3PostBattle: @ 82702DA
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro: @ 8270335
 	.string "Don't tell me you're looking for that\n"
-	.string "weather Castforms, too?\p"
+	.string "weather Castform, too?\p"
 	.string "That's a no-no!\n"
 	.string "We were here to get it first!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Defeat: @ 827039F
-	.string "Oh, will you look at my Castforms?$"
+	.string "Oh, will you look at my Castform?$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle: @ 82703C0
 	.string "Humph, so what?\n"
@@ -296,18 +296,18 @@ Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon: @ 8270650
 	.string "Thanks!\n"
 	.string "Thanks to you, we're safe!\p"
 	.string "It might be an odd way of thanking you,\n"
-	.string "but take this Castforms.$"
+	.string "but take this Castform.$"
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon: @ 82706B2
 	.string "Hm? You don't seem to have any room\n"
-	.string "for this Castforms.$"
+	.string "for this Castform.$"
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform: @ 82706E8
 	.string "{PLAYER} received CASTFORM!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather: @ 82706FE
-	.string "That Castforms changes shape according\n"
+	.string "That Castform changes shape according\n"
 	.string "to the weather conditions.\p"
 	.string "There're plenty of them in the\n"
 	.string "INSTITUTE--go ahead and take it.$"

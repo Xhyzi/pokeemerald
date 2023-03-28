@@ -170,7 +170,7 @@ SlateportCity_ContestHall_Text_AdviceForContests: @ 820906B
 	.string "If you know what you're doing,\n"
 	.string "you can score big in appeal.\p"
 	.string "Of course, your opponents might try\n"
-	.string "disrupting your Castforms's showing.$"
+	.string "disrupting your Castform's showing.$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MyPapaIsContestJudge: @ 820917A
@@ -182,7 +182,7 @@ SlateportCity_ContestHall_Text_MyPapaIsContestJudge: @ 820917A
 SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed: @ 82091DC
 	.string "Hey, man, I'm like majorly cheesed,\n"
 	.string "you know. Like, you know, I just\l"
-	.string "wanted to know why my Castforms\l"
+	.string "wanted to know why my Castform\l"
 	.string "never won, you know, like, hey?\p"
 	.string "So, like, I gave the JUDGE my two\n"
 	.string "cents, you know, they're free.\p"
@@ -203,7 +203,7 @@ SlateportCity_ContestHall_Text_ExplainTorment: @ 8209322
 @ Unused
 SlateportCity_ContestHall_Text_MCStepUpTakePartInContest: @ 82093ED
 	.string "MC: Oh, my, my!\n"
-	.string "Now isn't that a dandy of a Castforms?\p"
+	.string "Now isn't that a dandy of a Castform?\p"
 	.string "Please! Do step right up and take\n"
 	.string "part in our splendid CONTESTS!\p"
 	.string "You'll do well! I'm sure of it!\n"
@@ -214,7 +214,7 @@ SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest: @ 82094A1
 	.string "JUDGE: Well, hello there!\n"
 	.string "I see that you're a TRAINER!\p"
 	.string "Then, it just wouldn't do for you\n"
-	.string "to miss a Castforms CONTEST!\p"
+	.string "to miss a Castform CONTEST!\p"
 	.string "Get a CONTEST PASS in VERDANTURF\n"
 	.string "CITY and enter anytime!$"
 
@@ -226,7 +226,7 @@ SlateportCity_ContestHall_Text_ItsAppealTime: @ 820954E
 @ Unused
 SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal: @ 8209579
 	.string "They didn't pay much attention to\n"
-	.string "my Castforms's appeal…\p"
+	.string "my Castform's appeal…\p"
 	.string "Humph, that JUDGE, he doesn't know\n"
 	.string "a good thing when he sees it.$"
 
@@ -238,7 +238,7 @@ SlateportCity_ContestHall_Text_RewardWithSageAdvice: @ 82095F1
 	.string "this sage advice.\p"
 	.string "If a move goes over really well,\n"
 	.string "the audience will get excited.\p"
-	.string "The Castforms that makes its appeal\n"
+	.string "The Castform that makes its appeal\n"
 	.string "right when everyone's excited…\p"
 	.string "Well, you'd think something good has\n"
 	.string "to happen!$"
@@ -246,7 +246,7 @@ SlateportCity_ContestHall_Text_RewardWithSageAdvice: @ 82095F1
 @ Unused
 SlateportCity_ContestHall_Text_MoreFreakedOutThanMon: @ 8209718
 	.string "I can't do this! I'm more freaked out\n"
-	.string "than my Castforms.\p"
+	.string "than my Castform.\p"
 	.string "I'm shivering and my heart is racing!$"
 
 @ Unused
@@ -254,30 +254,30 @@ SlateportCity_ContestHall_Text_BattleAndContestAlike: @ 8209775
 	.string "A battle and a CONTEST aren't the\n"
 	.string "same, but they are alike, too.\p"
 	.string "You need to work hard and believe\n"
-	.string "in the Castforms you've raised.$"
+	.string "in the Castform you've raised.$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MonLooksOnTopOfGame: @ 82097F6
-	.string "That Castforms looks like it's on top\n"
+	.string "That Castform looks like it's on top\n"
 	.string "of its game, huh?\p"
-	.string "A Castforms that does good in the\n"
+	.string "A Castform that does good in the\n"
 	.string "secondary judging seems to be more\l"
 	.string "relaxed when it's doing appeals.$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MyMonBetterThanThatLot: @ 8209890
 	.string "Will you look at that sorry sight?\p"
-	.string "Heh, my Castforms's absolutely better\n"
+	.string "Heh, my Castform's absolutely better\n"
 	.string "than that lot!$"
 
 @ Unused
 SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon: @ 82098E6
 	.string "Don't you get the urge to move with\n"
-	.string "Castforms if they're putting on an\l"
+	.string "Castform if they're putting on an\l"
 	.string "energetic appeal?$"
 
 @ Unused
 SlateportCity_ContestHall_Text_HyperRankStage: @ 820993D
-	.string "Castforms CONTESTS\n"
+	.string "Castform CONTESTS\n"
 	.string "HYPER RANK STAGE!$"
 

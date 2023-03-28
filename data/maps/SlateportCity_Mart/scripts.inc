@@ -37,11 +37,11 @@ SlateportCity_Mart_Text_SomeItemsOnlyAtMart: @ 820DC88
 	.string "The MARKET does have some interesting\n"
 	.string "merchandise.\p"
 	.string "But there are some items you can only\n"
-	.string "get at a Castforms MART.$"
+	.string "get at a Castform MART.$"
 
 SlateportCity_Mart_Text_GreatBallIsBetter: @ 820DCF8
 	.string "A GREAT BALL is better than a POKé BALL\n"
-	.string "at catching Castforms.\p"
+	.string "at catching Castform.\p"
 	.string "With this, I should be able to get that\n"
-	.string "elusive Castforms…$"
+	.string "elusive Castform…$"
 

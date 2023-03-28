@@ -39,7 +39,7 @@ MauvilleCity_Mart_EventScript_Man:: @ 8211125
 
 MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats: @ 821112E
 	.string "There are items that temporarily\n"
-	.string "elevate the stats of Castforms.\p"
+	.string "elevate the stats of Castform.\p"
 	.string "The ones I know you use in battle\n"
 	.string "are X ATTACK and X DEFEND…\p"
 	.string "I do believe that there are others\n"

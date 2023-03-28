@@ -65,13 +65,13 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech: @ 82284AC
 	.string "I've traveled from afar to HOENN\n"
 	.string "so that I may hone my ice skills.\p"
 	.string "But all I have seen are challenges by\n"
-	.string "weak TRAINERS and their Castforms.\p"
+	.string "weak TRAINERS and their Castform.\p"
 	.string "What about you?\p"
 	.string "It would please me to no end if I could\n"
 	.string "go all out against you!$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat: @ 82285B4
-	.string "You and your Castforms…\n"
+	.string "You and your Castform…\n"
 	.string "How hot your spirits burn!\p"
 	.string "The all-consuming heat overwhelms.\p"
 	.string "It's no surprise that my icy skills\n"
@@ -80,5 +80,5 @@ EverGrandeCity_GlaciasRoom_Text_Defeat: @ 82285B4
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech: @ 8228640
 	.string "Advance to the next room.\p"
 	.string "And there, confirm the truly fearsome\n"
-	.string "side of the Castforms LEAGUE.$"
+	.string "side of the Castform LEAGUE.$"
 

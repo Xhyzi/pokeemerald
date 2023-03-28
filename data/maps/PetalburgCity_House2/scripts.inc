@@ -20,5 +20,5 @@ PetalburgCity_House2_Text_BattledNormanOnce: @ 8207969
 	.string "he was way too strong.\p"
 	.string "How would I put it?\p"
 	.string "I just got the feeling that he\n"
-	.string "lives for Castforms.$"
+	.string "lives for Castform.$"
 

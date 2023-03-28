@@ -1,11 +1,11 @@
 LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket: @ 82A6390
-	.string "This is the Castforms LOTTERY CORNER.\p"
+	.string "This is the Castform LOTTERY CORNER.\p"
 	.string "All shoppers at our DEPARTMENT STORE\n"
-	.string "get to draw a Castforms LOTO TICKET.\p"
+	.string "get to draw a Castform LOTO TICKET.\p"
 	.string "If the LOTO TICKET's number matches\n"
-	.string "the ID number of any of your Castforms,\l"
+	.string "the ID number of any of your Castform,\l"
 	.string "you will receive a fabulous gift.\p"
-	.string "Would you like to draw a Castforms\n"
+	.string "Would you like to draw a Castform\n"
 	.string "LOTO TICKET?$"
 
 LilycoveCity_DepartmentStore_1F_Text_ComeBackTomorrow: @ 82A6496
@@ -22,7 +22,7 @@ LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait: @ 82A650B
 	.string "The LOTO TICKET number is {STR_VAR_1}.\p"
 	.string "I need to run a check on this number\n"
 	.string "to see if it matches any of your\l"
-	.string "Castforms's ID numbers. Please wait.$"
+	.string "Castform's ID numbers. Please wait.$"
 
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon: @ 82A6592
 	.string "Congratulations!\p"

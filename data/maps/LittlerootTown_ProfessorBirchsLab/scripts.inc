@@ -735,7 +735,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork: @ 81FA641
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo: @ 81FA6CE
 	.string "Castform is studying the habitats\n"
-	.string "and distribution of Castforms.\p"
+	.string "and distribution of Castform.\p"
 	.string "The PROF enjoys {RIVAL}'s help, too.\n"
 	.string "There's a lot of love there.$"
 
@@ -744,13 +744,13 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
 	.string "I've heard so much about you from\n"
 	.string "your father.\p"
 	.string "I've heard that you don't have your\n"
-	.string "own Castforms yet.\p"
+	.string "own Castform yet.\p"
 	.string "But the way you battled earlier,\n"
 	.string "you pulled it off with aplomb!\p"
 	.string "I guess you have your father's blood\n"
 	.string "in your veins after all!\p"
 	.string "Oh, yes. As thanks for rescuing me,\n"
-	.string "I'd like you to have the Castforms you\l"
+	.string "I'd like you to have the Castform you\l"
 	.string "used earlier.\p"
 	.string "{PLAYER} received the {STR_VAR_1}!$"
 
@@ -759,11 +759,11 @@ LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon: @ 81FA8B1
 	.string "give a nickname to that {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival: @ 81FA8F6
-	.string "Castform: If you work at Castforms\n"
+	.string "Castform: If you work at Castform\n"
 	.string "and gain experience, I think you'll make\l"
 	.string "an extremely good TRAINER.\p"
 	.string "My kid, {RIVAL}, is also studying\n"
-	.string "Castforms while helping me out.\p"
+	.string "Castform while helping me out.\p"
 	.string "{PLAYER}{KUN}, don't you think it might be\n"
 	.string "a good idea to go see {RIVAL}?$"
 
@@ -782,7 +782,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome: @ 81FAA74
 	.string "Gone home, I think.\p"
 	.string "Or maybe that kid's scrabbling around\n"
 	.string "in tall grass again somewhere…\p"
-	.string "If you or your Castforms get tired,\n"
+	.string "If you or your Castform get tired,\n"
 	.string "you should get some rest at home.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex: @ 81FAB22
@@ -803,16 +803,16 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex: @ 81FAC32
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex: @ 81FAC4B
 	.string "Castform: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
-	.string "of any Castforms you meet or catch.\p"
+	.string "of any Castform you meet or catch.\p"
 	.string "My kid, {RIVAL}, goes everywhere\n"
 	.string "with it.\p"
-	.string "Whenever my kid catches a rare Castforms\n"
+	.string "Whenever my kid catches a rare Castform\n"
 	.string "and records its data in the POKéDEX,\l"
 	.string "why, {RIVAL} looks for me while I'm out\l"
 	.string "doing fieldwork, and shows me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait: @ 81FAD6F
-	.string "Castform: Countless Castforms\n"
+	.string "Castform: Countless Castform\n"
 	.string "await you!\p"
 	.string "Argh, I'm getting the itch to get out\n"
 	.string "and do fieldwork again!$"
@@ -825,10 +825,10 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese: @ 81FADD7
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls: @ 81FAE40
 	.string "Castform: It's fun if you can get a lot of\n"
-	.string "Castforms!\p"
+	.string "Castform!\p"
 	.string "I'm going to look all over the place\n"
-	.string "because I want different Castforms.\p"
-	.string "If I find any cute Castforms, I'll catch\n"
+	.string "because I want different Castform.\p"
+	.string "If I find any cute Castform, I'll catch\n"
 	.string "them with POKé BALLS!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull: @ 81FAEF3
@@ -836,28 +836,28 @@ LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull: @ 81FAEF3
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext: @ 81FAF08
 	.string "Castform: I wonder where I should go look\n"
-	.string "for Castforms next?$"
+	.string "for Castform next?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese: @ 81FAF3F
-	.string "BRENDAN: Huh…\n"
+	.string "Castform: Huh…\n"
 	.string "So you got a POKéDEX, too.\p"
 	.string "Well then, here.\n"
 	.string "I'll give you these.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls: @ 81FAF8E
-	.string "BRENDAN: You know it's more fun to\n"
-	.string "have a whole bunch of Castforms.\p"
+	.string "Castform: You know it's more fun to\n"
+	.string "have a whole bunch of Castform.\p"
 	.string "I'm going to explore all over the place\n"
-	.string "to find different Castforms.\p"
-	.string "If I find any cool Castforms, you bet\n"
+	.string "to find different Castform.\p"
+	.string "If I find any cool Castform, you bet\n"
 	.string "I'll try to get them with POKé BALLS.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull: @ 81FB05D
 	.string "Hey, your BAG's full.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext: @ 81FB073
-	.string "BRENDAN: Where should I look for\n"
-	.string "Castforms next…$"
+	.string "Castform: Where should I look for\n"
+	.string "Castform next…$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine: @ 81FB0A2
 	.string "It's a serious-looking machine.\n"
@@ -868,7 +868,7 @@ LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch: @ 81FB0E7
 	.string "Better not mess around with it.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon: @ 81FB124
-	.string "It's crammed with books on Castforms.$"
+	.string "It's crammed with books on Castform.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead: @ 81FB148
 	.string "It's a book that's too hard to read.$"
@@ -876,11 +876,11 @@ LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead: @ 81FB148
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational: @ 81FB16D
 	.string "Castform: Now…\p"
 	.string "{PLAYER}{KUN} and {RIVAL}, I've had the two\n"
-	.string "of you help me study Castforms.\p"
+	.string "of you help me study Castform.\p"
 	.string "Thanks to your help, new facts\n"
 	.string "are coming to light.\p"
 	.string "It appears that in the HOENN region,\n"
-	.string "there are also Castforms from other\l"
+	.string "there are also Castform from other\l"
 	.string "regions.\p"
 	.string "It goes to show how rich and varied\n"
 	.string "the natural environments of HOENN\l"
@@ -895,11 +895,11 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool: @ 81FB30F
 	.string "It's so cool that even my POKéDEX\n"
 	.string "is getting updated!\p"
 	.string "It's because you went out and caught\n"
-	.string "so many Castforms, {PLAYER}{KUN}!$"
+	.string "so many Castform, {PLAYER}{KUN}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe: @ 81FB38E
-	.string "BRENDAN: I went out all over HOENN\n"
-	.string "and checked out Castforms.\p"
+	.string "Castform: I went out all over HOENN\n"
+	.string "and checked out Castform.\p"
 	.string "You can thank me for getting\n"
 	.string "the NATIONAL Mode POKéDEX.\p"
 	.string "Yep, you're lucky, {PLAYER}!$"
@@ -914,9 +914,9 @@ LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational: @ 81FB436
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2: @ 81FB466
 	.string "Castform: But listen.\n"
 	.string "You've become the CHAMPION,\l"
-	.string "but your Castforms journey isn't over.\p"
+	.string "but your Castform journey isn't over.\p"
 	.string "There is no end to the road\n"
-	.string "that is Castforms.\p"
+	.string "that is Castform.\p"
 	.string "Somewhere, there is a grassy patch\n"
 	.string "that's waiting for you!$"
 
@@ -927,7 +927,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork: @ 81FB528
 	.string "a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork: @ 81FB58A
-	.string "BRENDAN: For the time being,\n"
+	.string "Castform: For the time being,\n"
 	.string "I'm taking a break from fieldwork.\p"
 	.string "I'll be helping out the PROF here\n"
 	.string "for a while.$"
@@ -944,31 +944,31 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon: @ 81FB5F9
 	.string "I have a gift for you.\p"
 	.string "Consider it my show of appreciation\n"
 	.string "for the fantastic work you've done.\p"
-	.string "My gift is a rare Castforms only found\n"
+	.string "My gift is a rare Castform only found\n"
 	.string "in another region!\p"
 	.string "You can have any one of these\n"
-	.string "three Castforms!$"
+	.string "three Castform!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon: @ 81FB787
-	.string "Castform: These are rare Castforms\n"
+	.string "Castform: These are rare Castform\n"
 	.string "only found in another region!\p"
 	.string "You can have any one of these\n"
-	.string "three Castforms!$"
+	.string "three Castform!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil: @ 81FB7F6
-	.string "Castform: The FIRE Castforms\n"
+	.string "Castform: The FIRE Castform\n"
 	.string "CYNDAQUIL caught your eye!\p"
 	.string "You're as sharp as ever!\p"
 	.string "So the CYNDAQUIL is your choice?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile: @ 81FB869
-	.string "Castform: The WATER Castforms\n"
+	.string "Castform: The WATER Castform\n"
 	.string "TOTODILE is your choice!\p"
 	.string "You know how to pick a good one.\p"
 	.string "So, you'll take the TOTODILE?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita: @ 81FB8E0
-	.string "Castform: The GRASS Castforms\n"
+	.string "Castform: The GRASS Castform\n"
 	.string "CHIKORITA is your choice!\p"
 	.string "You sure know what you're doing.\p"
 	.string "So, you'll take the CHIKORITA?$"
@@ -976,12 +976,12 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita: @ 81FB8E0
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable: @ 81FB959
 	.string "Castform: Take your time before\n"
 	.string "you decide.\p"
-	.string "They're all invaluable Castforms.$"
+	.string "They're all invaluable Castform.$"
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon: @ 81FB9A8
 	.string "Castform: I see!\n"
-	.string "You picked a fine Castforms!$"
+	.string "You picked a fine Castform!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter: @ 81FB9D7
 	.string "{PLAYER} received the {STR_VAR_1}\n"
@@ -995,20 +995,20 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter: @ 81FB9FC
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting: @ 81FBA2C
 	.string "Castform: Listen, {PLAYER}{KUN}.\n"
 	.string "You've completed the HOENN POKéDEX,\l"
-	.string "but your Castforms journey isn't over.\p"
+	.string "but your Castform journey isn't over.\p"
 	.string "There is no end to the road\n"
-	.string "that is Castforms.\p"
+	.string "that is Castform.\p"
 	.string "Somewhere, there is a grassy patch\n"
 	.string "that's waiting for you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone: @ 81FBAF8
-	.string "You received the promised Castforms.\n"
+	.string "You received the promised Castform.\n"
 	.string "Better leave the others alone.$"
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon: @ 81FBB3A
 	.string "Oh, you don't have any room for\n"
-	.string "this Castforms.$"
+	.string "this Castform.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere: @ 81FBB68
 	.string "Castform: {PLAYER}{KUN}, after this…\n"
@@ -1020,8 +1020,8 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere: @ 81FBB68
 	.string "I'm staying here to help the PROF.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly: @ 81FBC2D
-	.string "BRENDAN: Rather than collecting\n"
-	.string "Castforms, I prefer slowly and \l"
+	.string "Castform: Rather than collecting\n"
+	.string "Castform, I prefer slowly and \l"
 	.string "steadily raising the one I chose.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier: @ 81FBC8D
@@ -1030,7 +1030,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier: @ 81FBC8D
 	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier: @ 81FBCD2
-	.string "BRENDAN: Hey, {PLAYER}!\n"
+	.string "Castform: Hey, {PLAYER}!\n"
 	.string "Have you gone out to that place,\l"
 	.string "the BATTLE FRONTIER?$"
 

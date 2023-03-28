@@ -338,7 +338,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning: @ 820C059
 	.string "You're not dressed for the part.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "Castforms, people… All life depends on\n"
+	.string "Castform, people… All life depends on\n"
 	.string "the sea.\p"
 	.string "So, TEAM AQUA is dedicated to\n"
 	.string "the expansion of the sea.\p"

@@ -77,7 +77,7 @@ SSTidalRooms_Text_ColtonDefeat: @ 823CB58
 
 SSTidalRooms_Text_ColtonPostBattle: @ 823CB75
 	.string "I get so excited imagining what kinds\n"
-	.string "of Castforms I'll get to see in the next\l"
+	.string "of Castform I'll get to see in the next\l"
 	.string "CONTEST. The anticipation of it thrills!$"
 
 SSTidalRooms_Text_MicahIntro: @ 823CBEB
@@ -88,7 +88,7 @@ SSTidalRooms_Text_MicahDefeat: @ 823CC04
 
 SSTidalRooms_Text_MicahPostBattle: @ 823CC26
 	.string "Friends need not be human.\n"
-	.string "For me, Castforms are treasured friends!$"
+	.string "For me, Castform are treasured friends!$"
 
 SSTidalRooms_Text_ThomasIntro: @ 823CC68
 	.string "Child…\n"
@@ -115,7 +115,7 @@ SSTidalRooms_Text_JedPostBattle: @ 823CD5F
 	.string "You must be an awesome TRAINER!$"
 
 SSTidalRooms_Text_JedNotEnoughMons: @ 823CDC6
-	.string "JED: You only have one Castforms?\n"
+	.string "JED: You only have one Castform?\n"
 	.string "Isn't that just too lonesome?$"
 
 SSTidalRooms_Text_LeaIntro: @ 823CE04
@@ -132,7 +132,7 @@ SSTidalRooms_Text_LeaPostBattle: @ 823CE59
 
 SSTidalRooms_Text_LeaNotEnoughMons: @ 823CEB0
 	.string "LEA: I wanted to battle…\n"
-	.string "But you don't even have two Castforms…$"
+	.string "But you don't even have two Castform…$"
 
 SSTidalRooms_Text_GarretIntro: @ 823CEEE
 	.string "Ah, you've come just in time.\p"
@@ -145,7 +145,7 @@ SSTidalRooms_Text_GarretDefeat: @ 823CF36
 SSTidalRooms_Text_GarretPostBattle: @ 823CF45
 	.string "Perhaps I shall get Father to acquire\n"
 	.string "a yacht for me.\l"
-	.string "A yacht for me and Castforms!$"
+	.string "A yacht for me and Castform!$"
 
 SSTidalRooms_Text_NaomiIntro: @ 823CF97
 	.string "Oh, you're such an adorable TRAINER.\n"

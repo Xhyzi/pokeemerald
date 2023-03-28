@@ -131,7 +131,7 @@ VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore: @ 8235EE6
 	.string "{PLAYER}, losing to you that time\n"
 	.string "made me stronger!\p"
 	.string "But I'm not going to lose anymore!\p"
-	.string "I'm going to win! For the Castforms who\n"
+	.string "I'm going to win! For the Castform who\n"
 	.string "gave me courage and strength!\p"
 	.string "Okay… Here I come!$"
 
@@ -158,7 +158,7 @@ VictoryRoad_1F_Text_WallyPostBattle: @ 82360FE
 	.string "WALLY: I couldn't beat you this time,\n"
 	.string "too… But one of these days, {PLAYER},\l"
 	.string "I'm going to catch up to you…\p"
-	.string "And challenge the Castforms LEAGUE!$"
+	.string "And challenge the Castform LEAGUE!$"
 
 VictoryRoad_1F_Text_EdgarIntro: @ 8236184
 	.string "I've made it this far a couple times,\n"
@@ -207,7 +207,7 @@ VictoryRoad_1F_Text_QuincyDefeat: @ 82363C4
 VictoryRoad_1F_Text_QuincyPostBattle: @ 82363D5
 	.string "Getting through here safely--that's\n"
 	.string "the final test for any TRAINER aiming\l"
-	.string "to become the Castforms CHAMPION.\p"
+	.string "to become the Castform CHAMPION.\p"
 	.string "That's why it's called the VICTORY\n"
 	.string "ROAD.$"
 

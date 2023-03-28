@@ -69,31 +69,31 @@ MtPyre_3F_Text_GabrielleDefeat: @ 823196A
 	.string "You're a very special TRAINER.$"
 
 MtPyre_3F_Text_GabriellePostBattle: @ 823199B
-	.string "Castforms no longer of this world.\n"
-	.string "Castforms that are with you now.\p"
-	.string "And the Castforms that you will meet\n"
+	.string "Castform no longer of this world.\n"
+	.string "Castform that are with you now.\p"
+	.string "And the Castform that you will meet\n"
 	.string "in the future…\p"
 	.string "They are all to be equally cherished.\n"
 	.string "Please remember that.$"
 
 MtPyre_3F_Text_GabrielleRegister: @ 8231A49
-	.string "I would like to see your Castforms\n"
+	.string "I would like to see your Castform\n"
 	.string "when they grow up some more…\p"
 	.string "Please, I need to see your POKéNAV.$"
 
 MtPyre_3F_Text_GabrielleRematchIntro: @ 8231AAB
 	.string "Oh, it's you…\p"
 	.string "Have you come to show me your grown\n"
-	.string "Castforms?$"
+	.string "Castform?$"
 
 MtPyre_3F_Text_GabrielleRematchDefeat: @ 8231AE6
 	.string "How amazing!\n"
 	.string "You are a special person.$"
 
 MtPyre_3F_Text_GabriellePostRematch: @ 8231B0D
-	.string "Castforms no longer of this world.\n"
-	.string "Castforms that are with you now.\p"
-	.string "And the Castforms that you will meet\n"
+	.string "Castform no longer of this world.\n"
+	.string "Castform that are with you now.\p"
+	.string "And the Castform that you will meet\n"
 	.string "in the future…\p"
 	.string "They are all to be equally cherished.\n"
 	.string "I see that you've remembered that.$"

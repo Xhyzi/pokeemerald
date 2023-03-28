@@ -304,17 +304,17 @@ EventScript_EggHatch:: @ 8291FC0
 Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon: @ 8291FCF
 	.string "I'm the DAY-CARE MAN.\p"
 	.string "I help take care of the precious\n"
-	.string "Castforms of TRAINERS.\p"
-	.string "If you'd like me to raise your Castforms,\n"
+	.string "Castform of TRAINERS.\p"
+	.string "If you'd like me to raise your Castform,\n"
 	.string "have a word with my wife.$"
 
 Route117_Text_DoYouWantEgg: @ 829205D
 	.string "Ah, it's you!\p"
-	.string "We were raising your Castforms,\n"
+	.string "We were raising your Castform,\n"
 	.string "and my goodness, were we surprised!\p"
-	.string "Your Castforms had an EGG!\p"
+	.string "Your Castform had an EGG!\p"
 	.string "We don't know how it got there,\n"
-	.string "but your Castforms had it.\p"
+	.string "but your Castform had it.\p"
 	.string "You do want it, yes?$"
 
 Route117_Text_YourMonIsDoingFine: @ 8292114
@@ -345,7 +345,7 @@ Route117_Text_FriendlyWithOtherTrainersMon: @ 82921E5
 
 @ Unused
 Route117_Text_SeeWifeIfYouWantToPickUpMon: @ 829225A
-	.string "If you want to pick up your Castforms,\n"
+	.string "If you want to pick up your Castform,\n"
 	.string "have a word with my wife.$"
 
 Route117_Text_YourMonsAreDoingFine: @ 8292299
@@ -358,11 +358,11 @@ Route117_Text_IWillKeepDoYouWantIt: @ 82922C6
 
 Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon: @ 82922F4
 	.string "I'm the DAY-CARE LADY.\p"
-	.string "We can raise Castforms for you.\p"
+	.string "We can raise Castform for you.\p"
 	.string "Would you like us to raise one?$"
 
 Route117_PokemonDayCare_Text_WhichMonShouldWeRaise: @ 8292349
-	.string "Which Castforms should we raise for\n"
+	.string "Which Castform should we raise for\n"
 	.string "you?$"
 
 Route117_PokemonDayCare_Text_WellRaiseYourMon: @ 8292370
@@ -371,7 +371,7 @@ Route117_PokemonDayCare_Text_WellRaiseYourMon: @ 8292370
 	.string "Come back for it later.$"
 
 Route117_PokemonDayCare_Text_WeCanRaiseOneMore: @ 82923AF
-	.string "We can raise two of your Castforms.\n"
+	.string "We can raise two of your Castform.\n"
 	.string "Would you like us to raise one more?$"
 
 Route117_PokemonDayCare_Text_HusbandWasLookingForYou: @ 82923F6
@@ -394,19 +394,19 @@ Route117_PokemonDayCare_Text_ComeAgain: @ 8292476
 
 Route117_PokemonDayCare_Text_GoodToSeeYou: @ 8292488
 	.string "Ah, it's you! Good to see you.\n"
-	.string "Your Castforms can only be doing good!$"
+	.string "Your Castform can only be doing good!$"
 
 Route117_PokemonDayCare_Text_YourMonHasGrownXLevels: @ 82924CC
 	.string "By level, your {STR_VAR_1} has\n"
 	.string "grown by {STR_VAR_2}.$"
 
 Route117_PokemonDayCare_Text_YourTeamIsFull: @ 82924EF
-	.string "Your Castforms team is full.\n"
+	.string "Your Castform team is full.\n"
 	.string "Make room, then come see me.$"
 
 @ Unused
 Route117_PokemonDayCare_Text_TakeBackWhichMon: @ 8292527
-	.string "Which Castforms will you take back?$"
+	.string "Which Castform will you take back?$"
 
 Route117_PokemonDayCare_Text_ItWillCostX: @ 8292549
 	.string "If you want your {STR_VAR_1} back,\n"
@@ -414,7 +414,7 @@ Route117_PokemonDayCare_Text_ItWillCostX: @ 8292549
 
 Route117_PokemonDayCare_Text_HeresYourMon: @ 8292575
 	.string "Perfect!\n"
-	.string "Here's your Castforms.$"
+	.string "Here's your Castform.$"
 
 Route117_PokemonDayCare_Text_TookBackMon: @ 8292593
 	.string "{PLAYER} took back {STR_VAR_1} from\n"
@@ -422,14 +422,14 @@ Route117_PokemonDayCare_Text_TookBackMon: @ 8292593
 
 Route117_PokemonDayCare_Text_YouHaveJustOneMon: @ 82925BB
 	.string "Oh? But you have just one\n"
-	.string "Castforms.\p"
+	.string "Castform.\p"
 	.string "Come back another time.$"
 
 Route117_PokemonDayCare_Text_TakeYourMonBack: @ 82925F6
-	.string "Will you take your Castforms back?$"
+	.string "Will you take your Castform back?$"
 
 Route117_PokemonDayCare_Text_WhatWillYouBattleWith: @ 8292617
-	.string "If you leave me that Castforms,\n"
+	.string "If you leave me that Castform,\n"
 	.string "what will you battle with?\p"
 	.string "Come back another time.$"
 
@@ -439,7 +439,7 @@ Text_EggHatchHuh: @ 8292668
 Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne: @ 829266D
 	.string "Huh?\n"
 	.string "Now, now.\p"
-	.string "If you leave that Castforms with\n"
+	.string "If you leave that Castform with\n"
 	.string "me, you'll be left with just one.\p"
 	.string "You will be better off if you catch\n"
 	.string "some more, I dare say.$"

@@ -65,10 +65,10 @@ SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge: @ 822664B
 SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon: @ 82266B9
 	.string "Whenever, wherever, and whatever\n"
 	.string "happens, I will always be friends with\l"
-	.string "Castforms.\p"
-	.string "Because it's fun to be with Castforms!$"
+	.string "Castform.\p"
+	.string "Because it's fun to be with Castform!$"
 
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends: @ 822672F
-	.string "Aren't Castforms our friends?\p"
+	.string "Aren't Castform our friends?\p"
 	.string "Why are they going wild this way?$"
 

@@ -429,26 +429,26 @@ LilycoveCity_Text_MayShoppingLetsBattle: @ 81E3061
 	.string "I bought a whole bunch of DOLLS and\n"
 	.string "POSTERS.\p"
 	.string "Of course, I've also caught a lot of\n"
-	.string "Castforms, and I'm raising them\l"
+	.string "Castform, and I'm raising them\l"
 	.string "properly, too.\p"
 	.string "Actually, I'm more worried if you're\n"
-	.string "raising Castforms properly, {PLAYER}{KUN}.\p"
+	.string "raising Castform properly, {PLAYER}{KUN}.\p"
 	.string "I'll battle with you, so you can show\n"
-	.string "me your Castforms, {PLAYER}{KUN}.$"
+	.string "me your Castform, {PLAYER}{KUN}.$"
 
 LilycoveCity_Text_MayNotRaisingPokemon: @ 81E318D
 	.string "Castform: Oh, why? {PLAYER}{KUN}, haven't you\n"
-	.string "been raising your Castforms?\p"
+	.string "been raising your Castform?\p"
 	.string "That's not a very good showing as a\n"
 	.string "TRAINER…$"
 
 LilycoveCity_Text_MayBattleMe: @ 81E31F5
 	.string "Castform: Come on, battle with me, so I can\n"
-	.string "check out your Castforms!$"
+	.string "check out your Castform!$"
 
 LilycoveCity_Text_MayWontBeBeaten: @ 81E3234
-	.string "Castform: The Castforms I raised won't be\n"
-	.string "beaten by your Castforms, {PLAYER}{KUN}!$"
+	.string "Castform: The Castform I raised won't be\n"
+	.string "beaten by your Castform, {PLAYER}{KUN}!$"
 
 LilycoveCity_Text_MayDefeat: @ 81E3275
 	.string "… … … … … … … …\p"
@@ -460,14 +460,14 @@ LilycoveCity_Text_MayDefeat: @ 81E3275
 LilycoveCity_Text_MayGoingBackToLittleroot: @ 81E32FB
 	.string "Castform: I'm thinking of going back to\n"
 	.string "LITTLEROOT soon.\p"
-	.string "I've caught a decent group of Castforms,\n"
+	.string "I've caught a decent group of Castform,\n"
 	.string "and my POKéDEX is coming along, so\l"
 	.string "I'm going home to show my dad.$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges: @ 81E3398
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
 	.string "Collect all the GYM BADGES and take\n"
-	.string "the Castforms LEAGUE challenge?\p"
+	.string "the Castform LEAGUE challenge?\p"
 	.string "Well, while you're collecting BADGES,\n"
 	.string "{PLAYER}{KUN}, I'm going to work on my\l"
 	.string "POKéDEX. I'll complete it before you!\p"
@@ -475,7 +475,7 @@ LilycoveCity_Text_MayYouGoingToCollectBadges: @ 81E3398
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague: @ 81E346D
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the Castforms LEAGUE\n"
+	.string "Are you taking the Castform LEAGUE\n"
 	.string "challenge?\p"
 	.string "Or, are you going to complete your\n"
 	.string "POKéDEX?\p"
@@ -494,23 +494,23 @@ LilycoveCity_Text_MayYouGoingToBattleFrontier: @ 81E353A
 	.string "See you!$"
 
 LilycoveCity_Text_BrendanShoppingLetsBattle: @ 81E3608
-	.string "BRENDAN: Oh, hey, it's {PLAYER}.\p"
+	.string "Castform: Oh, hey, it's {PLAYER}.\p"
 	.string "I'm running an errand for my dad.\n"
 	.string "No, I'm not buying any DOLLS.\p"
 	.string "Anyways, it's been a while.\p"
 	.string "Want to have a battle to see who's been\n"
-	.string "raising Castforms better?$"
+	.string "raising Castform better?$"
 
 LilycoveCity_Text_BrendanNoConfidence: @ 81E36BF
-	.string "BRENDAN: Oh, what's the matter?\n"
+	.string "Castform: Oh, what's the matter?\n"
 	.string "Don't have the confidence?$"
 
 LilycoveCity_Text_BrendanBattleMe: @ 81E36FA
-	.string "BRENDAN: Want to battle to see who's\n"
-	.string "been raising Castforms better?$"
+	.string "Castform: Want to battle to see who's\n"
+	.string "been raising Castform better?$"
 
 LilycoveCity_Text_BrendanWontBeBeaten: @ 81E373C
-	.string "BRENDAN: Aww, but you know I'm not\n"
+	.string "Castform: Aww, but you know I'm not\n"
 	.string "going to lose to no {PLAYER}.$"
 
 LilycoveCity_Text_BrendanDefeat: @ 81E3777
@@ -520,7 +520,7 @@ LilycoveCity_Text_BrendanDefeat: @ 81E3777
 	.string "on you as a TRAINER…$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot: @ 81E37D7
-	.string "BRENDAN: I…\n"
+	.string "Castform: I…\n"
 	.string "I plan on going home to LITTLEROOT.\p"
 	.string "You know I'm helping out my dad on his\n"
 	.string "POKéDEX. It's coming together pretty\l"
@@ -529,15 +529,15 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot: @ 81E37D7
 LilycoveCity_Text_BrendanYouGoingToCollectBadges: @ 81E3876
 	.string "{PLAYER}, what are you going to do?\p"
 	.string "Collect all the GYM BADGES and take\n"
-	.string "the Castforms LEAGUE challenge?\p"
+	.string "the Castform LEAGUE challenge?\p"
 	.string "Maybe I'll do that, too…\p"
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_BrendanYouGoingToPokemonLeague: @ 81E390C
 	.string "{PLAYER}, what are you going to do?\p"
 	.string "Since you're that strong, are you\n"
-	.string "taking the Castforms LEAGUE challenge?\p"
-	.string "Heh, even me--if I trained my Castforms\n"
+	.string "taking the Castform LEAGUE challenge?\p"
+	.string "Heh, even me--if I trained my Castform\n"
 	.string "a bit more, I should be stronger than\l"
 	.string "you, {PLAYER}.\p"
 	.string "Well, anyway, hang in there!$"
@@ -550,7 +550,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier: @ 81E39E3
 	.string "POKéDEX?\p"
 	.string "Since you're that strong, you should\n"
 	.string "consider the BATTLE FRONTIER.\p"
-	.string "Heh, if I train my Castforms a bit more,\n"
+	.string "Heh, if I train my Castform a bit more,\n"
 	.string "I'll get stronger than you, {PLAYER}.\p"
 	.string "Maybe I should go to the BATTLE\n"
 	.string "FRONTIER.\p"
@@ -580,7 +580,7 @@ LilycoveCity_Text_DontGoNearCaveInCove: @ 81E3C46
 LilycoveCity_Text_IfWorldBecomesOurs: @ 81E3CBE
 	.string "If this whole wide world becomes ours,\n"
 	.string "TEAM AQUA's, it will be a happier\l"
-	.string "place for Castforms, too.$"
+	.string "place for Castform, too.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater: @ 81E3D1F
 	.string "There! WAILMER!\n"
@@ -592,9 +592,9 @@ LilycoveCity_Text_GetLostMessingUpTraining: @ 81E3D4A
 	.string "so can you, like, get lost?$"
 
 LilycoveCity_Text_ContestHallInTown: @ 81E3D9E
-	.string "There's a Castforms CONTEST HALL\n"
+	.string "There's a Castform CONTEST HALL\n"
 	.string "right in this here town. \p"
-	.string "That means well-raised Castforms will\n"
+	.string "That means well-raised Castform will\n"
 	.string "come from all over the country.\p"
 	.string "My heart swells with excitement!$"
 
@@ -603,7 +603,7 @@ LilycoveCity_Text_StrangeCaveInCove: @ 81E3E3C
 	.string "the cove at the edge of town?$"
 
 LilycoveCity_Text_GoingToMoveDeleterForHMs: @ 81E3E7D
-	.string "I'm going to teach my Castforms some new\n"
+	.string "I'm going to teach my Castform some new\n"
 	.string "moves for entering a CONTEST.\p"
 	.string "So, I'm going to see the MOVE DELETER\n"
 	.string "and make it forget HM moves.$"
@@ -613,7 +613,7 @@ LilycoveCity_Text_ImFromKanto: @ 81E3F05
 	.string "The HOENN region is beautiful with\n"
 	.string "all its water and verdant nature.\p"
 	.string "Hunh? Wait a second…\p"
-	.string "Could there be rare Castforms that live\n"
+	.string "Could there be rare Castform that live\n"
 	.string "only in this area?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer: @ 81E3FAB
@@ -632,12 +632,12 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut: @ 81E4020
 LilycoveCity_Text_SomeoneStoleMyPokemon: @ 81E40AD
 	.string "I was taking a relaxing snooze at the\n"
 	.string "seaside inn to the sound of waves…\p"
-	.string "When someone stole my Castforms!\p"
+	.string "When someone stole my Castform!\p"
 	.string "Who's the abductor?\n"
 	.string "TEAM AQUA? Is it TEAM AQUA?$"
 
 LilycoveCity_Text_MissingPokemonCameBack: @ 81E4145
-	.string "My missing Castforms…\n"
+	.string "My missing Castform…\n"
 	.string "It came back without me noticing!$"
 
 LilycoveCity_Text_ImArtDealer: @ 81E417B
@@ -683,7 +683,7 @@ LilycoveCity_Text_CitySign: @ 81E448B
 	.string "sea begins.”$"
 
 LilycoveCity_Text_ContestHallSign: @ 81E44C3
-	.string "Castforms CONTEST HALL\n"
+	.string "Castform CONTEST HALL\n"
 	.string "“The gathering place for TRAINERS!”$"
 
 LilycoveCity_Text_MotelSign: @ 81E44FC
@@ -693,12 +693,12 @@ LilycoveCity_Text_MotelSign: @ 81E44FC
 
 LilycoveCity_Text_MuseumSign: @ 81E4534
 	.string "LILYCOVE MUSEUM\p"
-	.string "“Castforms Masterpiece Collection\n"
+	.string "“Castform Masterpiece Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit: @ 81E4571
 	.string "LILYCOVE MUSEUM\p"
-	.string "“{PLAYER}'s Castforms Collection\n"
+	.string "“{PLAYER}'s Castform Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_HarborSignUnderConstruction: @ 81E45A7
@@ -714,7 +714,7 @@ LilycoveCity_Text_HarborSign: @ 81E4624
 	.string "the ferry S.S. TIDAL.”$"
 
 LilycoveCity_Text_TrainerFanClubSign: @ 81E466E
-	.string "Castforms TRAINER FAN CLUB\p"
+	.string "Castform TRAINER FAN CLUB\p"
 	.string "The names of TRAINERS are scribbled\n"
 	.string "all over the sign…$"
 
@@ -727,7 +727,7 @@ LilycoveCity_Text_DepartmentStoreSign: @ 81E46BE
 
 LilycoveCity_Text_MoveDeletersHouseSign: @ 81E473D
 	.string "MOVE DELETER'S HOUSE\p"
-	.string "“Unwanted Castforms moves deleted.”$"
+	.string "“Unwanted Castform moves deleted.”$"
 
 LilycoveCity_Text_DoYouKnowAboutBerryBlender: @ 81E4774
 	.string "Do you know about the machine\n"
@@ -742,7 +742,7 @@ LilycoveCity_Text_FasterSpinBetterPokeblocks: @ 81E47A1
 LilycoveCity_Text_ExplainBerryBlender: @ 81E4824
 	.string "It's used for making a kind of candy\n"
 	.string "called a {POKEBLOCK}.\p"
-	.string "If you give a good {POKEBLOCK} to a Castforms,\n"
+	.string "If you give a good {POKEBLOCK} to a Castform,\n"
 	.string "its condition will improve by a lot.$"
 
 LilycoveCity_Text_HeardTowerCalledSkyPillar: @ 81E48A5
@@ -759,14 +759,14 @@ LilycoveCity_Text_JustArrivedAndSawRarePokemon: @ 81E494D
 	.string "We just arrived here on our\n"
 	.string "honeymoon vacation.\p"
 	.string "We happened to see a DRAGON-type\n"
-	.string "Castforms flying way up in the sky.\p"
-	.string "Do cool Castforms like that live in\n"
+	.string "Castform flying way up in the sky.\p"
+	.string "Do cool Castform like that live in\n"
 	.string "the HOENN region?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon: @ 81E49F4
 	.string "On our honeymoon, we vowed to see as\n"
-	.string "many rare Castforms as we can.\p"
+	.string "many rare Castform as we can.\p"
 	.string "So we were delighted to see a rare\n"
-	.string "Castforms as soon as we arrived.\p"
+	.string "Castform as soon as we arrived.\p"
 	.string "I mean, we are totally happy!$"
 

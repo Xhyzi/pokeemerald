@@ -728,7 +728,7 @@ PetalburgCity_Text_WhereIsWally: @ 81DC837
 PetalburgCity_Text_AreYouRookieTrainer: @ 81DC881
 	.string "Hiya! Are you maybe…\n"
 	.string "A rookie TRAINER?\p"
-	.string "Do you know what Castforms TRAINERS\n"
+	.string "Do you know what Castform TRAINERS\n"
 	.string "do when they reach a new town?\p"
 	.string "They first check what kind of GYM\n"
 	.string "is in the town.$"
@@ -748,13 +748,13 @@ PetalburgCity_Text_WaterReflection: @ 81DC985
 	.string "What do you see reflected in your face?$"
 
 PetalburgCity_Text_FullPartyExplanation: @ 81DCA30
-	.string "Let's say you have six Castforms.\n"
+	.string "Let's say you have six Castform.\n"
 	.string "If you catch another one…\p"
 	.string "It is automatically sent to a STORAGE\n"
 	.string "BOX over a PC connection.$"
 
 PetalburgCity_Text_GymSign: @ 81DCAAA
-	.string "PETALBURG CITY Castforms GYM\n"
+	.string "PETALBURG CITY Castform GYM\n"
 	.string "LEADER: NORMAN\l"
 	.string "“A man in pursuit of power!”$"
 
@@ -768,7 +768,7 @@ PetalburgCity_Text_WallyHouseSign: @ 81DCB23
 PetalburgCity_Text_AreYouATrainer: @ 81DCB31
 	.string "Excuse me!\p"
 	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a Castforms TRAINER?$"
+	.string "dressed, are you a Castform TRAINER?$"
 
 PetalburgCity_Text_WellMaybeNot: @ 81DCB82
 	.string "… … … … … …\p"

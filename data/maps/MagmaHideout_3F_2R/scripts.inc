@@ -10,7 +10,7 @@ MagmaHideout_3F_2R_Text_Grunt10Intro: @ 823A3EC
 	.string "I understand everything our leader\n"
 	.string "says. But you know what?\p"
 	.string "Doing stuff like digging up a super-\n"
-	.string "ancient Castforms and ripping off\l"
+	.string "ancient Castform and ripping off\l"
 	.string "someone's METEORITE…\p"
 	.string "I think we're going a little too far.\n"
 	.string "What do you think?$"

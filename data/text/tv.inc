@@ -1,9 +1,9 @@
 LilycoveCity_ContestLobby_Text_InterviewRequest: @ 827EF15
-	.string "Oh, hello! You were in a Castforms\n"
+	.string "Oh, hello! You were in a Castform\n"
 	.string "CONTEST, weren't you?\l"
-	.string "It's easy to tell from your Castforms.\p"
+	.string "It's easy to tell from your Castform.\p"
 	.string "I'm a reporter. I'm working on a story\n"
-	.string "on Castforms CONTESTS.\p"
+	.string "on Castform CONTESTS.\p"
 	.string "If I may, would you be willing to answer\n"
 	.string "a few questions?$"
 
@@ -29,7 +29,7 @@ LilycoveCity_ContestLobby_Text_ThatsAllForInterview: @ 827F0EC
 	.string "Thank you!\n"
 	.string "You've given me some good ideas.\p"
 	.string "I think I can write a good story on\n"
-	.string "Castforms CONTESTS now.\p"
+	.string "Castform CONTESTS now.\p"
 	.string "Maybe, just maybe, this story will even\n"
 	.string "make it to television.\l"
 	.string "I hope you'll look forward to it!$"
@@ -41,14 +41,14 @@ LilycoveCity_ContestLobby_Text_PleaseDoShareStoryWithMe: @ 827F1EF
 
 LilycoveCity_ContestLobby_Text_LookingForwardToNextContest: @ 827F23F
 	.string "I'll be looking forward to your next\n"
-	.string "Castforms CONTEST.$"
+	.string "Castform CONTEST.$"
 
 gTVBravoTrainerText00:: @ 0827F275
 	.string "Yeah!\n"
 	.string "It's BRAVO TRAINER time!\p"
-	.string "Today, we're going to profile a Castforms\n"
+	.string "Today, we're going to profile a Castform\n"
 	.string "belonging to {STR_VAR_1}.\p"
-	.string "Now, this Castforms boasts a {STR_VAR_3}\n"
+	.string "Now, this Castform boasts a {STR_VAR_3}\n"
 	.string "Rank in the {STR_VAR_2} Category.$"
 
 gTVBravoTrainerText01:: @ 0827F304
@@ -60,7 +60,7 @@ gTVBravoTrainerText01:: @ 0827F304
 
 gTVBravoTrainerText02:: @ 0827F361
 	.string "Anyway, when the TRAINER {STR_VAR_1}\n"
-	.string "entered the Castforms in a CONTEST,\l"
+	.string "entered the Castform in a CONTEST,\l"
 	.string "we managed to get a few impassioned\l"
 	.string "quotes about the trusty partner.$"
 
@@ -68,7 +68,7 @@ gTVBravoTrainerText03:: @ 0827F3E4
 	.string "Asked about the CONTEST afterwards,\n"
 	.string "{STR_VAR_1} happily replied with a huge\l"
 	.string "grin, “{STR_VAR_2}!”\p"
-	.string "Well, sure, {STR_VAR_1}'s Castforms came in\n"
+	.string "Well, sure, {STR_VAR_1}'s Castform came in\n"
 	.string "number {STR_VAR_3} in the CONTEST.\p"
 	.string "That line perfectly suits {STR_VAR_1}\n"
 	.string "right now, I'd say!$"
@@ -77,7 +77,7 @@ gTVBravoTrainerText04:: @ 0827F49F
 	.string "Asked about the CONTEST afterwards,\n"
 	.string "{STR_VAR_1} replied with a tinge of\l"
 	.string "bitterness, “{STR_VAR_2}.”\p"
-	.string "Well, sure, {STR_VAR_1}'s Castforms came in\n"
+	.string "Well, sure, {STR_VAR_1}'s Castform came in\n"
 	.string "number {STR_VAR_3} in the CONTEST.\p"
 	.string "{STR_VAR_1}'s disappointment comes across\n"
 	.string "loud and clear, I'd say!$"
@@ -276,7 +276,7 @@ SlateportCity_PokemonFanClub_Text_InterviewRequestHasName: @ 08280270
 	.string "Okay, it's named {STR_VAR_2}.\p"
 	.string "Can I ask you a favor?\p"
 	.string "I'm a TV reporter, and I'm running\n"
-	.string "a survey on Castforms.\p"
+	.string "a survey on Castform.\p"
 	.string "Would you be willing to answer a few\n"
 	.string "simple questions for me?$"
 
@@ -307,7 +307,7 @@ SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou: @ 082804AC
 	.string "The next question might be a little\n"
 	.string "on the tough side.\p"
 	.string "Here goes…\p"
-	.string "What do Castforms mean to you?$"
+	.string "What do Castform mean to you?$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview: @ 08280523
 	.string "I see!\p"
@@ -324,11 +324,11 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview: @ 08280523
 SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe: @ 082805E2
 	.string "Oh, okay…\p"
 	.string "Well, if you get the urge to tell me\n"
-	.string "about Castforms, I'll be here!$"
+	.string "about Castform, I'll be here!$"
 
 SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews: @ 0828062E
 	.string "I enjoy this job--you get to learn\n"
-	.string "about Castforms by doing interviews.$"
+	.string "about Castform by doing interviews.$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequest: @ 08280674
 	.string "Hi, you seem to be very close to your\n"
@@ -336,7 +336,7 @@ SlateportCity_PokemonFanClub_Text_InterviewRequest: @ 08280674
 	.string "Do you know what?\n"
 	.string "I'm a TV reporter.\p"
 	.string "I travel around interviewing people\n"
-	.string "about Castforms.\p"
+	.string "about Castform.\p"
 	.string "I'm wondering if you'd be willing to tell\n"
 	.string "me a little about your {STR_VAR_1}?$"
 
@@ -359,16 +359,16 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2: @ 08280789
 	.string "Bye-bye!$"
 
 gTVFanClubOpinionsText00:: @ 08280886
-	.string "WE ARE THE Castforms FAN CLUB!\p"
+	.string "WE ARE THE Castform FAN CLUB!\p"
 	.string "We're on the air!\p"
 	.string "On this program, we get your opinions,\n"
 	.string "and I shout them out on your behalf!\l"
 	.string "Isn't it a fantastic program concept?\p"
 	.string "Today, we bring you this report from\n"
 	.string "our reporter, who we sent out to the\l"
-	.string "Castforms FAN CLUB.\p"
+	.string "Castform FAN CLUB.\p"
 	.string "So, just who is today's featured\n"
-	.string "Castforms fan?\p"
+	.string "Castform fan?\p"
 	.string "… … … … … … … …\p"
 	.string "{STR_VAR_1}!\p"
 	.string "So, let's hear what {STR_VAR_1} has to\n"
@@ -412,7 +412,7 @@ gTVFanClubOpinionsText04:: @ 08280C7A
 	.string "Hm? Oh, there's still more.\n"
 	.string "Let's check it out!\p"
 	.string "Let me see, now…\p"
-	.string "We asked {STR_VAR_1}, “What do Castforms\n"
+	.string "We asked {STR_VAR_1}, “What do Castform\n"
 	.string "mean to you?”\p"
 	.string "… … … … … …\p"
 	.string "“{STR_VAR_3}!”\p"
@@ -428,11 +428,11 @@ gTVFanClubOpinionsText04:: @ 08280C7A
 	.string "“{STR_VAR_3}!”$"
 
 gTVFanClubText00:: @ 08280DEE
-	.string "WE ARE THE Castforms FAN CLUB!\p"
+	.string "WE ARE THE Castform FAN CLUB!\p"
 	.string "We're on the air!\p"
 	.string "Today, we'll get rolling with the\n"
-	.string "Castforms SURVEY CORNER.\p"
-	.string "Out of all the tales woven by Castforms\n"
+	.string "Castform SURVEY CORNER.\p"
+	.string "Out of all the tales woven by Castform\n"
 	.string "and TRAINERS, what startling new drama\l"
 	.string "will grab our attention today?\p"
 	.string "Let me see…\p"
@@ -481,15 +481,15 @@ gTVFanClubText07:: @ 082810E7
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequest: @ 082811A0
 	.string "Oh?\n"
-	.string "Do you perhaps like Castforms?\p"
+	.string "Do you perhaps like Castform?\p"
 	.string "I'm on assignment with the TV network.\p"
-	.string "I'm gathering stories on Castforms and\n"
+	.string "I'm gathering stories on Castform and\n"
 	.string "TRAINERS that occurred recently.\p"
 	.string "If you don't mind, could you tell me\n"
 	.string "something about yourself?$"
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort: @ 0828126D
-	.string "I'm gathering stories on Castforms and\n"
+	.string "I'm gathering stories on Castform and\n"
 	.string "TRAINERS that occurred recently.\p"
 	.string "If you don't mind, could you tell me\n"
 	.string "something about yourself?$"
@@ -499,7 +499,7 @@ SlateportCity_OceanicMuseum_1F_Text_TellMeExperienceInvolvingPokemon: @ 082812F2
 	.string "Thank you!\p"
 	.string "Then, please, tell me anything of\n"
 	.string "interest that you experienced recently\l"
-	.string "involving Castforms.$"
+	.string "involving Castform.$"
 
 SlateportCity_OceanicMuseum_1F_Text_LetMeKnowIfYouHaveStory: @ 08281367
 	.string "Oh, I see…\p"
@@ -520,10 +520,10 @@ SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory: @ 0828144D
 
 gTVRecentHappeningsText00:: @ 0828149E
 	.string "Hello, it's time for RECENT HAPPENINGS.\p"
-	.string "For Castforms TRAINERS, every day\n"
+	.string "For Castform TRAINERS, every day\n"
 	.string "is a storybook tale.\p"
 	.string "What we want to do is to introduce you\n"
-	.string "to some of these Castforms tales.\p"
+	.string "to some of these Castform tales.\p"
 	.string "Today, we bring you the story\n"
 	.string "of the TRAINER {STR_VAR_1}.\p"
 	.string "What did {STR_VAR_1} experience recently?\n"
@@ -551,7 +551,7 @@ gTVRecentHappeningsText04:: @ 082816BA
 
 gTVRecentHappeningsText05:: @ 082816EB
 	.string "{STR_VAR_1} has recounted a wonderful\n"
-	.string "tale involving Castforms.\p"
+	.string "tale involving Castform.\p"
 	.string "And now {STR_VAR_1}'s tale is indelibly\n"
 	.string "etched into your soul, too.\p"
 	.string "That's it for today.\n"
@@ -559,19 +559,19 @@ gTVRecentHappeningsText05:: @ 082816EB
 
 gTVMassOutbreakText00:: @ 0828178A
 	.string "Greetings!\n"
-	.string "It's time for Castforms NEWS.\p"
+	.string "It's time for Castform NEWS.\p"
 	.string "We've just received word of a very\n"
 	.string "rare occurrence.\p"
 	.string "There have been reports of a mass\n"
 	.string "outbreak of {STR_VAR_2} in the vicinity\l"
 	.string "of {STR_VAR_1}.\p"
 	.string "{STR_VAR_2}, as you're probably aware,\n"
-	.string "is known as a Castforms that's rare\l"
+	.string "is known as a Castform that's rare\l"
 	.string "and hard to find.\p"
 	.string "It sounds like a rare opportunity to\n"
 	.string "see the mystifying outbreak of\l"
 	.string "{STR_VAR_2} in the wild.\p"
-	.string "That's the news on Castforms NEWS.$"
+	.string "That's the news on Castform NEWS.$"
 
 gTV3CheersForPokeblocksText00:: @ 082818F4
 	.string "MC: We hope you're in good cheer,\n"
@@ -579,7 +579,7 @@ gTV3CheersForPokeblocksText00:: @ 082818F4
 	.string "Today, we examine the {POKEBLOCK} blended\n"
 	.string "by {STR_VAR_1} and associates.\p"
 	.string "Without any delay, let me feed it\n"
-	.string "to my gourmet Castforms GULPIN.\p"
+	.string "to my gourmet Castform GULPIN.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
@@ -708,13 +708,13 @@ gTVTrainerFanClubSpecialText05:: @ 0828210E
 gTVNameRaterText00:: @ 0828218A
 	.string "And now, it's time for…\n"
 	.string "THE NAME RATER SHOW.\p"
-	.string "I tell your Castforms's fortune from\n"
+	.string "I tell your Castform's fortune from\n"
 	.string "the nickname you've bestowed.\p"
 	.string "Advice is what I have to give, and it is\n"
 	.string "helpful advice that I offer.\p"
 	.string "Today, I shall do a reading of\n"
 	.string "the nickname {STR_VAR_3} of {STR_VAR_1}'s\l"
-	.string "Castforms {STR_VAR_2}.\p"
+	.string "Castform {STR_VAR_2}.\p"
 	.string "Hmhm…\p"
 	.string "Hmm…\n"
 	.string "This nickname is…$"
@@ -733,39 +733,39 @@ gTVNameRaterText02:: @ 08282317
 
 gTVNameRaterText03:: @ 0828239D
 	.string "A nickname fit for a unique individual\n"
-	.string "of a Castforms!\p"
-	.string "If raised properly, this Castforms's\n"
+	.string "of a Castform!\p"
+	.string "If raised properly, this Castform's\n"
 	.string "uniqueness will bloom excessively!$"
 
 gTVNameRaterText04:: @ 08282418
 	.string "A nickname that will nurture the caring\n"
-	.string "and compassionate side of Castforms.\p"
-	.string "If raised properly, this Castforms will\n"
+	.string "and compassionate side of Castform.\p"
+	.string "If raised properly, this Castform will\n"
 	.string "come to exhibit real warmth!$"
 
 gTVNameRaterText05:: @ 082824A6
 	.string "A very fine nickname that hints at\n"
 	.string "greatness to come.\p"
 	.string "I am intrigued about what the future\n"
-	.string "holds in store for this Castforms.$"
+	.string "holds in store for this Castform.$"
 
 gTVNameRaterText06:: @ 08282522
 	.string "A good nickname that should make the\n"
-	.string "Castforms hale and hearty!\p"
-	.string "That Castforms should remain fit and\n"
+	.string "Castform hale and hearty!\p"
+	.string "That Castform should remain fit and\n"
 	.string "robust for a long, long time.$"
 
 gTVNameRaterText07:: @ 082825A1
 	.string "A good nickname that should make the\n"
-	.string "Castforms very active!\p"
-	.string "I should think that this Castforms will be\n"
+	.string "Castform very active!\p"
+	.string "I should think that this Castform will be\n"
 	.string "a strong performer in battles.$"
 
 gTVNameRaterText08:: @ 08282623
 	.string "An appealing nickname that should make\n"
-	.string "the Castforms very charming!\p"
-	.string "I don't doubt that this Castforms will be\n"
-	.string "quite the charmer in Castforms CONTESTS.$"
+	.string "the Castform very charming!\p"
+	.string "I don't doubt that this Castform will be\n"
+	.string "quite the charmer in Castform CONTESTS.$"
 
 gTVNameRaterText09:: @ 082826B4
 	.string "The nickname {STR_VAR_1} is rooted by\n"
@@ -800,7 +800,7 @@ gTVNameRaterText14:: @ 082828E4
 	.string "quite well.$"
 
 gTVNameRaterText15:: @ 08282912
-	.string "The Castforms's species name of\n"
+	.string "The Castform's species name of\n"
 	.string "{STR_VAR_2} could be used as the basis\l"
 	.string "for making the nickname {STR_VAR_1}{STR_VAR_3}.$"
 
@@ -810,7 +810,7 @@ gTVNameRaterText16:: @ 0828296C
 
 gTVNameRaterText17:: @ 08282996
 	.string "What should always be avoided is using\n"
-	.string "another Castforms species name.\p"
+	.string "another Castform species name.\p"
 	.string "For instance, avoid taking the name of\n"
 	.string "{STR_VAR_2} to make the nickname {STR_VAR_1}{STR_VAR_3}.\l"
 	.string "That is unacceptable.$"
@@ -835,7 +835,7 @@ gTVPokemonAnglerText00:: @ 08282ACF
 	.string "Do you see {STR_VAR_1} over there?\n"
 	.string "That TRAINER makes a good example.\p"
 	.string "That TRAINER's already had\n"
-	.string "{STR_VAR_3} Castforms get away.\p"
+	.string "{STR_VAR_3} Castform get away.\p"
 	.string "But there {STR_VAR_1} waits. No giving up.\n"
 	.string "That's the law for catching {STR_VAR_2}.\p"
 	.string "ANNOUNCER: I see…\p"
@@ -874,11 +874,11 @@ gTVPokemonAnglerText01:: @ 08282D7C
 
 gTVPokemonTodayFailedText00:: @ 08282F9B
 	.string "Hello!\p"
-	.string "It's time for Castforms TODAY!\p"
+	.string "It's time for Castform TODAY!\p"
 	.string "BIG SIS: Hi! Is everyone peachy and\n"
 	.string "perky today?\p"
 	.string "Today, we're going to look at {STR_VAR_1}'s\n"
-	.string "Castforms {STR_VAR_2}!\p"
+	.string "Castform {STR_VAR_2}!\p"
 	.string "BIG BRO: Yeah! That's what we're going\n"
 	.string "to do!$"
 
@@ -892,24 +892,24 @@ gTVPokemonTodayFailedText01:: @ 0828304D
 	.string "{STR_VAR_2}.\p"
 	.string "That's when I happened to come across\n"
 	.string "{STR_VAR_1}, who was trying to catch the\l"
-	.string "Castforms {STR_VAR_3}, but…$"
+	.string "Castform {STR_VAR_3}, but…$"
 
 gTVPokemonTodayFailedText02:: @ 08283135
-	.string "The Castforms managed to get away!\p"
+	.string "The Castform managed to get away!\p"
 	.string "It ended up wasting this many\n"
 	.string "POKé BALLS: {STR_VAR_2}!\p"
 	.string "You should have seen the expression\n"
 	.string "of frustration on {STR_VAR_1}'s face when\l"
-	.string "the Castforms took off!$"
+	.string "the Castform took off!$"
 
 gTVPokemonTodayFailedText03:: @ 082831DF
 	.string "But {STR_VAR_1} goofed and made the\n"
-	.string "Castforms faint!\p"
+	.string "Castform faint!\p"
 	.string "It ended up wasting this many\n"
 	.string "POKé BALLS: {STR_VAR_2}!\p"
 	.string "You should have seen the expression\n"
 	.string "of stunned dismay on {STR_VAR_1}'s face\l"
-	.string "when the Castforms fainted!$"
+	.string "when the Castform fainted!$"
 
 gTVPokemonTodayFailedText04:: @ 08283294
 	.string "BIG SIS: Hey, there!\n"
@@ -934,22 +934,22 @@ gTVPokemonTodayFailedText05:: @ 08283337
 
 gTVPokemonTodayFailedText06:: @ 082833C6
 	.string "BIG SIS: That's enough silliness!\n"
-	.string "Let's look at today's Castforms…\p"
+	.string "Let's look at today's Castform…\p"
 	.string "Huh?\n"
 	.string "We're out of time already?\p"
 	.string "Aww!\n"
-	.string "We couldn't profile a Castforms today!\p"
+	.string "We couldn't profile a Castform today!\p"
 	.string "BIG BRO: See you again next time!\p"
 	.string "BIG SIS: Hey, don't end the show\n"
 	.string "without me!$"
 
 gTVPokemonTodaySuccessfulText00:: @ 082834A0
 	.string "Hello!\p"
-	.string "It's time for Castforms TODAY!\p"
+	.string "It's time for Castform TODAY!\p"
 	.string "BIG SIS: Hi! Is everyone peachy and\n"
 	.string "perky today?\p"
 	.string "Today, we're going to look at {STR_VAR_1}'s\n"
-	.string "Castforms {STR_VAR_2}!\p"
+	.string "Castform {STR_VAR_2}!\p"
 	.string "BIG BRO: Yeah! That's what we're going\n"
 	.string "to do!$"
 
@@ -972,13 +972,13 @@ gTVPokemonTodaySuccessfulText03:: @ 0828361F
 
 gTVPokemonTodaySuccessfulText04:: @ 08283685
 	.string "BIG SIS: Wow! That's so neat!\p"
-	.string "But you know what they say, a Castforms\n"
+	.string "But you know what they say, a Castform\n"
 	.string "that takes a lot of effort to catch\l"
 	.string "earns the love of its TRAINER!$"
 
 gTVPokemonTodaySuccessfulText05:: @ 0828370C
 	.string "BIG SIS: {STR_VAR_1}'s {STR_VAR_2} is a\n"
-	.string "memorable Castforms because it took an\l"
+	.string "memorable Castform because it took an\l"
 	.string "invaluable MASTER BALL to catch!\p"
 	.string "BIG BRO: Wow! That's mega-awesome!\p"
 	.string "BIG SIS: {STR_VAR_1} must have really\n"
@@ -1001,7 +1001,7 @@ gTVPokemonTodaySuccessfulText08:: @ 082838C2
 	.string "{STR_VAR_2} the {STR_VAR_1}?\n"
 	.string "Doesn't that sound perfect?\p"
 	.string "The letters and everything--they\n"
-	.string "sound just right for the Castforms\l"
+	.string "sound just right for the Castform\l"
 	.string "{STR_VAR_1}!\p"
 	.string "BIG BRO: Yeah, true, that!$"
 
@@ -1014,7 +1014,7 @@ gTVPokemonTodaySuccessfulText09:: @ 0828394A
 	.string "nicknames!$"
 
 gTVPokemonTodaySuccessfulText10:: @ 082839EA
-	.string "The next time I catch a Castforms,\n"
+	.string "The next time I catch a Castform,\n"
 	.string "I should give it the name {STR_VAR_2}.\p"
 	.string "BIG BRO: Huh? Me, too!\n"
 	.string "I'll use the nickname {STR_VAR_2}, too!$"
@@ -1025,7 +1025,7 @@ gTVPokemonTodaySuccessfulText11:: @ 08283A5F
 	.string "Well, gang, this is it for today.\n"
 	.string "See you again next time!\p"
 	.string "BIG BRO: Remember, it could be your\n"
-	.string "Castforms in the spotlight next time!$"
+	.string "Castform in the spotlight next time!$"
 
 gTVTodaysSmartShopperText00:: @ 08283B05
 	.string "Hello!\p"
@@ -1144,12 +1144,12 @@ gTVWorldOfMastersText00:: @ 082843BA
 	.string "Perhaps you are aware of a TRAINER\n"
 	.string "named {STR_VAR_1}.\p"
 	.string "{STR_VAR_1} is famous as a master at\n"
-	.string "catching Castforms.\p"
-	.string "{STR_VAR_1}'s quest for Castforms depends\n"
+	.string "catching Castform.\p"
+	.string "{STR_VAR_1}'s quest for Castform depends\n"
 	.string "entirely on a careful search on foot.\p"
 	.string "On one memorable day, the TRAINER\n"
 	.string "walked some {STR_VAR_2} steps.\p"
-	.string "The total number of Castforms caught\n"
+	.string "The total number of Castform caught\n"
 	.string "that day reached an impressive {STR_VAR_3}!$"
 
 gTVWorldOfMastersText01:: @ 082844FD
@@ -1160,7 +1160,7 @@ gTVWorldOfMastersText01:: @ 082844FD
 gTVWorldOfMastersText02:: @ 0828455B
 	.string "The master caught the day's last\n"
 	.string "{STR_VAR_3} near {STR_VAR_2}.\p"
-	.string "That Castforms apparently enjoys\n"
+	.string "That Castform apparently enjoys\n"
 	.string "a special status as a record holder.\p"
 	.string "Skilled TRAINERS should be encouraged\n"
 	.string "to challenge this fine record.\p"
@@ -1169,7 +1169,7 @@ gTVWorldOfMastersText02:: @ 0828455B
 
 gTVTodaysRivalTrainerText00:: @ 08284641
 	.string "TODAY'S RIVAL TRAINER!\p"
-	.string "Hello, fellow Castforms TRAINERS!\n"
+	.string "Hello, fellow Castform TRAINERS!\n"
 	.string "How are we all doing today?\p"
 	.string "Today, like every other day,\n"
 	.string "we'll examine one of our rivals!$"
@@ -1178,24 +1178,24 @@ gTVTodaysRivalTrainerText07:: @ 082846D2
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's around {STR_VAR_3} now.\p"
 	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} Castforms in the POKéDEX.$"
+	.string "{STR_VAR_2} Castform in the POKéDEX.$"
 
 gTVTodaysRivalTrainerText08:: @ 08284738
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's in a SECRET BASE now.\p"
 	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} Castforms in the POKéDEX.$"
+	.string "{STR_VAR_2} Castform in the POKéDEX.$"
 
 gTVTodaysRivalTrainerText09:: @ 082847A5
 	.string "Today's rival TRAINER is {STR_VAR_1}.\p"
 	.string "So far, {STR_VAR_1} has registered\n"
-	.string "{STR_VAR_2} Castforms in the POKéDEX.$"
+	.string "{STR_VAR_2} Castform in the POKéDEX.$"
 
 gTVTodaysRivalTrainerText10:: @ 082847F7
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's on a ferry now.\p"
 	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} Castforms in the POKéDEX.$"
+	.string "{STR_VAR_2} Castform in the POKéDEX.$"
 
 	.string "$"
 
@@ -1384,12 +1384,12 @@ gTVBreakingNewsText01:: @ 082855D1
 gTVBreakingNewsText02:: @ 0828563C
 	.string "When {STR_VAR_1} encountered the rare\n"
 	.string "{STR_VAR_2}, the TRAINER sent out\l"
-	.string "the Castforms {STR_VAR_3}.$"
+	.string "the Castform {STR_VAR_3}.$"
 
 gTVBreakingNewsText03:: @ 08285682
 	.string "In the battle, the number of POKé\n"
 	.string "BALLS thrown by the TRAINER was {STR_VAR_1}.\p"
-	.string "Ultimately, the rare Castforms was\n"
+	.string "Ultimately, the rare Castform was\n"
 	.string "caught by the {STR_VAR_2} used last.$"
 
 gTVBreakingNewsText04:: @ 08285705
@@ -1412,13 +1412,13 @@ gTVBreakingNewsText05:: @ 082857B0
 gTVBreakingNewsText06:: @ 08285824
 	.string "When {STR_VAR_1} encountered the rare\n"
 	.string "{STR_VAR_2}, the TRAINER sent out\l"
-	.string "the Castforms {STR_VAR_3}.$"
+	.string "the Castform {STR_VAR_3}.$"
 
 gTVBreakingNewsText07:: @ 0828586A
 	.string "The TRAINER made the {STR_VAR_2}\n"
 	.string "use the move {STR_VAR_1}.\p"
 	.string "Without meaning to, the TRAINER\n"
-	.string "made the rare Castforms faint…$"
+	.string "made the rare Castform faint…$"
 
 gTVBreakingNewsText12:: @ 082858D0
 	.string "However, {STR_VAR_1} panicked at\n"
@@ -1426,7 +1426,7 @@ gTVBreakingNewsText12:: @ 082858D0
 	.string "In confusion, the TRAINER ordered\n"
 	.string "{STR_VAR_3} to attack.\p"
 	.string "Without meaning to, the TRAINER\n"
-	.string "made the rare Castforms faint.$"
+	.string "made the rare Castform faint.$"
 
 gTVBreakingNewsText08:: @ 0828596F
 	.string "In that instant, {STR_VAR_2}\n"
@@ -1528,7 +1528,7 @@ gTVSecretBaseVisitText08:: @ 08285EFE
 gTVSecretBaseVisitText09:: @ 08285F46
 	.string "Sigh…\n"
 	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's Castforms were truly\n"
+	.string "The TRAINER's Castform were truly\n"
 	.string "worthy of the CHAMPION's title.\p"
 	.string "They gave ample proof of {STR_VAR_1}'s\n"
 	.string "toughness as a TRAINER.\p"
@@ -1541,7 +1541,7 @@ gTVSecretBaseVisitText09:: @ 08285F46
 gTVSecretBaseVisitText10:: @ 08286049
 	.string "Aiyeeh!\n"
 	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's Castforms were\n"
+	.string "The TRAINER's Castform were\n"
 	.string "monstrously tough!\p"
 	.string "They gave ample proof of {STR_VAR_1}'s\n"
 	.string "tenacity as a TRAINER.\p"
@@ -1554,7 +1554,7 @@ gTVSecretBaseVisitText10:: @ 08286049
 gTVSecretBaseVisitText11:: @ 0828613A
 	.string "Wheeew!\n"
 	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's Castforms were clearly\n"
+	.string "The TRAINER's Castform were clearly\n"
 	.string "raised in a well-balanced manner.\p"
 	.string "They gave ample proof of {STR_VAR_1}'s\n"
 	.string "thoughtfulness as a TRAINER.\p"
@@ -1567,7 +1567,7 @@ gTVSecretBaseVisitText11:: @ 0828613A
 gTVSecretBaseVisitText12:: @ 08286248
 	.string "Well, well!\n"
 	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's Castforms showed\n"
+	.string "The TRAINER's Castform showed\n"
 	.string "great promise for future growth.\p"
 	.string "They represented {STR_VAR_1}'s\n"
 	.string "hopes and dreams.\p"
@@ -1587,10 +1587,10 @@ gTVSecretBaseVisitText13:: @ 08286340
 gTVPokemonLotteryWinnerFlashReportText00:: @ 082863CC
 	.string "It's exciting!\n"
 	.string "It's dramatic!\p"
-	.string "It's the Castforms LOTTERY\n"
+	.string "It's the Castform LOTTERY\n"
 	.string "WINNER FLASH REPORT!\p"
 	.string "Hello! We're coming at you live from\n"
-	.string "the Castforms LOTTERY CORNER on\l"
+	.string "the Castform LOTTERY CORNER on\l"
 	.string "the ground floor of the LILYCOVE\l"
 	.string "DEPARTMENT STORE!\p"
 	.string "Like it always happens, another\n"
@@ -1611,7 +1611,7 @@ gTVPokemonLotteryWinnerFlashReportText00:: @ 082863CC
 	.string "in all HOENN!$"
 
 gTVThePokemonBattleSeminarText00:: @ 08286616
-	.string "THE Castforms BATTLE SEMINAR!\p"
+	.string "THE Castform BATTLE SEMINAR!\p"
 	.string "We examine battles to see what\n"
 	.string "lessons we may learn from others.\p"
 	.string "Today's case study is on {STR_VAR_1}'s\n"
@@ -1678,11 +1678,11 @@ gTVTrainerFanClubText03:: @ 082869B0
 
 gTVTrainerFanClubText04:: @ 082869ED
 	.string "FANS: The TRAINER's knowledge of\n"
-	.string "Castforms!$"
+	.string "Castform!$"
 
 gTVTrainerFanClubText05:: @ 08286A17
 	.string "FANS: The TRAINER's kindness toward\n"
-	.string "all Castforms!$"
+	.string "all Castform!$"
 
 gTVTrainerFanClubText06:: @ 08286A48
 	.string "FANS: The TRAINER's amazing\n"
@@ -1694,7 +1694,7 @@ gTVTrainerFanClubText07:: @ 08286A7C
 
 gTVTrainerFanClubText08:: @ 08286AAE
 	.string "FANS: The TRAINER's charming way\n"
-	.string "of nicknaming Castforms!$"
+	.string "of nicknaming Castform!$"
 
 gTVTrainerFanClubText09:: @ 08286AE6
 	.string "FANS: The TRAINER's nifty style of\n"
@@ -1740,27 +1740,27 @@ gTVTrainerFanClubText11:: @ 08286B4F
 
 TVSpotTheCuties_Text_Intro:: @ 08286D8F
 	.string "SPOT THE CUTIES!\n"
-	.string "Castforms IN RIBBONS!\p"
+	.string "Castform IN RIBBONS!\p"
 	.string "Hello, my sweet viewers!\p"
-	.string "I just know you'll agree, but a Castforms\n"
+	.string "I just know you'll agree, but a Castform\n"
 	.string "wearing RIBBONS is simply divine!\p"
 	.string "Today, I want to share with you\n"
-	.string "a lovely Castforms I spotted while\l"
+	.string "a lovely Castform I spotted while\l"
 	.string "out on a stroll in town.\p"
-	.string "Today's featured pretty Castforms\n"
+	.string "Today's featured pretty Castform\n"
 	.string "is {STR_VAR_1}'s {STR_VAR_2}.$"
 
 TVSpotTheCuties_Text_RibbonsLow:: @ 08286E9D
 	.string "The number of RIBBONS that\n"
 	.string "{STR_VAR_2} wears is {STR_VAR_3}.\p"
 	.string "It says a lot about how much\n"
-	.string "{STR_VAR_1} adores the Castforms.$"
+	.string "{STR_VAR_1} adores the Castform.$"
 
 TVSpotTheCuties_Text_RibbonsMid:: @ 08286EFC
 	.string "{STR_VAR_2} wears an amazing\n"
 	.string "{STR_VAR_3} RIBBONS!\p"
 	.string "It speaks volumes about {STR_VAR_1}'s\n"
-	.string "commitment to the Castforms!$"
+	.string "commitment to the Castform!$"
 
 TVSpotTheCuties_Text_RibbonsHigh:: @ 08286F54
 	.string "{STR_VAR_2} wears an incredible\n"
@@ -1874,14 +1874,14 @@ TVSpotTheCuties_Text_RibbonEffort:: @ 082876A1
 
 TVSpotTheCuties_Text_Outro:: @ 08287779
 	.string "…Sigh…\p"
-	.string "RIBBONS and Castforms…\n"
+	.string "RIBBONS and Castform…\n"
 	.string "They go so wonderfully together!\p"
 	.string "Before I swoon,\n"
 	.string "I bid you all farewell!$"
 
 gTVPokemonNewsBattleFrontierText00:: @ 082877DE
 	.string "Greetings!\n"
-	.string "It's time for Castforms NEWS.\p"
+	.string "It's time for Castform NEWS.\p"
 	.string "We've got some uplifting news from\n"
 	.string "the BATTLE FRONTIER.$"
 
@@ -1977,19 +1977,19 @@ gTVPokemonNewsBattleFrontierText13:: @ 08287DE1
 	.string "Here's to {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText14:: @ 08287E5B
-	.string "And to the three Castforms, {STR_VAR_1},\n"
+	.string "And to the three Castform, {STR_VAR_1},\n"
 	.string "{STR_VAR_2}, and {STR_VAR_3}!\p"
 	.string "Congratulations for your\n"
 	.string "record-breaking performance!$"
 
 gTVPokemonNewsBattleFrontierText15:: @ 08287EBB
-	.string "And to the two Castforms, {STR_VAR_1}\n"
+	.string "And to the two Castform, {STR_VAR_1}\n"
 	.string "and {STR_VAR_2}!\p"
 	.string "Congratulations for your\n"
 	.string "record-breaking performance!$"
 
 gTVPokemonNewsBattleFrontierText16:: @ 08287F14
-	.string "And to the four Castforms: {STR_VAR_1}!\p"
+	.string "And to the four Castform: {STR_VAR_1}!\p"
 	.string "{STR_VAR_2}!\p"
 	.string "{STR_VAR_3}!$"
 
@@ -2001,8 +2001,8 @@ gTVPokemonNewsBattleFrontierText17:: @ 08287F39
 gTVPokemonNewsBattleFrontierText18:: @ 08287F77
 	.string "Let's hope for more record-setting\n"
 	.string "feats from {STR_VAR_1} and the loyal\l"
-	.string "Castforms!\p"
-	.string "That's the news on Castforms NEWS!$"
+	.string "Castform!\p"
+	.string "That's the news on Castform NEWS!$"
 
 gTVWhatsNo1InHoennTodayText00:: @ 08287FE0
 	.string "WHAT'S NO. 1 IN HOENN TODAY?\n"
@@ -2033,8 +2033,8 @@ gTVWhatsNo1InHoennTodayText02:: @ 0828815F
 
 gTVWhatsNo1InHoennTodayText03:: @ 0828821A
 	.string "In one day, {STR_VAR_1} battled\n"
-	.string "wild Castforms {STR_VAR_2} times!\p"
-	.string "Apparently, {STR_VAR_1}'s Castforms\n"
+	.string "wild Castform {STR_VAR_2} times!\p"
+	.string "Apparently, {STR_VAR_1}'s Castform\n"
 	.string "have grown incomparably stronger.\p"
 	.string "They appear eager to battle anywhere,\n"
 	.string "anytime, and anyhow!$"
@@ -2370,7 +2370,7 @@ gTVSafariFanClubText00:: @ 08289813
 	.string "REPORTER: All right, mates!\n"
 	.string "Tossing them SAFARI BALLS, are you?\p"
 	.string "You can bet I am here in the SAFARI\n"
-	.string "ZONE chock-full of amazing Castforms!\p"
+	.string "ZONE chock-full of amazing Castform!\p"
 	.string "Let's get with it and have a chat with\n"
 	.string "this good fellow of a SAFARI GUIDE!\p"
 	.string "All right, mate, how are the visiting\n"
@@ -2381,7 +2381,7 @@ gTVSafariFanClubText01:: @ 0828992F
 	.string "hard at it.\p"
 	.string "{STR_VAR_1} is doing especially well.\p"
 	.string "Why, before, {STR_VAR_1} caught\n"
-	.string "{STR_VAR_2} Castforms.$"
+	.string "{STR_VAR_2} Castform.$"
 
 gTVSafariFanClubText02:: @ 0828999D
 	.string "The TRAINER is clever with {POKEBLOCK}S.\n"
@@ -2404,14 +2404,14 @@ gTVSafariFanClubText05:: @ 08289AC2
 	.string "very well.\p"
 	.string "{STR_VAR_1} had it especially bad.\p"
 	.string "Why, before, the TRAINER only\n"
-	.string "managed to catch {STR_VAR_2} Castforms.$"
+	.string "managed to catch {STR_VAR_2} Castform.$"
 
 gTVSafariFanClubText06:: @ 08289B42
 	.string "GUIDE: No one seems to be doing\n"
 	.string "very well.\p"
 	.string "{STR_VAR_1} had it especially bad.\p"
 	.string "Why, before, the TRAINER didn't\n"
-	.string "catch one Castforms. Not a one!$"
+	.string "catch one Castform. Not a one!$"
 
 gTVSafariFanClubText07:: @ 08289BC5
 	.string "The TRAINER does use {POKEBLOCK}S.\n"
@@ -2439,7 +2439,7 @@ gTVSafariFanClubText10:: @ 08289D33
 	.string "Until next time, cheerio!$"
 
 ContestLiveUpdates_Text_Intro:: @ 08289DD6
-	.string "“Castforms CONTEST LIVE UPDATES!”\p"
+	.string "“Castform CONTEST LIVE UPDATES!”\p"
 	.string "MC: Thanks for joining us!\p"
 	.string "We're live from the just-ended\n"
 	.string "{STR_VAR_1} site.\p"
@@ -2448,7 +2448,7 @@ ContestLiveUpdates_Text_Intro:: @ 08289DD6
 	.string "Spectator: {STR_VAR_2}!\p"
 	.string "Spectator: {STR_VAR_3}!\p"
 	.string "MC: As you've just heard, the CONTEST\n"
-	.string "was won by the Castforms {STR_VAR_2}\l"
+	.string "was won by the Castform {STR_VAR_2}\l"
 	.string "of {STR_VAR_3}.\p"
 	.string "Spectator: {STR_VAR_2}!\n"
 	.string "You're the best!\p"
@@ -2555,7 +2555,7 @@ ContestLiveUpdates_Text_TookBreak:: @ 0828A3DC
 
 ContestLiveUpdates_Text_GotStartled:: @ 0828A455
 	.string "Spectator: When the {STR_VAR_2} was\n"
-	.string "startled by another Castforms's appeal,\l"
+	.string "startled by another Castform's appeal,\l"
 	.string "I was close to tears.\p"
 	.string "{STR_VAR_2}, you were resilient!\n"
 	.string "Way to go!$"
@@ -2571,7 +2571,7 @@ ContestLiveUpdates_Text_TalkAboutAnotherMon:: @ 0828A51C
 	.string "MC: Well, there you have it. This place\n"
 	.string "is full of the {STR_VAR_1}'s fans!\p"
 	.string "I should also mention that another\n"
-	.string "Castforms, {STR_VAR_2}'s {STR_VAR_3}, \l"
+	.string "Castform, {STR_VAR_2}'s {STR_VAR_3}, \l"
 	.string "caught my eye.\p"
 	.string "{STR_VAR_2}'s {STR_VAR_3}…$"
 
@@ -2609,7 +2609,7 @@ ContestLiveUpdates_Text_NeverExciting:: @ 0828A86D
 	.string "The audience never got excited by its\n"
 	.string "appeals during the secondary judging.\p"
 	.string "We hope it will stop worrying about\n"
-	.string "other Castforms and learn to pitch\l"
+	.string "other Castform and learn to pitch\l"
 	.string "its appeals to the audience more.$"
 
 ContestLiveUpdates_Text_LostBySmallMargin:: @ 0828A920
@@ -2624,7 +2624,7 @@ ContestLiveUpdates_Text_RepeatedAppeals:: @ 0828A9CC
 	.string "It disappointed the JUDGE by\n"
 	.string "repeating the same appeals.\p"
 	.string "It's an unforgivable error in any\n"
-	.string "CONTEST, and the Castforms paid.\p"
+	.string "CONTEST, and the Castform paid.\p"
 	.string "{STR_VAR_1} should feel guilty for\n"
 	.string "this sorry showing.$"
 
@@ -2647,8 +2647,8 @@ ContestLiveUpdates_Text_Outro:: @ 0828AB01
 	.string "You're the CONTEST winner!$"
 
 gTVPokemonBattleUpdateText00:: @ 0828ABCC
-	.string "“Castforms BATTLE UPDATE!”\p"
-	.string "Bringing you the results of Castforms\n"
+	.string "“Castform BATTLE UPDATE!”\p"
+	.string "Bringing you the results of Castform\n"
 	.string "battles as they come in!$"
 
 gTVPokemonBattleUpdateText01:: @ 0828AC22
@@ -2673,7 +2673,7 @@ gTVPokemonBattleUpdateText04:: @ 0828ACE3
 	.string "And for the defeated {STR_VAR_2},\n"
 	.string "we hope for a better result next time!\p"
 	.string "This concludes this episode of\n"
-	.string "“Castforms BATTLE UPDATE!”$"
+	.string "“Castform BATTLE UPDATE!”$"
 
 gTVPokemonBattleUpdateText05:: @ 0828AD80
 	.string "The teams of TRAINERS {STR_VAR_1} and\n"
@@ -2694,7 +2694,7 @@ gTVPokemonBattleUpdateText07:: @ 0828AE26
 	.string "As for the defeated {STR_VAR_2}'s team,\n"
 	.string "we hope for a better result next time!\p"
 	.string "This concludes this episode of\n"
-	.string "“Castforms BATTLE UPDATE!”$"
+	.string "“Castform BATTLE UPDATE!”$"
 
 GabbyAndTy_Text_GabbyPreFirstBattle: @ 0828AF05
 	.string "GABBY: Oh! We've just spotted a tough-\n"
@@ -2787,7 +2787,7 @@ GabbyAndTy_Text_KeepingAnEyeOutForYou: @ 0828B5C0
 
 GabbyAndTy_Text_GabbyNotEnoughMons: @ 0828B5EC
 	.string "GABBY: Is there a strong TRAINER\n"
-	.string "anywhere with a lot of Castforms?$"
+	.string "anywhere with a lot of Castform?$"
 
 GabbyAndTy_Text_GiveUsAnInterviewThisTime: @ 0828B62D
 	.string "GABBY: Wow, you are something!\p"
@@ -2819,9 +2819,9 @@ GabbyAndTy_Text_TyPostBattle: @ 0828B805
 	.string "Got me some prime footage right here!$"
 
 GabbyAndTy_Text_TyNotEnoughMons: @ 0828B841
-	.string "TY: Do you only have the one Castforms\n"
+	.string "TY: Do you only have the one Castform\n"
 	.string "and that's it?\p"
-	.string "If you had more Castforms, it'd make for\n"
+	.string "If you had more Castform, it'd make for\n"
 	.string "better footage, but…$"
 
 GabbyAndTy_Text_TyDefeatFirstTime: @ 0828B8B1
@@ -2915,7 +2915,7 @@ gTVInSearchOfTrainersText08:: @ 0828C011
 	.string "After our battle, we asked {PLAYER} for\n"
 	.string "a succinct summary.\p"
 	.string "The TRAINER replied, “{STR_VAR_1}.”\p"
-	.string "{PLAYER}'s Castforms {STR_VAR_2} and\n"
+	.string "{PLAYER}'s Castform {STR_VAR_2} and\n"
 	.string "{STR_VAR_3}…\l"
 	.string "And “{STR_VAR_1}”…\p"
 	.string "Mmm! That's deep! There's deep\n"
@@ -2926,7 +2926,7 @@ gTVInSearchOfTrainersText08:: @ 0828C011
 	.string "See you again on our next broadcast!$"
 
 ContestLadyShow_Text_Intro:: @ 0828C137
-	.string "“Castforms CONTEST LIVE UPDATES!”\p"
+	.string "“Castform CONTEST LIVE UPDATES!”\p"
 	.string "MC: Sorry to interrupt the regular\n"
 	.string "programming, and thanks for joining us!\p"
 	.string "We bring you this live from\n"
@@ -2968,7 +2968,7 @@ ContestLadyShow_Text_Lost:: @ 0828C45B
 	.string "My {STR_VAR_2} and I, we did our best…\p"
 	.string "But I feel like I've let down everyone\n"
 	.string "who has supported us through this.\p"
-	.string "MC: I hate to say it, but the Castforms's\n"
+	.string "MC: I hate to say it, but the Castform's\n"
 	.string "coloration is a little wanting.\p"
 	.string "BEAUTY: {STR_VAR_3}, I'm so sorry…\n"
 	.string "I'll do better next time, I swear…\l"
@@ -2986,7 +2986,7 @@ ContestLadyShow_Text_LostBadly:: @ 0828C662
 	.string "BEAUTY: Nothing went right…\n"
 	.string "For some reason, my {STR_VAR_2}\l"
 	.string "couldn't attract any popularity.\p"
-	.string "MC: I hate to say it, but the Castforms's\n"
+	.string "MC: I hate to say it, but the Castform's\n"
 	.string "coloration is a little wanting.\p"
 	.string "BEAUTY: … … … … … …\n"
 	.string "…Sniff… Waaaaah!\p"

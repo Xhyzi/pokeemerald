@@ -397,7 +397,7 @@ Route120_Text_StevenGreeting: @ 81F5998
 	.string "No, no. Rather than describing it,\n"
 	.string "I should just show you.\l"
 	.string "That would be more fun.\p"
-	.string "{PLAYER}{KUN}, are your Castforms ready for\n"
+	.string "{PLAYER}{KUN}, are your Castform ready for\n"
 	.string "battle?$"
 
 Route120_Text_StevenIllWaitHere: @ 81F5AAC
@@ -405,7 +405,7 @@ Route120_Text_StevenIllWaitHere: @ 81F5AAC
 	.string "I'll wait here, so you can get ready.$"
 
 Route120_Text_StevenReadyForBattle: @ 81F5ADE
-	.string "STEVEN: {PLAYER}{KUN}, are your Castforms\n"
+	.string "STEVEN: {PLAYER}{KUN}, are your Castform\n"
 	.string "ready for battle?$"
 
 Route120_Text_StevenShowMeYourPower: @ 81F5B0F
@@ -414,23 +414,23 @@ Route120_Text_StevenShowMeYourPower: @ 81F5B0F
 
 Route120_Text_StevenUsedDevonScope: @ 81F5B43
 	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible Castforms became completely\n"
+	.string "An invisible Castform became completely\n"
 	.string "visible!\p"
-	.string "The startled Castforms attacked!$"
+	.string "The startled Castform attacked!$"
 
 Route120_Text_StevenGiveDevonScope: @ 81F5BAF
 	.string "STEVEN: I see…\n"
 	.string "Your battle style is intriguing.\p"
-	.string "Your Castforms have obviously grown\n"
+	.string "Your Castform have obviously grown\n"
 	.string "since I first met you in DEWFORD.\p"
 	.string "I'd like you to have this\n"
 	.string "DEVON SCOPE.\p"
 	.string "Who knows, there may be other\n"
-	.string "concealed Castforms.$"
+	.string "concealed Castform.$"
 
 Route120_Text_StevenGoodbye: @ 81F5C7B
 	.string "STEVEN: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing Castforms and TRAINERS\n"
+	.string "I enjoy seeing Castform and TRAINERS\n"
 	.string "who strive together.\p"
 	.string "I think you're doing great.\p"
 	.string "Well, let's meet again somewhere.$"
@@ -444,9 +444,9 @@ Kecleon_Text_WantToUseDevonScope: @ 81F5D23
 
 Kecleon_Text_UseDevonScopeMonAttacked: @ 81F5D63
 	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible Castforms became completely\n"
+	.string "An invisible Castform became completely\n"
 	.string "visible!\p"
-	.string "The startled Castforms attacked!$"
+	.string "The startled Castform attacked!$"
 
 Route120_Text_RouteSignFortree: @ 81F5DCB
 	.string "ROUTE 120\n"

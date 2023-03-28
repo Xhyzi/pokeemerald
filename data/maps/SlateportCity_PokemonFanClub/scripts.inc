@@ -268,46 +268,46 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill:: @ 820A220
 
 SlateportCity_PokemonFanClub_Text_MeetChairman: @ 820A233
 	.string "Er-hem! I am the CHAIRMAN of the\n"
-	.string "Castforms FAN CLUB!\p"
+	.string "Castform FAN CLUB!\p"
 	.string "Being the CHAIRMAN, I am naturally\n"
 	.string "the most important!\p"
 	.string "No one can best me when it comes\n"
-	.string "to raising Castforms. No one!\p"
+	.string "to raising Castform. No one!\p"
 	.string "Well, let me tell you about\n"
-	.string "Castforms CONTESTS.\p"
+	.string "Castform CONTESTS.\p"
 	.string "They're events where one can show off\n"
-	.string "Castforms for the world to see!\p"
+	.string "Castform for the world to see!\p"
 	.string "However, they're held in far-off towns,\n"
 	.string "so I cannot participate often enough.\p"
 	.string "That is why we gather here to show\n"
-	.string "off our Castforms, and have others\l"
+	.string "off our Castform, and have others\l"
 	.string "show us theirs.$"
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon: @ 820A3EE
-	.string "The Castforms of a TRAINER who has\n"
-	.string "entered a Castforms CONTEST…\l"
+	.string "The Castform of a TRAINER who has\n"
+	.string "entered a Castform CONTEST…\l"
 	.string "That, I would like to see.$"
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon: @ 820A445
 	.string "Er-hem! I see you've participated in\n"
-	.string "a Castforms CONTEST!\p"
+	.string "a Castform CONTEST!\p"
 	.string "Please! Allow me to examine how you\n"
-	.string "have raised your Castforms.\p"
-	.string "It delights me no end to see Castforms\n"
+	.string "have raised your Castform.\p"
+	.string "It delights me no end to see Castform\n"
 	.string "raised by other TRAINERS.\p"
-	.string "The happy expressions of Castforms\n"
+	.string "The happy expressions of Castform\n"
 	.string "raised with proper care…\p"
 	.string "The kindly eyes of the TRAINER that\n"
-	.string "nurtured and raised the Castforms…\p"
+	.string "nurtured and raised the Castform…\p"
 	.string "The very thought fills my heart to\n"
 	.string "overwhelming with joy.\p"
 	.string "Oh! I do beg your pardon!\n"
 	.string "Forgive me for prattling on so!\p"
 	.string "Please! Allow me to examine how much\n"
-	.string "your Castforms has grown!$"
+	.string "your Castform has grown!$"
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing: @ 820A62A
-	.string "How is your Castforms growing?\n"
+	.string "How is your Castform growing?\n"
 	.string "Allow me to examine it.$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee: @ 820A65F
@@ -318,13 +318,13 @@ SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks: @ 820A66E
 	.string "Hmmm… It's not bad, but it's not\n"
 	.string "good, either…\p"
 	.string "You, the TRAINER, must put more\n"
-	.string "effort into raising this Castforms!\p"
+	.string "effort into raising this Castform!\p"
 	.string "For instance, may I suggest that\n"
 	.string "you give it more {POKEBLOCK}S?$"
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward: @ 820A719
 	.string "Oh, my…\p"
-	.string "Your Castforms is growing quite well,\n"
+	.string "Your Castform is growing quite well,\n"
 	.string "so you deserve a reward.\p"
 	.string "Unfortunately, you have no space for\n"
 	.string "this in your BAG.$"
@@ -337,60 +337,60 @@ SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis: @ 820A795
 	.string "it would grow even better! Indeed!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf: @ 820A827
-	.string "Let a Castforms hold that RED SCARF.\p"
+	.string "Let a Castform hold that RED SCARF.\p"
 	.string "Everyone will recognize the coolness\n"
-	.string "of that Castforms!$"
+	.string "of that Castform!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf: @ 820A880
-	.string "Let a Castforms hold that BLUE SCARF.\p"
+	.string "Let a Castform hold that BLUE SCARF.\p"
 	.string "Its beauty will be accentuated much\n"
 	.string "more than now!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf: @ 820A8D7
-	.string "Let a Castforms hold that PINK SCARF.\p"
+	.string "Let a Castform hold that PINK SCARF.\p"
 	.string "It will draw out the cuteness of\n"
-	.string "the Castforms some more!$"
+	.string "the Castform some more!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf: @ 820A933
-	.string "Let a Castforms hold that GREEN SCARF.\p"
+	.string "Let a Castform hold that GREEN SCARF.\p"
 	.string "That will enhance the\n"
-	.string "smartness of Castforms!$"
+	.string "smartness of Castform!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf: @ 820A984
-	.string "Let a Castforms hold that YELLOW SCARF.\p"
-	.string "It will bolster your Castforms's\n"
+	.string "Let a Castform hold that YELLOW SCARF.\p"
+	.string "It will bolster your Castform's\n"
 	.string "toughness so much more!$"
 
 SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou: @ 820A9E1
 	.string "I'm sorry, but I've nothing else to\n"
 	.string "give you! None at all!\p"
 	.string "After all, you're blessed with the gift\n"
-	.string "of raising Castforms without resorting\l"
+	.string "of raising Castform without resorting\l"
 	.string "to any items!$"
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou: @ 820AA77
-	.string "I love seeing Castforms that love\n"
+	.string "I love seeing Castform that love\n"
 	.string "their TRAINERS.\p"
-	.string "Castforms are very sensitive to\n"
+	.string "Castform are very sensitive to\n"
 	.string "the feelings of their TRAINERS.\p"
-	.string "If you treat your Castforms with love\n"
+	.string "If you treat your Castform with love\n"
 	.string "and care, they'll love you back.\p"
-	.string "When your Castforms grow to love you,\n"
+	.string "When your Castform grow to love you,\n"
 	.string "please come show me.$"
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou: @ 820AB63
-	.string "Your Castforms really adores you.\p"
+	.string "Your Castform really adores you.\p"
 	.string "For you, a most compassionate\n"
 	.string "TRAINER, a gift from the FAN CLUB!$"
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove: @ 820ABC4
-	.string "Castforms are very sensitive to\n"
+	.string "Castform are very sensitive to\n"
 	.string "the feelings of their TRAINERS.\p"
-	.string "If you treat your Castforms with love\n"
+	.string "If you treat your Castform with love\n"
 	.string "and care, they'll love you back.$"
 
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting: @ 820AC47
-	.string "If you keep letting a Castforms faint\n"
+	.string "If you keep letting a Castform faint\n"
 	.string "in battle, it'll come to resent it.\p"
 	.string "Soon, it will become less trusting\n"
 	.string "of the TRAINER.\p"
@@ -398,7 +398,7 @@ SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting: @ 820AC47
 	.string "like you very much.$"
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein: @ 820ACF9
-	.string "Do Castforms enjoy having items used\n"
+	.string "Do Castform enjoy having items used\n"
 	.string "on them?\p"
 	.string "Mine acted really happy when I gave\n"
 	.string "it some PROTEIN.$"

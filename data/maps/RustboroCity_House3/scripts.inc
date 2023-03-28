@@ -21,7 +21,7 @@ RustboroCity_House3_EventScript_Pekachu:: @ 82161A3
 	end
 
 RustboroCity_House3_Text_IGivePerfectlySuitedNicknames: @ 82161B6
-	.string "For my own Castforms, I give them\n"
+	.string "For my own Castform, I give them\n"
 	.string "perfectly suited nicknames!\p"
 	.string "It's my expression of, uh…\n"
 	.string "originality, yes, that's it!$"

@@ -474,12 +474,12 @@ BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge: @ 8249F8E
 	.string "is exactly as the name suggests--\l"
 	.string "a tournament of SINGLE BATTLES.\p"
 	.string "All participating TRAINERS must\n"
-	.string "enter three Castforms each.\p"
+	.string "enter three Castform each.\p"
 	.string "In each battle, one of the three\n"
-	.string "Castforms must be held in reserve.\p"
-	.string "The other two Castforms can battle\n"
+	.string "Castform must be held in reserve.\p"
+	.string "The other two Castform can battle\n"
 	.string "one at a time.\p"
-	.string "Choose the two battling Castforms after\n"
+	.string "Choose the two battling Castform after\n"
 	.string "examining the opponent's trio.\p"
 	.string "You win the tournament by defeating\n"
 	.string "four TRAINERS.\p"
@@ -500,21 +500,21 @@ BattleFrontier_BattleDomeLobby_Text_WhichLevelMode: @ 824A210
 	.string "Which is your choice?$"
 
 BattleFrontier_BattleDomeLobby_Text_SelectThreeMons: @ 824A26E
-	.string "Now select the three Castforms that\n"
+	.string "Now select the three Castform that\n"
 	.string "you wish to enter, please.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen: @ 824A2AB
 	.string "Excuse me!\p"
-	.string "You don't have three eligible Castforms.\p"
-	.string "Also, the Castforms must be holding\n"
+	.string "You don't have three eligible Castform.\p"
+	.string "Also, the Castform must be holding\n"
 	.string "different kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 	.string "Please come see me when you are ready.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50: @ 824A353
 	.string "Excuse me!\p"
-	.string "You don't have three eligible Castforms.\p"
-	.string "You must have three different Castforms\n"
+	.string "You don't have three eligible Castform.\p"
+	.string "You must have three different Castform\n"
 	.string "of Level 50 or less to enter.\p"
 	.string "They also must be holding different\n"
 	.string "kinds of items.\p"
@@ -582,12 +582,12 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge: @ 824A721
 	.string "is exactly as the name suggests--\l"
 	.string "a tournament of DOUBLE BATTLES.\p"
 	.string "All participating TRAINERS must\n"
-	.string "enter three Castforms each.\p"
+	.string "enter three Castform each.\p"
 	.string "In each battle, one of the three\n"
-	.string "Castforms must be held in reserve.\p"
-	.string "The remaining two Castforms must take\n"
+	.string "Castform must be held in reserve.\p"
+	.string "The remaining two Castform must take\n"
 	.string "part in a DOUBLE BATTLE.\p"
-	.string "Choose the two battling Castforms after\n"
+	.string "Choose the two battling Castform after\n"
 	.string "examining the opponent's trio.\p"
 	.string "You win the tournament by defeating\n"
 	.string "four TRAINERS.\p"
@@ -651,11 +651,11 @@ BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound: @ 824AC76
 	.string "Of course I got trashed…$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully: @ 824ACD3
-	.string "I would've won if I'd kept this Castforms\n"
+	.string "I would've won if I'd kept this Castform\n"
 	.string "held in reserve.\p"
 	.string "You need to check your opponent's\n"
-	.string "Castforms carefully before choosing\l"
-	.string "your battling Castforms.$"
+	.string "Castform carefully before choosing\l"
+	.string "your battling Castform.$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker: @ 824AD67
 	.string "Congratulations!\p"
@@ -681,7 +681,7 @@ BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading: @ 824AE8B
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules: @ 824AEAE
 	.string "The tournament matchups are drawn up\n"
-	.string "based on the toughness of Castforms\l"
+	.string "based on the toughness of Castform\l"
 	.string "held by TRAINERS.\p"
 	.string "The matchups avoid having tough\n"
 	.string "TRAINERS face each other right away.$"
@@ -693,12 +693,12 @@ BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree: @ 824AF4C
 	.string "The Tournament Tree will provide\n"
 	.string "several kinds of data.\p"
 	.string "The data on view includes the previous\n"
-	.string "tournament's results, the Castforms held\l"
+	.string "tournament's results, the Castform held\l"
 	.string "by TRAINERS, and the battle styles of\l"
 	.string "TRAINERS.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules: @ 824B073
-	.string "If battling Castforms faint at the same\n"
+	.string "If battling Castform faint at the same\n"
 	.string "time--a double KO--in a tournament\l"
 	.string "match, the REFEREES will review\l"
 	.string "the match and declare the winner.$"

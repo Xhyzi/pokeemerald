@@ -61,11 +61,11 @@ OldaleTown_Mart_Text_PokeBallsAreSoldOut: @ 81FC2B2
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls: @ 81FC2F3
 	.string "I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of Castforms!$"
+	.string "and catch a bunch of Castform!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion: @ 81FC338
-	.string "If a Castforms gets hurt and loses its HP\n"
+	.string "If a Castform gets hurt and loses its HP\n"
 	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your Castforms from fainting,\n"
+	.string "To prevent your Castform from fainting,\n"
 	.string "restore its HP with a POTION.$"
 

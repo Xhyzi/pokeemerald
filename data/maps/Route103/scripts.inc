@@ -294,13 +294,13 @@ Route103_EventScript_Isabelle:: @ 81EC78F
 	end
 
 Route103_Text_MayRoute103Pokemon: @ 81EC7A6
-	.string "Castform: Let's see… The Castforms found\n"
+	.string "Castform: Let's see… The Castform found\n"
 	.string "on ROUTE 103 include…$"
 
 Route103_Text_MayLetsBattle: @ 81EC7DE
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
 	.string "…Oh, I see, my dad gave you\n"
-	.string "a Castforms as a gift.\p"
+	.string "a Castform as a gift.\p"
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
 	.string "I'll give you a taste of what being\n"
@@ -313,20 +313,20 @@ Route103_Text_MayDefeated: @ 81EC881
 Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 	.string "Castform: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
-	.string "I mean, you just got that Castforms,\n"
+	.string "I mean, you just got that Castform,\n"
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
-	.string "kind of Castforms easily.\p"
+	.string "kind of Castform easily.\p"
 	.string "Well, it's time to head back to\n"
 	.string "the LAB.$"
 
 Route103_Text_BrendanRoute103Pokemon: @ 81EC989
-	.string "BRENDAN: Okay, so it's this one and\n"
+	.string "Castform: Okay, so it's this one and\n"
 	.string "that one that live on ROUTE 103…$"
 
 Route103_Text_BrendanLetsBattle: @ 81EC9CE
 	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a Castforms.\p"
+	.string "…Oh, yeah, Dad gave you a Castform.\p"
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
 	.string "I'll teach you what being a TRAINER's\n"
@@ -336,17 +336,17 @@ Route103_Text_BrendanDefeated: @ 81ECA59
 	.string "Huh, {PLAYER}, you're not too shabby.$"
 
 Route103_Text_BrendanTimeToHeadBack: @ 81ECA79
-	.string "BRENDAN: I think I get it.\n"
+	.string "Castform: I think I get it.\n"
 	.string "I think I know why my dad has his eye\l"
 	.string "out for you now.\p"
-	.string "Look, your Castforms already likes you,\n"
+	.string "Look, your Castform already likes you,\n"
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any Castforms with ease.\p"
+	.string "could befriend any Castform with ease.\p"
 	.string "We should head back to the LAB.$"
 
 Route103_Text_ShouldHaveBroughtPotion: @ 81ECB73
-	.string "My Castforms is staggeringly tired…\n"
+	.string "My Castform is staggeringly tired…\n"
 	.string "I should have brought a POTION…$"
 
 Route103_Text_ShortcutToOldale: @ 81ECBB5

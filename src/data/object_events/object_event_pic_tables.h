@@ -730,19 +730,6 @@ static const struct SpriteFrameImage sPicTable_CyclingTriathleteF[] = {
     overworld_frame(gObjectEventPic_CyclingTriathleteF, 4, 4, 8),
 };
 
-static const struct SpriteFrameImage sPicTable_Nurse[] = {
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Nurse, 2, 4, 3),
-};
-
 static const struct SpriteFrameImage sPicTable_ItemBall[] = {
     obj_frame_tiles(gObjectEventPic_ItemBall),
 };
@@ -2211,7 +2198,6 @@ static const struct SpriteFrameImage sPicTable_CastformSun[] = {
     overworld_frame(gObjectEventPic_CastformSun, 4, 4, 8),
 };
 
-
 static const struct SpriteFrameImage sPicTable_CastformRain[] = {
     overworld_frame(gObjectEventPic_CastformRain, 4, 4, 0),
     overworld_frame(gObjectEventPic_CastformRain, 4, 4, 1),
@@ -2222,4 +2208,17 @@ static const struct SpriteFrameImage sPicTable_CastformRain[] = {
     overworld_frame(gObjectEventPic_CastformRain, 4, 4, 6),
     overworld_frame(gObjectEventPic_CastformRain, 4, 4, 7),
     overworld_frame(gObjectEventPic_CastformRain, 4, 4, 8),
+};
+
+static const struct SpriteFrameImage sPicTable_Nurse[] = {
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Nurse, 2, 4, 3),
 };

@@ -336,7 +336,7 @@ LilycoveCity_ContestHall_EventScript_SmartStageSign:: @ 821B745
 	end
 
 LilycoveCity_ContestHall_Text_TodayWonSmartnessContest: @ 821B74E
-	.string "This Castforms won the BEAUTY CONTEST\n"
+	.string "This Castform won the BEAUTY CONTEST\n"
 	.string "here before.\p"
 	.string "Well, guess what? Today, I made it\n"
 	.string "win a SMARTNESS CONTEST!\p"
@@ -362,7 +362,7 @@ LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous: @ 821B911
 	.string "like a CONTEST hall in the sticks.$"
 
 LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal: @ 821B977
-	.string "MC: Okay, SMART Castforms and their\n"
+	.string "MC: Okay, SMART Castform and their\n"
 	.string "TRAINERS, are you ready?!\p"
 	.string "Give it your best showing!\n"
 	.string "Let's appeal!$"
@@ -375,22 +375,22 @@ LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest: @ 821B9DC
 LilycoveCity_ContestHall_Text_EnteredWrongContest: @ 821BA44
 	.string "Ayayayay…\n"
 	.string "I entered the wrong CONTEST.\p"
-	.string "I entered this tough Castforms in\n"
+	.string "I entered this tough Castform in\n"
 	.string "the SMARTNESS CONTEST…\p"
 	.string "Come on, wow them with a smart-looking\n"
 	.string "ROCK SMASH.$"
 
 LilycoveCity_ContestHall_Text_RaisedMonToBeSmart: @ 821BAD5
 	.string "I've spent many a year, and all my\n"
-	.string "wisdom besides, raising this Castforms\l"
+	.string "wisdom besides, raising this Castform\l"
 	.string "to be smart.\p"
 	.string "It won't be easily bested by some\n"
-	.string "young pup's Castforms.\p"
+	.string "young pup's Castform.\p"
 	.string "My dear wife, are you seeing this?$"
 
 LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext: @ 821BB84
 	.string "There it is!\p"
-	.string "If my Castforms pulls a smart move next,\n"
+	.string "If my Castform pulls a smart move next,\n"
 	.string "the audience's excitement will peak!$"
 
 LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife: @ 821BBDD
@@ -405,13 +405,13 @@ LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa: @ 821BC65
 
 LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves: @ 821BC89
 	.string "Even when TRAINERS enter the same\n"
-	.string "kind of Castforms, they all seem to use\l"
+	.string "kind of Castform, they all seem to use\l"
 	.string "different moves for appeals.\p"
 	.string "It's just like the way people have\n"
 	.string "different styles for battling.$"
 
 LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers: @ 821BD30
-	.string "I think the Castforms look smarter\n"
+	.string "I think the Castform look smarter\n"
 	.string "than their TRAINERS. By a lot.$"
 
 LilycoveCity_ContestHall_Text_StillLoveSmartnessContests: @ 821BD70
@@ -425,22 +425,22 @@ LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest: @ 821BDDD
 	.string "CONTEST, too? Good luck!$"
 
 LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty: @ 821BE16
-	.string "JUDGE: Ah, every Castforms here is\n"
+	.string "JUDGE: Ah, every Castform here is\n"
 	.string "a model of pristine beauty!\p"
 	.string "Why, I almost forgot to score them!$"
 
 LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty: @ 821BE77
-	.string "A Castforms this beautiful…\n"
+	.string "A Castform this beautiful…\n"
 	.string "There isn't another one like it.\p"
 	.string "Everyone's eyes will be glued to\n"
 	.string "my beauty.$"
 
 LilycoveCity_ContestHall_Text_OverdidGrooming: @ 821BEDE
 	.string "Waaaah!\p"
-	.string "I brushed and groomed my Castforms\n"
+	.string "I brushed and groomed my Castform\n"
 	.string "carefully for this CONTEST…\p"
 	.string "But I overdid it…\n"
-	.string "My Castforms's coat turned all scraggly…\p"
+	.string "My Castform's coat turned all scraggly…\p"
 	.string "What should I do?$"
 
 LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam: @ 821BF6E
@@ -450,7 +450,7 @@ LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam: @ 821BF6E
 	.string "That'll be meaningless, then!$"
 
 LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe: @ 821BFE3
-	.string "This pretty Castforms looks just like\n"
+	.string "This pretty Castform looks just like\n"
 	.string "me when I was younger.\p"
 	.string "Right when I said that, my husband\n"
 	.string "spewed the coffee he was drinking.\p"
@@ -464,13 +464,13 @@ LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy: @ 821C07F
 LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon: @ 821C0D8
 	.string "Wahahahah!\p"
 	.string "Will you take a gander at all those\n"
-	.string "pretty Castforms!\l"
+	.string "pretty Castform!\l"
 	.string "I just love this sort of glitz!$"
 
 LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone: @ 821C137
 	.string "You can't always win on just beauty\n"
 	.string "alone.\p"
-	.string "You have to groom your Castforms so\n"
+	.string "You have to groom your Castform so\n"
 	.string "it's nice and glossy like mine.$"
 
 LilycoveCity_ContestHall_Text_InTheMiddleOfContest: @ 821C1A4
@@ -487,21 +487,21 @@ LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals: @ 821C215
 
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted: @ 821C27F
 	.string "Oh, no… My sweet AZURILL was\n"
-	.string "distracted by another Castforms.$"
+	.string "distracted by another Castform.$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest: @ 821C2BB
-	.string "My Castforms has never won in a battle,\n"
+	.string "My Castform has never won in a battle,\n"
 	.string "but put it in a CONTEST and look out!$"
 
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel: @ 821C307
-	.string "My Castforms's PETAL DANCE is a marvel\n"
+	.string "My Castform's PETAL DANCE is a marvel\n"
 	.string "of elegance.\p"
 	.string "I won't let anyone disturb its\n"
 	.string "performance.$"
 
 LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter: @ 821C365
-	.string "Everyone's Castforms are very cute.\p"
-	.string "However, if my Castforms were to make\n"
+	.string "Everyone's Castform are very cute.\p"
+	.string "However, if my Castform were to make\n"
 	.string "a cute appeal…\p"
 	.string "I'm sure that it would be so much \n"
 	.string "cuter than the others.$"
@@ -511,28 +511,28 @@ LilycoveCity_ContestHall_Text_MyChildIsInContest: @ 821C3F4
 
 LilycoveCity_ContestHall_Text_ComeOnDear: @ 821C411
 	.string "Come on, dear. Go for it!\n"
-	.string "Your Castforms is the best!$"
+	.string "Your Castform is the best!$"
 
 LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest: @ 821C445
 	.string "I think that girl over there is\n"
 	.string "the cutest of the lot.\p"
 	.string "What's that? They're judging\n"
-	.string "Castforms by their looks?$"
+	.string "Castform by their looks?$"
 
 LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn: @ 821C4B1
-	.string "Ohh, seeing all these cute Castforms,\n"
+	.string "Ohh, seeing all these cute Castform,\n"
 	.string "they make we want to get my own!\p"
 	.string "I'm going to go catch some!$"
 
 LilycoveCity_ContestHall_Text_BeautyContestStage: @ 821C512
 	.string "BEAUTY CONTEST STAGE\n"
-	.string "BE ALLURED BY BEAUTIFUL Castforms!$"
+	.string "BE ALLURED BY BEAUTIFUL Castform!$"
 
 LilycoveCity_ContestHall_Text_CuteContestStage: @ 821C548
 	.string "CUTENESS CONTEST STAGE\n"
-	.string "BE CHARMED BY CUTE Castforms!$"
+	.string "BE CHARMED BY CUTE Castform!$"
 
 LilycoveCity_ContestHall_Text_SmartContestStage: @ 821C57B
 	.string "SMARTNESS CONTEST STAGE\n"
-	.string "BE IMPRESSED BY SMART Castforms!$"
+	.string "BE IMPRESSED BY SMART Castform!$"
 

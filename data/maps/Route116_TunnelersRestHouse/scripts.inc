@@ -33,7 +33,7 @@ Route116_TunnelersRestHouse_Text_WeHadToStopBoring: @ 822B88B
 	.string "through rock with the latest machinery.\l"
 	.string "But, we had to stop.\p"
 	.string "It turns out that we would have had\n"
-	.string "a negative effect on wild Castforms in\l"
+	.string "a negative effect on wild Castform in\l"
 	.string "the area.\p"
 	.string "So, we've got nothing to do but loll\n"
 	.string "around here doing nothing.$"
@@ -44,7 +44,7 @@ Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf: @ 822B99F
 	.string "He's desperate to get through.\p"
 	.string "He says that if he digs little by little\n"
 	.string "without using machines, he won't\l"
-	.string "disturb Castforms, and he'll avoid\l"
+	.string "disturb Castform, and he'll avoid\l"
 	.string "harming the natural environment.\p"
 	.string "I wonder if he made it through yet.$"
 

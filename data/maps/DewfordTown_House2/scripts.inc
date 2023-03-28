@@ -46,7 +46,7 @@ DewfordTown_House2_Text_ExplainSilkScarf: @ 81FE3D1
 	.string "The SILK SCARF raises the power of\n"
 	.string "NORMAL-type moves.\p"
 	.string "It's a marvelous SCARF that will go\n"
-	.string "with almost all Castforms!$"
+	.string "with almost all Castform!$"
 
 DewfordTown_House2_Text_BrawlySoCool: @ 81FE444
 	.string "Wow, you bothered to cross the sea\n"

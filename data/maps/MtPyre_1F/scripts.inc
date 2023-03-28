@@ -33,14 +33,14 @@ MtPyre_1F_Text_TakeThisForYourOwnGood: @ 8230F8A
 	.string "Take this. It's for your own good.$"
 
 MtPyre_1F_Text_ExplainCleanseTag: @ 8231005
-	.string "Have a Castforms hold that\n"
+	.string "Have a Castform hold that\n"
 	.string "CLEANSE TAG.\p"
-	.string "It will help ward off wild Castforms.$"
+	.string "It will help ward off wild Castform.$"
 
 MtPyre_1F_Text_ComeToPayRespects: @ 823104F
 	.string "Did you come to pay your respect\n"
-	.string "to the spirits of departed Castforms?\p"
-	.string "You must care for your Castforms a lot.$"
+	.string "to the spirits of departed Castform?\p"
+	.string "You must care for your Castform a lot.$"
 
 MtPyre_1F_Text_RestingPlaceOfZigzagoon: @ 82310BA
 	.string "This is the final resting place of my\n"

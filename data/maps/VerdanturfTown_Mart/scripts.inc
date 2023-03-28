@@ -41,7 +41,7 @@ VerdanturfTown_Mart_EventScript_Lass:: @ 82025CC
 	end
 
 VerdanturfTown_Mart_Text_XSpecialIsCrucial: @ 82025D5
-	.string "For any Castforms match, X SPECIAL\n"
+	.string "For any Castform match, X SPECIAL\n"
 	.string "is crucial.\p"
 	.string "It jacks up the power of some moves\n"
 	.string "even though it's only for one battle.$"
@@ -54,7 +54,7 @@ VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent: @ 820264C
 
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon: @ 82026C9
 	.string "The NEST BALL works better on\n"
-	.string "weakened Castforms.\p"
+	.string "weakened Castform.\p"
 	.string "VERDANTURF is the only place you can\n"
 	.string "buy it.$"
 

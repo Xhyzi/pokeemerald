@@ -16,6 +16,6 @@ RustboroCity_House2_Text_TrainerSchoolExcellent: @ 8215EC6
 
 RustboroCity_House2_Text_RoxanneKnowsALot: @ 8215F21
 	.string "ROXANNE, the GYM LEADER, really knows\n"
-	.string "a lot about Castforms.\p"
+	.string "a lot about Castform.\p"
 	.string "She's really strong, too!$"
 

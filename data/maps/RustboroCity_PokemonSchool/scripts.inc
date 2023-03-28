@@ -204,22 +204,22 @@ RustboroCity_PokemonSchool_EventScript_ScottWatchStudents:: @ 82140A8
 
 RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges: @ 82140B2
 	.string "The blackboard lists status changes\n"
-	.string "that may affect Castforms in battle.$"
+	.string "that may affect Castform in battle.$"
 
 RustboroCity_PokemonSchool_Text_ReadWhichTopic: @ 82140F9
 	.string "Which topic do you want to read?$"
 
 RustboroCity_PokemonSchool_Text_ExplainPoison: @ 821411A
-	.string "If a Castforms is poisoned, it will\n"
+	.string "If a Castform is poisoned, it will\n"
 	.string "steadily lose HP.\p"
 	.string "The effects of poison remain after\n"
 	.string "a battle.\p"
-	.string "A poisoned Castforms's HP will drop\n"
+	.string "A poisoned Castform's HP will drop\n"
 	.string "while it is traveling.\p"
 	.string "Heal a poisoning using an ANTIDOTE.$"
 
 RustboroCity_PokemonSchool_Text_ExplainParalysis: @ 82141D8
-	.string "If a Castforms becomes paralyzed,\n"
+	.string "If a Castform becomes paralyzed,\n"
 	.string "its SPEED drops.\p"
 	.string "It may also not be able to move while\n"
 	.string "it is in battle.\p"
@@ -227,9 +227,9 @@ RustboroCity_PokemonSchool_Text_ExplainParalysis: @ 82141D8
 	.string "Cure it using a PARLYZ HEAL.$"
 
 RustboroCity_PokemonSchool_Text_ExplainSleep: @ 821427D
-	.string "If a Castforms falls asleep, it will be\n"
+	.string "If a Castform falls asleep, it will be\n"
 	.string "unable to attack.\p"
-	.string "A Castforms may wake up on its own,\n"
+	.string "A Castform may wake up on its own,\n"
 	.string "but if a battle ends while it is\l"
 	.string "sleeping, it will stay asleep.\p"
 	.string "Wake it up using an AWAKENING.$"
@@ -241,7 +241,7 @@ RustboroCity_PokemonSchool_Text_ExplainBurn: @ 8214336
 	.string "Cure a burn using a BURN HEAL.$"
 
 RustboroCity_PokemonSchool_Text_ExplainFreeze: @ 82143B8
-	.string "If a Castforms is frozen, it becomes\n"
+	.string "If a Castform is frozen, it becomes\n"
 	.string "completely helpless.\p"
 	.string "It will remain frozen after battle.\n"
 	.string "Thaw it out using an ICE HEAL.$"
@@ -254,16 +254,16 @@ RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw: @ 8214433
 	.string "this item.$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw: @ 82144C8
-	.string "A Castforms holding the QUICK CLAW will\n"
+	.string "A Castform holding the QUICK CLAW will\n"
 	.string "occasionally speed up and get to move\l"
 	.string "before its opponent.\p"
 	.string "There are many other items that are\n"
-	.string "meant to be held by Castforms.\p"
+	.string "meant to be held by Castform.\p"
 	.string "Just those alone will give you many\n"
 	.string "topics to study!$"
 
 RustboroCity_PokemonSchool_Text_TradingRightNow: @ 821459F
-	.string "I'm trading Castforms with my friend\n"
+	.string "I'm trading Castform with my friend\n"
 	.string "right now.$"
 
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot: @ 82145CD
@@ -271,38 +271,38 @@ RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot: @ 82145CD
 	.string "I'm finally getting one!$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems: @ 8214604
-	.string "Castforms can hold items, but they\n"
+	.string "Castform can hold items, but they\n"
 	.string "don't know what to do with man-made\l"
 	.string "items like POTION and ANTIDOTE.$"
 
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself: @ 8214669
-	.string "You know how some Castforms moves can\n"
-	.string "confuse a Castforms?\p"
-	.string "A confused Castforms will sometimes\n"
+	.string "You know how some Castform moves can\n"
+	.string "confuse a Castform?\p"
+	.string "A confused Castform will sometimes\n"
 	.string "attack itself without meaning to.\p"
 	.string "But once it leaves battle, it will\n"
 	.string "return to normal.$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry: @ 8214719
-	.string "A Castforms holding a BERRY will heal\n"
+	.string "A Castform holding a BERRY will heal\n"
 	.string "itself…\p"
 	.string "There are many kinds of items that\n"
-	.string "Castforms can hold…\p"
+	.string "Castform can hold…\p"
 	.string "Boy, it sure is hard taking notes\n"
 	.string "down…$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes: @ 82147A2
 	.string "It's this student's notebook…\p"
-	.string "Castforms are to be caught using\n"
+	.string "Castform are to be caught using\n"
 	.string "POKé BALLS.\p"
-	.string "Up to six Castforms can accompany\n"
+	.string "Up to six Castform can accompany\n"
 	.string "a TRAINER.\p"
 	.string "A TRAINER is someone who catches\n"
-	.string "Castforms, raises them, and battles\l"
+	.string "Castform, raises them, and battles\l"
 	.string "with them.\p"
 	.string "A TRAINER's mission is to defeat\n"
 	.string "the strong TRAINERS who await\l"
-	.string "challengers in Castforms GYMS.$"
+	.string "challengers in Castform GYMS.$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut: @ 82148C0
 	.string "Hello? Didn't we meet before?\n"
@@ -312,11 +312,11 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut: @ 82148C0
 	.string "I've been traveling everywhere in\n"
 	.string "search of outstanding TRAINERS.\p"
 	.string "More specifically, I'm looking for\n"
-	.string "Castforms battle experts.\p"
+	.string "Castform battle experts.\p"
 	.string "So, what brings you to this SCHOOL?\n"
 	.string "Are you a TRAINER, too?\p"
 	.string "The first thing you should do is to\n"
-	.string "have a Castforms learn the move CUT.\p"
+	.string "have a Castform learn the move CUT.\p"
 	.string "If I remember correctly, someone in\n"
 	.string "this town has CUT.$"
 
@@ -342,7 +342,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge: @ 8214B8A
 	.string "I've been traveling everywhere in\n"
 	.string "search of outstanding TRAINERS.\p"
 	.string "More specifically, I'm looking for\n"
-	.string "Castforms battle experts.\p"
+	.string "Castform battle experts.\p"
 	.string "Oh, what's that?\n"
 	.string "It's a STONE BADGE, isn't it?\p"
 	.string "That's pretty impressive, I'd say, for\n"

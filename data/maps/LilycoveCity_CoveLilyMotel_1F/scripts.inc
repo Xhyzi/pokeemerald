@@ -77,9 +77,9 @@ LilycoveCity_CoveLilyMotel_1F_Movement_OwnerReturn: @ 8218260
 
 LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot: @ 8218264
 	.string "Hm, so they doubled the guests by\n"
-	.string "using Castforms as attractions?\p"
+	.string "using Castform as attractions?\p"
 	.string "Hm, well, maybe I should make a cute\n"
-	.string "Castforms our inn's mascot.\p"
+	.string "Castform our inn's mascot.\p"
 	.string "I wonder if that will attract more\n"
 	.string "guests to stay with us?$"
 
@@ -94,10 +94,10 @@ LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV: @ 821839B
 	.string "I can't see the TV!$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem: @ 82183C3
-	.string "Amazing! You're telling me a Castforms\n"
+	.string "Amazing! You're telling me a Castform\n"
 	.string "found someone's lost item?\p"
 	.string "That's something. If we had some smart\n"
-	.string "Castforms like that…\p"
+	.string "Castform like that…\p"
 	.string "We could recover anything that our\n"
 	.string "guests mislaid…$"
 
@@ -112,10 +112,10 @@ LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted: @ 8218470
 	.string "GAME something…$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar: @ 8218544
-	.string "Amazing! A house-sitting Castforms\n"
+	.string "Amazing! A house-sitting Castform\n"
 	.string "caught a burglar?\p"
 	.string "That's something. If we had a tough\n"
-	.string "Castforms as a security guard…\p"
+	.string "Castform as a security guard…\p"
 	.string "We would be able to provide our guests\n"
 	.string "with greater safety.$"
 

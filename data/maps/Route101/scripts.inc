@@ -278,24 +278,24 @@ Route101_Text_DontLeaveMe: @ 81EBEDF
 Route101_Text_YouSavedMe: @ 81EBF12
 	.string "Castform: Whew…\p"
 	.string "I was in the tall grass studying wild\n"
-	.string "Castforms when I was jumped.\p"
+	.string "Castform when I was jumped.\p"
 	.string "You saved me.\n"
 	.string "Thanks a lot!\p"
 	.string "Oh?\p"
 	.string "Hi, you're {PLAYER}{KUN}!\p"
 	.string "This is not the place to chat, so come\n"
-	.string "by my Castforms LAB later, okay?$"
+	.string "by my Castform LAB later, okay?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter: @ 81EBFDD
-	.string "If Castforms get tired, take them to\n"
-	.string "a Castforms CENTER.\p"
-	.string "There's a Castforms CENTER in OLDALE\n"
+	.string "If Castform get tired, take them to\n"
+	.string "a Castform CENTER.\p"
+	.string "There's a Castform CENTER in OLDALE\n"
 	.string "TOWN right close by.$"
 
 Route101_Text_WildPokemonInTallGrass: @ 81EC04A
-	.string "Wild Castforms will jump out at you in\n"
+	.string "Wild Castform will jump out at you in\n"
 	.string "tall grass.\p"
-	.string "If you want to catch Castforms, you have\n"
+	.string "If you want to catch Castform, you have\n"
 	.string "to go into the tall grass and search.$"
 
 Route101_Text_RouteSign: @ 81EC0C8

@@ -136,10 +136,10 @@ EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges: @ 82296E8
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges: @ 8229787
 	.string "You haven't obtained all the BADGES.\p"
-	.string "If you're bound for the Castforms\n"
+	.string "If you're bound for the Castform\n"
 	.string "LEAGUE, you must return with them.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth: @ 82297EF
 	.string "TRAINER! Believe in yourself and your\n"
-	.string "Castforms, and go forth!$"
+	.string "Castform, and go forth!$"
 

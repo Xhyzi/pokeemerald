@@ -531,7 +531,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent: @ 8257CCE
 	.string "REFEREE: The winner is {STR_VAR_1}!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored: @ 8257CE9
-	.string "Your Castforms will be restored to\n"
+	.string "Your Castform will be restored to\n"
 	.string "full health.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent: @ 8257D17

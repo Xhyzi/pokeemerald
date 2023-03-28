@@ -1056,7 +1056,7 @@ RustboroCity_Text_SneakyLookingManWentAroundCorner: @ 81E12AC
 	.string "looking guy went around the corner.$"
 
 RustboroCity_Text_HaveYouChallengedGym: @ 81E130D
-	.string "Have you taken the Castforms GYM\n"
+	.string "Have you taken the Castform GYM\n"
 	.string "challenge?\p"
 	.string "When you get that shiny GYM BADGE\n"
 	.string "in hand, I guess TRAINERS begin to\l"
@@ -1064,21 +1064,21 @@ RustboroCity_Text_HaveYouChallengedGym: @ 81E130D
 
 RustboroCity_Text_HeyThatsRustborosGymBadge: @ 81E139E
 	.string "Hey, that's RUSTBORO's GYM BADGE!\p"
-	.string "Out of all the Castforms GYM BADGES,\n"
+	.string "Out of all the Castform GYM BADGES,\n"
 	.string "RUSTBORO's is the coolest, I'd say.$"
 
 RustboroCity_Text_YoureNewAroundHere: @ 81E1407
 	.string "Oh? Who might you be?\n"
 	.string "You're a new face around these parts.\p"
 	.string "Have you just transferred into the\n"
-	.string "Castforms TRAINER'S SCHOOL?$"
+	.string "Castform TRAINER'S SCHOOL?$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire: @ 81E1480
 	.string "I challenged the GYM LEADER, but…\p"
 	.string "It's not going to be easy winning with\n"
-	.string "my FIRE-type Castforms…\p"
-	.string "FIRE-type Castforms don't match up\n"
-	.string "well against ROCK-type Castforms…$"
+	.string "my FIRE-type Castform…\p"
+	.string "FIRE-type Castform don't match up\n"
+	.string "well against ROCK-type Castform…$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel: @ 81E1520
 	.string "The old sailor MR. BRINEY lives in\n"
@@ -1095,26 +1095,26 @@ RustboroCity_Text_MrBrineyLovesPeeko: @ 81E1589
 	.string "that PEEKO.$"
 
 RustboroCity_Text_WowYouHavePokemon: @ 81E1633
-	.string "Wow, you have Castforms with you, too.\p"
+	.string "Wow, you have Castform with you, too.\p"
 	.string "When I get bigger, I'm going to go\n"
-	.string "places with Castforms, too.$"
+	.string "places with Castform, too.$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool: @ 81E1695
-	.string "Castforms TRAINER'S SCHOOL!\p"
+	.string "Castform TRAINER'S SCHOOL!\p"
 	.string "If I go to this school, will I be able\n"
-	.string "to catch rare Castforms easily?$"
+	.string "to catch rare Castform easily?$"
 
 RustboroCity_Text_PokemonCanChangeLookFromExp: @ 81E16F4
-	.string "If a Castforms gains experience in\n"
+	.string "If a Castform gains experience in\n"
 	.string "battles, it can sometimes change in\l"
 	.string "the way it looks.$"
 
 RustboroCity_Text_PokemonChangeShape: @ 81E174B
-	.string "A Castforms changes shape?\n"
+	.string "A Castform changes shape?\n"
 	.string "If one did that, I would be shocked!$"
 
 RustboroCity_Text_TradePokemonGrowFast: @ 81E1789
-	.string "A Castforms you get in a trade from\n"
+	.string "A Castform you get in a trade from\n"
 	.string "someone grows fast.\p"
 	.string "But if you don't have certain GYM\n"
 	.string "BADGES, it may not obey you…$"
@@ -1182,7 +1182,7 @@ RustboroCity_Text_MayPassedBrineyWantToBattle: @ 81E1AFA
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough: @ 81E1BD3
 	.string "Castform: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
-	.string "Castforms very much?\p"
+	.string "Castform very much?\p"
 	.string "That's not very good for a TRAINER!$"
 
 RustboroCity_Text_MayWantToBattle: @ 81E1C48
@@ -1205,7 +1205,7 @@ RustboroCity_Text_MayMrBrineyHint: @ 81E1CE7
 	.string "was once a revered seafarer.$"
 
 RustboroCity_Text_BrendanHiLetsRegister: @ 81E1D7D
-	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
+	.string "Castform: Oh, hey, {PLAYER}!\p"
 	.string "You had a MATCH CALL feature put\n"
 	.string "on your POKéNAV! Cool!\p"
 	.string "Let's register each other so we can\n"
@@ -1213,11 +1213,11 @@ RustboroCity_Text_BrendanHiLetsRegister: @ 81E1D7D
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan: @ 81E1E11
-	.string "Registered BRENDAN\n"
+	.string "Registered Castform\n"
 	.string "in the POKéNAV.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
-	.string "BRENDAN: By the way, {PLAYER}, I walked\n"
+	.string "Castform: By the way, {PLAYER}, I walked\n"
 	.string "by MR. BRINEY in PETALBURG WOODS.\p"
 	.string "I bet he was on his way home to his\n"
 	.string "cottage by the sea.\p"
@@ -1228,15 +1228,15 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
 	.string "far you've progressed?$"
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon: @ 81E1F2F
-	.string "BRENDAN: What's the matter? Don't have\n"
-	.string "any confidence in your Castforms?$"
+	.string "Castform: What's the matter? Don't have\n"
+	.string "any confidence in your Castform?$"
 
 RustboroCity_Text_BrendanWantToBattle: @ 81E1F76
-	.string "BRENDAN: What's up?\n"
+	.string "Castform: What's up?\n"
 	.string "Want to have a battle with me?$"
 
 RustboroCity_Text_BrendanIWontGoEasy: @ 81E1FA9
-	.string "BRENDAN: I know you just became\n"
+	.string "Castform: I know you just became\n"
 	.string "a TRAINER, but I won't go easy!$"
 
 RustboroCity_Text_BrendanDefeat: @ 81E1FE9
@@ -1244,7 +1244,7 @@ RustboroCity_Text_BrendanDefeat: @ 81E1FE9
 	.string "You're pretty good.$"
 
 RustboroCity_Text_BrendanMrBrineyHint: @ 81E2002
-	.string "BRENDAN: By the way, you know\n"
+	.string "Castform: By the way, you know\n"
 	.string "MR. BRINEY? The guy I just passed?\p"
 	.string "I bet you didn't know this, since you\n"
 	.string "just moved here, {PLAYER}, but\l"
@@ -1263,7 +1263,7 @@ RustboroCity_Text_DevonCorpSign: @ 81E2128
 	.string "it all.”$"
 
 RustboroCity_Text_GymSign: @ 81E2167
-	.string "RUSTBORO CITY Castforms GYM\n"
+	.string "RUSTBORO CITY Castform GYM\n"
 	.string "LEADER: ROXANNE\p"
 	.string "“The ROCK-loving honors student!”$"
 
@@ -1278,9 +1278,9 @@ RustboroCity_Text_CitySign: @ 81E220B
 	.string "nature and science.”$"
 
 RustboroCity_Text_TrainersSchoolSign: @ 81E2253
-	.string "Castforms TRAINER'S SCHOOL\p"
+	.string "Castform TRAINER'S SCHOOL\p"
 	.string "“We'll teach you anything about\n"
-	.string "Castforms!”$"
+	.string "Castform!”$"
 
 RustboroCity_Text_CuttersHouse: @ 81E2296
 	.string "CUTTER'S HOUSE$"
@@ -1316,7 +1316,7 @@ RustboroCity_Text_YouCanHave2On2Battle: @ 81E249D
 	.string "You can have a 2-on-2 battle even\n"
 	.string "if you're not with another TRAINER.\p"
 	.string "If you catch the eyes of two TRAINERS\n"
-	.string "when you have two or more Castforms,\l"
+	.string "when you have two or more Castform,\l"
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two TRAINERS by yourself?$"

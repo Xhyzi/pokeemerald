@@ -67,20 +67,20 @@ PetalburgCity_Mart_EventScript_Man:: @ 8207DE8
 	end
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger: @ 8207DF1
-	.string "Even if a Castforms is weak now,\n"
+	.string "Even if a Castform is weak now,\n"
 	.string "it will grow stronger.\p"
 	.string "The most important thing is love!\n"
-	.string "Love for your Castforms!$"
+	.string "Love for your Castform!$"
 
 PetalburgCity_Mart_Text_RepelIsUseful: @ 8207E60
 	.string "Do you use REPEL?\n"
-	.string "It keeps Castforms away, so it's\l"
+	.string "It keeps Castform away, so it's\l"
 	.string "useful when you're in a hurry.$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou: @ 8207EB0
 	.string "Do you have any ANTIDOTES with\n"
 	.string "you?\p"
 	.string "If you walk around with a poisoned\n"
-	.string "Castforms, it will lose HP until it faints.\l"
+	.string "Castform, it will lose HP until it faints.\l"
 	.string "Take some ANTIDOTES with you.$"
 

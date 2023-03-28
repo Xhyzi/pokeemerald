@@ -355,39 +355,39 @@ OldaleTown_Text_SavingMyProgress: @ 81E918E
 
 OldaleTown_Text_IWorkAtPokemonMart: @ 81E91C0
 	.string "Hi!\n"
-	.string "I work at a Castforms MART.\p"
+	.string "I work at a Castform MART.\p"
 	.string "Can I get you to come with me?$"
 
 OldaleTown_Text_ThisIsAPokemonMart: @ 81E91FD
-	.string "This is a Castforms MART.\n"
+	.string "This is a Castform MART.\n"
 	.string "Just look for our blue roof.\p"
 	.string "We sell a variety of goods including\n"
-	.string "POKé BALLS for catching Castforms.\p"
+	.string "POKé BALLS for catching Castform.\p"
 	.string "Here, I'd like you to have this as\n"
 	.string "a promotional item.$"
 
 OldaleTown_Text_PotionExplanation: @ 81E92AF
 	.string "A POTION can be used anytime, so it's\n"
-	.string "even more useful than a Castforms CENTER\l"
+	.string "even more useful than a Castform CENTER\l"
 	.string "in certain situations.$"
 
 OldaleTown_Text_WaitDontComeInHere: @ 81E9313
 	.string "Aaaaah! Wait!\n"
 	.string "Please don't come in here.\p"
 	.string "I just discovered the footprints of\n"
-	.string "a rare Castforms!\p"
+	.string "a rare Castform!\p"
 	.string "Wait until I finish sketching\n"
 	.string "them, okay?$"
 
 OldaleTown_Text_DiscoveredFootprints: @ 81E939A
 	.string "I just discovered the footprints of\n"
-	.string "a rare Castforms!\p"
+	.string "a rare Castform!\p"
 	.string "Wait until I finish sketching\n"
 	.string "them, okay?$"
 
 OldaleTown_Text_FinishedSketchingFootprints: @ 81E93F8
 	.string "I finished sketching the footprints of\n"
-	.string "a rare Castforms.\p"
+	.string "a rare Castform.\p"
 	.string "But it turns out they were only my\n"
 	.string "own footprints…$"
 
@@ -397,7 +397,7 @@ OldaleTown_Text_MayLetsGoBack: @ 81E9462
 	.string "Let's hurry home!$"
 
 OldaleTown_Text_BrendanLetsGoBack: @ 81E948A
-	.string "BRENDAN: I'm heading back to my dad's\n"
+	.string "Castform: I'm heading back to my dad's\n"
 	.string "LAB now.\l"
 	.string "{PLAYER}, you should hustle back, too.$"
 

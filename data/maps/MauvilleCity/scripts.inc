@@ -471,7 +471,7 @@ MauvilleCity_EventScript_RegisterWallyCall:: @ 81DF7BA
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy: @ 81DF7DC
-	.string "UNCLE: It's because of Castforms that\n"
+	.string "UNCLE: It's because of Castform that\n"
 	.string "this boy's got more pep, I suppose…\l"
 	.string "But he's become a bit too peppy…$"
 
@@ -483,7 +483,7 @@ MauvilleCity_Text_WallyWantToChallengeGym: @ 81DF845
 
 MauvilleCity_Text_UncleYourePushingIt: @ 81DF8B9
 	.string "UNCLE: Now hold on, WALLY.\p"
-	.string "Since you started living with Castforms,\n"
+	.string "Since you started living with Castform,\n"
 	.string "you have grown quite a lot stronger.\p"
 	.string "But don't you think you're pushing it\n"
 	.string "to suddenly challenge a GYM?$"
@@ -534,7 +534,7 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf: @ 81DFBC3
 MauvilleCity_Text_ThankYouNotEnoughToBattle: @ 81DFBED
 	.string "{PLAYER}, thank you.\n"
 	.string "Being a TRAINER is tough, isn't it?\p"
-	.string "It's not enough just to have Castforms\n"
+	.string "It's not enough just to have Castform\n"
 	.string "and make them battle. That isn't what\l"
 	.string "being a real TRAINER is about.$"
 
@@ -550,7 +550,7 @@ MauvilleCity_Text_UncleVisitUsSometime: @ 81DFD34
 	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
 	.string "that you must be the TRAINER who kept\l"
 	.string "an eye out for WALLY when he caught\l"
-	.string "his Castforms.\p"
+	.string "his Castform.\p"
 	.string "Why don't you visit us in VERDANTURF\n"
 	.string "sometime?\l"
 	.string "I'm sure WALLY would enjoy it.$"
@@ -578,7 +578,7 @@ MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	.string "aren't you?\p"
 	.string "But you didn't hold anything back\n"
 	.string "and beat him impressively.\p"
-	.string "Yeah! That's what a real Castforms\n"
+	.string "Yeah! That's what a real Castform\n"
 	.string "battle is all about!\p"
 	.string "I idolize TRAINERS like that!\p"
 	.string "… … … … … …\n"
@@ -621,9 +621,9 @@ MauvilleCity_Text_WattsonYoungTakeCharge: @ 81E02AA
 	.string "the young step up and take charge!$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth: @ 81E0301
-	.string "You know, it's cool to have Castforms\n"
+	.string "You know, it's cool to have Castform\n"
 	.string "battles and stuff…\p"
-	.string "But if your Castforms gets hurt,\n"
+	.string "But if your Castform gets hurt,\n"
 	.string "you have to nurse it back to health.$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough: @ 81E037C
@@ -639,14 +639,14 @@ MauvilleCity_Text_RydelVeryGenerous: @ 81E03FB
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike: @ 81E044A
 	.string "Even if you're riding a BIKE,\n"
-	.string "wild Castforms could jump you.$"
+	.string "wild Castform could jump you.$"
 
 MauvilleCity_Text_CitySign: @ 81E0485
 	.string "MAUVILLE CITY\n"
 	.string "“The bright and shiny city of fun!”$"
 
 MauvilleCity_Text_GymSign: @ 81E04B7
-	.string "MAUVILLE CITY Castforms GYM\n"
+	.string "MAUVILLE CITY Castform GYM\n"
 	.string "LEADER: WATTSON\l"
 	.string "“The cheerfully electrifying man!”$"
 

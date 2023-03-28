@@ -484,7 +484,7 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine: @ 820D35A
 	.string "Why would TEAM AQUA steal my\n"
 	.string "SUBMARINE EXPLORER 1?\p"
 	.string "They can't be after the slumbering\n"
-	.string "Castforms at the bottom of the sea…\p"
+	.string "Castform at the bottom of the sea…\p"
 	.string "But even if I were to chase them,\n"
 	.string "I don't stand a chance against them…$"
 
@@ -496,7 +496,7 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 	.string "You're not responsible for this.\p"
 	.string "Trying to catch a submarine…\n"
 	.string "It's impossible for most people.\p"
-	.string "You would need a Castforms that knows\n"
+	.string "You would need a Castform that knows\n"
 	.string "how to DIVE…\p"
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"
@@ -506,7 +506,7 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 SlateportCity_Harbor_Text_NeedDiveToCatchSub: @ 820D58A
 	.string "CAPT. STERN: Trying to catch a\n"
 	.string "submarine… It's impossible.\p"
-	.string "You would need a Castforms that knows\n"
+	.string "You would need a Castform that knows\n"
 	.string "how to DIVE…\p"
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"

@@ -70,9 +70,9 @@ gText_ApprenticePleaseTeach0:: @ 82B7229
 	.string "I'm {STR_VAR_1}, and I really look up\n"
 	.string "to you, {PLAYER}.\p"
 	.string "I… I had this dream of one day meeting\n"
-	.string "you and asking you about Castforms.\p"
+	.string "you and asking you about Castform.\p"
 	.string "Please, please, {PLAYER}!\n"
-	.string "Please teach me about Castforms!$"
+	.string "Please teach me about Castform!$"
 
 gText_ApprenticeRejectTeaching0:: @ 82B731C
 	.string "Oh… B-but…\n"
@@ -130,7 +130,7 @@ gText_ApprenticeLevelModeThanks1:: @ 82B763F
 gText_ApprenticePleaseTeach2:: @ 82B76AC
 	.string "Um… Are you {PLAYER}?\n"
 	.string "My name is {STR_VAR_1}.\p"
-	.string "I want to become a Castforms TRAINER,\n"
+	.string "I want to become a Castform TRAINER,\n"
 	.string "but I don't know what to do…\p"
 	.string "So I thought maybe I could ask you for\n"
 	.string "advice because you're so famous.\p"
@@ -138,7 +138,7 @@ gText_ApprenticePleaseTeach2:: @ 82B76AC
 
 gText_ApprenticeRejectTeaching2:: @ 82B7772
 	.string "Oh, but…\p"
-	.string "I sincerely want to become a Castforms\n"
+	.string "I sincerely want to become a Castform\n"
 	.string "TRAINER!\p"
 	.string "Please, can you answer my questions?$"
 
@@ -214,7 +214,7 @@ gText_ApprenticeLevelModeThanks3:: @ 82B7D18
 gText_ApprenticePleaseTeach4:: @ 82B7DD4
 	.string "Oh! You're {PLAYER}{KUN}, aren't you?\p"
 	.string "I've heard that you're tough at\n"
-	.string "Castforms!\p"
+	.string "Castform!\p"
 	.string "I'm {STR_VAR_1}!\n"
 	.string "I'll be your friend!\p"
 	.string "Did you know?\p"
@@ -251,7 +251,7 @@ gText_ApprenticePleaseTeach5:: @ 82B8087
 	.string "I know you because you're famous!\l"
 	.string "Call me {STR_VAR_1}! Glad to meet you!\p"
 	.string "I'm a TRIATHLETE, so I keep myself\n"
-	.string "fit even while I raise Castforms.\p"
+	.string "fit even while I raise Castform.\p"
 	.string "I'm also involved with other things\n"
 	.string "like work, napping, ballroom dancing…\p"
 	.string "Being this busy, it's not so easy for\n"
@@ -368,7 +368,7 @@ gText_ApprenticePleaseTeach8:: @ 82B89C6
 	.string "Me! My name is {STR_VAR_1}!\n"
 	.string "I just became a TRAINER!\p"
 	.string "I'm delighted I met you, {PLAYER},\n"
-	.string "the big name in Castforms circles!\p"
+	.string "the big name in Castform circles!\p"
 	.string "Oh-oh-oh, I know!\n"
 	.string "May I ask a huge favor, {PLAYER}?\p"
 	.string "Please take me in as your apprentice!\n"
@@ -405,7 +405,7 @@ gText_ApprenticePleaseTeach9:: @ 82B8CAA
 	.string "Well, hello, aren't I just the luckiest!\p"
 	.string "Hello, the name's {STR_VAR_1}!\p"
 	.string "I've been on the lookout for\n"
-	.string "a Castforms teacher.\p"
+	.string "a Castform teacher.\p"
 	.string "And with impeccably good timing,\n"
 	.string "along came you, {PLAYER}{KUN}!\p"
 	.string "So, there you have it, {PLAYER}{KUN}!\n"
@@ -438,12 +438,12 @@ gText_ApprenticePleaseTeach10:: @ 82B8F45
 	.string "… … …\n"
 	.string "Of course I'm lying!\p"
 	.string "Me, I'm {STR_VAR_1}. Despite the way\n"
-	.string "I look, I'm the Castforms CHAMPION!\l"
+	.string "I look, I'm the Castform CHAMPION!\l"
 	.string "…That's a lie, too!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at battling.\p"
 	.string "So, how about you becoming my master\n"
-	.string "about all things Castforms?$"
+	.string "about all things Castform?$"
 
 gText_ApprenticeRejectTeaching10:: @ 82B905F
 	.string "If you're going to act cold like that,\n"
@@ -452,7 +452,7 @@ gText_ApprenticeRejectTeaching10:: @ 82B905F
 	.string "Hiccup!\p"
 	.string "Hahaha, that was my FAKE TEARS!\p"
 	.string "Come on, will you please be\n"
-	.string "my Castforms master?$"
+	.string "my Castform master?$"
 
 gText_ApprenticeWhichLevelMode10:: @ 82B910E
 	.string "Yippee!\n"
@@ -482,7 +482,7 @@ gText_ApprenticePleaseTeach11:: @ 82B929C
 	.string "yourself, give it a try!\p"
 	.string "Uh-huh, uh-huh!\n"
 	.string "{PLAYER}{KUN}'s your name,\l"
-	.string "and Castforms's your game!\p"
+	.string "and Castform's your game!\p"
 	.string "And you're at a delicate age\n"
 	.string "when all the world's your stage!\p"
 	.string "Anyway, I just want to say,\n"
@@ -558,10 +558,10 @@ gText_ApprenticePleaseTeach13:: @ 82B992D
 	.string "My name's {STR_VAR_1}.\n"
 	.string "I take karate training, but my body's\l"
 	.string "not built to take the abuse…\p"
-	.string "I decided I'll battle Castforms and\n"
+	.string "I decided I'll battle Castform and\n"
 	.string "toughen myself up.\p"
 	.string "You're {PLAYER}{KUN}, aren't you?\n"
-	.string "The Castforms LEAGUE CHAMP?\p"
+	.string "The Castform LEAGUE CHAMP?\p"
 	.string "Listen, can I get you to give me\n"
 	.string "advice?$"
 
@@ -699,7 +699,7 @@ gText_ApprenticeItemAlreadyRecommended0:: @ 82BA448
 gText_ApprenticeWhatHeldItem1:: @ 82BA4D3
 	.string "Yay! It's {PLAYER}!\n"
 	.string "Great! I wanted to ask you something!\p"
-	.string "Do you make your Castforms hold items?\n"
+	.string "Do you make your Castform hold items?\n"
 	.string "I want to make mine hold items, but…\p"
 	.string "What item would be good for\n"
 	.string "{STR_VAR_1} to hold?\p"
@@ -722,7 +722,7 @@ gText_ApprenticeItemAlreadyRecommended1:: @ 82BA635
 	.string "Oh, uh, no, that's not what I meant.\n"
 	.string "I want to know about a different item\l"
 	.string "than the ones I already know.\p"
-	.string "Or do you mean that my Castforms doesn't\n"
+	.string "Or do you mean that my Castform doesn't\n"
 	.string "have to hold anything this time?$"
 
 gText_ApprenticeWhatHeldItem2:: @ 82BA6E6
@@ -748,7 +748,7 @@ gText_ApprenticeThanksHeldItem2:: @ 82BA78F
 gText_ApprenticeItemAlreadyRecommended2:: @ 82BA7D8
 	.string "Somebody taught me about\n"
 	.string "the {STR_VAR_1} already.\p"
-	.string "I want my Castforms to hold a different\n"
+	.string "I want my Castform to hold a different\n"
 	.string "kind of item.\p"
 	.string "Or do you think {STR_VAR_2} doesn't\n"
 	.string "have to hold anything?$"
@@ -765,7 +765,7 @@ gText_ApprenticeWhatHeldItem3:: @ 82BA867
 	.string "for me?$"
 
 gText_ApprenticeHoldNothing3:: @ 82BA96B
-	.string "A Castforms belonging to someone like me\n"
+	.string "A Castform belonging to someone like me\n"
 	.string "would be better off without an item?$"
 
 gText_ApprenticeThanksNoHeldItem3:: @ 82BA9B7
@@ -792,7 +792,7 @@ gText_ApprenticeWhatHeldItem4:: @ 82BAB22
 	.string "Oh, {PLAYER}{KUN}.\n"
 	.string "There's something I wanted to ask you.\p"
 	.string "You know how you decided which\n"
-	.string "Castforms I should have for me?\p"
+	.string "Castform I should have for me?\p"
 	.string "But I never asked you what item\n"
 	.string "it should be holding.\p"
 	.string "Since you already gave me advice,\n"
@@ -906,17 +906,17 @@ gText_ApprenticeWhatHeldItem7:: @ 82BB370
 	.string "keeping well.\p"
 	.string "May I approach you for advice?\p"
 	.string "In a recent battle, my opponent\n"
-	.string "seemed to have given his Castforms\l"
+	.string "seemed to have given his Castform\l"
 	.string "an item to hold.\p"
 	.string "As a result, I was defeated…\p"
 	.string "I don't wish to be left behind.\n"
 	.string "I would like to make my {STR_VAR_1}\l"
 	.string "hold an item, too.\p"
 	.string "It would please me if you could decide\n"
-	.string "what would be right for my Castforms…$"
+	.string "what would be right for my Castform…$"
 
 gText_ApprenticeHoldNothing7:: @ 82BB4C3
-	.string "In other words… My Castforms has\n"
+	.string "In other words… My Castform has\n"
 	.string "no need to hold an item?$"
 
 gText_ApprenticeThanksNoHeldItem7:: @ 82BB4FB
@@ -936,7 +936,7 @@ gText_ApprenticeThanksHeldItem7:: @ 82BB575
 gText_ApprenticeItemAlreadyRecommended7:: @ 82BB5E1
 	.string "You've already told me about that,\n"
 	.string "and I already have it.\p"
-	.string "Or are you saying… My Castforms has\n"
+	.string "Or are you saying… My Castform has\n"
 	.string "no need to hold an item?$"
 
 gText_ApprenticeWhatHeldItem8:: @ 82BB656
@@ -960,7 +960,7 @@ gText_ApprenticeThanksNoHeldItem8:: @ 82BB72C
 gText_ApprenticeThanksHeldItem8:: @ 82BB7A2
 	.string "{STR_VAR_1}! I'll use that!\p"
 	.string "Um… Could it be, {PLAYER}, you also\n"
-	.string "make your Castforms hold that item?\p"
+	.string "make your Castform hold that item?\p"
 	.string "I'll be sure to get it!\n"
 	.string "I hope you'll be willing to teach me\l"
 	.string "some more another time.$"
@@ -976,7 +976,7 @@ gText_ApprenticeWhatHeldItem9:: @ 82BB8CD
 	.string "Hola!\n"
 	.string "My maestro, {PLAYER}{KUN}!\p"
 	.string "I want to hit you up for advice on\n"
-	.string "Castforms tools.\p"
+	.string "Castform tools.\p"
 	.string "What do you think would be good for\n"
 	.string "my {STR_VAR_1} to hold?\p"
 	.string "Don't be shy now.\n"
@@ -1009,13 +1009,13 @@ gText_ApprenticeItemAlreadyRecommended9:: @ 82BBA6C
 gText_ApprenticeWhatHeldItem10:: @ 82BBB01
 	.string "{PLAYER}{KUN}, something unbelievable\n"
 	.string "has happened!\p"
-	.string "I woke up this morning, and my Castforms\n"
+	.string "I woke up this morning, and my Castform\n"
 	.string "had 10 NUGGETS!\p"
 	.string "Of course I'm lying!\n"
 	.string "Wahahaha!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at thinking about\l"
-	.string "what items Castforms should hold.\p"
+	.string "what items Castform should hold.\p"
 	.string "So, how about deciding for me what\n"
 	.string "my {STR_VAR_1} should hold, master?$"
 
@@ -1064,7 +1064,7 @@ gText_ApprenticeHoldNothing11:: @ 82BBEE5
 
 gText_ApprenticeThanksNoHeldItem11:: @ 82BBF25
 	.string "Okay, I hear you, sure I do!\n"
-	.string "My Castforms will go empty-handed, too!\p"
+	.string "My Castform will go empty-handed, too!\p"
 	.string "If it's advice I ever need,\n"
 	.string "{PLAYER}, your word I'll always heed!$"
 
@@ -1080,7 +1080,7 @@ gText_ApprenticeItemAlreadyRecommended11:: @ 82BC024
 	.string "You told me that the other day.\l"
 	.string "I need a new idea, a brand new way.\p"
 	.string "Or, what, is that right?\n"
-	.string "My Castforms doesn't need to hold\l"
+	.string "My Castform doesn't need to hold\l"
 	.string "anything tight?$"
 
 gText_ApprenticeWhatHeldItem12:: @ 82BC0C8
@@ -1128,7 +1128,7 @@ gText_ApprenticeWhatHeldItem13:: @ 82BC40E
 	.string "Don't touch it, please!\p"
 	.string "I must've broken it while I was trying\n"
 	.string "out different hold items with my posse\l"
-	.string "of Castforms.\p"
+	.string "of Castform.\p"
 	.string "So, things being this way,\n"
 	.string "I need you to decide for me.\p"
 	.string "{PLAYER}{KUN}, what do you think would be\n"
@@ -1147,7 +1147,7 @@ gText_ApprenticeThanksNoHeldItem13:: @ 82BC555
 
 gText_ApprenticeThanksHeldItem13:: @ 82BC5CE
 	.string "Hm, all right. That's one {STR_VAR_1}.\n"
-	.string "My Castforms's arm is fine, so I'll make\l"
+	.string "My Castform's arm is fine, so I'll make\l"
 	.string "it hold that item right away.\p"
 	.string "I hope I can keep hitting you up\n"
 	.string "for help like this.$"
@@ -1165,7 +1165,7 @@ gText_ApprenticeWhatHeldItem14:: @ 82BC714
 	.string "Er… Um…\n"
 	.string "{PLAYER}{KUN}…\p"
 	.string "Please, don't look at me that way.\n"
-	.string "My Castforms don't have anything.\p"
+	.string "My Castform don't have anything.\p"
 	.string "I… I'm really embarrassed about this,\n"
 	.string "but I really need your advice.\p"
 	.string "I can't decide what hold item would\n"
@@ -1230,7 +1230,7 @@ gText_ApprenticeThanksHeldItem15:: @ 82BCBFC
 	.string "Are you certain?\p"
 	.string "I see. If that's the case, that's fine.\n"
 	.string "I thank you for your time.\p"
-	.string "I do hope my Castforms will be able to\n"
+	.string "I do hope my Castform will be able to\n"
 	.string "put it to good use.\p"
 	.string "Let us meet again!$"
 
@@ -1248,10 +1248,10 @@ gText_ApprenticeWhichMonFirst0:: @ 82BCD68
 	.string "I have a dilemma, sob…\p"
 	.string "I want to begin battling other people,\n"
 	.string "but I don't know what to do.\p"
-	.string "How should I line up my Castforms\n"
+	.string "How should I line up my Castform\n"
 	.string "so they'll be at their strongest?\p"
 	.string "Please tell me, {PLAYER}.\n"
-	.string "If you were me, which of these Castforms\l"
+	.string "If you were me, which of these Castform\l"
 	.string "would you send out first?$"
 
 gText_ApprenticeMonFirstThanks0:: @ 82BCE64
@@ -1259,13 +1259,13 @@ gText_ApprenticeMonFirstThanks0:: @ 82BCE64
 	.string "Waaaaah!\p"
 	.string "Oh! I'm so sorry!\n"
 	.string "You've made me happy by choosing\l"
-	.string "my first Castforms, and it's made me cry…\p"
+	.string "my first Castform, and it's made me cry…\p"
 	.string "Thank you so much!$"
 
 gText_ApprenticeWhichMonFirst1:: @ 82BCEF2
 	.string "Yay! It's {PLAYER}!\n"
 	.string "Great! I wanted to ask you something!\p"
-	.string "Um, of my Castforms, which do you\n"
+	.string "Um, of my Castform, which do you\n"
 	.string "think should go out first?$"
 
 gText_ApprenticeMonFirstThanks1:: @ 82BCF61
@@ -1276,8 +1276,8 @@ gText_ApprenticeMonFirstThanks1:: @ 82BCF61
 gText_ApprenticeWhichMonFirst2:: @ 82BCFA1
 	.string "{PLAYER}, hello!\p"
 	.string "I think, in a battle, it's very important\n"
-	.string "which Castforms comes out first.\p"
-	.string "Out of the Castforms that I have,\n"
+	.string "which Castform comes out first.\p"
+	.string "Out of the Castform that I have,\n"
 	.string "which would be good to send out first?$"
 
 gText_ApprenticeMonFirstThanks2:: @ 82BD03C
@@ -1294,7 +1294,7 @@ gText_ApprenticeWhichMonFirst3:: @ 82BD06D
 	.string "It may be a waste of time for me to\n"
 	.string "even worry about it, but I just can't\l"
 	.string "decide something…\p"
-	.string "Which of my Castforms should I send\n"
+	.string "Which of my Castform should I send\n"
 	.string "out first in a battle?$"
 
 gText_ApprenticeMonFirstThanks3:: @ 82BD18A
@@ -1309,12 +1309,12 @@ gText_ApprenticeWhichMonFirst4:: @ 82BD222
 	.string "Oh, {PLAYER}{KUN}! It's me!\n"
 	.string "I'm so glad to see you because I have\l"
 	.string "this little problem.\p"
-	.string "I can't decide how my Castforms should\n"
+	.string "I can't decide how my Castform should\n"
 	.string "be lined up. Could you decide for me?\p"
 	.string "Oh, you don't need to decide the whole\n"
 	.string "party right now.\p"
 	.string "How about deciding just the first\n"
-	.string "Castforms for me?$"
+	.string "Castform for me?$"
 
 gText_ApprenticeMonFirstThanks4:: @ 82BD325
 	.string "My {STR_VAR_1}? That's great!\p"
@@ -1330,7 +1330,7 @@ gText_ApprenticeWhichMonFirst5:: @ 82BD3B1
 	.string "I have to do some cycling, shopping,\n"
 	.string "and humming.\p"
 	.string "I haven't even had the time to decide\n"
-	.string "how to line up my Castforms team.\p"
+	.string "how to line up my Castform team.\p"
 	.string "So, how about checking out my team?\n"
 	.string "Which one should go first?$"
 
@@ -1348,7 +1348,7 @@ gText_ApprenticeWhichMonFirst6:: @ 82BD51C
 	.string "again! It's the usual thing!\p"
 	.string "Drum roll, please!\n"
 	.string "The question I have is about my team.\p"
-	.string "Which Castforms of mine should be first\n"
+	.string "Which Castform of mine should be first\n"
 	.string "to go out in a battle?$"
 
 gText_ApprenticeMonFirstThanks6:: @ 82BD609
@@ -1366,9 +1366,9 @@ gText_ApprenticeWhichMonFirst7:: @ 82BD697
 	.string "I know I'm taking advantage of your\n"
 	.string "kindness, but may I ask for advice?\p"
 	.string "I would like you to decide on the order\n"
-	.string "of my Castforms team.\p"
+	.string "of my Castform team.\p"
 	.string "It would please me if you could decide\n"
-	.string "which Castforms should come first.$"
+	.string "which Castform should come first.$"
 
 gText_ApprenticeMonFirstThanks7:: @ 82BD797
 	.string "My {STR_VAR_1} it is!\n"
@@ -1380,12 +1380,12 @@ gText_ApprenticeMonFirstThanks7:: @ 82BD797
 gText_ApprenticeWhichMonFirst8:: @ 82BD806
 	.string "Eek! {PLAYER}!\n"
 	.string "I… I'm overjoyed to see you again!\p"
-	.string "My Castforms have become much\n"
+	.string "My Castform have become much\n"
 	.string "stronger!\p"
 	.string "But I don't always win. It seems to\n"
-	.string "depend on which Castforms goes first.\p"
+	.string "depend on which Castform goes first.\p"
 	.string "{PLAYER}, please, I need your help!\p"
-	.string "Please decide which of my Castforms\n"
+	.string "Please decide which of my Castform\n"
 	.string "should go out first!$"
 
 gText_ApprenticeMonFirstThanks8:: @ 82BD8F5
@@ -1402,11 +1402,11 @@ gText_ApprenticeWhichMonFirst9:: @ 82BD9BE
 	.string "My mentor, {PLAYER}{KUN}!\l"
 	.string "Hit me with your sage advice today!\p"
 	.string "You see, I pulled together a team of\n"
-	.string "three Castforms. So far so good.\p"
+	.string "three Castform. So far so good.\p"
 	.string "But the team's battling order's not\n"
 	.string "settled yet.\p"
 	.string "This is where you come in, {PLAYER}{KUN}!\n"
-	.string "You decide which Castforms leads off!\p"
+	.string "You decide which Castform leads off!\p"
 	.string "Don't be shy now.\n"
 	.string "Let's blurt it out!$"
 
@@ -1420,15 +1420,15 @@ gText_ApprenticeMonFirstThanks9:: @ 82BDAE1
 gText_ApprenticeWhichMonFirst10:: @ 82BDB4E
 	.string "{PLAYER}{KUN}, listen!\n"
 	.string "It's a crisis!\p"
-	.string "My Castforms, all three of them, go into\n"
+	.string "My Castform, all three of them, go into\n"
 	.string "battle at once!\p"
 	.string "Of course that's impossible!\n"
 	.string "Wahahaha!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at thinking about\l"
-	.string "how I should line up my Castforms.\p"
+	.string "how I should line up my Castform.\p"
 	.string "So, how about deciding for me which\n"
-	.string "Castforms should go first, master?$"
+	.string "Castform should go first, master?$"
 
 gText_ApprenticeMonFirstThanks10:: @ 82BDC6B
 	.string "Okay, so it's my {STR_VAR_1} you chose?\n"
@@ -1463,7 +1463,7 @@ gText_ApprenticeWhichMonFirst12:: @ 82BDE68
 	.string "Are you receiving me?\l"
 	.string "You are receiving me!\p"
 	.string "You have to decide, which of my\n"
-	.string "Castforms is the first to ride!\l"
+	.string "Castform is the first to ride!\l"
 	.string "Into battle, I mean to say.$"
 
 gText_ApprenticeMonFirstThanks12:: @ 82BDF4D
@@ -1479,10 +1479,10 @@ gText_ApprenticeWhichMonFirst13:: @ 82BDFD8
 	.string "…It's getting better now…\p"
 	.string "I must've worried myself sick racking\n"
 	.string "my brains on how I should line up\l"
-	.string "my posse of Castforms.\p"
+	.string "my posse of Castform.\p"
 	.string "So, things being this way,\n"
 	.string "I need you to decide for me.\p"
-	.string "{PLAYER}{KUN}, which of my Castforms should\n"
+	.string "{PLAYER}{KUN}, which of my Castform should\n"
 	.string "go first? So I'd win, I mean.$"
 
 gText_ApprenticeMonFirstThanks13:: @ 82BE0FD
@@ -1501,9 +1501,9 @@ gText_ApprenticeWhichMonFirst14:: @ 82BE189
 	.string "Um…\n"
 	.string "I really need your advice.\p"
 	.string "It makes me bashful to say this,\n"
-	.string "but I chose my 3-Castforms team.\l"
+	.string "but I chose my 3-Castform team.\l"
 	.string "I can't decide on the order, though.\p"
-	.string "Which Castforms should I send out first\n"
+	.string "Which Castform should I send out first\n"
 	.string "so I at least look capable?$"
 
 gText_ApprenticeMonFirstThanks14:: @ 82BE2A5
@@ -1523,7 +1523,7 @@ gText_ApprenticeWhichMonFirst15:: @ 82BE33E
 	.string "If you really are {PLAYER}, please\l"
 	.string "forget about my rudeness.\p"
 	.string "What I would like is your fine advice.\p"
-	.string "I have here my Castforms team.\n"
+	.string "I have here my Castform team.\n"
 	.string "I would like you to tell me which one\l"
 	.string "should go first in a battle.$"
 
@@ -1541,9 +1541,9 @@ gText_ApprenticeWhichMon0:: @ 82BE50D
 	.string "Oh, {PLAYER}!\p"
 	.string "What perfect timing!\n"
 	.string "There's something I just can't decide…\p"
-	.string "I can't decide which Castforms I should\n"
+	.string "I can't decide which Castform I should\n"
 	.string "be using.\p"
-	.string "I can't decide between the Castforms\n"
+	.string "I can't decide between the Castform\n"
 	.string "{STR_VAR_1} and {STR_VAR_2}…\p"
 	.string "{PLAYER}, which do you think will give\n"
 	.string "even me a chance at winning?$"
@@ -1575,7 +1575,7 @@ gText_ApprenticeWhichMon2:: @ 82BE762
 	.string "I have a question I wanted to ask.\p"
 	.string "I'm in a dilemma over whether I should\n"
 	.string "raise one {STR_VAR_1} or {STR_VAR_2}.\p"
-	.string "Which Castforms do you think will\n"
+	.string "Which Castform do you think will\n"
 	.string "be stronger?$"
 
 gText_ApprenticeMonThanks2:: @ 82BE7F8
@@ -1592,8 +1592,8 @@ gText_ApprenticeWhichMon3:: @ 82BE850
 	.string "…But that doesn't matter if you\n"
 	.string "could give me advice…\p"
 	.string "I can't decide on the one kind of\n"
-	.string "Castforms I should raise…\p"
-	.string "I've narrowed the field to the Castforms\n"
+	.string "Castform I should raise…\p"
+	.string "I've narrowed the field to the Castform\n"
 	.string "{STR_VAR_1} and {STR_VAR_2}, but that's\l"
 	.string "where I became stuck…\p"
 	.string "{PLAYER}, you probably don't want to\n"
@@ -1610,10 +1610,10 @@ gText_ApprenticeMonThanks3:: @ 82BE99C
 gText_ApprenticeWhichMon4:: @ 82BEA1B
 	.string "Oh, {PLAYER}{KUN}! I'm so glad to see you!\n"
 	.string "I was about to go looking for you!\p"
-	.string "Can you decide what kind of Castforms\n"
+	.string "Can you decide what kind of Castform\n"
 	.string "I should use?\p"
 	.string "For instance…\n"
-	.string "How about the Castforms {STR_VAR_1}\l"
+	.string "How about the Castform {STR_VAR_1}\l"
 	.string "and {STR_VAR_2}?\p"
 	.string "Which one do you think would be\n"
 	.string "better?$"
@@ -1629,9 +1629,9 @@ gText_ApprenticeMonThanks4:: @ 82BEAE9
 gText_ApprenticeWhichMon5:: @ 82BEB72
 	.string "If it isn't {PLAYER}{KUN}! How's it going?\n"
 	.string "I'm busy again as always!\p"
-	.string "I want to do good with Castforms, too,\n"
+	.string "I want to do good with Castform, too,\n"
 	.string "but I haven't been able to decide\l"
-	.string "which Castforms I should use.\p"
+	.string "which Castform I should use.\p"
 	.string "You know how {STR_VAR_1} look strong?\n"
 	.string "But {STR_VAR_2} are tough to ignore.\p"
 	.string "{PLAYER}{KUN}, give me some of your good\n"
@@ -1653,7 +1653,7 @@ gText_ApprenticeWhichMon6:: @ 82BED16
 	.string "It's an easy one for you!\p"
 	.string "Drum roll, please!\n"
 	.string "The question I have is…\p"
-	.string "If I were to raise a Castforms,\n"
+	.string "If I were to raise a Castform,\n"
 	.string "and the choices were one {STR_VAR_1}\l"
 	.string "or {STR_VAR_2}, which should it be?$"
 
@@ -1671,13 +1671,13 @@ gText_ApprenticeWhichMon7:: @ 82BEEB4
 	.string "I'm delighted to see you again!\p"
 	.string "Ever since I became your apprentice,\n"
 	.string "my confidence has been blooming.\p"
-	.string "I think I'm ready to raise a Castforms\n"
+	.string "I think I'm ready to raise a Castform\n"
 	.string "of my own!\p"
 	.string "{PLAYER}, may I impose on you to choose\n"
-	.string "which Castforms I should raise?\p"
-	.string "The choices are the Castforms\n"
+	.string "which Castform I should raise?\p"
+	.string "The choices are the Castform\n"
 	.string "{STR_VAR_1} or {STR_VAR_2}…\l"
-	.string "Which Castforms is right for me?$"
+	.string "Which Castform is right for me?$"
 
 gText_ApprenticeMonThanks7:: @ 82BEFE2
 	.string "One {STR_VAR_1} it is!\n"
@@ -1692,7 +1692,7 @@ gText_ApprenticeWhichMon8:: @ 82BF04E
 	.string "Oh-oh-oh, I know!\n"
 	.string "I shouldn't pass up this opportunity!\p"
 	.string "May I ask a huge favor, {PLAYER}?\n"
-	.string "Please choose a Castforms for me!\p"
+	.string "Please choose a Castform for me!\p"
 	.string "Please decide which would be better,\n"
 	.string "{STR_VAR_1} or {STR_VAR_2}!$"
 
@@ -1708,7 +1708,7 @@ gText_ApprenticeWhichMon9:: @ 82BF1A8
 	.string "My mentor, {PLAYER}{KUN}!\p"
 	.string "Hello, I've been looking for you\n"
 	.string "for some more of your sage advice!\p"
-	.string "Which kind of Castforms would be right\n"
+	.string "Which kind of Castform would be right\n"
 	.string "for me, one {STR_VAR_1} or {STR_VAR_2}?\p"
 	.string "Don't be shy now.\n"
 	.string "Let's blurt it out!$"
@@ -1722,14 +1722,14 @@ gText_ApprenticeMonThanks9:: @ 82BF268
 
 gText_ApprenticeWhichMon10:: @ 82BF2D1
 	.string "{PLAYER}{KUN}, listen! Big news!\n"
-	.string "I caught a mirage Castforms!\p"
+	.string "I caught a mirage Castform!\p"
 	.string "Of course I'm lying!\n"
 	.string "Wahahaha!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at catching\l"
-	.string "Castforms.\p"
+	.string "Castform.\p"
 	.string "So, how about deciding for me which\n"
-	.string "kind of Castforms I should catch,\l"
+	.string "kind of Castform I should catch,\l"
 	.string "master?\p"
 	.string "Which would be better?\n"
 	.string "{STR_VAR_1} or {STR_VAR_2}?$"
@@ -1747,7 +1747,7 @@ gText_ApprenticeWhichMon11:: @ 82BF46A
 	.string "And that spells ahoy!\p"
 	.string "The rappin' SAILOR am I!\n"
 	.string "Surely you remember who am I?\p"
-	.string "Today, I have a Castforms question\n"
+	.string "Today, I have a Castform question\n"
 	.string "that begs your suggestion!\p"
 	.string "I have the choice between this\n"
 	.string "{STR_VAR_1} and {STR_VAR_2}, you see.\l"
@@ -1767,7 +1767,7 @@ gText_ApprenticeWhichMon12:: @ 82BF5C3
 	.string "the ice. I'm also looking for advice!\l"
 	.string "Are you receiving me?\l"
 	.string "You are receiving me!\p"
-	.string "My Castforms--which should I use?\n"
+	.string "My Castform--which should I use?\n"
 	.string "It's either {STR_VAR_1} or {STR_VAR_2}.\l"
 	.string "Which do you choose?$"
 
@@ -1782,11 +1782,11 @@ gText_ApprenticeWhichMon13:: @ 82BF773
 	.string "Oh, hi, {PLAYER}{KUN}…\n"
 	.string "I have this horrible headache…\p"
 	.string "I must've worried too much about\n"
-	.string "the kind of Castforms I should raise.\p"
+	.string "the kind of Castform I should raise.\p"
 	.string "So, things being this way,\n"
 	.string "I need you to decide for me.\p"
 	.string "{PLAYER}{KUN}, if I had to choose between\n"
-	.string "the Castforms {STR_VAR_1} and\l"
+	.string "the Castform {STR_VAR_1} and\l"
 	.string "{STR_VAR_2}, which should it be?$"
 
 gText_ApprenticeMonThanks13:: @ 82BF869
@@ -1802,7 +1802,7 @@ gText_ApprenticeWhichMon14:: @ 82BF8DD
 	.string "I'm getting all flustered…\l"
 	.string "I… I need your advice.\p"
 	.string "I… I'm really embarrassed, but I can't\n"
-	.string "decide which Castforms to use.\p"
+	.string "decide which Castform to use.\p"
 	.string "If the choices were {STR_VAR_1} or\n"
 	.string "{STR_VAR_2}, which would be better?$"
 
@@ -1821,8 +1821,8 @@ gText_ApprenticeWhichMon15:: @ 82BFA5A
 	.string "No, no, if you are real, it's fine.\n"
 	.string "Incidentally, I would like to obtain\l"
 	.string "your advice.\p"
-	.string "It's about the Castforms I am to use.\p"
-	.string "If the choices are the Castforms\n"
+	.string "It's about the Castform I am to use.\p"
+	.string "If the choices are the Castform\n"
 	.string "{STR_VAR_1} and {STR_VAR_2}, which is\l"
 	.string "more worthy of me?$"
 
@@ -1884,13 +1884,13 @@ gText_ApprenticeMoveThanks2:: @ 82BFEAD
 	.string "{STR_VAR_1} is your choice?\n"
 	.string "Okay, I got it!\p"
 	.string "I'll go teach {STR_VAR_1} to\n"
-	.string "my Castforms right away!\p"
+	.string "my Castform right away!\p"
 	.string "See you again!$"
 
 gText_ApprenticeWhichMove3:: @ 82BFF0A
 	.string "Ohhh, {PLAYER}…\n"
 	.string "I'm hopeless, no, really!\p"
-	.string "I've decided to raise a Castforms,\n"
+	.string "I've decided to raise a Castform,\n"
 	.string "but now I can't even decide what\l"
 	.string "move I should let it learn…\p"
 	.string "I know that it doesn't mean anything\n"
@@ -2022,13 +2022,13 @@ gText_ApprenticeMoveThanks9:: @ 82C0809
 
 gText_ApprenticeWhichMove10:: @ 82C086E
 	.string "{PLAYER}{KUN}, it's completely wild!\p"
-	.string "My Castforms!\n"
+	.string "My Castform!\n"
 	.string "It learned six moves!\p"
 	.string "Of course I'm lying!\n"
 	.string "Wahahaha!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at choosing moves\l"
-	.string "for my Castforms.\p"
+	.string "for my Castform.\p"
 	.string "So, how about deciding for me which\n"
 	.string "kind of move I should teach?\p"
 	.string "{STR_VAR_2} or {STR_VAR_3}--which\n"
@@ -2081,7 +2081,7 @@ gText_ApprenticeMoveThanks12:: @ 82C0C7D
 gText_ApprenticeWhichMove13:: @ 82C0D0B
 	.string "Gahack! Gaah! Oh, {PLAYER}{KUN}…\n"
 	.string "I have this lousy cold, I do…\p"
-	.string "I want to pick a move for my Castforms,\n"
+	.string "I want to pick a move for my Castform,\n"
 	.string "but I'm not up to it…\p"
 	.string "So, things being this way,\n"
 	.string "I need you to decide for me.\p"
@@ -2103,7 +2103,7 @@ gText_ApprenticeWhichMove14:: @ 82C0E71
 	.string "I… I need your advice.\p"
 	.string "I… I'm really embarrassed, but I can't\n"
 	.string "decide what move I should teach\l"
-	.string "my Castforms.\p"
+	.string "my Castform.\p"
 	.string "It's for my {STR_VAR_1}.\n"
 	.string "If the choices were {STR_VAR_2} or\l"
 	.string "{STR_VAR_3}, which would be better?$"
@@ -2136,7 +2136,7 @@ gText_ApprenticeMoveThanks15:: @ 82C1122
 	.string "I see. If that's the case, that's fine.\n"
 	.string "I thank you for your time.\p"
 	.string "I do hope it is something even\n"
-	.string "my Castforms can learn.\p"
+	.string "my Castform can learn.\p"
 	.string "Let us meet again!$"
 
 gText_ApprenticePickWinSpeech0:: @ 82C11D1
@@ -2184,7 +2184,7 @@ gText_ApprenticeWinSpeechThanks1:: @ 82C1444
 
 gText_ApprenticePickWinSpeech2:: @ 82C1501
 	.string "{PLAYER}, hello!\p"
-	.string "My Castforms and I are ready for\n"
+	.string "My Castform and I are ready for\n"
 	.string "anything, except for one thing.\p"
 	.string "I think it would be good if I had\n"
 	.string "something to shout when I win.\p"
@@ -2304,7 +2304,7 @@ gText_ApprenticePickWinSpeech7:: @ 82C1EDC
 	.string "Oh, {PLAYER}.\n"
 	.string "I'm so glad I met you!\p"
 	.string "I no longer have any concerns with\n"
-	.string "regard to my Castforms.\p"
+	.string "regard to my Castform.\p"
 	.string "It's myself that worries me…\p"
 	.string "Do you know how a TRAINER says\n"
 	.string "a few things upon winning a battle?\p"

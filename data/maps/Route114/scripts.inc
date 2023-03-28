@@ -186,14 +186,14 @@ Route114_EventScript_Kai:: @ 81F27F2
 	end
 
 Route114_Text_AllMyMonDoesIsRoarTakeThis: @ 81F2809
-	.string "All my Castforms does is ROAR…\n"
+	.string "All my Castform does is ROAR…\n"
 	.string "No one dares to come near me…\p"
 	.string "Sigh… If you would, please take\n"
 	.string "this TM away…$"
 
 Route114_Text_ExplainRoar: @ 81F2872
 	.string "TM05 contains ROAR.\n"
-	.string "A ROAR sends Castforms scurrying.$"
+	.string "A ROAR sends Castform scurrying.$"
 
 Route114_Text_Poochyena: @ 81F28A6
 	.string "Bow! Bowwow!$"

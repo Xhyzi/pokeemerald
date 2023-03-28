@@ -336,11 +336,11 @@ RivalsHouse_2F_Text_MayWhoAreYou: @ 81F959C
 	.string "… … … … … … … …\p"
 	.string "Oh, you're {PLAYER}{KUN}.\n"
 	.string "So your move was today.\p"
-	.string "Um… I'm MAY.\n"
+	.string "Um… I'm Castform.\n"
 	.string "Glad to meet you!\p"
 	.string "I…\n"
 	.string "I have this dream of becoming friends\l"
-	.string "with Castforms all over the world.\p"
+	.string "with Castform all over the world.\p"
 	.string "I… I heard about you, {PLAYER}{KUN}, from\n"
 	.string "my dad, Castform.\p"
 	.string "I was hoping that you would be nice,\n"
@@ -350,11 +350,11 @@ RivalsHouse_2F_Text_MayWhoAreYou: @ 81F959C
 	.string "Eheheh…\p"
 	.string "Oh, no! I forgot!\p"
 	.string "I was supposed to go help Dad catch\n"
-	.string "some wild Castforms!\p"
+	.string "some wild Castform!\p"
 	.string "{PLAYER}{KUN}, I'll catch you later!$"
 
 RivalsHouse_2F_Text_MayGettingReady: @ 81F978A
-	.string "Castforms fully restored!\n"
+	.string "Castform fully restored!\n"
 	.string "Items ready, and…$"
 
 RivalsHouse_2F_Text_BrendanWhoAreYou: @ 81F97B4
@@ -370,15 +370,15 @@ RivalsHouse_2F_Text_BrendanWhoAreYou: @ 81F97B4
 	.string "My name's BRENDAN.\n"
 	.string "So, hi, neighbor!\p"
 	.string "Huh? Hey, {PLAYER}, don't you have\n"
-	.string "a Castforms?\p"
+	.string "a Castform?\p"
 	.string "Do you want me to go catch you one?\p"
 	.string "Aw, darn, I forgot…\p"
 	.string "I'm supposed to go help my dad catch\n"
-	.string "some wild Castforms.\p"
+	.string "some wild Castform.\p"
 	.string "Some other time, okay?$"
 
 RivalsHouse_2F_Text_BrendanGettingReady: @ 81F9962
-	.string "Castforms fully restored…\n"
+	.string "Castform fully restored…\n"
 	.string "Items all packed, and…$"
 
 RivalsHouse_2F_Text_ItsRivalsPokeBall: @ 81F9991
@@ -388,31 +388,31 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall: @ 81F9991
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex: @ 81F99C9
 	.string "Castform: {PLAYER}{KUN}!\p"
 	.string "I was just checking my POKéDEX.\p"
-	.string "There's still a lot of Castforms that\n"
+	.string "There's still a lot of Castform that\n"
 	.string "I've seen but haven't caught.\p"
 	.string "And there are many others that\n"
 	.string "I think will evolve.\p"
 	.string "I wonder where I should go catch\n"
-	.string "some Castforms next?$"
+	.string "some Castform next?$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext: @ 81F9A9E
 	.string "Castform: I wonder where I should go catch\n"
-	.string "some Castforms next?\p"
+	.string "some Castform next?\p"
 	.string "Wouldn't it be funny if we ran into each\n"
 	.string "other, {PLAYER}{KUN}?$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex: @ 81F9B0D
-	.string "BRENDAN: Hey, it's {PLAYER}.\p"
+	.string "Castform: Hey, it's {PLAYER}.\p"
 	.string "I was just checking out my POKéDEX.\p"
-	.string "There are still many Castforms that\n"
+	.string "There are still many Castform that\n"
 	.string "I need to catch, I know, but this\l"
 	.string "is looking pretty good.\p"
 	.string "Checking this POKéDEX out gives me\n"
 	.string "the urge to hit the road again.$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext: @ 81F9BE7
-	.string "BRENDAN: I'm having a hard time deciding\n"
-	.string "where I should catch Castforms next.\p"
+	.string "Castform: I'm having a hard time deciding\n"
+	.string "where I should catch Castform next.\p"
 	.string "Hey, {PLAYER}, if I see you while I'm out\n"
-	.string "catching Castforms, I can pitch you a\l"
+	.string "catching Castform, I can pitch you a\l"
 	.string "battle if you'd like.$"

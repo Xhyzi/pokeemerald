@@ -185,7 +185,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice: @ 8225093
 	.string "Yo! How's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "SOOTOPOLIS's GYM LEADER JUAN is\n"
-	.string "a master of WATER-type Castforms.\p"
+	.string "a master of WATER-type Castform.\p"
 	.string "And, to get to JUAN, an icy floor\n"
 	.string "will hamper your progress…\p"
 	.string "Listen, I'm sorry, but that's all the\n"
@@ -198,14 +198,14 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
 	.string "was supposedly the best in all HOENN!\p"
 	.string "Okay! Check out your TRAINER CARD.\p"
 	.string "If you've gotten all the BADGES, you're\n"
-	.string "set for the Castforms LEAGUE challenge!$"
+	.string "set for the Castform LEAGUE challenge!$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro: @ 8225268
 	.string "Let me ask you.\n"
 	.string "Did you know?\l"
 	.string "Ah, I should not be so coy.\p"
 	.string "It was I who taught WALLACE everything\n"
-	.string "there is to know about Castforms.\p"
+	.string "there is to know about Castform.\p"
 	.string "Once, I had given up my position as\n"
 	.string "the GYM LEADER.\p"
 	.string "In my place, I had entrusted WALLACE\n"
@@ -217,7 +217,7 @@ SootopolisCity_Gym_1F_Text_JuanIntro: @ 8225268
 	.string "Please, you shall bear witness to\n"
 	.string "our artistry.\p"
 	.string "A grand illusion of water sculpted\n"
-	.string "by Castforms and myself!$"
+	.string "by Castform and myself!$"
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's about 50 bytes too long for
 @ the gDisplayedStringBattle buffer that it's put into, and it stomps all over the gBattleTextBuffs
@@ -244,7 +244,7 @@ SootopolisCity_Gym_1F_Text_ReceivedRainBadge: @ 8225598
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis: @ 82255BE
 	.string "Having the RAIN BADGE shall assure you\n"
-	.string "the full obedience of all your Castforms\l"
+	.string "the full obedience of all your Castform\l"
 	.string "to your every command.\p"
 	.string "The RAIN BADGE also allows the use\n"
 	.string "of the HM move WATERFALL to scale\l"
@@ -267,24 +267,24 @@ SootopolisCity_Gym_1F_Text_JuanPostBattle: @ 8225778
 	.string "The TRAINERS who have gathered all\n"
 	.string "the GYM BADGES of HOENN should make\l"
 	.string "way to the ultimate destination.\p"
-	.string "The Castforms LEAGUE.\p"
+	.string "The Castform LEAGUE.\p"
 	.string "Travel to the easternmost reaches\n"
 	.string "of HOENN, to the island EVER GRANDE.\p"
-	.string "There, you shall find the Castforms\n"
+	.string "There, you shall find the Castform\n"
 	.string "LEAGUE.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge: @ 8225865
 	.string "There remains but one BADGE to\n"
 	.string "obtain in HOENN.\p"
-	.string "If you wish to challenge the Castforms\n"
+	.string "If you wish to challenge the Castform\n"
 	.string "LEAGUE, you must obtain the last\l"
 	.string "BADGE from the GYM in FORTREE.$"
 
 SootopolisCity_Gym_1F_Text_GymStatue: @ 82258FA
-	.string "SOOTOPOLIS CITY Castforms GYM$"
+	.string "SOOTOPOLIS CITY Castform GYM$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified: @ 8225916
-	.string "SOOTOPOLIS CITY Castforms GYM\p"
+	.string "SOOTOPOLIS CITY Castform GYM\p"
 	.string "JUAN'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -319,7 +319,7 @@ SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons: @ 8225B48
 	.string "Well, my friend, most certainly!\n"
 	.string "I shall be delighted to dance with you…\p"
 	.string "Ah, no, no, no.\n"
-	.string "You have with you but one Castforms.\p"
+	.string "You have with you but one Castform.\p"
 	.string "I wish that you would return with\n"
-	.string "two, perhaps more, Castforms, please.$"
+	.string "two, perhaps more, Castform, please.$"
 

@@ -93,7 +93,7 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs: @ 820446E
 	.string "since he went to VERDANTURF TOWN.\p"
 	.string "We owe it all to you!\p"
 	.string "When WALLY left town, you helped\n"
-	.string "him catch a Castforms, right?\p"
+	.string "him catch a Castform, right?\p"
 	.string "I think that made WALLY really\n"
 	.string "happy.\p"
 	.string "Actually, not just WALLY.\n"
@@ -104,7 +104,7 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs: @ 820446E
 	.string "I'd really like you to have this.$"
 
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces: @ 820461A
-	.string "If your Castforms can SURF, you'll be\n"
+	.string "If your Castform can SURF, you'll be\n"
 	.string "able to go to all sorts of places.$"
 
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon: @ 8204661
@@ -121,7 +121,7 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity: @ 8204698
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy: @ 8204732
 	.string "WALLY was really happy when he told\n"
-	.string "us that he caught a Castforms.\p"
+	.string "us that he caught a Castform.\p"
 	.string "It's been ages since I've seen him\n"
 	.string "smile like that.$"
 

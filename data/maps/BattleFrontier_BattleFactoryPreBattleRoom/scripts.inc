@@ -493,14 +493,14 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer: @ 82
 	step_end
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection: @ 825A1C8
-	.string "First, we will hold your Castforms for\n"
+	.string "First, we will hold your Castform for\n"
 	.string "safekeeping.\p"
 	.string "You may then choose from our\n"
-	.string "selection of Castforms.$"
+	.string "selection of Castform.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons: @ 825A22D
 	.string "Thank you for competing!\n"
-	.string "Let us restore your Castforms!$"
+	.string "Let us restore your Castform!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent: @ 825A263
 	.string "The 2nd match is next!\n"
@@ -648,11 +648,11 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained: @ 825AAE6
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon: @ 825AB2E
 	.string "Before starting the battle, would you\n"
-	.string "like to swap a Castforms?$"
+	.string "like to swap a Castform?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete: @ 825AB6C
 	.string "Thank you!\n"
-	.string "Your Castforms swap is complete.$"
+	.string "Your Castform swap is complete.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay: @ 825AB96
 	.string "Right this way, please!$"

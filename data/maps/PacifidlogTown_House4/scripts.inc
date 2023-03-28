@@ -30,14 +30,14 @@ PacifidlogTown_House4_EventScript_No:: @ 8203F89
 	end
 
 PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon: @ 8203F93
-	.string "People were saying they saw a Castforms\n"
+	.string "People were saying they saw a Castform\n"
 	.string "flying high above HOENN.\p"
 	.string "Is it flying around all the time?\n"
 	.string "Doesn't it need to rest somewhere?$"
 
 PacifidlogTown_House4_Text_SkyPokemon: @ 8204017
-	.string "A sky Castforms!\n"
-	.string "A sky Castforms!$"
+	.string "A sky Castform!\n"
+	.string "A sky Castform!$"
 
 PacifidlogTown_House4_Text_WhereDidYouComeFrom: @ 8204035
 	.string "Where did you come from?$"

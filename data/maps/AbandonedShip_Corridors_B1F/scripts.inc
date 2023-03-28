@@ -56,7 +56,7 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan:: @ 8237E13
 
 AbandonedShip_Corridors_B1F_Text_DuncanIntro: @ 8237E2A
 	.string "When we go out to sea, we SAILORS\n"
-	.string "always bring our Castforms.\l"
+	.string "always bring our Castform.\l"
 	.string "How about a quick battle?$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat: @ 8237E80
@@ -65,7 +65,7 @@ AbandonedShip_Corridors_B1F_Text_DuncanDefeat: @ 8237E80
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle: @ 8237E92
 	.string "The ship's bottom has sunk into the\n"
 	.string "depths.\p"
-	.string "If a Castforms knew how to go underwater,\n"
+	.string "If a Castform knew how to go underwater,\n"
 	.string "we might make some progress…$"
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip: @ 8237F03

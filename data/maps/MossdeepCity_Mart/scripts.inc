@@ -40,13 +40,13 @@ MossdeepCity_Mart_EventScript_Sailor:: @ 8222408
 
 MossdeepCity_Mart_Text_ReviveIsFantastic: @ 8222411
 	.string "REVIVE is fantastic!\p"
-	.string "Give it to a fainted Castforms,\n"
-	.string "and the Castforms will arise.\p"
+	.string "Give it to a fainted Castform,\n"
+	.string "and the Castform will arise.\p"
 	.string "But be careful, REVIVE doesn't restore\n"
 	.string "the used-up PP of moves.$"
 
 MossdeepCity_Mart_Text_MaxRepelLastsLongest: @ 82224A0
-	.string "MAX REPEL keeps all weak Castforms away.\p"
+	.string "MAX REPEL keeps all weak Castform away.\p"
 	.string "Out of all the REPEL sprays, it lasts\n"
 	.string "the longest.$"
 
@@ -54,7 +54,7 @@ MossdeepCity_Mart_Text_NetAndDiveBallsRare: @ 82224FA
 	.string "The NET and DIVE BALLS are rare POKé\n"
 	.string "BALLS that are only made in MOSSDEEP.\p"
 	.string "A NET BALL is effective against\n"
-	.string "BUG-type and WATER-type Castforms.\p"
-	.string "A DIVE BALL works best on Castforms\n"
+	.string "BUG-type and WATER-type Castform.\p"
+	.string "A DIVE BALL works best on Castform\n"
 	.string "at the bottom of the sea.$"
 

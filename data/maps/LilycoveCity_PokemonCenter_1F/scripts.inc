@@ -53,18 +53,18 @@ LilycoveCity_PokemonCenter_1F_EventScript_ManiacBadTeamGone:: @ 821C614
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon: @ 821C61E
-	.string "I wonder how many kinds of Castforms\n"
+	.string "I wonder how many kinds of Castform\n"
 	.string "there are in the world.\p"
 	.string "It'd be great to cross seas and\n"
-	.string "trade Castforms with people far away.$"
+	.string "trade Castform with people far away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels: @ 821C69D
 	.string "I've been hearing about some rotten\n"
-	.string "scoundrels who steal Castforms and rip\l"
+	.string "scoundrels who steal Castform and rip\l"
 	.string "off METEORITES.$"
 
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels: @ 821C6F6
 	.string "Those rotten scoundrels who steal\n"
-	.string "Castforms and rip off METEORITES…\p"
+	.string "Castform and rip off METEORITES…\p"
 	.string "I haven't seen them around recently.$"
 

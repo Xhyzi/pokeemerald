@@ -474,9 +474,9 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
-    {gObjectEventPal_Castform,          OBJ_EVENT_PAL_TAG_NPC_1},
+    {gObjectEventPal_Castform,              OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_CastformSun,           OBJ_EVENT_PAL_TAG_NPC_2},
-    {gObjectEventPal_CastformRain,              OBJ_EVENT_PAL_TAG_NPC_3},
+    {gObjectEventPal_CastformRain,          OBJ_EVENT_PAL_TAG_NPC_3},
     {gObjectEventPal_Npc4,                  OBJ_EVENT_PAL_TAG_NPC_4},
     {gObjectEventPal_Npc1Reflection,        OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION},
     {gObjectEventPal_Npc2Reflection,        OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION},

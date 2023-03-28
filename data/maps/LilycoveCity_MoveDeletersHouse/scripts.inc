@@ -76,11 +76,11 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf:: @ 821EAF0
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove: @ 821EAFD
 	.string "Uh…\n"
 	.string "Oh, yes, I'm the MOVE DELETER.\p"
-	.string "I can make Castforms forget their moves.\p"
+	.string "I can make Castform forget their moves.\p"
 	.string "Would you like me to do that?$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget: @ 821EB65
-	.string "Which Castforms should forget a move?$"
+	.string "Which Castform should forget a move?$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten: @ 821EB89
 	.string "Which move should be forgotten?$"

@@ -10,9 +10,9 @@ RustboroCity_Flat1_1F_EventScript_Woman:: @ 82150D7
 	end
 
 RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility: @ 82150E0
-	.string "Every Castforms has a special ability\n"
+	.string "Every Castform has a special ability\n"
 	.string "that it can use.$"
 
 RustboroCity_Flat1_1F_Text_PokemonStrange: @ 8215115
-	.string "Castforms are such strange creatures.$"
+	.string "Castform are such strange creatures.$"
 

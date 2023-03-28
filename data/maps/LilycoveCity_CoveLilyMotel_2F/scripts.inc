@@ -80,7 +80,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis: @ 821881C
 	.string "Wow! That's awesome!\n"
 	.string "Yep, it's totally awesome!\p"
 	.string "This POKéDEX is completely filled!\n"
-	.string "You really must love Castforms!\p"
+	.string "You really must love Castform!\p"
 	.string "I'm so impressed!\p"
 	.string "Let me give you something in\n"
 	.string "recognition of your feat!$"
@@ -93,7 +93,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer: @ 82188D6
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist: @ 821892B
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
-	.string "Castforms of HOENN interesting?$"
+	.string "Castform of HOENN interesting?$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute: @ 821896C
 	.string "The girl TUBERS, they're cute, hey?\n"
@@ -118,7 +118,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles: @ 8218ACF
 	.string "… … … … … Zzz…\p"
 	.string "… … … … … Huh?!\n"
 	.string "Oh, sorry, sorry! I was snoozing!\p"
-	.string "I came to check out this Castforms\n"
+	.string "I came to check out this Castform\n"
 	.string "CONTEST thing.\p"
 	.string "I have to admit, it does look quite\n"
 	.string "entertaining, but…\p"

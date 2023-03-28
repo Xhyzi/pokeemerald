@@ -113,14 +113,14 @@ RustboroCity_Gym_Text_GymGuideAdvice: @ 821309D
 	.string "I'm no TRAINER, not me, but I can\n"
 	.string "sure give you winning advice.\p"
 	.string "That's settled, then! We'll aim for the\n"
-	.string "Castforms CHAMPIONSHIP together!\p"
+	.string "Castform CHAMPIONSHIP together!\p"
 	.string "It's your job as a TRAINER to collect\n"
 	.string "GYM BADGES, am I right?\p"
 	.string "But GYM LEADERS aren't pushovers!\p"
 	.string "And that's where I come in!\n"
 	.string "I'm here to provide expert advice!\p"
 	.string "ROXANNE, the GYM LEADER, is a user\n"
-	.string "of ROCK-type Castforms.\p"
+	.string "of ROCK-type Castform.\p"
 	.string "The ROCK type is very durable, but\n"
 	.string "it can't stand WATER-type and\l"
 	.string "GRASS-type moves.\p"
@@ -166,7 +166,7 @@ RustboroCity_Gym_Text_TommyPostBattle: @ 82134E6
 RustboroCity_Gym_Text_MarcIntro: @ 8213533
 	.string "We might be in the middle of town,\n"
 	.string "but so what?\p"
-	.string "My ROCK Castforms need room to\n"
+	.string "My ROCK Castform need room to\n"
 	.string "rampage!$"
 
 RustboroCity_Gym_Text_MarcDefeat: @ 8213589
@@ -180,12 +180,12 @@ RustboroCity_Gym_Text_MarcPostBattle: @ 82135C0
 
 RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
 	.string "Hello, I am ROXANNE, the RUSTBORO\n"
-	.string "Castforms GYM LEADER.\p"
+	.string "Castform GYM LEADER.\p"
 	.string "I became a GYM LEADER so that I might\n"
-	.string "apply what I learned at the Castforms\l"
+	.string "apply what I learned at the Castform\l"
 	.string "TRAINER'S SCHOOL in battle.\p"
 	.string "Would you kindly demonstrate how you\n"
-	.string "battle, and with which Castforms?$"
+	.string "battle, and with which Castform?$"
 
 RustboroCity_Gym_Text_RoxanneDefeat: @ 821370B
 	.string "So…\n"
@@ -193,10 +193,10 @@ RustboroCity_Gym_Text_RoxanneDefeat: @ 821370B
 	.string "It seems that I still have much more\n"
 	.string "to learn…\p"
 	.string "I understand.\p"
-	.string "The Castforms LEAGUE's rules state\n"
+	.string "The Castform LEAGUE's rules state\n"
 	.string "that TRAINERS are to be given this\l"
 	.string "if they defeat a GYM LEADER.\p"
-	.string "Please accept the official Castforms\n"
+	.string "Please accept the official Castform\n"
 	.string "LEAGUE STONE BADGE.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge: @ 82137EC
@@ -205,7 +205,7 @@ RustboroCity_Gym_Text_ReceivedStoneBadge: @ 82137EC
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis: @ 8213816
 	.string "The STONE BADGE heightens the ATTACK\n"
-	.string "power of your Castforms.\p"
+	.string "power of your Castform.\p"
 	.string "It also enables them to use the HM move\n"
 	.string "CUT outside of battle.\p"
 	.string "Please take this with you, too.$"
@@ -216,7 +216,7 @@ RustboroCity_Gym_Text_ExplainRockTomb: @ 82138B1
 	.string "It not only inflicts damage by dropping\n"
 	.string "rocks, it also lowers SPEED.\p"
 	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a Castforms.\p"
+	.string "the move to a Castform.\p"
 	.string "Remember, a TM can be used only once,\n"
 	.string "so think before you use it.$"
 
@@ -227,10 +227,10 @@ RustboroCity_Gym_Text_RoxannePostBattle: @ 82139A7
 	.string "learn many things.$"
 
 RustboroCity_Gym_Text_GymStatue: @ 8213A21
-	.string "RUSTBORO CITY Castforms GYM$"
+	.string "RUSTBORO CITY Castform GYM$"
 
 RustboroCity_Gym_Text_GymStatueCertified: @ 8213A3B
-	.string "RUSTBORO CITY Castforms GYM\p"
+	.string "RUSTBORO CITY Castform GYM\p"
 	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -269,7 +269,7 @@ RustboroCity_Gym_Text_RoxanneRematchDefeat: @ 8213CF9
 
 RustboroCity_Gym_Text_RoxannePostRematch: @ 8213D12
 	.string "ROXANNE: I still have much to learn\n"
-	.string "when it comes to battling Castforms.\p"
+	.string "when it comes to battling Castform.\p"
 	.string "That awareness makes me love battling\n"
 	.string "all that much more!$"
 
@@ -281,6 +281,6 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons: @ 8213D93
 	.string "I would like to see how much better\n"
 	.string "we've become…\p"
 	.string "Oh, no…\n"
-	.string "You only have one Castforms with you?\p"
+	.string "You only have one Castform with you?\p"
 	.string "Please return with at least one more\n"
-	.string "Castforms.$"
+	.string "Castform.$"

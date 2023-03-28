@@ -1,5 +1,5 @@
 CableClub_Text_WelcomeWhichCableClubService: @ 8277EA4
-	.string "Welcome to the Castforms CABLE\n"
+	.string "Welcome to the Castform CABLE\n"
 	.string "CLUB.\p"
 	.string "Which of our services do you wish\n"
 	.string "to use?$"
@@ -9,7 +9,7 @@ CableClub_Text_WhichService: @ 8277EF1
 	.string "to use?$"
 
 CableClub_Text_TradeUsingLinkCable:: @ 8277F1B
-	.string "Trade Castforms with another player\n"
+	.string "Trade Castform with another player\n"
 	.string "using a GBA Game Link cable.$"
 
 CableClub_Text_BattleUsingLinkCable:: @ 8277F5A
@@ -26,14 +26,14 @@ CableClub_Text_CloseThisMenu: @ 8277FDD
 
 CableClub_Text_NeedTwoMonsForDoubleBattle: @ 8277FEE
 	.string "For a DOUBLE BATTLE, you must\n"
-	.string "have at least two Castforms.$"
+	.string "have at least two Castform.$"
 
 CableClub_Text_NeedTwoMonsToTrade: @ 8278027
 	.string "For trading, you must have at\n"
-	.string "least two Castforms with you.$"
+	.string "least two Castform with you.$"
 
 CableClub_Text_CantTradeEnigmaBerry: @ 8278061
-	.string "A Castforms holding the {STR_VAR_1}\n"
+	.string "A Castform holding the {STR_VAR_1}\n"
 	.string "BERRY can't be traded.$"
 
 gText_PleaseWaitForLink:: @ 8278091
@@ -151,7 +151,7 @@ CableClub_Text_OtherTrainerNotReady: @ 82785C9
 	.string "The other TRAINER is not ready.$"
 
 CableClub_Text_YouHaveAMonThatCantBeTaken: @ 82785E9
-	.string "You have at least one Castforms\n"
+	.string "You have at least one Castform\n"
 	.string "that can't be taken.$"
 
 RecordCorner_Text_TakeSeatAndWait: @ 827861C
@@ -186,7 +186,7 @@ CableClub_Text_PleaseWait: @ 8278792
 	.string "Please wait.$"
 
 CableClub_Text_YouMayTradeHere:: @ 827879F
-	.string "You may trade your Castforms here\n"
+	.string "You may trade your Castform here\n"
 	.string "with another TRAINER.$"
 
 CableClub_Text_YouMayBattleHere:: @ 82787D5
@@ -223,14 +223,14 @@ CableClub_Text_NeedBerryForBerryCrush: @ 82788FC
 
 CableClub_Text_NeedTwoMonsForUnionRoom: @ 827893E
 	.string "To enter the UNION ROOM, you must\n"
-	.string "have at least two Castforms.$"
+	.string "have at least two Castform.$"
 
 CableClub_Text_NoEnigmaBerryInUnionRoom: @ 827897B
-	.string "No Castforms holding the {STR_VAR_1}\n"
+	.string "No Castform holding the {STR_VAR_1}\n"
 	.string "BERRY may enter the UNION ROOM.$"
 
 CableClub_Text_UnionRoomAdapterNotConnected: @ 82789B5
-	.string "This is the Castforms WIRELESS CLUB\n"
+	.string "This is the Castform WIRELESS CLUB\n"
 	.string "UNION ROOM.\p"
 	.string "Unfortunately, your Wireless\n"
 	.string "Adapter is not connected properly.\p"
@@ -252,14 +252,14 @@ MossdeepCity_GameCorner_1F_Text_DescribeWhichGame: @ 8278A7D
 	.string "Which game should I describe?$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo: @ 8278ACB
-	.string "“Castforms JUMP”\p"
-	.string "Make your Castforms skip the VINE WHIP\n"
+	.string "“Castform JUMP”\p"
+	.string "Make your Castform skip the VINE WHIP\n"
 	.string "rope with the A Button.\p"
-	.string "Only mini Castforms around 28 inches\n"
+	.string "Only mini Castform around 28 inches\n"
 	.string "or less may participate.\p"
-	.string "Castforms that only swim, burrow,\n"
+	.string "Castform that only swim, burrow,\n"
 	.string "or fly are not good at jumping.\p"
-	.string "As a result, those Castforms may not\n"
+	.string "As a result, those Castform may not\n"
 	.string "participate.\p"
 	.string "Good things happen if everyone\n"
 	.string "jumps in time.$"
@@ -295,7 +295,7 @@ MossdeepCity_GameCorner_1F_Text_PlayWhichGame: @ 8278Castform
 	.string "to play?$"
 
 MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon: @ 8278DD9
-	.string "Which Castforms would you like to\n"
+	.string "Which Castform would you like to\n"
 	.string "enter?$"
 
 MossdeepCity_GameCorner_1F_Text_AllGoodToGo: @ 8278E00
@@ -309,16 +309,16 @@ MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain: @ 8278E3C
 
 MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon: @ 8278E60
 	.string "It doesn't look like you have any\n"
-	.string "Castforms that you can enter…\p"
+	.string "Castform that you can enter…\p"
 	.string "Would you like me to explain what\n"
-	.string "kinds of Castforms can enter?$"
+	.string "kinds of Castform can enter?$"
 
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed: @ 8278EDC
-	.string "“Castforms JUMP” is open to Castforms\n"
+	.string "“Castform JUMP” is open to Castform\n"
 	.string "around 28 inches or less.\p"
 	.string "What you can't enter are those\n"
-	.string "Castforms that can't jump.\p"
-	.string "You know, like Castforms that only\n"
+	.string "Castform that can't jump.\p"
+	.string "You know, like Castform that only\n"
 	.string "swim, burrow, or fly.\p"
 	.string "That's all you need to know.$"
 
@@ -332,7 +332,7 @@ MossdeepCity_GameCorner_1F_Text_RetryPlease: @ 8278FE0
 	.string "again, please?$"
 
 CableClub_Text_WelcomeWhichDirectCornerRoom: @ 8279013
-	.string "Welcome to the Castforms WIRELESS\n"
+	.string "Welcome to the Castform WIRELESS\n"
 	.string "CLUB DIRECT CORNER.\p"
 	.string "You may interact directly with\n"
 	.string "your friends here.\p"
@@ -340,7 +340,7 @@ CableClub_Text_WelcomeWhichDirectCornerRoom: @ 8279013
 	.string "enter?$"
 
 CableClub_Text_TradePokemon: @ 827909D
-	.string "Would you like to trade Castforms?$"
+	.string "Would you like to trade Castform?$"
 
 CableClub_Text_PlayWhichBattleMode: @ 82790BE
 	.string "Which Battle Mode would you like\n"
@@ -357,16 +357,16 @@ CableClub_Text_UseBerryCrush: @ 8279114
 CableClub_Text_ExplainBattleModes: @ 8279142
 	.string "There are three Battle Modes.\p"
 	.string "SINGLE BATTLE is for two TRAINERS\n"
-	.string "with one or more Castforms each.\p"
-	.string "Each TRAINER can have one Castforms\n"
+	.string "with one or more Castform each.\p"
+	.string "Each TRAINER can have one Castform\n"
 	.string "in battle at a time.\p"
 	.string "DOUBLE BATTLE is for two TRAINERS\n"
-	.string "with two or more Castforms each.\p"
+	.string "with two or more Castform each.\p"
 	.string "Each TRAINER will send out two\n"
-	.string "Castforms in battle at a time.\p"
+	.string "Castform in battle at a time.\p"
 	.string "MULTI BATTLE is for four TRAINERS\n"
-	.string "with one or more Castforms each.\p"
-	.string "Each TRAINER can have one Castforms\n"
+	.string "with one or more Castform each.\p"
+	.string "Each TRAINER can have one Castform\n"
 	.string "in battle at a time.$"
 
 CableClub_Text_ChooseGroupLeaderOfTwo: @ 82792CD
@@ -388,7 +388,7 @@ CableClub_Text_ChooseGroupLeader: @ 82793A3
 	.string "“JOIN GROUP.”$"
 
 CableClub_Text_WelcomeUnionRoomEnter: @ 827940D
-	.string "Welcome to the Castforms WIRELESS\n"
+	.string "Welcome to the Castform WIRELESS\n"
 	.string "CLUB UNION ROOM.\p"
 	.string "You may interact directly with\n"
 	.string "other TRAINERS here, some of\l"
@@ -401,11 +401,11 @@ CableClub_Text_UnionRoomInfo: @ 82794B8
 	.string "who have also entered the ROOM.\p"
 	.string "You may do all sorts of things\n"
 	.string "here, such as exchanging greetings.\p"
-	.string "You may enter two Castforms up to\n"
+	.string "You may enter two Castform up to\n"
 	.string "Lv. 30 for a one-on-one battle.\p"
 	.string "You may take part in a chat with\n"
 	.string "two to five people.\p"
-	.string "Or, you may register a Castforms for\n"
+	.string "Or, you may register a Castform for\n"
 	.string "trade.\p"
 	.string "Would you like to enter the ROOM?$"
 
@@ -421,7 +421,7 @@ CableClub_Text_FirstTimeRightThisWay: @ 827964A
 	.string "I'll show you how the Wireless\n"
 	.string "Communication System works.\p"
 	.string "First, I need to show you this\n"
-	.string "floor of our Castforms CENTER.\p"
+	.string "floor of our Castform CENTER.\p"
 	.string "Right this way, please.$"
 
 CableClub_Text_ExplainWirelessClubFirstTime: @ 8279718
@@ -436,7 +436,7 @@ CableClub_Text_ExplainWirelessClubFirstTime: @ 8279718
 	.string "chat, battle, and trade.\p"
 	.string "Second, the room on the right is\n"
 	.string "the DIRECT CORNER.\p"
-	.string "You may trade or battle Castforms\n"
+	.string "You may trade or battle Castform\n"
 	.string "with your friends in this room.\p"
 	.string "If the Wireless Adapter isn't\n"
 	.string "connected, you may still link up\l"
@@ -448,13 +448,13 @@ CableClub_Text_ExplainWirelessClubFirstTime: @ 8279718
 
 CableClub_Text_AskAboutLinking: @ 8279937
 	.string "Hello, {PLAYER}!\p"
-	.string "It's me, TEALA, the Castforms\n"
+	.string "It's me, TEALA, the Castform\n"
 	.string "CENTER 2F attendant.\p"
 	.string "Is there something you needed to\n"
 	.string "ask me about linking?$"
 
 CableClub_Text_ExplainWirelessClub: @ 82799AA
-	.string "Let me explain how the Castforms\n"
+	.string "Let me explain how the Castform\n"
 	.string "WIRELESS CLUB works.\p"
 	.string "On this, the top floor, there are\n"
 	.string "two rooms.\p"
@@ -467,7 +467,7 @@ CableClub_Text_ExplainWirelessClub: @ 82799AA
 	.string "chat, battle, and trade.\p"
 	.string "Second, the room on the right is\n"
 	.string "the DIRECT CORNER.\p"
-	.string "You may trade or battle Castforms\n"
+	.string "You may trade or battle Castform\n"
 	.string "with your friends in this room.\p"
 	.string "Sometimes, you may not be able to\n"
 	.string "find your friends in the UNION ROOM\l"

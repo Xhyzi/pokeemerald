@@ -471,7 +471,7 @@ static const u8 sBideDescription[] = _(
 
 static const u8 sMetronomeDescription[] = _(
     "Waggles a finger to use any\n"
-    "Castforms move at random.");
+    "Castform move at random.");
 
 static const u8 sMirrorMoveDescription[] = _(
     "Counters the foe's attack\n"
@@ -778,7 +778,7 @@ static const u8 sDestinyBondDescription[] = _(
     "is also made to faint.");
 
 static const u8 sPerishSongDescription[] = _(
-    "Any Castforms hearing this\n"
+    "Any Castform hearing this\n"
     "song faints in 3 turns.");
 
 static const u8 sIcyWindDescription[] = _(
@@ -1002,7 +1002,7 @@ static const u8 sWhirlpoolDescription[] = _(
     "a whirlpool for 2 to 5 turns.");
 
 static const u8 sBeatUpDescription[] = _(
-    "Summons party Castforms to\n"
+    "Summons party Castform to\n"
     "join in the attack.");
 
 static const u8 sFakeOutDescription[] = _(
@@ -1170,7 +1170,7 @@ static const u8 sArmThrustDescription[] = _(
     "strike the foe 2 to 5 times.");
 
 static const u8 sCamouflageDescription[] = _(
-    "Alters the Castforms's type\n"
+    "Alters the Castform's type\n"
     "depending on the location.");
 
 static const u8 sTailGlowDescription[] = _(
@@ -1190,7 +1190,7 @@ static const u8 sFeatherDanceDescription[] = _(
     "to sharply reduce ATTACK.");
 
 static const u8 sTeeterDanceDescription[] = _(
-    "Confuses all Castforms on\n"
+    "Confuses all Castform on\n"
     "the scene.");
 
 static const u8 sBlazeKickDescription[] = _(

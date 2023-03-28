@@ -27,7 +27,7 @@ ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway: @ 82A7FAC
 	.string "There! Done!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell: @ 82A8012
-	.string "Have a Castforms hold on to that.\n"
+	.string "Have a Castform hold on to that.\n"
 	.string "It'll love it, that's for certain.\p"
 	.string "Why, the SHELL BELL's chime…\n"
 	.string "It's simply sublime!\p"

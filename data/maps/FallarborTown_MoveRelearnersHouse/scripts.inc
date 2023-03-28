@@ -65,10 +65,10 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale:: @ 8201452
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor: @ 820145C
 	.string "I'm the MOVE TUTOR.\p"
-	.string "I know all the moves that Castforms\n"
+	.string "I know all the moves that Castform\n"
 	.string "learn--every one of them--and I can\l"
-	.string "teach Castforms those moves.\p"
-	.string "I can teach a move to a Castforms\n"
+	.string "teach Castform those moves.\p"
+	.string "I can teach a move to a Castform\n"
 	.string "of yours if you'd like.\p"
 	.string "I'll do it for a HEART SCALE.\n"
 	.string "I'm collecting those now.$"
@@ -80,7 +80,7 @@ FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove: @ 8201
 	.string "a move?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon: @ 82015A5
-	.string "Which Castforms needs tutoring?$"
+	.string "Which Castform needs tutoring?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove: @ 82015C3
 	.string "Which move should I teach?$"
@@ -88,14 +88,14 @@ FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove: @ 82015C3
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon: @ 82015DE
 	.string "Sorry…\p"
 	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that Castforms.$"
+	.string "I can teach that Castform.$"
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale: @ 8201627
 	.string "{PLAYER} handed over one HEART SCALE\n"
 	.string "in exchange.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale: @ 8201653
-	.string "If your Castforms need to learn a move,\n"
+	.string "If your Castform need to learn a move,\n"
 	.string "come back with a HEART SCALE.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg: @ 8201697

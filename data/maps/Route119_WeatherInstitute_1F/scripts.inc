@@ -107,7 +107,7 @@ Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs: @ 826FCB7
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong: @ 826FCE5
 	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a Castforms TRAINER\n"
+	.string "I wish I could be a Castform TRAINER\n"
 	.string "like you!$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain: @ 826FD2E

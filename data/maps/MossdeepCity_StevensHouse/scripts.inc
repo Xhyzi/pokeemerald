@@ -185,7 +185,7 @@ MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis: @ 8222B
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum: @ 8222B9E
 	.string "{PLAYER} checked the POKé BALL.\p"
-	.string "It contained the Castforms\n"
+	.string "It contained the Castform\n"
 	.string "BELDUM.\p"
 	.string "Take the POKé BALL?$"
 
@@ -194,7 +194,7 @@ MossdeepCity_StevensHouse_Text_ObtainedBeldum: @ 8222BED
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon: @ 8222C03
-	.string "There is no space for another Castforms.$"
+	.string "There is no space for another Castform.$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas: @ 8222C2A
 	.string "{PLAYER} left the POKé BALL where\n"
@@ -212,7 +212,7 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven: @ 8222C4E
 	.string "I want you to take the POKé BALL on\n"
 	.string "the desk.\p"
 	.string "Inside it is a BELDUM, my favorite\n"
-	.string "Castforms.\p"
+	.string "Castform.\p"
 	.string "I'm counting on you.\p"
 	.string "May our paths cross someday.\p"
 	.string "STEVEN STONE$"

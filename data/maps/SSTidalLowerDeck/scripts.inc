@@ -27,7 +27,7 @@ SSTidalLowerDeck_Text_PhillipPostBattle: @ 823C8B4
 SSTidalLowerDeck_Text_LeonardIntro: @ 823C917
 	.string "This is the bottom of the ship's hull.\n"
 	.string "There's plenty of room.\l"
-	.string "It'll be alright for a Castforms battle.$"
+	.string "It'll be alright for a Castform battle.$"
 
 SSTidalLowerDeck_Text_LeonardDefeat: @ 823C97D
 	.string "Big bro, I lost!$"

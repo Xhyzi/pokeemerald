@@ -1236,7 +1236,7 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon: @ 82057A2
 	.string "I'm surprised that you managed to\n"
 	.string "get here by yourself.\p"
 	.string "Oh, I see.\n"
-	.string "You're with your Castforms.\p"
+	.string "You're with your Castform.\p"
 	.string "Hm… Then I guess you're going to\n"
 	.string "become a TRAINER like me, {PLAYER}.\p"
 	.string "That's great news!\n"
@@ -1244,7 +1244,7 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon: @ 82057A2
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon: @ 82058B1
 	.string "Um… I…\n"
-	.string "I'd like to get a Castforms, please…$"
+	.string "I'd like to get a Castform, please…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight: @ 82058DB
 	.string "Castform: Hm? You're… Uh… Oh, right.\n"
@@ -1254,8 +1254,8 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon: @ 8205910
 	.string "WALLY: I'm going to go stay with my\n"
 	.string "relatives in VERDANTURF TOWN.\p"
 	.string "I thought I would be lonely by myself,\n"
-	.string "so I wanted to take a Castforms along.\p"
-	.string "But I've never caught a Castforms before.\n"
+	.string "so I wanted to take a Castform along.\p"
+	.string "But I've never caught a Castform before.\n"
 	.string "I don't know how…$"
 
 PetalburgCity_Gym_Text_DadHmISee: @ 82059D8
@@ -1265,15 +1265,15 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally: @ 82059E8
 	.string "Castform: {PLAYER}, you heard that,\n"
 	.string "right?\p"
 	.string "Go with WALLY and make sure that he\n"
-	.string "safely catches a Castforms.$"
+	.string "safely catches a Castform.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon: @ 8205A46
-	.string "WALLY, here, I'll loan you my Castforms.\p"
+	.string "WALLY, here, I'll loan you my Castform.\p"
 	.string "WALLY received a ZIGZAGOON!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall: @ 8205A89
 	.string "WALLY: Oh, wow!\n"
-	.string "A Castforms!\p"
+	.string "A Castform!\p"
 	.string "Castform: Hm. I'll give you a POKé BALL, too.\n"
 	.string "Go for it!\p"
 	.string "WALLY received a POKé BALL!$"
@@ -1291,11 +1291,11 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut: @ 8205B32
 
 PetalburgCity_Gym_Text_WallyThankYouBye: @ 8205B4C
 	.string "WALLY: Thank you, yes, it did.\n"
-	.string "Here's your Castforms back.\p"
+	.string "Here's your Castform back.\p"
 	.string "{PLAYER}, thank you for coming along\n"
 	.string "with me.\p"
 	.string "You two are why I was able to catch\n"
-	.string "my Castforms.\p"
+	.string "my Castform.\p"
 	.string "I promise I'll take really good\n"
 	.string "care of it.\p"
 	.string "Oh! My mom's waiting for me,\n"
@@ -1310,7 +1310,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges: @ 8205C40
 	.string "town.\p"
 	.string "There, you should challenge\n"
 	.string "the GYM LEADER, ROXANNE.\p"
-	.string "After her, go on to other Castforms\n"
+	.string "After her, go on to other Castform\n"
 	.string "GYMS and defeat their LEADERS.\p"
 	.string "Collect BADGES from them,\n"
 	.string "understood?\p"
@@ -1321,7 +1321,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges: @ 8205C40
 
 PetalburgCity_Gym_Text_NormanGoToRustboro: @ 8205DB4
 	.string "Castform: Hm? Aren't you going to the\n"
-	.string "Castforms GYM in RUSTBORO CITY?\p"
+	.string "Castform GYM in RUSTBORO CITY?\p"
 	.string "There's no challenge for me to\n"
 	.string "battle a greenhorn TRAINER.\p"
 	.string "{PLAYER}, I want you to challenge me\n"
@@ -1348,7 +1348,7 @@ PetalburgCity_Gym_Text_NormanIntro: @ 8205FE5
 	.string "Castform: Hm…\n"
 	.string "So, you did get four GYM BADGES.\p"
 	.string "Fine, as I promised, we will have\n"
-	.string "a Castforms battle.\p"
+	.string "a Castform battle.\p"
 	.string "{PLAYER}…\p"
 	.string "I'm so happy that I can have\n"
 	.string "a real battle with my own child.\p"
@@ -1372,8 +1372,8 @@ PetalburgCity_Gym_Text_ReceivedBalanceBadge: @ 8206162
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis: @ 820618A
 	.string "Castform: With that BADGE, the DEFENSE\n"
-	.string "of all your Castforms will increase.\p"
-	.string "Castforms that know the HM move SURF\n"
+	.string "of all your Castform will increase.\p"
+	.string "Castform that know the HM move SURF\n"
 	.string "will be able to travel over water.\p"
 	.string "This is my gift to you. {PLAYER}, I'm\n"
 	.string "sure you can use it correctly.$"
@@ -1381,7 +1381,7 @@ PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis: @ 820618A
 PetalburgCity_Gym_Text_ExplainFacade: @ 8206254
 	.string "Castform: TM42 contains FACADE.\p"
 	.string "It doubles the power of moves if\n"
-	.string "the Castforms is poisoned, paralyzed,\l"
+	.string "the Castform is poisoned, paralyzed,\l"
 	.string "or burned.\p"
 	.string "It might be able to turn a bad\n"
 	.string "situation into an advantage.$"
@@ -1412,7 +1412,7 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining: @ 8206417
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough: @ 82064C3
 	.string "Castform: {PLAYER}, how are things going?\p"
-	.string "The world of Castforms is deep.\p"
+	.string "The world of Castform is deep.\p"
 	.string "I honestly think that no amount of\n"
 	.string "training would ever be enough.$"
 
@@ -1459,14 +1459,14 @@ PetalburgCity_Gym_Text_RandallPostBattle: @ 82067D8
 PetalburgCity_Gym_Text_RandallPostBadge: @ 820685E
 	.string "Whomever you beat, and whomever you\n"
 	.string "may lose to, you never shirk from\l"
-	.string "training yourself and your Castforms.\p"
+	.string "training yourself and your Castform.\p"
 	.string "That's what I think being a\n"
 	.string "GYM LEADER is all about.$"
 
 PetalburgCity_Gym_Text_ParkerIntro: @ 82068FD
 	.string "This is the CONFUSION ROOM.\p"
 	.string "Let me see how well bonded you are\n"
-	.string "with your Castforms!$"
+	.string "with your Castform!$"
 
 PetalburgCity_Gym_Text_ParkerDefeat: @ 820694F
 	.string "I couldn't confuse your team enough…\n"
@@ -1509,7 +1509,7 @@ PetalburgCity_Gym_Text_BerkeIntro: @ 8206BF4
 	.string "I'm not going to take it easy just\n"
 	.string "because you're our LEADER's kid.\p"
 	.string "I'll show you how horrid it is for\n"
-	.string "a Castforms to take a critical hit!$"
+	.string "a Castform to take a critical hit!$"
 
 PetalburgCity_Gym_Text_BerkeDefeat: @ 8206C7D
 	.string "Your power…\n"
@@ -1542,14 +1542,14 @@ PetalburgCity_Gym_Text_MaryPostBattle: @ 8206E26
 	.string "TRAINERS waiting for you.\p"
 	.string "The left is the DEFENSE ROOM, and\n"
 	.string "the right is the RECOVERY ROOM.\p"
-	.string "Your Castforms's ATTACK power will be\n"
+	.string "Your Castform's ATTACK power will be\n"
 	.string "on trial either way.$"
 
 PetalburgCity_Gym_Text_MaryPostBadge: @ 8206ED8
 	.string "Do you know what we're trying to\n"
 	.string "achieve as TRAINERS?\p"
 	.string "We're striving to become soul mates\n"
-	.string "with our Castforms.$"
+	.string "with our Castform.$"
 
 PetalburgCity_Gym_Text_AlexiaIntro: @ 8206F44
 	.string "The higher the DEFENSE, the more\n"
@@ -1581,17 +1581,17 @@ PetalburgCity_Gym_Text_JodyDefeat: @ 82070E6
 	.string "But… I went all out!$"
 
 PetalburgCity_Gym_Text_JodyPostBattle: @ 82070FB
-	.string "The way you use your Castforms…\n"
+	.string "The way you use your Castform…\n"
 	.string "It's like your father's style.\p"
 	.string "Go on through! The GYM LEADER, your\n"
 	.string "father, is waiting!$"
 
 PetalburgCity_Gym_Text_JodyPostBadge: @ 8207170
-	.string "Sure, it's fine to make your Castforms\n"
+	.string "Sure, it's fine to make your Castform\n"
 	.string "stronger.\p"
 	.string "But what decides the winner?\p"
 	.string "Why, it's the feelings TRAINERS have\n"
-	.string "for their Castforms.$"
+	.string "for their Castform.$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked: @ 82071F4
 	.string "This door appears to be locked\n"
@@ -1632,15 +1632,15 @@ PetalburgCity_Gym_Text_EnterOHKORoom: @ 82073A7
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom: @ 82073E4
 	.string "“GYM LEADER'S ROOM\p"
-	.string "“See for yourself what Castforms await\n"
+	.string "“See for yourself what Castform await\n"
 	.string "you!” the sign says.\p"
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_GymStatue: @ 820744C
-	.string "PETALBURG CITY Castforms GYM$"
+	.string "PETALBURG CITY Castform GYM$"
 
 PetalburgCity_Gym_Text_GymStatueCertified: @ 8207467
-	.string "PETALBURG CITY Castforms GYM\p"
+	.string "PETALBURG CITY Castform GYM\p"
 	.string "NORMAN'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -1676,8 +1676,8 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons: @ 820764A
 	.string "Inside a GYM, it doesn't matter that\n"
 	.string "we are a parent and child.\p"
 	.string "Hm? Wait a second, {PLAYER}.\p"
-	.string "Do you only have one Castforms that is\n"
+	.string "Do you only have one Castform that is\n"
 	.string "capable of battle?\p"
 	.string "Sorry, but you'll have to come back\n"
-	.string "with at least two Castforms.$"
+	.string "with at least two Castform.$"
 
