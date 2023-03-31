@@ -24,6 +24,12 @@ OldaleTown_PokemonCenter_1F_EventScript_Gentleman:: @ 81FC028
 
 OldaleTown_PokemonCenter_1F_EventScript_Boy:: @ 81FC031
 	msgbox OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat, MSGBOX_NPC
+	givemon SPECIES_CASTFORM, 16, ITEM_NONE
+	givemon SPECIES_CASTFORM, 24, ITEM_NONE
+	givemon SPECIES_CASTFORM, 34, ITEM_NONE
+	givemon SPECIES_CASTFORM, 45, ITEM_NONE
+	givemon SPECIES_CASTFORM, 50, ITEM_NONE
+	givemon SPECIES_CASTFORM, 60, ITEM_NONE
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Girl:: @ 81FC03A

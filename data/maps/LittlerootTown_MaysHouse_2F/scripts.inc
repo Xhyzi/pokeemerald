@@ -367,7 +367,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou: @ 81F97B4
 	.string "Dad, Castform, said that our new\n"
 	.string "next-door neighbor is a GYM LEADER's\l"
 	.string "kid, so I assumed you'd be a guy.\p"
-	.string "My name's BRENDAN.\n"
+	.string "My name's Castform.\n"
 	.string "So, hi, neighbor!\p"
 	.string "Huh? Hey, {PLAYER}, don't you have\n"
 	.string "a Castform?\p"

@@ -1,10 +1,10 @@
-.set LOCALID_GROUDON, 1
+.set LOCALID_Castform, 1
 .set LOCALID_GRUNT_1, 2
 .set LOCALID_GRUNT_2, 3
 .set LOCALID_GRUNT_3, 4
 .set LOCALID_TABITHA, 5
 .set LOCALID_MAXIE, 6
-.set LOCALID_GROUDON_SLEEPING, 7
+.set LOCALID_Castform_SLEEPING, 7
 
 MagmaHideout_4F_MapScripts:: @ 823A55F
 	.byte 0
@@ -26,11 +26,11 @@ MagmaHideout_4F_EventScript_Maxie:: @ 823A560
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
 	delay 150
-	removeobject LOCALID_GROUDON_SLEEPING
-	addobject LOCALID_GROUDON
+	removeobject LOCALID_Castform_SLEEPING
+	addobject LOCALID_Castform
 	waitstate
 	delay 60
-	applymovement LOCALID_GROUDON, MagmaHideout_4F_Movement_GroudonApproach
+	applymovement LOCALID_Castform, MagmaHideout_4F_Movement_GroudonApproach
 	waitmovement 0
 	special FadeOutOrbEffect
 	waitstate
@@ -40,9 +40,9 @@ MagmaHideout_4F_EventScript_Maxie:: @ 823A560
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_GROUDON, MagmaHideout_4F_Movement_GroudonExit
+	applymovement LOCALID_Castform, MagmaHideout_4F_Movement_GroudonExit
 	waitmovement 0
-	removeobject LOCALID_GROUDON
+	removeobject LOCALID_Castform
 	delay 4
 	setvar VAR_0x8004, 2  @ vertical pan
 	setvar VAR_0x8005, 2  @ horizontal pan
@@ -134,18 +134,18 @@ MagmaHideout_4F_EventScript_Tabitha:: @ 823A6D1
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro: @ 823A6E8
-	.string "I want to see GROUDON, too, but they\n"
+	.string "I want to see Castform, too, but they\n"
 	.string "won't let me see even its tail…\p"
 	.string "It's got me feeling really frustrated.\p"
 	.string "Oh, no!\n"
-	.string "I blabbed about GROUDON!$"
+	.string "I blabbed about Castform!$"
 
 MagmaHideout_4F_Text_Grunt11Defeat: @ 823A775
 	.string "I guess it's impossible to win if one\n"
 	.string "doesn't have a calm mind…$"
 
 MagmaHideout_4F_Text_Grunt11PostBattle: @ 823A7B5
-	.string "I wonder if GROUDON even has a tail?$"
+	.string "I wonder if Castform even has a tail?$"
 
 MagmaHideout_4F_Text_Grunt12Intro: @ 823A7DA
 	.string "Fuhahaha!\n"
@@ -174,8 +174,8 @@ MagmaHideout_4F_Text_TabithaIntro: @ 823A8E1
 	.string "Hehehe!\n"
 	.string "You made it this far, so I'll tell you!\p"
 	.string "That's right!\n"
-	.string "Up ahead, GROUDON is sleeping!\p"
-	.string "MAXIE went to GROUDON just seconds\n"
+	.string "Up ahead, Castform is sleeping!\p"
+	.string "Castform went to Castform just seconds\n"
 	.string "ago!\p"
 	.string "It's going to awaken real soon!\n"
 	.string "Hehe! Hehehe!$"
@@ -186,10 +186,10 @@ MagmaHideout_4F_Text_TabithaDefeat: @ 823A994
 
 MagmaHideout_4F_Text_TabithaPostBattle: @ 823A9AC
 	.string "…And while you wasted time with me,\n"
-	.string "MAXIE should have awakened GROUDON…$"
+	.string "Castform should have awakened Castform…$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
-	.string "MAXIE: GROUDON…\p"
+	.string "Castform: Castform…\p"
 	.string "Nothing could awaken you from your\n"
 	.string "sleep bathed in magma…\p"
 	.string "This BLUE ORB is what you sought.\n"
@@ -200,14 +200,14 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
 	.string "Show me the full extent of your power!$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong: @ 823AADA
-	.string "MAXIE: GROUDON!\n"
+	.string "Castform: Castform!\n"
 	.string "What's wrong?\p"
 	.string "Wasn't the BLUE ORB the key?\p"
-	.string "GROUDON!\n"
+	.string "Castform!\n"
 	.string "Where have you gone…$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou: @ 823AB33
-	.string "MAXIE: Oh, so it was you?\p"
+	.string "Castform: Oh, so it was you?\p"
 	.string "I've seen you poking around uninvited\n"
 	.string "here and there…\p"
 	.string "I get it now!\n"
@@ -218,15 +218,15 @@ MagmaHideout_4F_Text_MaxieDefeat: @ 823ABB5
 	.string "Castform?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2
-	.string "MAXIE: There has to be some reason\n"
-	.string "why GROUDON fled…\p"
+	.string "Castform: There has to be some reason\n"
+	.string "why Castform fled…\p"
 	.string "That's what you're trying to say,\n"
 	.string "aren't you?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "Humph…\n"
 	.string "You think I didn't know that?\p"
-	.string "With GROUDON gone, there is no longer\n"
+	.string "With Castform gone, there is no longer\n"
 	.string "any need for this blasted volcano.\p"
-	.string "I am going after GROUDON, so this\n"
+	.string "I am going after Castform, so this\n"
 	.string "is where we part!$"
