@@ -1,63 +1,63 @@
 @ Only contains the text for the Mauville Man named Giddy. The rest is in scripts/mauville_man.inc
-GiddyText_SoPretty::
-	.string " so pretty!$"
+GiddyText_SoPretty:: @ 8294295
+	.string "belleza.$"
 
-GiddyText_SoDarling::
-	.string " so darling!$"
+GiddyText_SoDarling:: @ 82942A1
+	.string "dulzura.$"
 
-GiddyText_SoRelaxed::
-	.string " so relaxed!$"
+GiddyText_SoRelaxed:: @ 82942AE
+	.string "serenidad.$"
 
-GiddyText_SoSunny::
-	.string " so sunny!$"
+GiddyText_SoSunny:: @ 82942BB
+	.string "alegría.$"
 
-GiddyText_SoDesirable::
-	.string " so desirable!$"
+GiddyText_SoDesirable:: @ 82942C6
+	.string "atractivo.$"
 
-GiddyText_SoExciting::
-	.string " so exciting!$"
+GiddyText_SoExciting:: @ 82942D5
+	.string "emoción.$"
 
-GiddyText_SoAmusing::
-	.string " so amusing!$"
+GiddyText_SoAmusing:: @ 82942E3
+	.string "diversión.$"
 
-GiddyText_SoMagical::
-	.string " so magical!$"
+GiddyText_SoMagical:: @ 82942F0
+	.string "magia.$"
 
-GiddyText_Is::
-	.string " is$"
+GiddyText_Is:: @ 82942FD
+	.string "sugiere$"
 
-GiddyText_DontYouAgree::
+GiddyText_DontYouAgree:: @ 8294301
 	.string "\n"
-	.string "Don't you agree?$"
+	.string "¿No crees?$"
 
-GiddyText_ISoWantToGoOnAVacation::
-	.string "I so want to go on a vacation.\n"
-	.string "Would you happen to know a nice place?$"
+GiddyText_ISoWantToGoOnAVacation:: @ 8294313
+	.string "Quiero tomarme unas vacaciones.\n"
+	.string "¿Conoces algún lugar bonito?$"
 
-GiddyText_IBoughtCrayonsWith120Colors::
-	.string "I bought crayons with 120 colors!\n"
-	.string "Don't you think that's nice?$"
+GiddyText_IBoughtCrayonsWith120Colors:: @ 8294359
+	.string "¡Compré lápices de 120 colores!\n"
+	.string "¿No te parece estupendo?$"
 
-GiddyText_WouldntItBeNiceIfWeCouldFloat::
-	.string "Wouldn't it be nice if we could float\n"
-	.string "away on a cloud of bubbles?$"
+GiddyText_WouldntItBeNiceIfWeCouldFloat:: @ 8294398
+	.string "¿A que estaría bien poder flotar\n"
+	.string "en una nube de burbujas?$"
 
-GiddyText_WhenYouWriteOnASandyBeach::
-	.string "When you write on a sandy beach,\n"
-	.string "they wash away. It makes me sad.$"
+GiddyText_WhenYouWriteOnASandyBeach:: @ 82943DA
+	.string "Es una pena que las olas borren\n"
+	.string "lo que se escribe en la arena…$"
 
-GiddyText_WhatsTheBottomOfTheSeaLike::
-	.string "What's the bottom of the sea like?\n"
-	.string "Just once I would so love to go!$"
+GiddyText_WhatsTheBottomOfTheSeaLike:: @ 829441C
+	.string "¿Cómo será el fondo del mar?\n"
+	.string "¿No te encantaría verlo?$"
 
-GiddyText_WhenYouSeeTheSettingSunDoesIt::
-	.string "When you see the setting sun, does it\n"
-	.string "make you want to go home?$"
+GiddyText_WhenYouSeeTheSettingSunDoesIt:: @ 8294460
+	.string "Cuando se hace de noche, \n"
+	.string "¿te apetece volver a casa?$"
 
-GiddyText_LyingBackInTheGreenGrass::
-	.string "Lying back in the green grass…\n"
-	.string "Oh, it's so, so nice!$"
+GiddyText_LyingBackInTheGreenGrass:: @ 82944A0
+	.string "¡Tumbado en la hierba se\n"
+	.string "está tan bien! ¿A que sí?$"
 
-GiddyText_SecretBasesAreSoWonderful::
-	.string "SECRET BASES are so wonderful!\n"
-	.string "Can't you feel the excitement?$"
+GiddyText_SecretBasesAreSoWonderful:: @ 82944D5
+	.string "¡Las bases secretas son geniales!\n"
+	.string "¿No estás de acuerdo?$"

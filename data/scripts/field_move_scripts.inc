@@ -45,17 +45,15 @@ EventScript_CancelCut::
 	releaseall
 	end
 
-Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+Text_WantToCut: @ 829072E
+	.string "Parece que puedes Cortar este árbol.\p"
+	.string "¿Usas Corte?$"
 
-Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+Text_MonUsedFieldMove: @ 8290771
+	.string "{STR_VAR_1} usó {STR_VAR_2}.$"
 
-Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+Text_CantCut: @ 829077D
+	.string "Parece que puedes Cortar este árbol.$"
 
 @ Interact with smashable rock
 EventScript_RockSmash::
@@ -113,13 +111,13 @@ EventScript_CancelSmash::
 	releaseall
 	end
 
-Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+Text_WantToSmash: @ 829083A
+	.string "Parece que se puede romper esta roca.\n"
+	.string "¿Usas Golpe Roca?$"
 
-Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+Text_CantSmash: @ 829087F
+	.string "Es una roca muy dura, pero un\n"
+	.string "Pokémon podría hacerla añicos.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -164,23 +162,23 @@ EventScript_CancelStrength::
 	releaseall
 	end
 
-Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+Text_WantToStrength: @ 829092C
+	.string "Es una roca enorme, pero un\n"
+	.string "Pokémon podría moverla.\p"
+	.string "¿Usas Fuerza?$"
 
-Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+Text_MonUsedStrength: @ 829098C
+	.string "{STR_VAR_1} usó Fuerza.\p"
+	.string "La Fuerza de {STR_VAR_1} logró\n"
+	.string "desplazar la roca a un lado.$"
 
-Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+Text_CantStrength: @ 82909D6
+	.string "Es una roca enorme, pero un\n"
+	.string "Pokémon podría apartarla.$"
 
-Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+Text_StrengthActivated: @ 8290A16
+	.string "Usar Fuerza ha permitido desplazar\n"
+	.string "la roca a un lado.$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -204,16 +202,16 @@ EventScript_EndWaterfall::
 	releaseall
 	end
 
-Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+Text_CantWaterfall: @ 8290A8E
+	.string "Un muro de agua cae\n"
+	.string "con un estruendo estremecedor…$"
 
-Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+Text_WantToWaterfall: @ 8290AC3
+	.string "Es una gran catarata.\n"
+	.string "¿Usas Cascada?$"
 
-Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+Text_MonUsedWaterfall: @ 8290AFC
+	.string "{STR_VAR_1} usó Cascada.$"
 
 EventScript_UseDive::
 	lockall
@@ -262,28 +260,28 @@ EventScript_EndSurface::
 	releaseall
 	end
 
-Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+Text_CantDive: @ 8290BAA
+	.string "El mar es muy profundo en esta zona.\n"
+	.string "Un Pokémon podría bucear aquí.$"
 
-Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+Text_WantToDive: @ 8290BE8
+	.string "El mar es muy profundo en esta zona.\n"
+	.string "¿Usas Buceo?$"
 
-Text_MonUsedDive:
-	.string "{STR_VAR_1} used DIVE.$"
+Text_MonUsedDive: @ 8290C1A
+	.string "{STR_VAR_1} usó Buceo.$"
 
-Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+Text_CantSurface: @ 8290C28
+	.string "La luz se filtra desde la superficie.\n"
+	.string "Un Pokémon puede emerger aquí.$"
 
-Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+Text_WantToSurface: @ 8290C6E
+	.string "La luz se filtra desde la superficie.\n"
+	.string "¿Usas Buceo?$"
 
-EventScript_FailSweetScent::
+EventScript_FailSweetScent:: @ 8290CAE
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
-Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+Text_FailSweetScent: @ 8290CB7
+	.string "Parece que aquí no hay nada…$"
