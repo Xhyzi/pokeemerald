@@ -1,53 +1,55 @@
-ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere:
-	.string "Are you planning on going deep\n"
-	.string "in there?\p"
-	.string "How about bringing me back some\n"
-	.string "SHOAL SALT and SHOAL SHELLS?\p"
-	.string "I can make you something good if\n"
-	.string "you bring me the ingredients.$"
+ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere: @ 82A7E0E
+	.string "¿Estás pensando en llegar\n"
+	.string "hasta el fondo?\p"
+	.string "¿Por qué no me traes Sal\n"
+	.string "Cardumen y Conchas Cardumen?\p"
+	.string "Si las consigo, podré hacerte\n"
+	.string "algo muy especial.$"
 
-ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells:
-	.string "If you bring me four each of the\n"
-	.string "SHOAL SALT and SHOAL SHELLS,\l"
-	.string "I can make you a SHELL BELL…\p"
-	.string "You can get those ingredients\n"
-	.string "every day.$"
+ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells: @ 82A7EB3
+	.string "Necesito Sal Cardumen y Conchas\n"
+	.string "Cardumen. Con cuatro unidades de cada\l"
+	.string "una, puedo hacer una Campana Concha.\p"
+	.string "Esos ingredientes se pueden conseguir\n"
+	.string "un día sí y otro también.$"
 
-ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
-	.string "Oh, hey! SHOAL SALT and SHOAL SHELLS!\n"
-	.string "And enough of them, too!\p"
-	.string "Would you like me to make you\n"
-	.string "a SHELL BELL with them?$"
+ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell: @ 82A7F37
+	.string "¡Hala! ¡Traes Sal Cardumen\n"
+	.string "y Conchas Cardumen!\l"
+	.string "¡Y bastantes de cada!\p"
+	.string "¿Quieres que te haga una\n"
+	.string "Campana Concha con ellas?$"
 
-ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
-	.string "All righty, then! I'll make you\n"
-	.string "a SHELL BELL right away.\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "There! Done!$"
+ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway: @ 82A7FAC
+	.string "Así me gusta. Te voy a hacer\n"
+	.string "una Campana Concha en un plis.\p"
+	.string "La, la, la…\n"
+	.string "La, la, la…\p"
+	.string "¡Ya está!$"
 
-ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
-	.string "Have a POKéMON hold on to that.\n"
-	.string "It'll love it, that's for certain.\p"
-	.string "Why, the SHELL BELL's chime…\n"
-	.string "It's simply sublime!\p"
-	.string "You can get its ingredients every day,\n"
-	.string "so I can make you more.$"
+ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell: @ 82A8012
+	.string "Haz que algún Pokémon la sostenga.\n"
+	.string "Seguro que le encanta.\p"
+	.string "Y no me extraña… ¡La Campana Concha\n"
+	.string "tiene un repicar sublime!\p"
+	.string "Los ingredientes para hacerla se\n"
+	.string "pueden conseguir diariamente, así que\l"
+	.string "cuando quieras puedo hacerte más.$"
 
-ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell:
-	.string "Oh… Is that so…\n"
-	.string "I wanted to make a SHELL BELL…$"
+ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell: @ 82A80C6
+	.string "Oh… Pues vaya… Yo que quería\n"
+	.string "hacer una Campana Concha…$"
 
-ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
-	.string "You don't have space in your BAG\n"
-	.string "if I were to make it for you.\p"
-	.string "You should make room and come back\n"
-	.string "for a SHELL BELL.$"
+ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag: @ 82A80F5
+	.string "Aunque te la hiciera, no tienes\n"
+	.string "espacio en la Mochila.\p"
+	.string "Deja un hueco libre y vuelve\n"
+	.string "a por tu Campana Concha.$"
 
-ShoalCave_Text_WasShoalSaltNowNothing:
-	.string "There was some SHOAL SALT here.\n"
-	.string "But, there's nothing here now.$"
+ShoalCave_Text_WasShoalSaltNowNothing: @ 82A8169
+	.string "Aquí había algo de Sal Cardumen,\n"
+	.string "pero ahora no queda nada.$"
 
-ShoalCave_Text_WasShoallShellNowNothing:
-	.string "There was a SHOAL SHELL here.\n"
-	.string "But, there's nothing here now.$"
+ShoalCave_Text_WasShoallShellNowNothing: @ 82A81A8
+	.string "Aquí había una Concha Cardumen,\n"
+	.string "pero ahora no hay nada.$"

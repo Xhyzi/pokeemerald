@@ -1,51 +1,50 @@
-gText_WouldYouLikeToRestYourPkmn::
-	.string "Hello, and welcome to\n"
-	.string "the POKéMON CENTER.\p"
-	.string "We restore your tired POKéMON\n"
-	.string "to full health.\p"
-	.string "Would you like to rest your POKéMON?$"
+gText_WouldYouLikeToRestYourPkmn:: @ 82726EB
+	.string "Hola. Éste es el Centro Pokémon.\p"
+	.string "Nosotros curamos a los Pokémon\n"
+	.string "debilitados.\p"
+	.string "¿Quieres que nos ocupemos\n"
+	.string "de los Pokémon de tu equipo?$"
 
-gText_IllTakeYourPkmn::
-	.string "Okay, I'll take your POKéMON\n"
-	.string "for a few seconds.$"
+gText_IllTakeYourPkmn:: @ 8272768
+	.string "Muy bien. Ten un poco de paciencia.\n"
+	.string "Será solo un momento.$"
 
-gText_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\p"
-	.string "We've restored your POKéMON\n"
-	.string "to full health.$"
+gText_RestoredPkmnToFullHealth:: @ 8272798
+	.string "Gracias por esperar.\p"
+	.string "Misión cumplida. Somos especialistas\n"
+	.string "en devolver la forma a los Pokémon.$"
 
-gText_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+gText_WeHopeToSeeYouAgain:: @ 82727DB
+	.string "¡Vuelve cuando quieras!$"
 
-gText_WelcomeCutShort::
-	.string "Hello, and welcome to\n"
-	.string "the POKéMON CENTER.\p"
-	.string "We restore your tired POKéMON\n"
-	.string "to full health.\p"
-	.string "Would you like to…$"
+gText_WelcomeCutShort:: @ 82727F5
+	.string "Hola. Éste es el Centro Pokémon.\p"
+	.string "Nosotros curamos a los Pokémon\n"
+	.string "debilitados.\p"
+	.string "¿Quieres que…?$"
 
-gText_NoticesGoldCard::
-	.string "Th-that card…\n"
-	.string "Could it be… The GOLD CARD?!\p"
-	.string "Oh, the gold color is brilliant!\n"
-	.string "The four stars seem to sparkle!\p"
-	.string "I've seen several TRAINERS with\n"
-	.string "a SILVER CARD before, but, {PLAYER},\l"
-	.string "you're the first TRAINER I've ever\l"
-	.string "seen with a GOLD CARD!\p"
-	.string "Okay, {PLAYER}, please allow me\n"
-	.string "the honor of resting your POKéMON!$"
+gText_NoticesGoldCard:: @ 8272860
+	.string "Esa ficha…\n"
+	.string "¿Es…? ¡¿Es de color oro?!\p"
+	.string "¡Oh, ese color es resplandenciente!\n"
+	.string "¡Las cuatro estrellas brillan tanto!\p"
+	.string "Ya he visto a varios entrenadores\n"
+	.string "con una Ficha de color plata, pero,\l"
+	.string "{PLAYER}, ¡nunca antes había visto\l"
+	.string "a nadie con una ficha de color oro!\p"
+	.string "Muy bien, {PLAYER}, concédeme\n"
+	.string "el honor de curar a tus Pokémon.$"
 
-gText_YouWantTheUsual::
-	.string "I'm delighted to see you, {PLAYER}!\n"
-	.string "You want the usual, am I right?$"
+gText_YouWantTheUsual:: @ 8272982
+	.string "¡Qué alegría verte, {PLAYER}!\n"
+	.string "Lo de siempre, ¿no?$"
 
-gText_IllTakeYourPkmn2::
-	.string "Okay, I'll take your POKéMON\n"
-	.string "for a few seconds.$"
+gText_IllTakeYourPkmn2:: @ 82729C0
+	.string "Muy bien. Ten un poco de paciencia.\n"
+	.string "Será solo un momento.$"
 
-gText_ThankYouForWaiting::
-	.string "Thank you for waiting.$"
+gText_ThankYouForWaiting:: @ 82729F0
+	.string "Gracias por esperar.$"
 
-gText_WeHopeToSeeYouAgain2::
-	.string "We hope to see you again!$"
+gText_WeHopeToSeeYouAgain2:: @ 8272A07
+	.string "¡Vuelve cuando quieras!$"
