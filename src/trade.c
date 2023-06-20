@@ -4577,12 +4577,12 @@ static void CreateInGameTradePokemonInternal(u8 whichPlayerMon, u8 whichInGameTr
     SetMonData(pokemon, MON_DATA_OT_NAME, inGameTrade->otName);
     SetMonData(pokemon, MON_DATA_OT_GENDER, &inGameTrade->otGender);
     SetMonData(pokemon, MON_DATA_ABILITY_NUM, &inGameTrade->abilityNum);
-    SetMonData(pokemon, MON_DATA_BEAUTY, &inGameTrade->conditions[1]);
-    SetMonData(pokemon, MON_DATA_CUTE, &inGameTrade->conditions[2]);
-    SetMonData(pokemon, MON_DATA_COOL, &inGameTrade->conditions[0]);
-    SetMonData(pokemon, MON_DATA_SMART, &inGameTrade->conditions[3]);
-    SetMonData(pokemon, MON_DATA_TOUGH, &inGameTrade->conditions[4]);
-    SetMonData(pokemon, MON_DATA_SHEEN, &inGameTrade->sheen);
+    // SetMonData(pokemon, MON_DATA_BEAUTY, &inGameTrade->conditions[1]);
+    // SetMonData(pokemon, MON_DATA_CUTE, &inGameTrade->conditions[2]);
+    // SetMonData(pokemon, MON_DATA_COOL, &inGameTrade->conditions[0]);
+    // SetMonData(pokemon, MON_DATA_SMART, &inGameTrade->conditions[3]);
+    // SetMonData(pokemon, MON_DATA_TOUGH, &inGameTrade->conditions[4]);
+    // SetMonData(pokemon, MON_DATA_SHEEN, &inGameTrade->sheen);
     SetMonData(pokemon, MON_DATA_MET_LOCATION, &metLocation);
 
     mailNum = 0;
@@ -4870,13 +4870,13 @@ static void Task_InGameTrade(u8 taskId)
 
 static void CheckPartnersMonForRibbons(void)
 {
-    u8 i;
-    u8 numRibbons = 0;
-    for (i = 0; i < (MON_DATA_UNUSED_RIBBONS - MON_DATA_CHAMPION_RIBBON); i++)
-        numRibbons += GetMonData(&gEnemyParty[gSelectedTradeMonPositions[TRADE_PARTNER] % PARTY_SIZE], MON_DATA_CHAMPION_RIBBON + i);
+    // u8 i;
+    // u8 numRibbons = 0;
+    // for (i = 0; i < (MON_DATA_UNUSED_RIBBONS - MON_DATA_CHAMPION_RIBBON); i++)
+    //     numRibbons += GetMonData(&gEnemyParty[gSelectedTradeMonPositions[TRADE_PARTNER] % PARTY_SIZE], MON_DATA_CHAMPION_RIBBON + i);
 
-    if (numRibbons != 0)
-        FlagSet(FLAG_SYS_RIBBON_GET);
+    // if (numRibbons != 0)
+    //     FlagSet(FLAG_SYS_RIBBON_GET);
 }
 
 void LoadTradeAnimGfx(void)

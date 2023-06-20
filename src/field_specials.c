@@ -1196,40 +1196,40 @@ void ResetTrickHouseNuggetFlag(void)
 
 bool8 CheckLeadMonCool(void)
 {
-    if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_COOL) < 200)
-        return FALSE;
+    // if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_COOL) < 200)
+    //     return FALSE;
 
     return TRUE;
 }
 
 bool8 CheckLeadMonBeauty(void)
 {
-    if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_BEAUTY) < 200)
-        return FALSE;
+    // if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_BEAUTY) < 200)
+    //     return FALSE;
 
     return TRUE;
 }
 
 bool8 CheckLeadMonCute(void)
 {
-    if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_CUTE) < 200)
-        return FALSE;
+    // if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_CUTE) < 200)
+    //     return FALSE;
 
     return TRUE;
 }
 
 bool8 CheckLeadMonSmart(void)
 {
-    if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SMART) < 200)
-        return FALSE;
+    // if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SMART) < 200)
+    //     return FALSE;
 
     return TRUE;
 }
 
 bool8 CheckLeadMonTough(void)
 {
-    if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_TOUGH) < 200)
-        return FALSE;
+    // if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_TOUGH) < 200)
+    //     return FALSE;
 
     return TRUE;
 }
@@ -1378,20 +1378,20 @@ bool8 FoundAbandonedShipRoom6Key(void)
 
 bool8 LeadMonHasEffortRibbon(void)
 {
-    return GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_EFFORT_RIBBON, NULL);
+    return FALSE;//GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_EFFORT_RIBBON, NULL);
 }
 
 void GiveLeadMonEffortRibbon(void)
 {
-    bool8 ribbonSet;
-    struct Pokemon *leadMon;
-    IncrementGameStat(GAME_STAT_RECEIVED_RIBBONS);
-    FlagSet(FLAG_SYS_RIBBON_GET);
-    ribbonSet = TRUE;
-    leadMon = &gPlayerParty[GetLeadMonIndex()];
-    SetMonData(leadMon, MON_DATA_EFFORT_RIBBON, &ribbonSet);
-    if (GetRibbonCount(leadMon) > NUM_CUTIES_RIBBONS)
-        TryPutSpotTheCutiesOnAir(leadMon, MON_DATA_EFFORT_RIBBON);
+    // bool8 ribbonSet;
+    // struct Pokemon *leadMon;
+    // IncrementGameStat(GAME_STAT_RECEIVED_RIBBONS);
+    // FlagSet(FLAG_SYS_RIBBON_GET);
+    // ribbonSet = TRUE;
+    // leadMon = &gPlayerParty[GetLeadMonIndex()];
+    // SetMonData(leadMon, MON_DATA_EFFORT_RIBBON, &ribbonSet);
+    // if (GetRibbonCount(leadMon) > NUM_CUTIES_RIBBONS)
+    //     TryPutSpotTheCutiesOnAir(leadMon, MON_DATA_EFFORT_RIBBON);
 }
 
 bool8 Special_AreLeadMonEVsMaxedOut(void)

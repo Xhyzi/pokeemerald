@@ -751,12 +751,6 @@ static u32 CopyLinkOpponentMonData(u8 monId, u8 *dst)
         dst[3] = (data32 & 0xFF000000) >> 24;
         size = 4;
         break;
-    case REQUEST_CHECKSUM_BATTLE:
-        data16 = GetMonData(&gEnemyParty[monId], MON_DATA_CHECKSUM);
-        dst[0] = data16;
-        dst[1] = data16 >> 8;
-        size = 2;
-        break;
     case REQUEST_STATUS_BATTLE:
         data32 = GetMonData(&gEnemyParty[monId], MON_DATA_STATUS);
         dst[0] = (data32 & 0x000000FF);
@@ -810,50 +804,6 @@ static u32 CopyLinkOpponentMonData(u8 monId, u8 *dst)
         dst[0] = data16;
         dst[1] = data16 >> 8;
         size = 2;
-        break;
-    case REQUEST_COOL_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_COOL);
-        size = 1;
-        break;
-    case REQUEST_BEAUTY_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_BEAUTY);
-        size = 1;
-        break;
-    case REQUEST_CUTE_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_CUTE);
-        size = 1;
-        break;
-    case REQUEST_SMART_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_SMART);
-        size = 1;
-        break;
-    case REQUEST_TOUGH_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_TOUGH);
-        size = 1;
-        break;
-    case REQUEST_SHEEN_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_SHEEN);
-        size = 1;
-        break;
-    case REQUEST_COOL_RIBBON_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_COOL_RIBBON);
-        size = 1;
-        break;
-    case REQUEST_BEAUTY_RIBBON_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_BEAUTY_RIBBON);
-        size = 1;
-        break;
-    case REQUEST_CUTE_RIBBON_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_CUTE_RIBBON);
-        size = 1;
-        break;
-    case REQUEST_SMART_RIBBON_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_SMART_RIBBON);
-        size = 1;
-        break;
-    case REQUEST_TOUGH_RIBBON_BATTLE:
-        dst[0] = GetMonData(&gEnemyParty[monId], MON_DATA_TOUGH_RIBBON);
-        size = 1;
         break;
     }
 
@@ -1037,9 +987,6 @@ static void SetLinkOpponentMonData(u8 monId)
     case REQUEST_PERSONALITY_BATTLE:
         SetMonData(&gEnemyParty[monId], MON_DATA_PERSONALITY, &gBattleResources->bufferA[gActiveBattler][3]);
         break;
-    case REQUEST_CHECKSUM_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_CHECKSUM, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
     case REQUEST_STATUS_BATTLE:
         SetMonData(&gEnemyParty[monId], MON_DATA_STATUS, &gBattleResources->bufferA[gActiveBattler][3]);
         break;
@@ -1066,39 +1013,6 @@ static void SetLinkOpponentMonData(u8 monId)
         break;
     case REQUEST_SPDEF_BATTLE:
         SetMonData(&gEnemyParty[monId], MON_DATA_SPDEF, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_COOL_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_COOL, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_BEAUTY_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_BEAUTY, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_CUTE_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_CUTE, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_SMART_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_SMART, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_TOUGH_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_TOUGH, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_SHEEN_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_SHEEN, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_COOL_RIBBON_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_COOL_RIBBON, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_BEAUTY_RIBBON_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_BEAUTY_RIBBON, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_CUTE_RIBBON_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_CUTE_RIBBON, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_SMART_RIBBON_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_SMART_RIBBON, &gBattleResources->bufferA[gActiveBattler][3]);
-        break;
-    case REQUEST_TOUGH_RIBBON_BATTLE:
-        SetMonData(&gEnemyParty[monId], MON_DATA_TOUGH_RIBBON, &gBattleResources->bufferA[gActiveBattler][3]);
         break;
     }
 }

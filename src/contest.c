@@ -2804,12 +2804,12 @@ void CreateContestMonFromParty(u8 partyIndex)
     }
     memcpy(gContestMons[gContestPlayerMonIndex].nickname, name, POKEMON_NAME_LENGTH + 1);
     StringCopy(gContestMons[gContestPlayerMonIndex].nickname, name);
-    gContestMons[gContestPlayerMonIndex].cool = GetMonData(&gPlayerParty[partyIndex], MON_DATA_COOL);
-    gContestMons[gContestPlayerMonIndex].beauty = GetMonData(&gPlayerParty[partyIndex], MON_DATA_BEAUTY);
-    gContestMons[gContestPlayerMonIndex].cute = GetMonData(&gPlayerParty[partyIndex], MON_DATA_CUTE);
-    gContestMons[gContestPlayerMonIndex].smart = GetMonData(&gPlayerParty[partyIndex], MON_DATA_SMART);
-    gContestMons[gContestPlayerMonIndex].tough = GetMonData(&gPlayerParty[partyIndex], MON_DATA_TOUGH);
-    gContestMons[gContestPlayerMonIndex].sheen = GetMonData(&gPlayerParty[partyIndex], MON_DATA_SHEEN);
+    // gContestMons[gContestPlayerMonIndex].cool = GetMonData(&gPlayerParty[partyIndex], MON_DATA_COOL);
+    // gContestMons[gContestPlayerMonIndex].beauty = GetMonData(&gPlayerParty[partyIndex], MON_DATA_BEAUTY);
+    // gContestMons[gContestPlayerMonIndex].cute = GetMonData(&gPlayerParty[partyIndex], MON_DATA_CUTE);
+    // gContestMons[gContestPlayerMonIndex].smart = GetMonData(&gPlayerParty[partyIndex], MON_DATA_SMART);
+    // gContestMons[gContestPlayerMonIndex].tough = GetMonData(&gPlayerParty[partyIndex], MON_DATA_TOUGH);
+    // gContestMons[gContestPlayerMonIndex].sheen = GetMonData(&gPlayerParty[partyIndex], MON_DATA_SHEEN);
     gContestMons[gContestPlayerMonIndex].moves[0] = GetMonData(&gPlayerParty[partyIndex], MON_DATA_MOVE1);
     gContestMons[gContestPlayerMonIndex].moves[1] = GetMonData(&gPlayerParty[partyIndex], MON_DATA_MOVE2);
     gContestMons[gContestPlayerMonIndex].moves[2] = GetMonData(&gPlayerParty[partyIndex], MON_DATA_MOVE3);
@@ -2965,37 +2965,38 @@ u8 GetContestEntryEligibility(struct Pokemon *pkmn)
         return CANT_ENTER_CONTEST_EGG;
     if (GetMonData(pkmn, MON_DATA_HP) == 0)
         return CANT_ENTER_CONTEST_FAINTED;
-    switch (gSpecialVar_ContestCategory)
-    {
-    case CONTEST_CATEGORY_COOL:
-        ribbon = GetMonData(pkmn, MON_DATA_COOL_RIBBON);
-        break;
-    case CONTEST_CATEGORY_BEAUTY:
-        ribbon = GetMonData(pkmn, MON_DATA_BEAUTY_RIBBON);
-        break;
-    case CONTEST_CATEGORY_CUTE:
-        ribbon = GetMonData(pkmn, MON_DATA_CUTE_RIBBON);
-        break;
-    case CONTEST_CATEGORY_SMART:
-        ribbon = GetMonData(pkmn, MON_DATA_SMART_RIBBON);
-        break;
-    case CONTEST_CATEGORY_TOUGH:
-        ribbon = GetMonData(pkmn, MON_DATA_TOUGH_RIBBON);
-        break;
-    default:
-        return CANT_ENTER_CONTEST;
-    }
+    // switch (gSpecialVar_ContestCategory)
+    // {
+    // case CONTEST_CATEGORY_COOL:
+    //     ribbon = GetMonData(pkmn, MON_DATA_COOL_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_BEAUTY:
+    //     ribbon = GetMonData(pkmn, MON_DATA_BEAUTY_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_CUTE:
+    //     ribbon = GetMonData(pkmn, MON_DATA_CUTE_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_SMART:
+    //     ribbon = GetMonData(pkmn, MON_DATA_SMART_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_TOUGH:
+    //     ribbon = GetMonData(pkmn, MON_DATA_TOUGH_RIBBON);
+    //     break;
+    // default:
+    //     return CANT_ENTER_CONTEST;
+    // }
 
     // Couldn't get this to match any other way.
     // Returns 2, 1, or 0 respectively if ribbon's rank is above, equal, or below
     // the current contest rank.
-    if (ribbon > gSpecialVar_ContestRank)
-        eligibility = CAN_ENTER_CONTEST_HIGH_RANK;
-    else if (ribbon >= gSpecialVar_ContestRank)
-        eligibility = CAN_ENTER_CONTEST_EQUAL_RANK;
-    else
-        eligibility = CANT_ENTER_CONTEST;
-    return eligibility;
+    // if (ribbon > gSpecialVar_ContestRank)
+    //     eligibility = CAN_ENTER_CONTEST_HIGH_RANK;
+    // else if (ribbon >= gSpecialVar_ContestRank)
+    //     eligibility = CAN_ENTER_CONTEST_EQUAL_RANK;
+    // else
+    //     eligibility = CANT_ENTER_CONTEST;
+    // return eligibility;
+    return CANT_ENTER_CONTEST;
 }
 
 static void DrawContestantWindowText(void)

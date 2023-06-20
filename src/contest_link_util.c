@@ -34,25 +34,25 @@ void Task_LinkContest_StartCommunicationEm(u8 taskId)
 {
     int gameCleared;
 
-    switch (gTasks[taskId].tCategory)
-    {
-    case CONTEST_CATEGORY_COOL:
-        gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_COOL_RIBBON);
-        break;
-    case CONTEST_CATEGORY_BEAUTY:
-        gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_BEAUTY_RIBBON);
-        break;
-    case CONTEST_CATEGORY_CUTE:
-        gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_CUTE_RIBBON);
-        break;
-    case CONTEST_CATEGORY_SMART:
-        gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_SMART_RIBBON);
-        break;
-    case CONTEST_CATEGORY_TOUGH:
-    default:
-        gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_TOUGH_RIBBON);
-        break;
-    }
+    // switch (gTasks[taskId].tCategory)
+    // {
+    // case CONTEST_CATEGORY_COOL:
+    //     gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_COOL_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_BEAUTY:
+    //     gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_BEAUTY_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_CUTE:
+    //     gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_CUTE_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_SMART:
+    //     gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_SMART_RIBBON);
+    //     break;
+    // case CONTEST_CATEGORY_TOUGH:
+    // default:
+    //     gHighestRibbonRank = GetMonData(&gPlayerParty[gContestMonPartyIndex], MON_DATA_TOUGH_RIBBON);
+    //     break;
+    // }
 
     gContestMons[gContestPlayerMonIndex].highestRank = gHighestRibbonRank;
     gameCleared = FlagGet(FLAG_SYS_GAME_CLEAR) > 0;

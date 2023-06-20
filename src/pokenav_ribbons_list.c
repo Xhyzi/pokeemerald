@@ -262,7 +262,7 @@ static u32 BuildPartyMonRibbonList(s32 state)
             return LT_INC_AND_CONTINUE;
         if (!GetMonData(pokemon, MON_DATA_SANITY_IS_EGG) && !GetMonData(pokemon, MON_DATA_SANITY_IS_BAD_EGG))
         {
-            u32 ribbonCount = GetMonData(pokemon, MON_DATA_RIBBON_COUNT);
+            u32 ribbonCount = 0; //GetMonData(pokemon, MON_DATA_RIBBON_COUNT);
             if (ribbonCount != 0)
             {
                 item.monId = i;
@@ -297,7 +297,7 @@ static u32 BuildBoxMonRibbonList(s32 state)
         {
             if (CheckBoxMonSanityAt(boxId, monId))
             {
-                u32 ribbonCount = GetBoxMonDataAt(boxId, monId, MON_DATA_RIBBON_COUNT);
+                u32 ribbonCount = 0; //GetBoxMonDataAt(boxId, monId, MON_DATA_RIBBON_COUNT);
                 if (ribbonCount != 0)
                 {
                     item.boxId = boxId;
@@ -355,8 +355,9 @@ static bool32 PlayerHasRibbonsMon(void)
             continue;
         if (GetMonData(mon, MON_DATA_SANITY_IS_EGG))
             continue;
-        if (GetMonData(mon, MON_DATA_RIBBONS))
-            return TRUE;
+        // if (GetMonData(mon, MON_DATA_RIBBONS))
+        //     return TRUE;
+        return FALSE;
     }
 
     for (i = 0; i < TOTAL_BOXES_COUNT; i++)
@@ -365,8 +366,9 @@ static bool32 PlayerHasRibbonsMon(void)
         {
             if (!CheckBoxMonSanityAt(i, j))
                 continue;
-            if (GetBoxMonDataAt(i, j, MON_DATA_RIBBONS))
-                return TRUE;
+            // if (GetBoxMonDataAt(i, j, MON_DATA_RIBBONS))
+            //     return TRUE;
+            return FALSE;
         }
     }
 

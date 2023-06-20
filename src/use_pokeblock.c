@@ -178,14 +178,14 @@ static const u32 sGraphData_Tilemap[] = INCBIN_U32("graphics/pokeblock/use_scree
 
 // The condition/flavors aren't listed in their normal order in this file, they're listed as shown on the graph going counter-clockwise
 // Normally they would go Cool/Spicy, Beauty/Dry, Cute/Sweet, Smart/Bitter, Tough/Sour (also graph order, but clockwise)
-static const u32 sConditionToMonData[CONDITION_COUNT] =
-{
-    [CONDITION_COOL]   = MON_DATA_COOL,
-    [CONDITION_TOUGH]  = MON_DATA_TOUGH,
-    [CONDITION_SMART]  = MON_DATA_SMART,
-    [CONDITION_CUTE]   = MON_DATA_CUTE,
-    [CONDITION_BEAUTY] = MON_DATA_BEAUTY
-};
+// static const u32 sConditionToMonData[CONDITION_COUNT] =
+// {
+//     [CONDITION_COOL]   = MON_DATA_COOL,
+//     [CONDITION_TOUGH]  = MON_DATA_TOUGH,
+//     [CONDITION_SMART]  = MON_DATA_SMART,
+//     [CONDITION_CUTE]   = MON_DATA_CUTE,
+//     [CONDITION_BEAUTY] = MON_DATA_BEAUTY
+// };
 
 static const u8 sConditionToFlavor[CONDITION_COUNT] =
 {
@@ -989,8 +989,8 @@ static void GetMonConditions(struct Pokemon *mon, u8 *data)
 {
     u16 i;
 
-    for (i = 0; i < CONDITION_COUNT; i++)
-        data[i] = GetMonData(mon, sConditionToMonData[i]);
+    // for (i = 0; i < CONDITION_COUNT; i++)
+    //     data[i] = GetMonData(mon, sConditionToMonData[i]);
 }
 
 static void AddPokeblockToConditions(struct Pokeblock *pokeblock, struct Pokemon *mon)
@@ -999,28 +999,28 @@ static void AddPokeblockToConditions(struct Pokeblock *pokeblock, struct Pokemon
     s16 stat;
     u8 data;
 
-    if (GetMonData(mon, MON_DATA_SHEEN) != MAX_SHEEN)
-    {
-        CalculatePokeblockEffectiveness(pokeblock, mon);
-        for (i = 0; i < CONDITION_COUNT; i++)
-        {
-            data = GetMonData(mon, sConditionToMonData[i]);
-            stat = data +  sInfo->pokeblockStatBoosts[i];
-            if (stat < 0)
-                stat = 0;
-            if (stat > MAX_CONDITION)
-                stat = MAX_CONDITION;
-            data = stat;
-            SetMonData(mon, sConditionToMonData[i], &data);
-        }
+    // if (GetMonData(mon, MON_DATA_SHEEN) != MAX_SHEEN)
+    // {
+    //     CalculatePokeblockEffectiveness(pokeblock, mon);
+    //     for (i = 0; i < CONDITION_COUNT; i++)
+    //     {
+    //         data = GetMonData(mon, sConditionToMonData[i]);
+    //         stat = data +  sInfo->pokeblockStatBoosts[i];
+    //         if (stat < 0)
+    //             stat = 0;
+    //         if (stat > MAX_CONDITION)
+    //             stat = MAX_CONDITION;
+    //         data = stat;
+    //         SetMonData(mon, sConditionToMonData[i], &data);
+    //     }
 
-        stat = (u8)(GetMonData(mon, MON_DATA_SHEEN)) + pokeblock->feel;
-        if (stat > MAX_SHEEN)
-            stat = MAX_SHEEN;
+    //     stat = (u8)(GetMonData(mon, MON_DATA_SHEEN)) + pokeblock->feel;
+    //     if (stat > MAX_SHEEN)
+    //         stat = MAX_SHEEN;
 
-        data = stat;
-        SetMonData(mon, MON_DATA_SHEEN, &data);
-    }
+    //     data = stat;
+    //     SetMonData(mon, MON_DATA_SHEEN, &data);
+    // }
 }
 
 static void CalculateConditionEnhancements(void)
@@ -1069,12 +1069,12 @@ static void CalculatePokeblockEffectiveness(struct Pokeblock *pokeblock, struct 
 
 static bool8 IsSheenMaxed(void)
 {
-    if (GetBoxOrPartyMonData(sMenu->party[sMenu->info.curSelection].boxId,
-                             sMenu->party[sMenu->info.curSelection].monId,
-                             MON_DATA_SHEEN,
-                             NULL) == MAX_SHEEN)
-        return TRUE;
-    else
+    // if (GetBoxOrPartyMonData(sMenu->party[sMenu->info.curSelection].boxId,
+    //                          sMenu->party[sMenu->info.curSelection].monId,
+    //                          MON_DATA_SHEEN,
+    //                          NULL) == MAX_SHEEN)
+    //     return TRUE;
+    // else
         return FALSE;
 }
 
@@ -1595,8 +1595,8 @@ static void SpriteCB_SelectionIconCancel(struct Sprite *sprite)
 // is the total number of sparkles that appear
 static void CalculateNumAdditionalSparkles(u8 monIndex)
 {
-    u8 sheen = GetMonData(&gPlayerParty[monIndex], MON_DATA_SHEEN);
-    sMenu->numSparkles[sMenu->curLoadId] = GET_NUM_CONDITION_SPARKLES(sheen);
+    // u8 sheen = GetMonData(&gPlayerParty[monIndex], MON_DATA_SHEEN);
+    // sMenu->numSparkles[sMenu->curLoadId] = GET_NUM_CONDITION_SPARKLES(sheen);
 }
 
 static void LoadConditionGfx(void)

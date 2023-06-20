@@ -387,29 +387,29 @@ static void InitPokenavResources(struct PokenavResources *resources)
 
 static bool32 AnyMonHasRibbon(void)
 {
-    int i, j;
+    // int i, j;
 
-    for (i = 0; i < PARTY_SIZE; i++)
-    {
-        if (GetMonData(&gPlayerParty[i],  MON_DATA_SANITY_HAS_SPECIES)
-            && !GetMonData(&gPlayerParty[i], MON_DATA_SANITY_IS_EGG)
-            && GetMonData(&gPlayerParty[i], MON_DATA_RIBBON_COUNT) != 0)
-        {
-            return TRUE;
-        }
-    }
+    // for (i = 0; i < PARTY_SIZE; i++)
+    // {
+    //     if (GetMonData(&gPlayerParty[i],  MON_DATA_SANITY_HAS_SPECIES)
+    //         && !GetMonData(&gPlayerParty[i], MON_DATA_SANITY_IS_EGG)
+    //         && GetMonData(&gPlayerParty[i], MON_DATA_RIBBON_COUNT) != 0)
+    //     {
+    //         return TRUE;
+    //     }
+    // }
 
-    for (j = 0; j < TOTAL_BOXES_COUNT; j++)
-    {
-        for (i = 0; i < IN_BOX_COUNT; i++)
-        {
-            if (CheckBoxMonSanityAt(j, i)
-                && GetBoxMonDataAt(j, i, MON_DATA_RIBBON_COUNT) != 0)
-            {
-                return TRUE;
-            }
-        }
-    }
+    // for (j = 0; j < TOTAL_BOXES_COUNT; j++)
+    // {
+    //     for (i = 0; i < IN_BOX_COUNT; i++)
+    //     {
+    //         if (CheckBoxMonSanityAt(j, i)
+    //             && GetBoxMonDataAt(j, i, MON_DATA_RIBBON_COUNT) != 0)
+    //         {
+    //             return TRUE;
+    //         }
+    //     }
+    // }
 
     return FALSE;
 }

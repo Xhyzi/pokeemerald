@@ -67,7 +67,7 @@ static void PrintSearchResultListMenuItems(struct Pokenav_SearchResultsGfx *);
 static void CreateSearchResultsList(void);
 static void BufferSearchMonListItem(struct PokenavMonListItem *, u8 *);
 
-static const u32 sSearchMonDataIds[] = {MON_DATA_COOL, MON_DATA_BEAUTY, MON_DATA_CUTE, MON_DATA_SMART, MON_DATA_TOUGH};
+//static const u32 sSearchMonDataIds[] = {MON_DATA_COOL, MON_DATA_BEAUTY, MON_DATA_CUTE, MON_DATA_SMART, MON_DATA_TOUGH};
 
 static const LoopedTask sConditionSearchLoopedTaskFuncs[] =
 {
@@ -142,7 +142,7 @@ bool32 PokenavCallback_Init_ConditionSearch(void)
     menu->callback = HandleConditionSearchInput_WaitSetup;
     menu->loopedTaskId = CreateLoopedTask(GetConditionSearchLoopedTask, 1);
     menu->returnFromGraph = FALSE;
-    menu->conditionDataId = sSearchMonDataIds[GetSelectedConditionSearch()];
+    menu->conditionDataId = 0; //sSearchMonDataIds[GetSelectedConditionSearch()];
     return TRUE;
 }
 
@@ -156,7 +156,7 @@ bool32 PokenavCallback_Init_ReturnToMonSearchList(void)
     menu->monList = GetSubstructPtr(POKENAV_SUBSTRUCT_MON_LIST);
     menu->callback = HandleConditionSearchInput;
     menu->returnFromGraph = TRUE;
-    menu->conditionDataId = sSearchMonDataIds[GetSelectedConditionSearch()];
+    menu->conditionDataId = 0; //sSearchMonDataIds[GetSelectedConditionSearch()];
     return TRUE;
 }
 

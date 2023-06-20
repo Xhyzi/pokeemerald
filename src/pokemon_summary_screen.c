@@ -1537,7 +1537,7 @@ static bool8 ExtractMonDataToSummaryStruct(struct Pokemon *mon)
         sum->friendship = GetMonData(mon, MON_DATA_FRIENDSHIP);
         break;
     default:
-        sum->ribbonCount = GetMonData(mon, MON_DATA_RIBBON_COUNT);
+        sum->ribbonCount = 0; //GetMonData(mon, MON_DATA_RIBBON_COUNT);
         return TRUE;
     }
     sMonSummaryScreen->switchCounter++;

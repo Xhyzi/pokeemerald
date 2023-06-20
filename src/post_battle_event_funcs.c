@@ -42,44 +42,44 @@ int GameClear(void)
 
     ribbonGet = FALSE;
 
-    for (i = 0; i < PARTY_SIZE; i++)
-    {
-        struct Pokemon *mon = &gPlayerParty[i];
+    // for (i = 0; i < PARTY_SIZE; i++)
+    // {
+    //     struct Pokemon *mon = &gPlayerParty[i];
 
-        ribbonCounts[i].partyIndex = i;
-        ribbonCounts[i].count = 0;
+    //     ribbonCounts[i].partyIndex = i;
+    //     ribbonCounts[i].count = 0;
 
-        if (GetMonData(mon, MON_DATA_SANITY_HAS_SPECIES)
-         && !GetMonData(mon, MON_DATA_SANITY_IS_EGG)
-         && !GetMonData(mon, MON_DATA_CHAMPION_RIBBON))
-        {
-            u8 val[1] = {TRUE};
-            SetMonData(mon, MON_DATA_CHAMPION_RIBBON, val);
-            ribbonCounts[i].count = GetRibbonCount(mon);
-            ribbonGet = TRUE;
-        }
-    }
+    //     if (GetMonData(mon, MON_DATA_SANITY_HAS_SPECIES)
+    //      && !GetMonData(mon, MON_DATA_SANITY_IS_EGG)
+    //      && !GetMonData(mon, MON_DATA_CHAMPION_RIBBON))
+    //     {
+    //         u8 val[1] = {TRUE};
+    //         SetMonData(mon, MON_DATA_CHAMPION_RIBBON, val);
+    //         ribbonCounts[i].count = GetRibbonCount(mon);
+    //         ribbonGet = TRUE;
+    //     }
+    // }
 
-    if (ribbonGet == TRUE)
-    {
-        IncrementGameStat(GAME_STAT_RECEIVED_RIBBONS);
-        FlagSet(FLAG_SYS_RIBBON_GET);
+    // if (ribbonGet == TRUE)
+    // {
+    //     IncrementGameStat(GAME_STAT_RECEIVED_RIBBONS);
+    //     FlagSet(FLAG_SYS_RIBBON_GET);
 
-        for (i = 1; i < 6; i++)
-        {
-            if (ribbonCounts[i].count > ribbonCounts[0].count)
-            {
-                struct RibbonCounter prevBest = ribbonCounts[0];
-                ribbonCounts[0] = ribbonCounts[i];
-                ribbonCounts[i] = prevBest;
-            }
-        }
+    //     for (i = 1; i < 6; i++)
+    //     {
+    //         if (ribbonCounts[i].count > ribbonCounts[0].count)
+    //         {
+    //             struct RibbonCounter prevBest = ribbonCounts[0];
+    //             ribbonCounts[0] = ribbonCounts[i];
+    //             ribbonCounts[i] = prevBest;
+    //         }
+    //     }
 
-        if (ribbonCounts[0].count > NUM_CUTIES_RIBBONS)
-        {
-            TryPutSpotTheCutiesOnAir(&gPlayerParty[ribbonCounts[0].partyIndex], MON_DATA_CHAMPION_RIBBON);
-        }
-    }
+    //     if (ribbonCounts[0].count > NUM_CUTIES_RIBBONS)
+    //     {
+    //         TryPutSpotTheCutiesOnAir(&gPlayerParty[ribbonCounts[0].partyIndex], MON_DATA_CHAMPION_RIBBON);
+    //     }
+    // }
 
     SetMainCallback2(CB2_DoHallOfFameScreen);
     return 0;
