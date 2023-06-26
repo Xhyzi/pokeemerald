@@ -4881,6 +4881,9 @@ u32 GetBoxMonData(struct BoxPokemon *boxMon, s32 field, u8 *data)
         if (boxMon->species && (boxMon->isEgg || boxMon->isBadEgg))
             retVal = SPECIES_EGG;
         break;
+    case MON_DATA_TMP_EV:
+        retVal = boxMon->tmpEV;
+        break;
     case MON_DATA_IVS:
         retVal = boxMon->hpIV
               | (boxMon->attackIV << 5)
@@ -5130,6 +5133,9 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
         break;
     case MON_DATA_MODERN_FATEFUL_ENCOUNTER:
         SET8(boxMon->modernFatefulEncounter);
+        break;
+    case MON_DATA_TMP_EV:
+        SET16(boxMon->tmpEV);
         break;
     case MON_DATA_IVS:
     {
@@ -6870,13 +6876,6 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
 
     stat = ItemId_GetSecondaryId(heldItem);
     bonus = ItemId_GetHoldEffectParam(heldItem);
-
-    // for (i = 0; i < NUM_STATS; i++)
-    // {
-    //     evs[i] = GetMonData(mon, MON_DATA_HP_EV + i, 0);
-    //     totalEVs += evs[i];
-    // } asdasd
-
     tmpEV = GetMonData(mon, MON_DATA_TMP_EV, 0);
 
     if (CheckPartyHasHadPokerus(mon, 0))
@@ -6890,34 +6889,36 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
         switch(i)
         {
             case STAT_HP:
-                evIncrease = gSpeciesInfo[defeatedSpecies].evYield_HP;
+                evIncrease += gSpeciesInfo[defeatedSpecies].evYield_HP;
                 break;
             case STAT_ATK:
-                evIncrease = gSpeciesInfo[defeatedSpecies].evYield_Attack;
+                evIncrease += gSpeciesInfo[defeatedSpecies].evYield_Attack;
                 break;
             case STAT_DEF:
-                evIncrease = gSpeciesInfo[defeatedSpecies].evYield_Defense;
+                evIncrease += gSpeciesInfo[defeatedSpecies].evYield_Defense;
                 break;
             case STAT_SPEED:
-                evIncrease = gSpeciesInfo[defeatedSpecies].evYield_Speed;
+                evIncrease += gSpeciesInfo[defeatedSpecies].evYield_Speed;
                 break;
             case STAT_SPATK:
-                evIncrease = gSpeciesInfo[defeatedSpecies].evYield_SpAttack;
+                evIncrease += gSpeciesInfo[defeatedSpecies].evYield_SpAttack;
                 break;
             case STAT_SPDEF:
-                evIncrease = gSpeciesInfo[defeatedSpecies].evYield_SpDefense;
+                evIncrease += gSpeciesInfo[defeatedSpecies].evYield_SpDefense;
                 break;
         }
     }
+
     evIncrease += bonus;
     evIncrease *= multiplier;
+
     if (holdEffect == HOLD_EFFECT_MACHO_BRACE)
             evIncrease *= 2;
     if (tmpEV + evIncrease > 512)
         tmpEV = 512;
     else
         tmpEV += evIncrease;
-
+        
     SetMonData(mon, MON_DATA_TMP_EV, &tmpEV);
 }
 
