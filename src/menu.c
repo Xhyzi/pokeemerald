@@ -59,6 +59,8 @@ static void WindowFunc_ClearDialogWindowAndFrameNullPalette(u8, u8, u8, u8, u8, 
 static void WindowFunc_DrawStdFrameWithCustomTileAndPalette(u8, u8, u8, u8, u8, u8);
 static void WindowFunc_ClearStdWindowAndFrameToTransparent(u8, u8, u8, u8, u8, u8);
 static void task_free_buf_after_copying_tile_data_to_vram(u8 taskId);
+static void CreateYesNoMenuAtWindow(u8, u16, u8, u8);
+static void EraseYesNoWindowFromMenu();
 
 static EWRAM_DATA u8 sStartMenuWindowId = 0;
 static EWRAM_DATA u8 sMapNamePopupWindowId = 0;
@@ -212,6 +214,12 @@ void LoadMessageBoxAndBorderGfx(void)
 {
     LoadMessageBoxGfx(0, DLG_WINDOW_BASE_TILE_NUM, BG_PLTT_ID(DLG_WINDOW_PALETTE_NUM));
     LoadUserWindowBorderGfx(0, STD_WINDOW_BASE_TILE_NUM, BG_PLTT_ID(STD_WINDOW_PALETTE_NUM));
+}
+
+void LoadMessageBoxAndBorderGfxAtWindow(u8 windowId)
+{
+    LoadMessageBoxGfx(windowId, DLG_WINDOW_BASE_TILE_NUM, BG_PLTT_ID(DLG_WINDOW_PALETTE_NUM));
+    LoadUserWindowBorderGfx(windowId, STD_WINDOW_BASE_TILE_NUM, BG_PLTT_ID(STD_WINDOW_PALETTE_NUM));
 }
 
 void DrawDialogueFrame(u8 windowId, bool8 copyToVram)
@@ -467,6 +475,11 @@ void DisplayItemMessageOnField(u8 taskId, const u8 *string, TaskFunc callback)
 void DisplayYesNoMenuDefaultYes(void)
 {
     CreateYesNoMenu(&sYesNo_WindowTemplates, STD_WINDOW_BASE_TILE_NUM, STD_WINDOW_PALETTE_NUM, 0);
+}
+
+void DisplayYesNoMenuDefaultYesAtWindow(u8 windowId)
+{
+    CreateYesNoMenuAtWindow(windowId, STD_WINDOW_BASE_TILE_NUM, STD_WINDOW_PALETTE_NUM, 0);
 }
 
 void DisplayYesNoMenuWithDefault(u8 initialCursorPos)
@@ -1234,6 +1247,19 @@ void EraseYesNoWindow(void)
     RemoveWindow(sYesNoWindowId);
 }
 
+s8 Menu_ProcessInputNoWrapClearOnChooseFromMenu(void)
+{
+    s8 result = Menu_ProcessInputNoWrap();
+    if (result != MENU_NOTHING_CHOSEN)
+        EraseYesNoWindowFromMenu();
+    return result;
+}
+
+static void EraseYesNoWindowFromMenu()
+{
+    ClearStdWindowAndFrameToTransparent(sYesNoWindowId, TRUE);
+}
+
 static void PrintMenuActionGridText(u8 windowId, u8 fontId, u8 left, u8 top, u8 width, u8 height, u8 columns, u8 rows, const struct MenuAction *menuActions)
 {
     u8 i;
@@ -1636,6 +1662,31 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const stru
     }
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
+}
+
+static void CreateYesNoMenuAtWindow(u8 windowId, u16 baseTileNum, u8 paletteNum, u8 initialCursorPos)
+{
+    struct TextPrinterTemplate printer;
+    
+    sYesNoWindowId = windowId;
+    DrawStdFrameWithCustomTileAndPalette(windowId, TRUE, baseTileNum, paletteNum);
+    
+    printer.currentChar = gText_YesNo;
+    printer.windowId = windowId;
+    printer.fontId = FONT_NORMAL;
+    printer.x = 8;
+    printer.y = 1;
+    printer.currentX = printer.x;
+    printer.currentY = printer.y;
+    printer.fgColor = GetFontAttribute(FONT_NORMAL, FONTATTR_COLOR_FOREGROUND);
+    printer.bgColor = GetFontAttribute(FONT_NORMAL, FONTATTR_COLOR_BACKGROUND);
+    printer.shadowColor = GetFontAttribute(FONT_NORMAL, FONTATTR_COLOR_SHADOW);
+    printer.unk = GetFontAttribute(FONT_NORMAL, FONTATTR_UNKNOWN);
+    printer.letterSpacing = 0;
+    printer.lineSpacing = 0;
+
+    AddTextPrinter(&printer, TEXT_SKIP_DRAW, NULL);
+    InitMenuInUpperLeftCornerNormal(windowId, 2, initialCursorPos);
 }
 
 void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 paletteNum, u8 initialCursorPos)

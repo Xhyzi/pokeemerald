@@ -324,6 +324,32 @@ static void Task_HandleYesNoInput(u8 taskId)
     ScriptContext_Enable();
 }
 
+void Task_HandleYesNoInputFromMenu(u8 taskId)
+{
+    if (gTasks[taskId].tRight < 5)
+    {
+        gTasks[taskId].tRight++;
+        return;
+    }
+
+    switch (Menu_ProcessInputNoWrapClearOnChooseFromMenu())
+    {
+    case MENU_NOTHING_CHOSEN:
+        return;
+    case MENU_B_PRESSED:
+    case 1:
+        PlaySE(SE_SELECT);
+        gSpecialVar_Result = 0;
+        break;
+    case 0:
+        gSpecialVar_Result = 1;
+        break;
+    }
+
+    DestroyTask(taskId);
+    ScriptContext_Enable();
+}
+
 bool8 ScriptMenu_MultichoiceGrid(u8 left, u8 top, u8 multichoiceId, bool8 ignoreBPress, u8 columnCount)
 {
     if (FuncIsActiveTask(Task_HandleMultichoiceGridInput) == TRUE)

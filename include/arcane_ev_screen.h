@@ -1,0 +1,6 @@
+#ifndef GUARD_ARCANE_EV_SCREEN_H
+#define GUARD_ARCANE_EV_SCREEN_H
+
+void Init_EvScreen();
+
+#endif // GUARD_ARCANE_EV_SCREEN_H

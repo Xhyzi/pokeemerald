@@ -1,0 +1,16 @@
+static const u8 sText_HP[] = _("PS");
+static const u8 sText_Atk[] = _("Ataque");
+static const u8 sText_Def[] = _("Defensa");
+static const u8 sText_SpAtk[] = _("At. Esp.");
+static const u8 sText_SpDef[] = _("Def. Esp.");
+static const u8 sText_Spd[] = _("Veloc.");
+static const u8 sText_Total[] = _("Total");
+static const u8 sText_EV[] = _("EV");
+static const u8 sText_AvailableEV[] = _("EV Libres");
+static const u8 sText_BackToMon[] = _("{START_BUTTON} Terminar     {B_BUTTON} Volver");
+static const u8 sText_GuideScrollMon[] = _("{DPAD_UPDOWN} Mover");
+static const u8 sText_GuideSelectMon[] = _("{START_BUTTON} Terminar     {A_BUTTON} Seleccionar");
+static const u8 sText_ScrollStat[] = _("{DPAD_NONE} Mover");
+static const u8 sText_GuideEnd[] = _("{B_BUTTON} Volver");
+static const u8 sText_HaveYouFinished[] = _("¿Has terminado ya de\nasignar los EVs?$");
+static const u8 sText_NewEV[] = _("+++");

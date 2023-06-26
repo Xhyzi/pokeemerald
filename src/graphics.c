@@ -2024,3 +2024,15 @@ const u16 gFrontierPassCancelButtonHighlighted_Tilemap[] = INCBIN_U16("graphics/
 const u16 gBerryCrush_Crusher_Pal[] = INCBIN_U16("graphics/berry_crush/crusher.gbapal");
 const u32 gBerryCrush_Crusher_Gfx[] = INCBIN_U32("graphics/berry_crush/crusher.4bpp.lz");
 const u32 gBerryCrush_TextWindows_Tilemap[] = INCBIN_U32("graphics/berry_crush/text_windows.bin.lz");
+
+// Arcane graphics
+// tilesets
+const u32 gBgTiles_EvScreen[] = INCBIN_U32("graphics/arcane/ev_screen/bg3.4bpp.lz");
+const u32 gBgTilemap_EvScreen[] = INCBIN_U32("graphics/arcane/ev_screen/bg3.bin.lz");
+const u16 gBgPalette_EvScreen[] = INCBIN_U16("graphics/arcane/ev_screen/bg3.gbapal");
+
+// sprites
+const u32 gSpriteGfx_EvSelectionArrow[] = INCBIN_U32("graphics/arcane/ev_screen/sprites/selection_arrow.4bpp.lz");
+const u16 gSpritePal_EvSelectionArrow[] = INCBIN_U16("graphics/arcane/ev_screen/sprites/selection_arrow.gbapal");
+const u32 gSpriteGfx_EvMonSelector[] = INCBIN_U32("graphics/arcane/ev_screen/sprites/mon_selector.4bpp.lz");
+const u16 gSpritePal_EvMonSelector[] = INCBIN_U16("graphics/arcane/ev_screen/sprites/mon_selector.gbapal");

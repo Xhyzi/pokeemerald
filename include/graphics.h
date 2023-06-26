@@ -10483,4 +10483,12 @@ extern const u8 gMailTilemap_Retro[];
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
+extern const u32 gBgTiles_EvScreen[];
+extern const u32 gBgTilemap_EvScreen[];
+extern const u16 gBgPalette_EvScreen[];
+extern const u32 gSpriteGfx_EvSelectionArrow[];
+extern const u16 gSpritePal_EvSelectionArrow[];
+extern const u32 gSpriteGfx_EvMonSelector[];
+extern const u16 gSpritePal_EvMonSelector[];
+
 #endif //GUARD_GRAPHICS_H
