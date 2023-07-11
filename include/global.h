@@ -961,6 +961,13 @@ struct ExternalEventFlags
 
 } __attribute__((packed));/*size = 0x15*/
 
+#define QUEST_COUNT 16
+#define FLAG_ARR_LENGTH (QUEST_COUNT / 16) + 1
+
+struct QuestFlags {
+    u32 flags[FLAG_ARR_LENGTH];
+};
+
 struct SaveBlock1
 {
     /*0x00*/ struct Coords16 pos;
@@ -1055,6 +1062,7 @@ struct SaveBlock1
     /*0x3D5A*/ u8 unused_3D5A[10];
     /*0x3D64*/ struct TrainerHillSave trainerHill;
     /*0x3D70*/ struct WaldaPhrase waldaPhrase;
+    struct QuestFlags questFlags;
     // sizeof: 0x3D88
 };
 

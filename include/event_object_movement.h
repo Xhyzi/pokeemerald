@@ -439,5 +439,6 @@ void SetVirtualObjectInvisibility(u8 virtualObjId, bool32 invisible);
 bool32 IsVirtualObjectInvisible(u8 virtualObjId);
 void SetVirtualObjectSpriteAnim(u8 virtualObjId, u8 animNum);
 bool32 IsVirtualObjectAnimating(u8 virtualObjId);
+u8 GetObjectEventGfxIdByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup);
 
 #endif //GUARD_EVENT_OBJECT_MOVEMENT_H

@@ -2421,6 +2421,13 @@ u8 GetObjectEventBerryTreeId(u8 objectEventId)
     return gObjectEvents[objectEventId].trainerRange_berryTreeId;
 }
 
+u8 GetObjectEventGfxIdByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
+{
+    const struct MapHeader *mapHeader;
+    mapHeader = Overworld_GetMapHeaderByGroupAndId(mapGroup, mapNum);
+    return mapHeader->events->objectEvents[localId].graphicsId;
+}
+
 static struct ObjectEventTemplate *GetObjectEventTemplateByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
 {
     struct ObjectEventTemplate *templates;

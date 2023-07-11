@@ -5069,4 +5069,31 @@ extern const u8 gMailTilemap_Retro[];
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
+extern const u32 gBgTiles_QuestMenuGUI[];
+extern const u32 gBgTilemap_QuestMenuGUI[];
+extern const u32 gBgPalette_QuestMenuGUI[];
+extern const u32 gBgTilemap_QuestMenuSelector_1[];
+extern const u32 gBgTilemap_QuestMenuSelector_2[];
+extern const u32 gBgTilemap_QuestMenuSelector_3[];
+extern const u32 gBgTilemap_QuestMenuSelector_4[];
+extern const u32 gBgTilemap_QuestMenuSelector_5[];
+extern const u32 gBgTilemap_QuestMenuSelector_6[];
+extern const u32 gBgTilemap_QuestMenuSelector_7[];
+extern const u32 gBgTilemap_QuestMenuSelector_8[];
+extern const u32 gBgTilemap_QuestMenuSelector_None[];
+extern const u32 gBgTiles_QuestMenuBackground[];
+extern const u32 gBgTilemap_QuestMenuBackground[];
+extern const u32 gBgPalette_QuestMenuBackground[];
+
+extern const u32 gSpriteGfx_Slider_8[];
+extern const u32 gSpriteGfx_Slider_16[];
+extern const u32 gSpriteGfx_Slider_32[];
+extern const u32 gSpriteGfx_Slider_64[];
+extern const u16 sSpritePal_Slider[];
+extern const u32 gSpriteGfx_Arrow[];
+extern const u16 gSpritePal_Arrow[];
+extern const u32 gSpriteGfx_DifficultyIcon[];
+extern const u16 gSpritePal_DifficultyIcon[];
+
+
 #endif //GUARD_GRAPHICS_H
