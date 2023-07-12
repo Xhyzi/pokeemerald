@@ -1,4 +1,5 @@
 #include "global.h"
+#include "arcane_quest_icon.h"
 #include "malloc.h"
 #include "battle_pyramid.h"
 #include "berry.h"
@@ -165,6 +166,7 @@ static void DestroyLevitateMovementTask(u8);
 static bool8 NpcTakeStep(struct Sprite *);
 static bool8 IsElevationMismatchAt(u8, s16, s16);
 static bool8 AreElevationsCompatible(u8, u8);
+static void TryMirrorMovementToAssociatedQuestIcon(struct ObjectEvent *, struct Sprite *);
 
 static const struct SpriteFrameImage sPicTable_PechaBerryTree[];
 
@@ -1366,6 +1368,7 @@ static bool8 GetAvailableObjectEventId(u16 localId, u8 mapNum, u8 mapGroup, u8 *
 static void RemoveObjectEvent(struct ObjectEvent *objectEvent)
 {
     objectEvent->active = FALSE;
+    Quest_TryRemoveQuestIconSprite(objectEvent->localId, objectEvent->mapNum & (objectEvent->mapGroup << 8));
     RemoveObjectEventInternal(objectEvent);
 }
 
@@ -1460,6 +1463,7 @@ static u8 TrySetupObjectEventSprite(struct ObjectEventTemplate *objectEventTempl
 
 static u8 TrySpawnObjectEventTemplate(struct ObjectEventTemplate *objectEventTemplate, u8 mapNum, u8 mapGroup, s16 cameraX, s16 cameraY)
 {
+    u16 map;
     u8 objectEventId;
     struct SpriteTemplate spriteTemplate;
     struct SpriteFrameImage spriteFrameImage;
@@ -1477,6 +1481,8 @@ static u8 TrySpawnObjectEventTemplate(struct ObjectEventTemplate *objectEventTem
     gSprites[gObjectEvents[objectEventId].spriteId].images = graphicsInfo->images;
     if (subspriteTables)
         SetSubspriteTables(&gSprites[gObjectEvents[objectEventId].spriteId], subspriteTables);
+    map = gObjectEvents[objectEventId].mapNum | (gObjectEvents[objectEventId].mapGroup << 8);
+    Quest_TryLoadQuestIconSprite(map, gObjectEvents[objectEventId].localId, objectEventId, cameraX, cameraY);
 
     return objectEventId;
 }
@@ -1710,6 +1716,7 @@ void SpawnObjectEventsOnReturnToField(s16 x, s16 y)
 
 static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
 {
+    u16 map;
     u8 i;
     u8 paletteSlot;
     struct Sprite *sprite;
@@ -1777,6 +1784,9 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
         ResetObjectEventFldEffData(objectEvent);
         SetObjectSubpriorityByElevation(objectEvent->previousElevation, sprite, 1);
     }
+
+    map = gObjectEvents[objectEventId].mapNum | (gObjectEvents[objectEventId].mapGroup << 8);
+    Quest_TryLoadQuestIconSprite(map, gObjectEvents[objectEventId].localId, objectEventId, 0, 0);
 }
 
 static void ResetObjectEventFldEffData(struct ObjectEvent *objectEvent)
@@ -5117,6 +5127,7 @@ static void StartRunningAnim(struct ObjectEvent *objectEvent, struct Sprite *spr
 
 static bool8 UpdateMovementNormal(struct ObjectEvent *objectEvent, struct Sprite *sprite)
 {
+    TryMirrorMovementToAssociatedQuestIcon(objectEvent, sprite);
     if (NpcTakeStep(sprite))
     {
         ShiftStillObjectEventCoords(objectEvent);
@@ -8971,4 +8982,12 @@ u8 MovementAction_FlyDown_Step1(struct ObjectEvent *objectEvent, struct Sprite *
 u8 MovementAction_Fly_Finish(struct ObjectEvent *objectEvent, struct Sprite *sprite)
 {
     return TRUE;
+}
+
+static void TryMirrorMovementToAssociatedQuestIcon(struct ObjectEvent *objectEvent, struct Sprite *sprite)
+{
+    u8 questIconId = Quest_TryGetQuestIconAndCopyStepData(objectEvent, sprite);
+
+    if (questIconId != MAX_SPRITES)
+        NpcTakeStep(&gSprites[questIconId]);
 }

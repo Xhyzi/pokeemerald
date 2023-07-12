@@ -28,9 +28,10 @@ const struct QuestNpc sExtraNpc_Test[] = {
     {.localId = NULL_NPC, .map = NULL_MAP},
 };
 
-const struct Quest sQuestList[] = 
+const struct Quest sQuestList[QUEST_COUNT] = 
 {
-    [0] = {
+    [QUEST_1] = {
+        .type = QUEST_PRIMARY,
         .name = _("Test Quest"),
         .description = _("This is a test quest.\n"
                         "You can have up to 24 + 1\n"
@@ -38,7 +39,7 @@ const struct Quest sQuestList[] =
         .location = _("Ciudad Petalia FF"),
         .advisedLevel = 5,
         .difficulty = 1,
-        .npc = {.localId = 1, .map = MAP_PETALBURG_CITY},
+        .npc = {.localId = 1, .map = MAP_OLDALE_TOWN},
         .extraNpcs = sExtraNpc_Test,
         .rewardMoney = 0,
         .rewardItems = {
@@ -46,7 +47,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5}
         }         
     },
-    [1] = {
+    [QUEST_2] = {
+        .type = QUEST_PRIMARY,
         .name = _("Test Quest 2"),
         .description = _("This is a test quest 2."),
         .location = _("Ciudad Petalia FF"),
@@ -60,7 +62,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_GREAT_BALL, .amount = 5},
         }
     },
-    [2] = {
+    [QUEST_3] = {
+        .type = QUEST_PRIMARY,
         .name = _("Test Quest 3"),
         .description = _("This is a test quest 3."),
         .location = _("Ciudad Petalia FF"),
@@ -74,7 +77,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5},
         }
     },
-    [3] = {
+    [QUEST_4] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 4"),
         .description = _("This is a test quest 4."),
         .location = _("Ciudad Petalia FF"),
@@ -88,7 +92,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_ULTRA_BALL, .amount = 5},
         }
     },
-    [4] = {
+    [QUEST_5] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 5"),
         .description = _("This is a test quest 5."),
         .location = _("Ciudad Petalia FF"),
@@ -102,7 +107,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_GREAT_BALL, .amount = 0},
         }
     },
-    [5] = {
+    [QUEST_6] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 6"),
         .description = _("This is a test quest 6."),
         .location = _("Ciudad Petalia FF"),
@@ -116,7 +122,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_LUXURY_BALL, .amount = 5},
         }
     },
-    [6] = {
+    [QUEST_7] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 7"),
         .description = _("This is a test quest 7."),
         .location = _("Ciudad Férrica F"),
@@ -130,7 +137,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5},
         }
     },
-    [7] = {
+    [QUEST_8] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 8"),
         .description = _("This is a test quest 8."),
         .location = _("Ciudad Férrica F"),
@@ -144,7 +152,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_NEST_BALL, .amount = 5},
         }
     },
-    [8] = {
+    [QUEST_9] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 9"),
         .description = _("This is a test quest 9."),
         .location = _("Ciudad Férrica F"),
@@ -158,7 +167,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5},
         }
     },
-    [9] = {
+    [QUEST_10] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 10"),
         .description = _("characters per line.1234\n"
                     "characters per line.1234\n"
@@ -174,7 +184,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5},
         }
     },
-    [10] = {
+    [QUEST_11] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest"),
         .description = _("This is a test quest.\n"
                         "You can have up to 24 + 1\n"
@@ -190,7 +201,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5}
         }         
     },
-    [11] = {
+    [QUEST_12] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 2"),
         .description = _("This is a test quest 2."),
         .location = _("Ciudad Petalia FF"),
@@ -204,7 +216,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_GREAT_BALL, .amount = 5},
         }
     },
-    [12] = {
+    [QUEST_13] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 3"),
         .description = _("This is a test quest 3."),
         .location = _("Ciudad Petalia FF"),
@@ -218,7 +231,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5},
         }
     },
-    [13] = {
+    [QUEST_14] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 4"),
         .description = _("This is a test quest 4."),
         .location = _("Ciudad Petalia FF"),
@@ -232,7 +246,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_ULTRA_BALL, .amount = 5},
         }
     },
-    [14] = {
+    [QUEST_15] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 5"),
         .description = _("This is a test quest 5."),
         .location = _("Ciudad Petalia FF"),
@@ -246,7 +261,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_GREAT_BALL, .amount = 0},
         }
     },
-    [15] = {
+    [QUEST_16] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 6"),
         .description = _("This is a test quest 6."),
         .location = _("Ciudad Petalia FF"),
@@ -260,7 +276,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_LUXURY_BALL, .amount = 5},
         }
     },
-    [16] = {
+    [QUEST_17] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 7"),
         .description = _("This is a test quest 7."),
         .location = _("Ciudad Férrica F"),
@@ -274,7 +291,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5},
         }
     },
-    [17] = {
+    [QUEST_18] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 8"),
         .description = _("This is a test quest 8."),
         .location = _("Ciudad Férrica F"),
@@ -288,7 +306,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_NEST_BALL, .amount = 5},
         }
     },
-    [18] = {
+    [QUEST_19] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 9"),
         .description = _("This is a test quest 9."),
         .location = _("Ciudad Férrica F"),
@@ -302,7 +321,8 @@ const struct Quest sQuestList[] =
             {.id = ITEM_PREMIER_BALL, .amount = 5},
         }
     },
-    [19] = {
+    [QUEST_20] = {
+        .type = QUEST_SECONDARY,
         .name = _("Test Quest 10"),
         .description = _("characters per line.1234\n"
                     "characters per line.1234\n"

@@ -1566,3 +1566,15 @@ const u32 gSpriteGfx_Arrow[] = INCBIN_U32("graphics/arcane/quest_menu/sprites/ar
 const u16 gSpritePal_Arrow[] = INCBIN_U16("graphics/arcane/quest_menu/sprites/arrow.gbapal");
 const u32 gSpriteGfx_DifficultyIcon[] = INCBIN_U32("graphics/arcane/quest_menu/sprites/difficulty_icon.4bpp.lz");
 const u16 gSpritePal_DifficultyIcon[] = INCBIN_U16("graphics/arcane/quest_menu/sprites/difficulty_icon.gbapal");
+
+const u32 gSpriteGfx_QuestIconArrowPrimary[] = INCBIN_U32("graphics/arcane/quest_icon/arrow_primary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconCrossPrimary[] = INCBIN_U32("graphics/arcane/quest_icon/cross_primary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconDotsPrimary[] = INCBIN_U32("graphics/arcane/quest_icon/dots_primary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconQuestionPrimary[] = INCBIN_U32("graphics/arcane/quest_icon/question_primary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconNewPrimary[] = INCBIN_U32("graphics/arcane/quest_icon/new_primary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconArrowSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/arrow_secondary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconCrossSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/cross_secondary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconDotsSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/dots_secondary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconQuestionSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/question_secondary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconNewSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/new_secondary.4bpp.lz");
+const u16 gSpritePal_QuestIcon[] = INCBIN_U16("graphics/arcane/quest_icon/arrow_primary.gbapal");

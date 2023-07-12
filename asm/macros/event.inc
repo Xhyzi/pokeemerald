@@ -1729,6 +1729,56 @@
 	.2byte \quantity
 	.endm
 
+	@ cmd used for the built-in quest system.
+	@ active/inactive and completed/uncompleted as well as 6 flags per quests
+	.macro setquestactive questId:req
+	.byte 0xe3
+	.2byte \questId
+	.endm
+
+	.macro clearquestactive questId:req
+	.byte 0xe4
+	.2byte \questId
+	.endm
+
+	.macro checkquestactive questId:req
+	.byte 0xe5
+	.2byte \questId
+	.endm
+
+	.macro setquestcompleted questId:req
+	.byte 0xe6
+	.2byte \questId
+	.endm
+
+	.macro clearquestcompleted questId:req
+	.byte 0xe7
+	.2byte \questId
+	.endm
+
+	.macro checkquestcompleted questId:req
+	.byte 0xe8
+	.2byte \questId
+	.endm
+
+	.macro setquestflag questId:req, flagId:req
+	.byte 0xe9
+	.2byte \questId
+	.byte \flagId
+	.endm
+
+	.macro clearquestflag questId:req, flagId:req
+	.byte 0xea
+	.2byte \questId
+	.byte \flagId
+	.endm
+
+	.macro checkquestflag questId:req, flagId:req
+	.byte 0xeb
+	.2byte \questId
+	.byte \flagId
+	.endm
+
 
 @ Supplementary
 

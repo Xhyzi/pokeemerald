@@ -5095,5 +5095,16 @@ extern const u16 gSpritePal_Arrow[];
 extern const u32 gSpriteGfx_DifficultyIcon[];
 extern const u16 gSpritePal_DifficultyIcon[];
 
+extern const u32 gSpriteGfx_QuestIconArrowPrimary[];
+extern const u32 gSpriteGfx_QuestIconCrossPrimary[];
+extern const u32 gSpriteGfx_QuestIconDotsPrimary[];
+extern const u32 gSpriteGfx_QuestIconQuestionPrimary[];
+extern const u32 gSpriteGfx_QuestIconNewPrimary[];
+extern const u32 gSpriteGfx_QuestIconArrowSecondary[];
+extern const u32 gSpriteGfx_QuestIconCrossSecondary[];
+extern const u32 gSpriteGfx_QuestIconDotsSecondary[];
+extern const u32 gSpriteGfx_QuestIconQuestionSecondary[];
+extern const u32 gSpriteGfx_QuestIconNewSecondary[];
+extern const u16 gSpritePal_QuestIcon[];
 
 #endif //GUARD_GRAPHICS_H

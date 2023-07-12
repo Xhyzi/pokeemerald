@@ -23,11 +23,12 @@
 #include "text_window.h"
 #include "window.h"
 #include "constants/items.h"
+#include "constants/quest.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
 #include "data/text/quest.h"
 #include "arcane_quest_menu.h"
-#include "data/quest_data.h"
+#include "arcane_quest.h"
 
 // Init and control section
 static void CB2_WaitUntilFadeInitQuestMenu();
@@ -69,15 +70,6 @@ static u8* Quest_BuildNumberText(u32 number, u8 digits);
 static bool8 Quest_PrintRewardMoney(u16 questId);
 static bool8 Quest_PrintRewardItemCount(u16 itemId, u16 amount, u8 slot);
 static void Quest_UpdateRewardItem(u16 questId, u8 slot);
-// Quest flags section
-static u8 Quest_GetQuestStatus(u16 questId);
-static void Quest_SetQuestStatus(u16 questId, u8 status);
-static bool8 Quest_SetQuestAsActive(u16 questId);
-static bool8 Quest_SetQuestAsCompleted(u16 questId);
-static bool8 Quest_SetQuestAsInactive(u16 questId);
-static bool8 Quest_IsQuestActive(u16 questId);
-static bool8 Quest_IsQuestCompleted(u16 questId);
-static bool8 Quest_IsQuestInactive(u16 questId);
 
 // Animations
 static const union AnimCmd sAnimCmd_ArrowUp[] =
@@ -705,7 +697,7 @@ static void Quest_InitData()
     sData->activeQuests = AllocZeroed(sizeof(u16) * sData->activeQuestCount);
 
     // fill active quests array
-    for (i = 0, j = 0; i < ARRAY_COUNT(sQuestList); i++)
+    for (i = 0, j = 0; i < QUEST_COUNT; i++)
         if (Quest_IsQuestActive(i))
         {
             sData->activeQuests[j] = i;
@@ -829,7 +821,7 @@ static u16 Quest_GetActiveQuestCount()
     int i;
     u16 count = 0;
 
-    for (i = 0; i < ARRAY_COUNT(sQuestList); i++)
+    for (i = 0; i < QUEST_COUNT; i++)
     {
         if (Quest_IsQuestActive(i))
             count++;
@@ -1348,64 +1340,4 @@ static void Quest_UpdateRewardItem(u16 questId, u8 slot)
 
     Quest_UpdateRewardIconSprite(itemId, amount, slot, REWARD_ICON_POS_X + REWARD_ICON_OFFSET_X * slot, REWARD_ICON_POS_Y);
     Quest_PrintRewardItemCount(itemId, amount, slot);
-}
-
-/************************************** * 
- * ********** QUEST FLAGS ************* *
- * ************************************ */
-static u8 Quest_GetQuestStatus(u16 questId)
-{
-    u8 segment = questId / 16;
-    return (gSaveBlock1Ptr->questFlags.flags[segment] >> 2 * (questId % 16)) & 3;
-}
-
-static void Quest_SetQuestStatus(u16 questId, u8 status)
-{
-    u8 segment = questId / 16;
-    gSaveBlock1Ptr->questFlags.flags[segment] &= ~(3 << 2 * (questId % 16));
-    gSaveBlock1Ptr->questFlags.flags[segment] |= status << 2 * (questId % 16);
-}
-
-static bool8 Quest_SetQuestAsActive(u16 questId)
-{
-    if (questId >= QUEST_COUNT)
-        return FALSE;
-
-    Quest_SetQuestStatus(questId, QUEST_STATUS_ACTIVE);
-    return TRUE;
-}
-
-static bool8 Quest_SetQuestAsCompleted(u16 questId)
-{
-    if (questId >= QUEST_COUNT)
-        return FALSE;
-
-    Quest_SetQuestStatus(questId, QUEST_STATUS_COMPLETED);
-    return TRUE;
-}
-
-static bool8 Quest_SetQuestAsInactive(u16 questId)
-{
-    if (questId >= QUEST_COUNT)
-        return FALSE;
-
-    Quest_SetQuestStatus(questId, QUEST_STATUS_INACTIVE);
-    return TRUE;
-}
-
-static bool8 Quest_IsQuestActive(u16 questId)
-{
-    // TODO: check if questId is valid
-    return TRUE;
-    return Quest_GetQuestStatus(questId) == QUEST_STATUS_ACTIVE;
-}
-
-static bool8 Quest_IsQuestCompleted(u16 questId)
-{
-    return Quest_GetQuestStatus(questId) == QUEST_STATUS_COMPLETED;
-}
-
-static bool8 Quest_IsQuestInactive(u16 questId)
-{
-    return Quest_GetQuestStatus(questId) == QUEST_STATUS_INACTIVE;
 }

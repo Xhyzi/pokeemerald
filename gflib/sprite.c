@@ -1,4 +1,5 @@
 #include "global.h"
+#include "arcane_quest_icon.h"
 #include "sprite.h"
 #include "main.h"
 #include "palette.h"
@@ -305,6 +306,7 @@ void ResetSpriteData(void)
     AllocSpriteTiles(0);
     gSpriteCoordOffsetX = 0;
     gSpriteCoordOffsetY = 0;
+    Quest_ResetMapQuestsDataStructure();
 }
 
 void AnimateSprites(void)
@@ -1754,4 +1756,14 @@ bool8 AddSubspritesToOamBuffer(struct Sprite *sprite, struct OamData *destOam, u
     }
 
     return 0;
+}
+
+bool8 IsSpriteTagAllocated(u16 tag)
+{
+    int i;
+    
+    for (i = 0; i < ARRAY_COUNT(sSpriteTileRangeTags); i++)
+        if (sSpriteTileRangeTags[i] == tag)
+            return TRUE;
+    return FALSE;
 }
