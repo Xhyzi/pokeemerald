@@ -12,10 +12,10 @@
 #include "arcane_quest.h"
 
 static void SpriteCB_QuestIcon(struct Sprite* sprite);
-static s16 Quest_GetQuestIndex(u8 localId, u16 map);
-static bool8 Quest_IsQuestAlreadyLoaded(u8 questId, u8 localId);
+static s16 Quest_GetNpcQuestIndex(u8 localId, u16 map, u8 *iconType);
+static bool8 Quest_IsQuestNpcIconAlreadyLoaded(u8 questId, u8 localId);
 static u8 Quest_GetEventObjectIndex(u8 localId, u16 map);
-static u8 Quest_LoadQuestIconSprite(u8 questId, u8 localId, u8 questPos, u8 objectEventId, s16 cameraX, s16 cameraY);
+static u8 Quest_LoadQuestIconSprite(u8 questId, u8 localId, u8 questPos, u8 objectEventId, s16 cameraX, s16 cameraY, u8 iconType);
 
 #define TAG_ICON_ARROW_PRIMARY      0x7777
 #define TAG_ICON_CROSS_PRIMARY      0x7778
@@ -27,6 +27,7 @@ static u8 Quest_LoadQuestIconSprite(u8 questId, u8 localId, u8 questPos, u8 obje
 #define TAG_ICON_DOTS_SECONDARY     0x777E
 #define TAG_ICON_QUESTION_SECONDARY 0x777F
 #define TAG_ICON_NEW_SECONDARY      0x7780
+#define TAG_ICON_QUESTION_NOT_READY 0x7781
 
 #define PAL_TAG_QUEST_ICON          0x7777   
 
@@ -88,6 +89,12 @@ static const struct CompressedSpriteSheet sSpriteSheet_SecondaryNewIcon = {
     .data = gSpriteGfx_QuestIconNewSecondary,
     .size = 0x200,
     .tag = TAG_ICON_NEW_SECONDARY,
+};
+
+static const struct CompressedSpriteSheet sSpriteSheet_QuestionNotReadyIcon = {
+    .data = gSpriteGfx_QuestIconQuestionNotReady,
+    .size = 0x80,
+    .tag = TAG_ICON_QUESTION_NOT_READY,
 };
 
 static const struct SpritePalette sSpritePalette_QuestIcon = {
@@ -176,12 +183,12 @@ static EWRAM_DATA struct MapQuest sMapQuests[QUESTS_PER_MAP] = {0};
 bool8 Quest_TryLoadQuestIconSprite(u16 map, u8 localId, u8 objectEventId, s16 cameraX, s16 cameraY)
 {
     int i;
-    //u8 iconType;  // TODO: add iconType depending on where the npc was found
-    s8 questId = Quest_GetQuestIndex(localId, map); // &iconType;
+    u8 iconType = ICON_NORMAL;  // TODO: add iconType depending on where the npc was found
+    s16 questId = Quest_GetNpcQuestIndex(localId, map, &iconType); // &iconType;
     
     // TODO: add "|| QuestInactive && iconType == marker
     // If no quest is found or if the quest has already been completed or quest is already loaded, return.
-    if (questId == -1 || Quest_IsQuestCompleted(questId) || Quest_IsQuestAlreadyLoaded(questId, localId))
+    if (questId == -1 || Quest_IsQuestCompleted(questId) || Quest_IsQuestNpcIconAlreadyLoaded(questId, localId))
         return FALSE;
 
     // Find an empty slot in the map quest array.
@@ -193,7 +200,7 @@ bool8 Quest_TryLoadQuestIconSprite(u16 map, u8 localId, u8 objectEventId, s16 ca
             sMapQuests[i].questId = questId;
             sMapQuests[i].localId = localId;
             sMapQuests[i].map = map;
-            sMapQuests[i].indicatorId = Quest_LoadQuestIconSprite(questId, localId, i, objectEventId, cameraX, cameraY);
+            sMapQuests[i].indicatorId = Quest_LoadQuestIconSprite(questId, localId, i, objectEventId, cameraX, cameraY, iconType);
             return TRUE;
         }
 
@@ -233,15 +240,20 @@ bool8 Quest_TryRemoveQuestIconSprite(u8 localId, u16 map)
  */
 bool8 Quest_TryLoadQuestIconSpritesByQuestId(u16 questId)
 {
-    int i;
+    int i, j;
     u8 map, mapGroup, localId;
+    const struct QuestNpc *extraNpcs;
+    const struct QuestSecondaryMarker *secondaryMarkers;
 
     // TODO: add support for multiple npcs and secondary icons
-    map = sQuestList[questId].npc.map & 0xFF;
-    mapGroup = sQuestList[questId].npc.map >> 8 & 0xFF;
-    localId = sQuestList[questId].npc.localId;
+     for (i = 0; i < ARRAY_COUNT(gObjectEvents); i++)
+    {
+        extraNpcs = sQuestList[questId].extraNpcs;
+        secondaryMarkers = sQuestList[questId].secondaryMarkers;
 
-    for (i = 0; i < ARRAY_COUNT(gObjectEvents); i++)
+        map = sQuestList[questId].npc.map & 0xFF;
+        mapGroup = sQuestList[questId].npc.map >> 8 & 0xFF;
+        localId = sQuestList[questId].npc.localId;
         // checks if the event object of the given questId is currently active in the map
         // if so, generates the quest sprite associated to that object event
         if (gObjectEvents[i].localId == localId && gObjectEvents[i].mapNum == map 
@@ -249,6 +261,41 @@ bool8 Quest_TryLoadQuestIconSpritesByQuestId(u16 questId)
         {
             Quest_TryLoadQuestIconSprite(map, localId, i, gCamera.x, gCamera.y);
         }
+        
+        if (extraNpcs != NULL)
+        {
+            j = 0;
+            while (extraNpcs[j].localId != NULL_NPC && extraNpcs[j].map != NULL_MAP)
+            {
+                localId = extraNpcs[j].localId;
+                map = extraNpcs[j].map & 0xFF;
+                mapGroup = extraNpcs[j].map >> 8 & 0xFF;
+                if (gObjectEvents[i].localId == localId && gObjectEvents[i].mapNum == map 
+                    && gObjectEvents[i].mapGroup == mapGroup && gObjectEvents[i].active)
+                {
+                    Quest_TryLoadQuestIconSprite(map, localId, i, gCamera.x, gCamera.y);
+                }
+                j++;
+            }
+        }
+        
+        if (secondaryMarkers != NULL)
+        {
+            j = 0;
+            while (secondaryMarkers[j].localId != NULL_NPC && secondaryMarkers[j].map != NULL_MAP)
+            {
+                localId = secondaryMarkers[j].localId;
+                map = secondaryMarkers[j].map & 0xFF;
+                mapGroup = secondaryMarkers[j].map >> 8 & 0xFF;
+                if (gObjectEvents[i].localId == localId && gObjectEvents[i].mapNum == map 
+                    && gObjectEvents[i].mapGroup == mapGroup && gObjectEvents[i].active)
+                {
+                    Quest_TryLoadQuestIconSprite(map, localId, i, gCamera.x, gCamera.y);
+                }
+                j++;
+            }
+        }
+    }
 }
 
 /**
@@ -294,10 +341,10 @@ u8 Quest_TryGetQuestIconAndCopyStepData(struct ObjectEvent *objectEvent, struct 
         if (sMapQuests[i].inUse && sMapQuests[i].localId == localId && sMapQuests[i].map == map)
         {
             u8 spriteId = sMapQuests[i].indicatorId;
-            sprite->sMovementDirection = gSprites[spriteId].sMovementDirection;
-            sprite->sMovementSpeed = gSprites[spriteId].sMovementSpeed;
-            sprite->sMovementTimer = gSprites[spriteId].sMovementTimer;
-            return sMapQuests[i].indicatorId;
+            gSprites[spriteId].sMovementDirection = sprite->sMovementDirection;
+            gSprites[spriteId].sMovementSpeed = sprite->sMovementSpeed;
+            gSprites[spriteId].sMovementTimer = sprite->sMovementTimer;
+            return spriteId;
         }
     }
 
@@ -311,13 +358,43 @@ u8 Quest_TryGetQuestIconAndCopyStepData(struct ObjectEvent *objectEvent, struct 
  * @param map map number.
  * @return s16 
  */
-static s16 Quest_GetQuestIndex(u8 localId, u16 map)
+static s16 Quest_GetNpcQuestIndex(u8 localId, u16 map, u8 *iconType)
 {
-    int i;
-    // TODO: Extend with secondary npcs
+    int i, j;
+    const struct QuestNpc *extraNpcs;
+    const struct QuestSecondaryMarker *secondaryMarkers;
+
     for (i = 0; i < QUEST_COUNT; i++)
+    {
         if (sQuestList[i].npc.map == map && sQuestList[i].npc.localId == localId)
             return i;
+        extraNpcs = sQuestList[i].extraNpcs;
+        
+        // checks if the given npc is an extra npc for the quest
+        j = 0;
+        if (extraNpcs != NULL)
+            while (extraNpcs[j].map != NULL_MAP && extraNpcs[j].localId != NULL_NPC)
+            {
+                if (extraNpcs[j].map == map && extraNpcs[j].localId == localId)
+                    return i;
+                j++;
+            }
+        secondaryMarkers = sQuestList[i].secondaryMarkers;
+        
+        // checks if the given npc is a secondary marker for the quest
+        j = 0;
+        if (secondaryMarkers != NULL)
+            while (secondaryMarkers[j].map != NULL_MAP && secondaryMarkers[j].localId != NULL_NPC)
+            {
+                if (secondaryMarkers[j].map == map && secondaryMarkers[j].localId == localId
+                    && Quest_IsQuestActive(j) && !Quest_AreQuestFlagsActive(j, secondaryMarkers[j].flags))
+                {
+                    *iconType = secondaryMarkers[j].iconType;
+                    return j;
+                }
+                j++;
+            }
+    }
     return -1;
 }
 
@@ -329,7 +406,7 @@ static s16 Quest_GetQuestIndex(u8 localId, u16 map)
  * @return bool8 
  */
 // TODO: change, a quest can have multiple instances in sMapQuests
-static bool8 Quest_IsQuestAlreadyLoaded(u8 questId, u8 localId)
+static bool8 Quest_IsQuestNpcIconAlreadyLoaded(u8 questId, u8 localId)
 {
     int i;
 
@@ -353,7 +430,7 @@ static bool8 Quest_IsQuestAlreadyLoaded(u8 questId, u8 localId)
  * @param cameraY 
  * @return u8 
  */
-static u8 Quest_LoadQuestIconSprite(u8 questId, u8 localId, u8 questPos, u8 objectEventId, s16 cameraX, s16 cameraY)
+static u8 Quest_LoadQuestIconSprite(u8 questId, u8 localId, u8 questPos, u8 objectEventId, s16 cameraX, s16 cameraY, u8 iconType)
 {
     u16 width;
     struct SpriteTemplate *template;
@@ -366,20 +443,56 @@ static u8 Quest_LoadQuestIconSprite(u8 questId, u8 localId, u8 questPos, u8 obje
     template = Alloc(sizeof(struct SpriteTemplate));
     CpuCopy16(&sSpriteTemplate_QuestIcon, template, sizeof(*template));    
 
-    if (Quest_IsQuestActive(questId))
+    switch(iconType)
     {
-        template->tileTag = sSpriteSheet_QuestionIcons[sQuestList[questId].type]->tag;
-        if (!IsSpriteTagAllocated(template->tileTag))
-            LoadCompressedSpriteSheet(sSpriteSheet_QuestionIcons[sQuestList[questId].type]);
-        width = 16;
-    }
-    else if (!Quest_IsQuestCompleted(questId))
-    {
-        template->tileTag = sSpriteSheet_NewIcons[sQuestList[questId].type]->tag;
-        template->oam = &sOamData_QuestIcon_32x32;
-        if (!IsSpriteTagAllocated(template->tileTag))
-            LoadCompressedSpriteSheet(sSpriteSheet_NewIcons[sQuestList[questId].type]);
-        width = 32;
+        default:
+        case ICON_NORMAL:
+            if (Quest_IsQuestActive(questId))
+            {
+                if (sQuestList[questId].isQuestReadyCB != NULL && sQuestList[questId].isQuestReadyCB() == FALSE)
+                {
+                    template->tileTag = sSpriteSheet_QuestionNotReadyIcon.tag;
+                    if (!IsSpriteTagAllocated(template->tileTag))
+                        LoadCompressedSpriteSheet(&sSpriteSheet_QuestionNotReadyIcon);
+                }
+                else
+                {
+                    template->tileTag = sSpriteSheet_QuestionIcons[sQuestList[questId].type]->tag;
+                    if (!IsSpriteTagAllocated(template->tileTag))
+                        LoadCompressedSpriteSheet(sSpriteSheet_QuestionIcons[sQuestList[questId].type]);
+                }
+                width = 16;
+            }
+            else
+            {
+                template->tileTag = sSpriteSheet_NewIcons[sQuestList[questId].type]->tag;
+                template->oam = &sOamData_QuestIcon_32x32;
+                if (!IsSpriteTagAllocated(template->tileTag))
+                    LoadCompressedSpriteSheet(sSpriteSheet_NewIcons[sQuestList[questId].type]);
+                width = 32;
+            }
+            break;
+
+        case ICON_ARROW:
+            template->tileTag = sSpriteSheet_ArrowIcons[sQuestList[questId].type]->tag;
+            if (!IsSpriteTagAllocated(template->tileTag))
+                LoadCompressedSpriteSheet(sSpriteSheet_ArrowIcons[sQuestList[questId].type]);
+            width = 16;
+            break;
+        
+        case ICON_CROSS:
+            template->tileTag = sSpriteSheet_CrossIcons[sQuestList[questId].type]->tag;
+            if (!IsSpriteTagAllocated(template->tileTag))
+                LoadCompressedSpriteSheet(sSpriteSheet_CrossIcons[sQuestList[questId].type]);
+            width = 16;
+            break;
+
+        case ICON_DOTS:
+            template->tileTag = sSpriteSheet_DotsIcons[sQuestList[questId].type]->tag;
+            if (!IsSpriteTagAllocated(template->tileTag))
+                LoadCompressedSpriteSheet(sSpriteSheet_DotsIcons[sQuestList[questId].type]);
+            width = 16;
+            break;
     }
 
     spriteId = CreateSprite(template, 0, 0, 100);
@@ -473,4 +586,10 @@ void Quest_ResetMapQuestsDataStructure()
         sMapQuests[i].localId = 0;
         sMapQuests[i].indicatorId = 0;
     }
+}
+
+void Quest_RefreshQuestIcons(u16 questId)
+{
+    Quest_TryRemoveQuestIconSpritesByQuestId(questId);  // despawn quest icons
+    Quest_TryLoadQuestIconSpritesByQuestId(questId);    // spawn new quest icons
 }

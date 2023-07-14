@@ -1,30 +1,12 @@
 const struct QuestNpc sExtraNpc_Test[] = {
-    {.localId = 0, .map = MAP_PETALBURG_CITY},
-    {.localId = 1, .map = MAP_PETALBURG_CITY},
-    {.localId = 2, .map = MAP_PETALBURG_CITY},
-    {.localId = 3, .map = MAP_PETALBURG_CITY},
-    {.localId = 4, .map = MAP_PETALBURG_CITY},
-    {.localId = 5, .map = MAP_PETALBURG_CITY},
-    {.localId = 6, .map = MAP_PETALBURG_CITY},
-    {.localId = 7, .map = MAP_PETALBURG_CITY},
-    {.localId = 8, .map = MAP_PETALBURG_CITY},
-    {.localId = 9, .map = MAP_PETALBURG_CITY},
-    {.localId = 10, .map = MAP_PETALBURG_CITY},
-    {.localId = 11, .map = MAP_PETALBURG_CITY},
-    {.localId = 12, .map = MAP_PETALBURG_CITY},
-    {.localId = 13, .map = MAP_PETALBURG_CITY},
-    {.localId = 14, .map = MAP_PETALBURG_CITY},
-    {.localId = 15, .map = MAP_PETALBURG_CITY},
-    {.localId = 16, .map = MAP_PETALBURG_CITY},
-    {.localId = 17, .map = MAP_PETALBURG_CITY},
-    {.localId = 18, .map = MAP_PETALBURG_CITY},
-    {.localId = 19, .map = MAP_PETALBURG_CITY},
-    {.localId = 20, .map = MAP_PETALBURG_CITY},
-    {.localId = 21, .map = MAP_PETALBURG_CITY},
-    {.localId = 22, .map = MAP_PETALBURG_CITY},
-    {.localId = 23, .map = MAP_PETALBURG_CITY},
-    {.localId = 24, .map = MAP_PETALBURG_CITY},
-    {.localId = 25, .map = MAP_PETALBURG_CITY},
+    {.localId = 2, .map = MAP_OLDALE_TOWN},
+    {.localId = 4, .map = MAP_OLDALE_TOWN},
+    {.localId = NULL_NPC, .map = NULL_MAP},
+};
+
+const struct QuestSecondaryMarker sSecondaryMarker_Test[] = 
+{
+    {.localId = 3, .map = MAP_OLDALE_TOWN, .flags = QFLAG_0, .iconType = ICON_ARROW},
     {.localId = NULL_NPC, .map = NULL_MAP},
 };
 
@@ -41,11 +23,13 @@ const struct Quest sQuestList[QUEST_COUNT] =
         .difficulty = 1,
         .npc = {.localId = 1, .map = MAP_OLDALE_TOWN},
         .extraNpcs = sExtraNpc_Test,
+        .secondaryMarkers = sSecondaryMarker_Test,
         .rewardMoney = 0,
         .rewardItems = {
             {.id = ITEM_POTION, .amount = 1},
             {.id = ITEM_PREMIER_BALL, .amount = 5}
-        }         
+        },
+        .isQuestReadyCB = QuestCB_DummyTest,
     },
     [QUEST_2] = {
         .type = QUEST_PRIMARY,
@@ -56,6 +40,7 @@ const struct Quest sQuestList[QUEST_COUNT] =
         .difficulty = 2,
         .npc = {.localId = 2, .map = MAP_PETALBURG_CITY},
         .extraNpcs = NULL,
+        .secondaryMarkers = NULL,
         .rewardMoney = 10,
         .rewardItems = {
             {.id = ITEM_SUPER_POTION, .amount = 2},

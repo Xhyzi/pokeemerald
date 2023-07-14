@@ -1,5 +1,6 @@
 #include "global.h"
 #include "arcane_quest.h"
+#include "arcane_quest_icon.h"
 #include "frontier_util.h"
 #include "battle_setup.h"
 #include "berry.h"
@@ -2312,8 +2313,7 @@ bool8 ScrCmd_setquestactive(struct ScriptContext *ctx)
     u16 questId = VarGet(ScriptReadHalfword(ctx));
 
     Quest_SetQuestAsActive(questId);
-    // TODO: spawn quest icons
-    // TODO: despawn quest icons
+    Quest_RefreshQuestIcons(questId);
     return FALSE;
 }
 
@@ -2322,8 +2322,7 @@ bool8 ScrCmd_clearquestactive(struct ScriptContext *ctx)
     u16 questId = VarGet(ScriptReadHalfword(ctx));
 
     Quest_ClearQuestActive(questId);
-    // TODO: despawn quest icons
-    // TODO: spawn quest icons
+    Quest_RefreshQuestIcons(questId);
     return FALSE;
 }
 
@@ -2340,17 +2339,15 @@ bool8 ScrCmd_setquestcompleted(struct ScriptContext *ctx)
     u16 questId = VarGet(ScriptReadHalfword(ctx));
 
     Quest_SetQuestAsCompleted(questId);
-    // TODO: spawn quest icons
-    // TODO: despawn quest icons
+    Quest_RefreshQuestIcons(questId);
     return FALSE;
 }
 
 bool8 ScrCmd_clearquestcompleted(struct ScriptContext *ctx)
 {
     u16 questId = VarGet(ScriptReadHalfword(ctx));
-    // TODO: spawn quest icons
-    // TODO: despawn quest icons
     Quest_ClearQuestCompleted(questId);
+    Quest_RefreshQuestIcons(questId);
     return FALSE;
 }
 
@@ -2368,7 +2365,7 @@ bool8 ScrCmd_setquestflag(struct ScriptContext *ctx)
     u16 flagId = VarGet(ScriptReadHalfword(ctx));
 
     Quest_SetQuestFlag(questId, flagId);
-    // TODO: spawn and despawn quest icons depending on flag
+    Quest_RefreshQuestIcons(questId);
     return FALSE;
 }
 
@@ -2378,7 +2375,7 @@ bool8 ScrCmd_clearquestflag(struct ScriptContext *ctx)
     u16 flagId = VarGet(ScriptReadHalfword(ctx));
 
     Quest_ClearQuestFlag(questId, flagId);
-    // TODO: spawn and despawn quest icons depending on flag
+    Quest_RefreshQuestIcons(questId);
     return FALSE;
 }
 

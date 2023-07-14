@@ -15,5 +15,6 @@ bool8 Quest_TryLoadQuestIconSpritesByQuestId(u16 questId);
 bool8 Quest_TryRemoveQuestIconSpritesByQuestId(u16 questId);
 u8 Quest_TryGetQuestIconAndCopyStepData(struct ObjectEvent *objectEvent, struct Sprite *sprite);
 void Quest_ResetMapQuestsDataStructure();
+void Quest_RefreshQuestIcons(u16 questId);
 
 #endif // GUARD_ARCANE_QUEST_ICON_H

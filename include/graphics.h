@@ -5105,6 +5105,7 @@ extern const u32 gSpriteGfx_QuestIconCrossSecondary[];
 extern const u32 gSpriteGfx_QuestIconDotsSecondary[];
 extern const u32 gSpriteGfx_QuestIconQuestionSecondary[];
 extern const u32 gSpriteGfx_QuestIconNewSecondary[];
+extern const u32 gSpriteGfx_QuestIconQuestionNotReady[];
 extern const u16 gSpritePal_QuestIcon[];
 
 #endif //GUARD_GRAPHICS_H

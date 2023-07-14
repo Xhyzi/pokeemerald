@@ -1,17 +1,9 @@
 #include "global.h"
 #include "arcane_quest.h"
+#include "arcane_quest_callbacks.h"
 #include "constants/items.h"
 #include "constants/quest.h"
 #include "data/quest_data.h"
-
-const u8 gQuestFlagMask[] = {
-    MASK_FLAG_1,
-    MASK_FLAG_2,
-    MASK_FLAG_3,
-    MASK_FLAG_4,
-    MASK_FLAG_5,
-    MASK_FLAG_6,
-};
 
 bool8 Quest_SetQuestAsActive(u16 questId)
 {
@@ -87,5 +79,13 @@ bool8 Quest_IsQuestFlagActive(u16 questId, u8 flagId)
         return FALSE;
 
     return gSaveBlock1Ptr->questFlags[questId].flags & (1 << flagId);
+}
+
+bool8 Quest_AreQuestFlagsActive(u16 questId, u8 flags) 
+{
+    if (questId >= QUEST_COUNT)
+        return FALSE;
+
+    return (gSaveBlock1Ptr->questFlags[questId].flags & flags) == flags;
 }
 

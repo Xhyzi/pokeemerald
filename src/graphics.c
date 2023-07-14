@@ -1577,4 +1577,5 @@ const u32 gSpriteGfx_QuestIconCrossSecondary[] = INCBIN_U32("graphics/arcane/que
 const u32 gSpriteGfx_QuestIconDotsSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/dots_secondary.4bpp.lz");
 const u32 gSpriteGfx_QuestIconQuestionSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/question_secondary.4bpp.lz");
 const u32 gSpriteGfx_QuestIconNewSecondary[] = INCBIN_U32("graphics/arcane/quest_icon/new_secondary.4bpp.lz");
+const u32 gSpriteGfx_QuestIconQuestionNotReady[] = INCBIN_U32("graphics/arcane/quest_icon/question_not_ready.4bpp.lz");
 const u16 gSpritePal_QuestIcon[] = INCBIN_U16("graphics/arcane/quest_icon/arrow_primary.gbapal");
