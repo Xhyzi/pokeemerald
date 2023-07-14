@@ -2387,3 +2387,17 @@ bool8 ScrCmd_checkquestflag(struct ScriptContext *ctx)
     gSpecialVar_Result = Quest_IsQuestFlagActive(questId, flagId);
     return FALSE;
 }
+
+bool8 ScrCmd_showquestpopup(struct ScriptContext *ctx)
+{
+    u16 questId = VarGet(ScriptReadHalfword(ctx));
+
+    Quest_ShowQuestPopup(questId);
+    return FALSE;
+}
+
+bool8 ScrCmd_hidequestpopup(struct ScriptContext *ctx)
+{
+    Quest_HideQuestPopup();
+    return FALSE;
+}

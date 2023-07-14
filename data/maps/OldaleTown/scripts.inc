@@ -6,6 +6,15 @@ OldaleTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, OldaleTown_OnTransition
 	.byte 0
 
+Test_asd::
+	callnative Init_ArcaneQuestMenu
+	waitstate
+	end
+
+Text_asd::
+	.string "Necesito llenar todo lo que sea posible eta\n"
+	.string "ventana de texto para que se llene el especio de la ventana.$"
+
 OldaleTown_OnTransition:
 	call Common_EventScript_SetupRivalGfxId
 	setflag FLAG_VISITED_OLDALE_TOWN

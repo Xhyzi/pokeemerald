@@ -99,6 +99,7 @@ gStdScripts::
 	.4byte Std_RegisteredInMatchCall   @ STD_REGISTER_MATCH_CALL
 	.4byte Std_MsgboxGetPoints         @ MSGBOX_GETPOINTS
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
+	.4byte Std_GiveQuestRewards		   @ STD_GIVE_QUEST_REWARDS
 gStdScripts_End::
 
 	.include "data/maps/PetalburgCity/scripts.inc"
@@ -649,6 +650,7 @@ EventScript_SetBrineyLocation_Route109::
 
 	.include "data/scripts/pkmn_center_nurse.inc"
 	.include "data/scripts/obtain_item.inc"
+	.include "data/scripts/quest_rewards.inc"
 	.include "data/scripts/record_mix.inc"
 	.include "data/scripts/pc.inc"
 

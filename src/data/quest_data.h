@@ -86,10 +86,10 @@ const struct Quest sQuestList[QUEST_COUNT] =
         .difficulty = 5,
         .npc = {.localId = 5, .map = MAP_PETALBURG_CITY},
         .extraNpcs = NULL,
-        .rewardMoney = 10000,
+        .rewardMoney = 1598745,
         .rewardItems = { 
-            {.id = ITEM_NONE, .amount = 5},
-            {.id = ITEM_GREAT_BALL, .amount = 0},
+            {.id = ITEM_GREAT_BALL, .amount = 5},
+            {.id = ITEM_GREAT_BALL, .amount = 45},
         }
     },
     [QUEST_6] = {

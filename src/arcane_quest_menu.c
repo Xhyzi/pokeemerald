@@ -58,7 +58,7 @@ static void SpriteCB_Arrow(struct Sprite *sprite);
 static void SpriteCB_Slider(struct Sprite *sprite);
 static void Quest_UpdateRewardIconSprite(u16 itemId, u8 amount, u8 id, s16 x, s16 y);
 static void Quest_UpdateNpcSprite(u16 questId);
-static void Quest_UpdateQuestDifficulty(u16 questId);
+//void Quest_UpdateQuestDifficulty(u16 questId);
 // Text section
 static void Quest_PrintConstantMenuTexts();
 static void Quest_BuildAndPrintLoadedQuestNames();
@@ -66,10 +66,13 @@ static void Quest_PrintSelectedQuestInfo();
 static void Quest_PrintText(u8 windowId, u8 x, u8 y, const u8* text, u8 font);
 static void Quest_PrintDarkText(u8 windowId, u8 x, u8 y, const u8* text, u8 font);
 static void Quest_PrintBufferedText(u8 windowId, u8 x, u8 y, u8 font, u8 fontColor);
+static void Quest_PrintBufferedTextWithFill(u8 windowId, u8 x, u8 y, u8 font, u8 fontColor, u8 fillColor);
 static u8* Quest_BuildNumberText(u32 number, u8 digits);
 static bool8 Quest_PrintRewardMoney(u16 questId);
-static bool8 Quest_PrintRewardItemCount(u16 itemId, u16 amount, u8 slot);
-static void Quest_UpdateRewardItem(u16 questId, u8 slot);
+static bool8 Quest_PrintRewardMoneyInternal(u16 questId, u8 windowId, s16 x, s16 y, u8 fillColor);
+static bool8 Quest_PrintRewardItemCount(u16 itemId, u16 amount, u8 windowId, u8 txtOffsetX, u8 txtOfssetY, u8 fontColor, u8 fillValue);
+static void Quest_RewardItemIconAndTextInternal(u16 questId, u8 slot, u8 windowId, s16 x, s16 y, u8 txtOffsetX, u8 txtOfssetY, u8 fontColor, u8 fillValue);
+static void Questd_UpdateRewardItem(u16 questId, u8 slot);
 
 // Animations
 static const union AnimCmd sAnimCmd_ArrowUp[] =
@@ -587,6 +590,8 @@ static const u8 *const sFontColor[] = {
 
 // stores ptr to menu data structure
 static EWRAM_DATA struct QuestMenuData *sData = {0};
+static EWRAM_DATA u8 sRewardId[2] = {0};
+static EWRAM_DATA u8 sDifficultyIconId[DIFFICULTY_ICON_COUNT] = {0};
 
 /************************************** * 
  * ****** INIT QUEST MENU ************* *
@@ -689,8 +694,8 @@ static void Quest_InitData()
 
     sData = AllocZeroed(sizeof(struct QuestMenuData));
     sData->npcSpriteId = SPRITE_NONE;
-    sData->rewardId[0] = SPRITE_NONE;
-    sData->rewardId[1] = SPRITE_NONE;
+    sRewardId[0] = SPRITE_NONE;
+    sRewardId[1] = SPRITE_NONE;
     sData->selectedSlot = 0;
     sData->loadedQuestsOffset = 0;
     sData->activeQuestCount = Quest_GetActiveQuestCount();
@@ -956,6 +961,16 @@ static u8 Quest_CalcDifficultyLevel(u16 questId)
 #define sArrowType  data[1]
 #define sSliderSize data[2]
 
+void Quest_LoadDifficultyIconsToLogHeader()
+{
+    int i;
+    LoadCompressedSpriteSheet(&sSpriteSheet_DifficultyIcon);
+    LoadSpritePalette(&sSpritePalette_DifficultyIcon);
+
+    for (i = 0; i < DIFFICULTY_ICON_COUNT; i++)
+        sDifficultyIconId[i] = CreateSprite(&sSpriteTemplate_DifficultyIcon, 230 - i * 9, 8, 0);
+}
+
 // Loads the quest menu sprite graphic resources
 static void Quest_LoadSpriteGfx()
 {
@@ -980,7 +995,7 @@ static void Quest_CreateSprites()
     StartSpriteAnim(&gSprites[sData->arrowId[ARROW_DOWN]], ARROW_DOWN);
 
     for (i = 0; i < DIFFICULTY_ICON_COUNT; i++)
-        sData->difficultyId[i] = CreateSprite(&sSpriteTemplate_DifficultyIcon, DIFFICULTY_ICON_BASE_X + i * DIFFICULTY_ICON_PADDING_X, DIFFICULTY_ICON_Y, 0);
+        sDifficultyIconId[i] = CreateSprite(&sSpriteTemplate_DifficultyIcon, DIFFICULTY_ICON_BASE_X + i * DIFFICULTY_ICON_PADDING_X, DIFFICULTY_ICON_Y, 0);
 }
 
 // Creates the slider sprite with a size depending on the amount of quests
@@ -1091,7 +1106,7 @@ static void Quest_UpdateRewardIconSprite(u16 itemId, u8 amount, u8 id, s16 x, s1
     if (id > 1)
         id = 1;
     
-    spriteId = sData->rewardId[id];
+    spriteId = sRewardId[id];
 
     // if a previous sprite exists, destroy it and free its resources
     if (spriteId != SPRITE_NONE)
@@ -1099,7 +1114,7 @@ static void Quest_UpdateRewardIconSprite(u16 itemId, u8 amount, u8 id, s16 x, s1
         FreeSpriteTilesByTag(id + TAG_ITEM_ICON);
         FreeSpritePaletteByTag(id + TAG_ITEM_ICON);
         DestroySprite(&gSprites[spriteId]);
-        sData->rewardId[id] = SPRITE_NONE;
+        sRewardId[id] = SPRITE_NONE;
     }
 
     // if no item, dont create the sprite
@@ -1130,7 +1145,8 @@ static void Quest_UpdateRewardIconSprite(u16 itemId, u8 amount, u8 id, s16 x, s1
 
     // create sprite
     spriteId = CreateSprite(template, x, y, 0);
-    sData->rewardId[id] = spriteId;
+    sRewardId[id] = spriteId;
+    gSprites[sRewardId[id]].oam.priority = 0;
 
     // free resources
     Free(template);
@@ -1163,7 +1179,7 @@ static void Quest_UpdateNpcSprite(u16 questId)
 // Update the difficulty sprites for the given quest
 // Icons changes color depending on quest and party level
 // number of icons changes depending on quest difficulty
-static void Quest_UpdateQuestDifficulty(u16 questId)
+void Quest_UpdateQuestDifficulty(u16 questId)
 {
     u8 level, difficulty;
     int i;
@@ -1173,13 +1189,24 @@ static void Quest_UpdateQuestDifficulty(u16 questId)
 
     for (i = 0; i < difficulty; i++)
     {
-        gSprites[sData->difficultyId[i]].invisible = FALSE;
-        StartSpriteAnim(&gSprites[sData->difficultyId[i]], level);
+        gSprites[sDifficultyIconId[i]].invisible = FALSE;
+        StartSpriteAnim(&gSprites[sDifficultyIconId[i]], level);
     }
 
     for (i = difficulty; i < DIFFICULTY_ICON_COUNT; i++)
     {
-        gSprites[sData->difficultyId[i]].invisible = TRUE;
+        gSprites[sDifficultyIconId[i]].invisible = TRUE;
+    }
+}
+
+void Quest_RemoveQuestDifficultyIconsAndFreeResources()
+{
+    int i;
+
+    for (i = 0; i < DIFFICULTY_ICON_COUNT; i++)
+    {
+        DestroySpriteAndFreeResources(&gSprites[sDifficultyIconId[i]]);
+        sDifficultyIconId[i] = SPRITE_NONE;
     }
 }
 
@@ -1189,7 +1216,7 @@ static void Quest_ClearDifficultyIcons()
     int i;
 
     for (i = 0; i < DIFFICULTY_ICON_COUNT; i++)
-        gSprites[sData->difficultyId[i]].invisible = TRUE; 
+        gSprites[sDifficultyIconId[i]].invisible = TRUE; 
 }
 
 #undef sArrowType
@@ -1232,8 +1259,8 @@ static void Quest_PrintSelectedQuestInfo()
         Quest_PrintText(W_QUEST_LOCATION, LOCATION_OFFSET_X, 0, sQuestList[questId].location, FONT_SIZE_SMALL);
         Quest_PrintDarkText(W_QUEST_DESC, DESCRIPTION_OFFSET_X, 0, sQuestList[questId].description, FONT_SIZE_SMALL);
         Quest_PrintRewardMoney(questId);
-        Quest_UpdateRewardItem(questId, 0);
-        Quest_UpdateRewardItem(questId, 1);
+        Questd_UpdateRewardItem(questId, 0);
+        Questd_UpdateRewardItem(questId, 1);
         Quest_UpdateNpcSprite(questId);
         Quest_UpdateQuestDifficulty(questId);
     }
@@ -1269,6 +1296,14 @@ static void Quest_PrintBufferedText(u8 windowId, u8 x, u8 y, u8 font, u8 fontCol
     CopyWindowToVram(windowId, 3);
 }
 
+static void Quest_PrintBufferedTextWithFill(u8 windowId, u8 x, u8 y, u8 font, u8 fontColor, u8 fillColor)
+{
+    FillWindowPixelBuffer(windowId, fillColor);
+    PutWindowTilemap(windowId);
+    AddTextPrinterParameterized3(windowId, font, x, y, sFontColor[fontColor], -1, gStringVar4);
+    CopyWindowToVram(windowId, 3);
+}
+
 // converts a number to a decimal string with the given number of digits with right alignment
 static u8* Quest_BuildNumberText(u32 number, u8 digits)
 {
@@ -1278,6 +1313,11 @@ static u8* Quest_BuildNumberText(u32 number, u8 digits)
 // Print given quest reward money (if any)
 static bool8 Quest_PrintRewardMoney(u16 questId)
 {
+    Quest_PrintRewardMoneyInternal(questId, W_REWARD_MONEY, REWARD_MONEY_OFFSET_X, REWARD_MONEY_OFFSET_Y, 0x00);
+}
+
+static bool8 Quest_PrintRewardMoneyInternal(u16 questId, u8 windowId, s16 x, s16 y, u8 fillColor)
+{
     int i;
     u8 *ptr;
     u32 money = sQuestList[questId].rewardMoney;
@@ -1285,21 +1325,27 @@ static bool8 Quest_PrintRewardMoney(u16 questId)
     if (money > 0)
     {
         ptr = Quest_BuildNumberText(money, MONEY_DIGITS);
-        *ptr-- = CHAR_SPACE;
+        *ptr = CHAR_SPACE;
         *ptr++ = CHAR_CURRENCY;
         *ptr++ = EOS;
-        Quest_PrintBufferedText(W_REWARD_MONEY, REWARD_MONEY_OFFSET_X, REWARD_MONEY_OFFSET_Y, 0, FONT_DARK);
+        Quest_PrintBufferedTextWithFill(windowId, x, y, 0, FONT_DARK, fillColor);
         return TRUE;
     }
     else    // no money reward
     {
-        Quest_PrintDarkText(W_REWARD_MONEY, REWARD_MONEY_OFFSET_X, REWARD_MONEY_OFFSET_Y, gText_NoMoney, FONT_SIZE_SMALL);
+        StringExpandPlaceholders(gStringVar4, gText_NoMoney);
+        Quest_PrintBufferedTextWithFill(windowId, x, y, 0, FONT_DARK, fillColor);
         return FALSE;
     }
 }
 
+bool8 Quest_PrintRewardMoneyIntoLog(u16 questId, u8 windowId, s16 x, s16 y)
+{
+    return Quest_PrintRewardMoneyInternal(questId, windowId, x, y, 0xBB);
+}
+
 // Print given quest reward item for the given slot (if any)
-static bool8 Quest_PrintRewardItemCount(u16 itemId, u16 amount, u8 slot)
+static bool8 Quest_PrintRewardItemCount(u16 itemId, u16 amount, u8 windowId, u8 txtOffsetX, u8 txtOfssetY, u8 fontColor, u8 fillValue)
 {
     u8 *ptr;
 
@@ -1308,27 +1354,28 @@ static bool8 Quest_PrintRewardItemCount(u16 itemId, u16 amount, u8 slot)
         // Adds "x" sign before number depending on amount of digits
         if (amount < 10)
         {
-            ptr = Quest_BuildNumberText(itemId, 3);
+            ptr = Quest_BuildNumberText(amount, 3);
             ptr--; ptr--; *ptr-- = CHAR_MULT_SIGN;
         }
         else
         {
-            ptr = Quest_BuildNumberText(itemId, 4);
+            ptr = Quest_BuildNumberText(amount, 4);
             ptr--; ptr--; ptr--; *ptr-- = CHAR_MULT_SIGN;
         }       
         
-        Quest_PrintBufferedText(W_REWARD_1 + slot, 0, REWARD_OFFSET_Y, FONT_SIZE_BIG, FONT_LIGHT);
+        Quest_PrintBufferedTextWithFill(windowId, txtOffsetX, txtOfssetY, FONT_SIZE_BIG, fontColor, fillValue);
         return TRUE;
     }
     else
     {
-        Quest_PrintText(W_REWARD_1 + slot, 0, REWARD_OFFSET_Y, gText_EmptyString2, FONT_SIZE_BIG);
+        StringExpandPlaceholders(gStringVar4, gText_EmptyString2);
+        Quest_PrintBufferedTextWithFill(windowId, txtOffsetX, txtOfssetY, FONT_SIZE_BIG, fontColor, fillValue);
         return FALSE;
     }
 }
 
 // Update reward item count and sprite
-static void Quest_UpdateRewardItem(u16 questId, u8 slot)
+static void Quest_RewardItemIconAndTextInternal(u16 questId, u8 slot, u8 windowId, s16 x, s16 y, u8 txtOffsetX, u8 txtOfssetY, u8 fontColor, u8 fillValue)
 {
     u16 itemId;
     u8 amount;
@@ -1338,6 +1385,44 @@ static void Quest_UpdateRewardItem(u16 questId, u8 slot)
     itemId = sQuestList[questId].rewardItems[slot].id;
     amount = sQuestList[questId].rewardItems[slot].amount;
 
-    Quest_UpdateRewardIconSprite(itemId, amount, slot, REWARD_ICON_POS_X + REWARD_ICON_OFFSET_X * slot, REWARD_ICON_POS_Y);
-    Quest_PrintRewardItemCount(itemId, amount, slot);
+    Quest_UpdateRewardIconSprite(itemId, amount, slot, x, y);
+    Quest_PrintRewardItemCount(itemId, amount, windowId, txtOffsetX, txtOfssetY, fontColor, fillValue);
+}
+
+static void Questd_UpdateRewardItem(u16 questId, u8 slot)
+{
+    Quest_RewardItemIconAndTextInternal(questId, slot, W_REWARD_1 + slot, REWARD_ICON_POS_X + REWARD_ICON_OFFSET_X * slot, REWARD_ICON_POS_Y, 0, REWARD_OFFSET_Y, FONT_LIGHT, 0x00);
+}
+
+/**
+ * @brief To be called from the questlog popup within the overworld
+ * 
+ */
+void Quest_CreateRewardItem(u16 questId, u8 slot, u8 windowId, s16 x, s16 y, u8 txtOffsetX, u8 txtOffsetY, u8 fontColor, u8 fillValue)
+{
+    sRewardId[slot] = SPRITE_NONE;
+    Quest_RewardItemIconAndTextInternal(questId, slot, windowId, x, y, txtOffsetX, txtOffsetY, fontColor, fillValue);
+}
+
+/**
+ * @brief To be called from the questlog popup within the overworld
+ * 
+ * @param slot 
+ */
+void Quest_DestroyRewardItemSprite(u8 slot)
+{
+    u8 spriteId;
+
+    if (slot > 1)
+        slot = 1;
+    spriteId = sRewardId[slot];
+
+    // if a previous sprite exists, destroy it and free its resources
+    if (spriteId != SPRITE_NONE)
+    {
+        FreeSpriteTilesByTag(slot + TAG_ITEM_ICON);
+        FreeSpritePaletteByTag(slot + TAG_ITEM_ICON);
+        DestroySprite(&gSprites[spriteId]);
+        sRewardId[slot] = SPRITE_NONE;
+    }
 }

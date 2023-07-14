@@ -55,6 +55,7 @@
 	STD_FIND_ITEM = 1
 	STD_OBTAIN_DECORATION = 7
 	STD_REGISTER_MATCH_CALL = 8
+	STD_GIVE_QUEST_REWARDS = 11
 
 	@ Calls the script in gStdScripts at index function.
 	.macro callstd function:req
@@ -1779,6 +1780,14 @@
 	.byte \flagId
 	.endm
 
+	.macro showquestpopup questid:req
+	.byte 0xec
+	.2byte \questid
+	.endm
+
+	.macro hidequestpopup
+	.byte 0xed
+	.endm
 
 @ Supplementary
 
@@ -1943,6 +1952,13 @@
 	setorcopyvar VAR_0x8000, \item
 	setorcopyvar VAR_0x8001, \amount
 	callstd STD_OBTAIN_ITEM
+	.endm
+
+	@ Gives the player the rewards for the specified quest.
+	@ Displays a message with fanfare if the player has enough space for all the items.
+	.macro givequestrewards questId:req
+	setorcopyvar VAR_0x8000, \questId
+	callstd STD_GIVE_QUEST_REWARDS
 	.endm
 
 	@ For picking up items in the overworld. Similar to giveitem, but with different language and

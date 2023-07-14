@@ -236,6 +236,8 @@ gScriptCmdTable::
 	.4byte ScrCmd_setquestflag						@ 0xe9
 	.4byte ScrCmd_clearquestflag					@ 0xea
 	.4byte ScrCmd_checkquestflag					@ 0xeb
+	.4byte ScrCmd_showquestpopup					@ 0xec
+	.4byte ScrCmd_hidequestpopup					@ 0xed
 
 gScriptCmdTableEnd::
 	.4byte ScrCmd_nop

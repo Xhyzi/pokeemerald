@@ -90,6 +90,8 @@ bool8 Quest_SetQuestFlag(u16 questId, u8 flagId);
 bool8 Quest_ClearQuestFlag(u16 questId, u8 flagId);
 bool8 Quest_IsQuestFlagActive(u16 questId, u8 flagId);
 bool8 Quest_AreQuestFlagsActive(u16 questId, u8 flags);
+void Quest_ShowQuestPopup(u16 questId);
+void Quest_HideQuestPopup(void);
 
 extern const struct Quest sQuestList[];
 

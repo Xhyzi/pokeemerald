@@ -16,9 +16,7 @@
 struct QuestMenuData
 {
     u8 npcSpriteId;
-    u8 rewardId[2];
     u8 arrowId[2];
-    u8 difficultyId[DIFFICULTY_ICON_COUNT];
     u8 selectedSlot;
     u16 loadedQuestsOffset;
     u16 *activeQuests;
@@ -44,5 +42,11 @@ static const struct Slider sSliders[] =
 };
 
 void Init_ArcaneQuestMenu(void);
+void Quest_CreateRewardItem(u16 questId, u8 slot, u8 windowId, s16 x, s16 y, u8 txtOffsetX, u8 txtOffsetY, u8 fontColor, u8 fillValue);
+void Quest_DestroyRewardItemSprite(u8 slot);
+bool8 Quest_PrintRewardMoneyIntoLog(u16 questId, u8 windowId, s16 x, s16 y);
+void Quest_UpdateQuestDifficulty(u16 questId);
+void Quest_LoadDifficultyIconsToLogHeader();
+void Quest_RemoveQuestDifficultyIconsAndFreeResources();
 
 #endif // GUARD_ARCANE_QUEST_MENU_H
