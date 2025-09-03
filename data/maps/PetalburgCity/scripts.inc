@@ -97,6 +97,7 @@ PetalburgCity_EventScript_Boy::
 	end
 
 PetalburgCity_EventScript_WallysMom::
+	showquestpopup 0
 	msgbox PetalburgCity_Text_WhereIsWally, MSGBOX_NPC
 	end
 
