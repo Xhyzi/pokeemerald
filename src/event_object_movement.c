@@ -1572,6 +1572,31 @@ u8 CreateObjectGraphicsSprite(u16 graphicsId, void (*callback)(struct Sprite *),
     return spriteId;
 }
 
+u8 CreateObjectGraphicsSpriteSuzumeDoor(u16 graphicsId, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority)
+{
+    struct SpriteTemplate *spriteTemplate;
+    const struct SubspriteTable *subspriteTables;
+    struct Sprite *sprite;
+    u8 spriteId;
+
+    spriteTemplate = Alloc(sizeof(struct SpriteTemplate));
+    CopyObjectGraphicsInfoToSpriteTemplate(graphicsId, callback, spriteTemplate, &subspriteTables);
+    spriteTemplate->oam = &gObjectEventBaseOamAffine_16x32;
+    if (spriteTemplate->paletteTag != TAG_NONE)
+        LoadObjectEventPalette(spriteTemplate->paletteTag);
+
+    spriteId = CreateSprite(spriteTemplate, x, y, subpriority);
+    Free(spriteTemplate);
+
+    if (spriteId != MAX_SPRITES && subspriteTables != NULL)
+    {
+        sprite = &gSprites[spriteId];
+        SetSubspriteTables(sprite, subspriteTables);
+        sprite->subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
+    }
+    return spriteId;
+}
+
 #define sVirtualObjId   data[0]
 #define sVirtualObjElev data[1]
 

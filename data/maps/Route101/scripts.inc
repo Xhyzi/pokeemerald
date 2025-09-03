@@ -207,7 +207,8 @@ Route101_Movement_Unused2:
 	step_end
 
 Route101_EventScript_Youngster::
-	msgbox Route101_Text_TakeTiredPokemonToPokeCenter, MSGBOX_NPC
+	@ TODO: open the door and create the animation sprite
+	warpsuzume 0, 0, 0, 0
 	end
 
 Route101_EventScript_Boy::

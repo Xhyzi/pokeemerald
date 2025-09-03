@@ -34,6 +34,13 @@ const struct OamData gObjectEventBaseOam_16x32 = {
     .priority = 2
 };
 
+const struct OamData gObjectEventBaseOamAffine_16x32 = {
+    .shape = SPRITE_SHAPE(16x32),
+    .size = SPRITE_SIZE(16x32),
+    .priority = 2,
+    .affineMode = ST_OAM_AFFINE_NORMAL,
+};
+
 const struct OamData gObjectEventBaseOam_32x32 = {
     .shape = SPRITE_SHAPE(32x32),
     .size = SPRITE_SIZE(32x32),

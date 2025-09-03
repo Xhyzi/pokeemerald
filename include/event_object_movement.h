@@ -119,6 +119,7 @@ void ObjectEventClearHeldMovement(struct ObjectEvent *);
 void ObjectEventClearHeldMovementIfActive(struct ObjectEvent *);
 void TrySpawnObjectEvents(s16 cameraX, s16 cameraY);
 u8 CreateObjectGraphicsSprite(u16, void (*)(struct Sprite *), s16 x, s16 y, u8 subpriority);
+u8 CreateObjectGraphicsSpriteSuzumeDoor(u16 graphicsId, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority);
 u8 TrySpawnObjectEvent(u8 localId, u8 mapNum, u8 mapGroup);
 u8 SpawnSpecialObjectEventParameterized(u8 graphicsId, u8 movementBehavior, u8 localId, s16 x, s16 y, u8 elevation);
 u8 SpawnSpecialObjectEvent(struct ObjectEventTemplate *);

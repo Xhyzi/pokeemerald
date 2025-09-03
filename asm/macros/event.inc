@@ -1728,7 +1728,11 @@
 	.2byte \item
 	.2byte \quantity
 	.endm
-
+	
+	.macro warpsuzume map:req, a, b, c 
+	.byte 0xe3
+	formatwarp \map, \a, \b, \c
+	.endm
 
 @ Supplementary
 

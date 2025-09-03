@@ -750,6 +750,22 @@ bool8 ScrCmd_warp(struct ScriptContext *ctx)
     return TRUE;
 }
 
+#include "arcane_suzume_door.h"
+bool8 ScrCmd_warpsuzume(struct ScriptContext *ctx)
+{
+    u8 mapGroup = ScriptReadByte(ctx);
+    u8 mapNum = ScriptReadByte(ctx);
+    u8 warpId = ScriptReadByte(ctx);
+    u16 x = VarGet(ScriptReadHalfword(ctx));
+    u16 y = VarGet(ScriptReadHalfword(ctx));
+
+    SetWarpDestination(mapGroup, mapNum, warpId, x, y);
+    Suzume_InitDoorWarp();
+    DoDiveWarp();
+    ResetInitialPlayerAvatarState();
+    return TRUE;
+}
+
 bool8 ScrCmd_warpsilent(struct ScriptContext *ctx)
 {
     u8 mapGroup = ScriptReadByte(ctx);

@@ -1,0 +1,6 @@
+#ifndef GUARD_ARCANE_SUZUME_DOOR_H
+#define GUARD_ARCANE_SUZUME_DOOR_H
+
+void Suzume_InitDoorWarp();
+
+#endif // GUARD_ARCANE_SUZUME_DOOR_H
