@@ -549,12 +549,25 @@ bool8 IsBattleSEPlaying(u8 battlerId)
     return TRUE;
 }
 
+#include "field_effect.h"
+#include "random.h"
+extern u16 gReflectionPaletteBuffer[];
+
+static void DarkenPalette(u8 paletteOffset)
+{
+    CpuCopy16(&gPlttBufferUnfaded[0x100 + paletteOffset], gReflectionPaletteBuffer, 32);
+    TintPalette_CustomTone(gReflectionPaletteBuffer, 16, Q_8_8(2.0), Q_8_8(1.0), Q_8_8(5.0));
+    LoadPalette(gReflectionPaletteBuffer, 0x100 + paletteOffset, PLTT_SIZE_4BPP);
+}
+
 void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
 {
+    int i;
     u32 monsPersonality, currentPersonality, otId;
     u16 species;
     u8 position;
     u16 paletteOffset;
+    u8 *ptr;
     const void *lzPaletteData;
 
     monsPersonality = GetMonData(mon, MON_DATA_PERSONALITY);
@@ -575,7 +588,6 @@ void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     HandleLoadSpecialPokePic_DontHandleDeoxys(&gMonFrontPicTable[species],
                                               gMonSpritesGfxPtr->sprites.ptr[position],
                                               species, currentPersonality);
-
     paletteOffset = OBJ_PLTT_ID(battlerId);
 
     if (gBattleSpritesDataPtr->battlerData[battlerId].transformSpecies == SPECIES_NONE)
@@ -586,6 +598,13 @@ void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     LZDecompressWram(lzPaletteData, gDecompressionBuffer);
     LoadPalette(gDecompressionBuffer, paletteOffset, PLTT_SIZE_4BPP);
     LoadPalette(gDecompressionBuffer, BG_PLTT_ID(8) + BG_PLTT_ID(battlerId), PLTT_SIZE_4BPP);
+    // TODO:
+    //if (mon->isDark)
+        DarkenPalette(paletteOffset);
+        DarkenPalette(BG_PLTT_ID(8) + BG_PLTT_ID(battlerId));
+
+    // TODO: can access sprite from here
+    // gMonSpritesGfxPtr->sprites.ptr[GetBattlerPosition[battlerId]];
 
     if (species == SPECIES_CASTFORM)
     {
@@ -599,6 +618,15 @@ void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     {
         BlendPalette(paletteOffset, 16, 6, RGB_WHITE);
         CpuCopy32(&gPlttBufferFaded[paletteOffset], &gPlttBufferUnfaded[paletteOffset], PLTT_SIZEOF(16));
+    }
+    
+    ptr = gMonSpritesGfxPtr->sprites.ptr[GetBattlerPosition(battlerId)];
+
+    for (i = 0; i < 0x1000; i++)
+    {
+        u16 rng = Random();
+        if (rng % 100 < 20 && ptr[i] != 0)
+            ptr[i] = Random() % 0x100;
     }
 }
 

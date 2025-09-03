@@ -220,7 +220,8 @@ struct Pokemon
     struct BoxPokemon box;
     u32 status;
     u8 level;
-    u8 mail;
+    u8 mail:7;
+    u8 isDark:1;
     u16 hp;
     u16 maxHP;
     u16 attack;
